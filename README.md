@@ -6,14 +6,16 @@ Website for the Saint Petersburg branch of PP-DOM wooden house construction comp
 
 - PHP >= 7.4
 - Composer
+- Node.js / npm
 - Apache with mod_rewrite enabled
 
 ## Setup
 
-1. Install PHP dependencies:
+1. Install dependencies:
 
 ```bash
 composer install
+npm install
 ```
 
 2. Create environment file from template:
@@ -57,8 +59,7 @@ cp .env.example .env
 ├── js/                    # JavaScript
 ├── img/                   # Images
 ├── icons/                 # Icons
-├── jquery/                # jQuery 3.6.4
-├── slick-1.8.1/           # Slick carousel
+├── node_modules/          # npm dependencies - jQuery, Slick (not in git)
 └── vendor/                # Composer dependencies (not in git)
 ```
 
@@ -79,6 +80,6 @@ Both use Google reCAPTCHA Enterprise for validation and PHPMailer for SMTP deliv
 
 ## Frontend Libraries
 
-- jQuery 3.6.4 (vendored in `jquery/`)
-- Slick Carousel 1.8.1 (vendored in `slick-1.8.1/`)
+- jQuery 3.6.4 (npm, served from `node_modules/`)
+- Slick Carousel 1.8.1 (npm, served from `node_modules/`)
 - Google Fonts (Inter, loaded via CDN)

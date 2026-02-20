@@ -8,6 +8,7 @@ PHP website for the SPB branch of PP-DOM (wooden house construction). No databas
 
 ```bash
 composer install    # Install PHP dependencies
+npm install         # Install frontend dependencies (jQuery, Slick)
 ```
 
 ## Architecture
@@ -33,5 +34,5 @@ Key env vars:
 
 - `.htaccess` rewrites unknown paths to `index.php` but skips existing files (handlers work because they are real files)
 - Forms in `components/footer.php` and `pages/homepage.php` POST to `/handlers/send_email*.php`
-- jQuery and Slick are vendored (not in node_modules) - `package.json` is for version documentation only
+- jQuery and Slick are installed via npm - HTML references `/node_modules/` paths directly
 - Two different reCAPTCHA site keys are used: one for footer forms, another for the homepage inline form

@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="../jquery/jquery-3.6.4.min.js" ></script>
-    <link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick/slick.css"/>
-    <script type="text/javascript" src="../slick-1.8.1/slick/slick.min.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/node_modules/slick-carousel/slick/slick.css"/>
+    <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
     <title>Купить сруб из бревна с установкой в Санкт-Петербурге и области</title>
     <meta name="description" content="Строительство срубов из бревна в Санкт-Петербурге и области. Изготовление срубов от производителя под ключ. Комфортные цены, большой опыт ☎+7(911)3974773">
     <script src="https://www.google.com/recaptcha/enterprise.js?render=<?= htmlspecialchars($_ENV['RECAPTCHA_SITE_KEY']) ?>"></script>
