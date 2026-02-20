@@ -9,6 +9,7 @@ PHP website for the SPB branch of PP-DOM (wooden house construction). No databas
 ```bash
 composer install    # Install PHP dependencies
 npm install         # Install frontend dependencies (jQuery, Slick)
+npm run dev         # Start local dev server at http://localhost:8000
 ```
 
 ## Architecture

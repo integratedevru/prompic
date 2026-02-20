@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "private": true,
     "description": "SPB branch website for PP-DOM wooden house construction",
+    "scripts": {
+        "dev": "php -S localhost:8000 router.php"
+    },
     "dependencies": {
         "jquery": "3.6.4",
         "slick-carousel": "1.8.1"
