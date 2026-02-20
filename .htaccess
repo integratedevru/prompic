@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Сначала редирект с www на без www
+RewriteCond %{HTTP_HOST} ^www\.spb\.pp-dom\.ru$ [NC]
+RewriteRule ^(.*)$ http://spb.pp-dom.ru/$1 [R=301,L]
+
+# Затем, если нужно, добавим редирект на HTTPS
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# REWRITE TO INDEX.PHP
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* /index.php/$1 [PT,L]

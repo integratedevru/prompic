@@ -1,0 +1,2778 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* font-size: 15px; */
+    /* line-height: 140%; */
+    /* line-height: 21px; */
+}
+:root {
+    /* шрифт */
+    --Green: #618B7E;
+    --335-e-50: #335E50;
+    --black: #000000;
+    --White: #FFFFFF;
+    --Grey-Medium: #A8A8A8;
+}
+
+/* sidebar начало */
+.logo_desktop_sidebar {
+    width: 166px;
+}
+.sidebar_navigation {
+    display: flex;
+    flex-direction: column;
+    /* gap: 296px; */
+    height: 100vh;
+    justify-content: space-between;
+}
+.nav_logo_and_links {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+}
+.logo_mobile_sidebar {
+    display: none;
+}
+.logo_and_links {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.nav_logo_and_links_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 58px;
+}
+.sidebar_navigation_container {
+    width: 234px;
+    background: #F4F4F4;
+}
+.aside_sidebar {
+    /* position: absolute; */
+    /* position: sticky; */
+    position: fixed;
+    z-index: 4;
+}
+.position_body {
+    position: relative;
+}
+.nav_logo_and_links_list li,
+.nav_connection_list li {
+    list-style-type: none;
+}
+.nav_connection_list {
+    display: flex;
+    gap: 16px;
+    margin-top: 71px;
+}
+.nav_connection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.nav_logo_and_links_list_link {
+    color: var(--335-e-50);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 1.43px;
+    text-transform: uppercase;
+}
+.nav_connection_tel {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px; /* 130% */
+    margin-top: 30px;
+}
+.nav_connection_callback {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 133.333% */
+    color: #335D50;
+    text-align: center;
+    margin-top: 8px;
+    max-width: 178px;
+    cursor: pointer;
+}
+.button_calculate_sidebar {
+    background-color: var(--Green);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 102px;
+    font-size: 15px;
+    line-height: 133%;
+    /* margin-left: 22px; */
+    cursor: pointer;
+    margin-top: 24px;
+    font-weight: 700;
+}
+.button_calculate_sidebar:hover  {
+    opacity: .6;
+    transition: all 0.2s ease;
+}
+/* sidebar конец */
+
+/* общие стили начало */
+.main_section {
+    margin-left: 234px;
+}
+/* общие стили конец */
+
+/* footer начало*/
+.footer_section {
+    margin-left: 234px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/footer/background_footer.jpg");
+    background-color: #FDF9F3;
+}
+.footer_component_container {
+    /* background-image: url("../img/footer/background_footer.jpg"); */
+    /* background-color: #FDF9F3; */
+    display: flex;
+    gap: 314px;
+    padding: 52px 134px 55px 111px;
+    justify-content: space-between;
+}
+.footer_component_container_center {
+    display: flex;
+    width: 1366px;
+}
+.footer_company_name {
+    color: var(--black, #000);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+.footer_block_one_text_one,
+.footer_block_one_text_two,
+.footer_block_one_text_three {
+    color: var(--black, #000);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+}
+.footer_block_one {
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 2px;
+}
+.footer_block_two_list_point_link {
+    color: var(--black, #000);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 21px */
+    text-decoration: none;
+}
+.footer_block_two_list_point {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.footer_block_two_working_hours {
+    color: var(--black, #000);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    opacity: 0.5;
+}
+.footer_block_two_mail {
+    color: var(--black, #000);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 21px */
+    text-decoration: none;
+    margin-top: 18px;
+    display: block;
+}
+.footer_block_three {
+    width: 237px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 2px;
+}
+.footer_block_three_section_one_politics,
+.footer_block_three_section_one_user_agreement {
+    color: #5D9583;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 18.2px */
+}
+.footer_block_three_section_one_politics {
+    text-decoration: none;
+}
+.footer_block_three_is_made_text {
+    width: 149px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 21px */
+}
+.footer_block_three_is_made_img {
+    text-decoration: none;
+    color: #B6A58C;
+    display: inline;
+}
+.footer_block_three_section_two {
+    display: flex;
+    gap: 10px;
+}
+.footer_block_three_section_one {
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+}
+.footer_block_one_two_container {
+    display: flex;
+    gap: 85px;
+}
+
+.footer_block_two_list {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 8px; */
+}
+.footer_section {
+    margin-left: 234px;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer_component_container_center {
+    flex-direction: column;
+}
+.gray_background_footer {
+    /* position: absolute; */
+    position: fixed;
+    top: -100%;
+    right: 0%;
+    left: -100%;
+    bottom: -1000%;
+    /* background-color: #7B7B7B; */
+    background-color: #000000;
+    opacity: 0.25;
+    z-index: 15;
+}
+.form_hidden {
+    display: none !important;
+}
+@media (min-width: 1600px) {
+    .footer_section {
+        justify-content: center;
+    }
+}
+@media (max-width: 1535px) {
+    .footer_component_container {
+        /* gap: 200px; */
+        gap: 14vw;
+    }
+}
+@media (max-width: 1420px) {
+    .footer_component_container {
+        gap: 14vw;
+        padding: 52px 55px 55px 55px;
+    }
+}
+@media (max-width: 1340px) {
+    .footer_component_container {
+        gap: 9vw;
+    }
+}
+@media (max-width: 1250px) {
+    .footer_component_container {
+        padding: 52px 54px 55px 55px;
+    }
+}
+@media (max-width: 1190px) {
+    .footer_component_container {
+        gap: 3vw;
+    }
+}
+@media (max-width: 1160px) {
+    .footer_component_container {
+        gap: 3vw;
+    }
+    .footer_block_one_two_container {
+        gap: 3vw;
+    }
+}
+@media (max-width: 1060px) {
+    .footer_component_container {
+        flex-direction: column;
+    }
+}
+/* @media (max-width: 1015px) {
+    .footer_component_container {
+        flex-direction: column;
+    }
+} */
+@media (max-width: 855px) {
+    .footer_component_container_center {
+        width: auto;
+    }
+}
+@media (max-width: 810px) {
+    .footer_component_container {
+        flex-direction: row;
+    }
+    .footer_section {
+        margin-left: 0;
+    }
+    .footer_component_container {
+        padding: 52px 30px 55px 30px;
+    }
+    /* .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
+        max-width: 549px;
+        min-width: 549px;
+    } */
+    /* .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
+        max-width: 280px;
+        min-width: 280px;
+    } */
+}
+@media (max-width: 770px) {
+    .footer_component_container {
+        flex-direction: column;
+    }
+    .footer_block_one_two_container {
+        gap: 11vw;
+    }
+}
+@media (max-width: 550px) {
+    .footer_block_one_two_container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media (max-width: 420px) {
+    .footer_component_container {
+        padding: 30px 54px 40px 20px;
+    }
+    .footer_company_name {
+        font-size: 15px;
+        line-height: 140%;
+    }
+    .footer_block_one_text_one,
+    .footer_block_one_text_two,
+    .footer_block_one_text_three {
+        font-size: 11px;
+    }
+    .footer_block_one {
+        gap: 12px;
+    }
+    .footer_block_one_text_two {
+        margin-top: -4px;
+    }
+    .footer_block_two_list_point_link {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .footer_block_two_list_point {
+        margin-bottom: 0;
+    }
+    .footer_block_two_list {
+        margin-bottom: 4px;
+    }
+    .footer_block_two_mail {
+        font-size: 14px;
+        width: max-content;
+    }
+    .footer_component_container {
+        gap: 30px;
+    }
+    .footer_block_three_section_one_politics,
+    .footer_block_three_section_one_user_agreement {
+        font-size: 11px;
+    }
+    .footer_block_three {
+        gap: 30px;
+    }
+    .footer_block_three_is_made_text {
+        font-size: 11px;
+    }
+    .footer_logo_metasystems {
+        width: 35px;
+        height: 32.9px;
+    }
+}
+@media (max-width: 400px) {
+    .footer_component_container {
+        padding: 30px 20px 40px 20px;
+    }
+}
+@media (max-width: 365px) {
+    .footer_block_one {
+        width: auto;
+    }
+}
+/* footer конец */
+
+/* footer popup */
+
+.popup_order_call_container {
+    position: fixed;
+    z-index: 17;
+    /* top: 20%; */
+    top: 12%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 703px;
+    min-width: 703px;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.popup_order_call_container2 {
+    position: fixed;
+    z-index: 17;
+    /* top: 50%; */
+    top: 12%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 703px;
+    min-width: 703px;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.popup_order_call {
+    padding: 35px 80px 37px 40px;
+    box-shadow: 0px 48px 48px -32px rgba(0, 0, 0, 0.1);
+    /* background-color: #F4DDDD; */
+    /* gap: 40px; */
+    gap: 20px;
+    display: flex;
+    position: relative;
+    background-color: #FFFFFF;
+    display: none;
+}
+.active_form {
+    display: flex !important;
+}
+.window_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    border: 2px solid #618B7E;
+    transition: opacity .3s;
+    opacity: 1;
+    cursor: pointer;
+    outline: 0;
+    /* background-color: rgba(183, 0, 0, 1); */
+    background-color: #FFFFFF;
+}
+.window_close:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 15px;
+    background-color: #618B7E;
+    /* background-color: var(--b24-primary-text-color); */
+    /* -webkit-transform: translate(-50%,-50%) rotate(45deg); */
+    /* -ms-transform: translate(-50%,-50%) rotate(45deg); */
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.window_close:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 15px;
+    background-color: #618B7E;
+    /* background-color: var(--b24-primary-text-color); */
+    /* -webkit-transform: translate(-50%,-50%) rotate(45deg); */
+    /* -ms-transform: translate(-50%,-50%) rotate(45deg); */
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+.window_close:hover {
+    opacity: .7;
+}
+.popup_order_call_left {
+    max-width: 281px;
+}
+.popup_order_call_right {
+    max-width: 262px;
+}
+.popup_order_call_right_text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.popup_order_call_left_h2 {
+    font-size: 38px;
+    line-height: 126.316%;
+    font-weight: 700;
+}
+.popup_order_call_left_p {
+    font-size: 15px;
+    line-height: 133.333%;
+    max-width: 233px;
+    margin-top: 26px;
+}
+.order_call_form_label {
+    font-size: 15px;
+    line-height: 133.333%;
+}
+.order_call_form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.order_call_form_input {
+    border: 1px solid #A8A8A8;
+    padding: 12px 0 12px 16px;
+    border-radius: 2px;
+}
+.order_call_form_button {
+    background-color: var(--Green);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 102px;
+    font-size: 15px;
+    line-height: 133%;
+    /* margin-left: 22px; */
+    cursor: pointer;
+    margin-top: 16px;
+    font-weight: 700;
+    transition: opacity .3s;
+    max-width: max-content;
+}
+.order_call_form_button:hover {
+    opacity: 0.7;
+}
+.popup_order_call_right_p {
+    margin-top: 16px;
+    line-height: 133.333%;
+}
+.popup_order_call_right_p {
+    font-size: 12px;
+    line-height: 133%;
+}
+@media (max-width: 1420px) {
+    .popup_order_call_container,
+    .popup_order_call_container2 {
+        max-width: none;
+        min-width: auto;
+    }
+}
+@media (max-width: 885px) {
+    .popup_order_call_container,
+    .popup_order_call_container2 {
+        /* padding-left: 1%; */
+        margin-left: 1%;
+    }
+}
+@media (max-width: 810px) {
+    .popup_order_call_container,
+    .popup_order_call_container2 {
+        margin-left: 10%;
+    }
+}
+@media (max-width: 635px) {
+    .popup_order_call_left_h2 {
+        font-size: 20px;
+        line-height: 120%;
+        line-height: 120%;
+    }
+    .popup_order_call_left_p {
+        font-size: 13px;
+        line-height: 130%;
+        margin-top: 9px;
+    }
+    .popup_order_call {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .order_call_form_label {
+        font-size: 13px;
+        line-height: 153%;
+    }
+    .popup_order_call_right_text {
+        gap: 6px;
+    }
+    .order_call_form_button {
+        font-size: 13px;
+        line-height: 153%;
+        margin-top: 0;
+    }
+    .popup_order_call_right_p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .popup_order_call_right {
+        max-width: 280px;
+    }
+    .popup_order_call_left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .popup_order_call {
+        padding: 40px 20px 20px 20px;
+    }
+    .popup_order_call_container2,
+    .popup_order_call_container {
+        margin-right: 19%;
+        margin-left: 19%;
+    }
+}
+@media (max-width: 500px) {
+    .popup_order_call_container2,
+    .popup_order_call_container {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+@media (max-width: 375px) {
+    .popup_order_call_container2,
+    .popup_order_call_container {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+/* footer popup */
+
+/* homepage начало */
+
+.block_dostijeniy_one,
+.block_dostijeniy_two {
+    display: flex;
+}
+.dostijenie_csifra_one {
+    color: var(--Green, #618B7E);
+    text-align: center;
+    font-size: 71px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 71px */
+    padding-left: 9.4px;
+    padding-right: 9px;
+}
+.let_na_rynke,
+.dovolnih_klientov,
+.sudebnih_razbiratelstv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.block_dostijeniy {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+.block_dostijeniy_container {
+    min-width: 1146px;
+    max-width: 1146px;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+.dostijenie_csifra_two {
+    color: var(--Green, #618B7E);
+    text-align: center;
+    font-size: 71px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 71px */
+    padding-left: 17.1px;
+    padding-right: 19px;
+}
+.dostijenie_csifra_three {
+    color: var(--Green, #618B7E);
+    text-align: center;
+    font-size: 71px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 71px */
+    padding-left: 8.1px;
+    padding-right: 11px;
+}
+.proecty_homepage_houses {
+    width: 756px;
+    height: 470px;
+    background-image: url("../img/homepage/project_houses.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #CAEBE0;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+.proecty_homepage_baths {
+    width: 378px;
+    height: 226px;
+    background-image: url("../img/homepage/project_baths.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-color: #CAEBE0; */
+    /* background: lightgray 50%; */
+    display: block;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.proecty_homepage_gazebos_and_mafs {
+    width: 378px;
+    height: 233px;
+    background-image: url("../img/homepage/project_gazebos_and_mafs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #CAEBE0;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+.proecty_homepage_houses_text,
+.proecty_homepage_baths_text,
+.proecty_homepage_gazebos_and_mafs_text {
+    position: absolute;
+    bottom: 0;
+    color: var(--White, #FFF);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 31.2px */
+    margin-left: 24px;
+    margin-bottom: 26px;
+    z-index: 3;
+}
+.gallery1_1_1_text,
+.gallery1_1_2_text,
+.gallery1_2_1_text,
+.gallery1_2_2_text,
+.gallery1_2_3_text,
+.gallery1_3_1_text,
+.gallery1_3_2_text,
+.gallery2_1_text,
+.gallery2_2_text,
+.gallery3_1_text,
+.gallery3_2_text,
+.gallery3_3_text {
+    position: absolute;
+    color: var(--White, #FFF);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 31.2px */
+    z-index: 3;
+    margin-left: 24px;
+    margin-bottom: 26px;
+    bottom: 0;
+}
+.proecty_homepage {
+    display: flex;
+    column-gap: 16px;
+    justify-content: center;
+    margin-top: 56px;
+    /* row-gap: 16px; */
+}
+.proecty_homepage_block_two {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    /* width: 53%; */
+}
+.proecty_homepage_gazebos_and_mafs_text {
+    width: 255px;
+}
+.overlay_proecty_homepage_baths {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    /* width: 378px; */
+    height: 98px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    opacity: 0.4;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+    z-index: 2;
+}
+.overlay_proecty_homepage_gazebos_and_mafs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    /* width: 378px; */
+    height: 120px;
+    opacity: 0.4;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    z-index: 2;
+}
+.overlay_proecty_homepage_houses {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    /* width: 756px; */
+    height: 207px;
+    opacity: 0.4;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    z-index: 2;
+}
+.overlay_gallery {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.4;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+    z-index: 2;
+}
+.overlay_gallery_width_1_1_1 {
+    width: 656px;
+    height: 120px;
+}
+.overlay_gallery_width_1_1_2 {
+    width: 460px;
+    height: 120px;
+}
+.overlay_gallery_width_1_2_1,
+.overlay_gallery_width_1_2_2,
+.overlay_gallery_width_1_2_3 {
+    width: 362px;
+    height: 120px;
+}
+.overlay_gallery_width_1_3_1,
+.overlay_gallery_width_1_3_2 {
+    width: 558px;
+    height: 120px;
+}
+.overlay_gallery_width_2_1 {
+    width: 508px;
+    height: 120px;
+}
+.overlay_gallery_width_2_2 {
+    width: 609px;
+    height: 120px;
+}
+.overlay_gallery_width_3_1,
+.overlay_gallery_width_3_2,
+.overlay_gallery_width_3_3 {
+    width: 362px;
+    height: 120px;
+}
+
+.proecty_homepage_baths_container,
+.proecty_homepage_gazebos_and_mafs_container {
+    position: relative;
+}
+.sobstvennoe_proizvodstvo_heading {
+    margin-top: 70px;
+    color: var(--black, #000);
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    width: 774px;
+}
+.sobstvennoe_proizvodstvo_heading_seopravki {
+    /* width: auto; */
+    width: max-content;
+}
+.sobstvennoe_proizvodstvo_heading2 {
+    margin-top: 0px;
+    color: var(--black, #000);
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    /* width: 774px; */
+}
+.sobstvennoe_proizvodstvo {
+    display: flex;
+    justify-content: center;
+}
+.sobstvennoe_proizvodstvo_container {
+    min-width: 1146px;
+    max-width: 1146px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobstvennoe_proizvodstvo_text {
+    color: var(--black, #000);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    width: 798px;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+.stroitelniye_uslugi_text_pravki_font {
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-top: 24px;
+    color: #000000;
+}
+.sobstvennoe_proizvodstvo_text_seopravki {
+    width: auto;
+}
+.sobstvennoe_proizvodstvo_text_viravnivanie {
+    /* text-align: justify; */
+    /* text-justify: inter-word; */
+    text-align: left;
+    text-indent: 30px;
+}
+.sobstvennoe_proizvodstvo_text_last {
+    margin-bottom: 70px;
+}
+.sobstvennoe_proizvodstvo_slider {
+    margin-top: 40px;
+}
+.sobstvennoe_proizvodstvo_button {
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    color: var(--Green, #618B7E);
+    border: 2px solid var(--Green, #618B7E);
+    padding: 10px 24px;
+    border-radius: 102px;
+    font-size: 15px;
+    line-height: 133%;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.kachestvo_breven_section {
+    display: flex;
+    justify-content: center;
+}
+.kachestvo_breven_section_container {
+    min-width: 1146px;
+    max-width: 1146px;
+}
+.chramy_chasovni {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.chramy_chasovni_container {
+    display: flex;
+    min-width: 1146px;
+    max-width: 1146px;
+    justify-content: space-between;
+    background: #CAEBE0;
+    border-radius: 2px;
+    position: relative;
+}
+.chramy_chasovni_foto {
+    position: absolute;
+    right: 93px;
+    top: -25px;
+}
+.chramy_chasovni_heading {
+    color: var(--black, #000);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    max-width: 556px;
+}
+.chramy_chasovni_point {
+    color: var(--black, #000);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    width: 495px;
+}
+.chramy_chasovni_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-image: url(../icons/homepage/check_mark2.svg);
+    padding-left: 34px;
+    margin-top: 39px;
+}
+.chramy_chasovni_button {
+    background-color: var(--Green);
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 102px;
+    font-size: 15px;
+    line-height: 133%;
+    /* margin-left: 22px; */
+    cursor: pointer;
+    margin-top: 21px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.chramy_chasovni_block1 {
+    margin-top: 40px;
+    /* margin-left: 41.5px; */
+    margin-left: 40px;
+}
+.etapy_raboty_heading {
+    color: var(--black, #000);
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    margin-top: 72px;
+}
+.etapy_raboty {
+    display: flex;
+    justify-content: center;
+}
+.etapy_raboty_container {
+    min-width: 1146px;
+    max-width: 1146px
+}
+.etapy_raboty_block2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.etapy_raboty_foto1,
+.etapy_raboty_foto2,
+.etapy_raboty_foto3,
+.etapy_raboty_foto4 {
+    width: 265px;
+    height: 187px;
+}
+.etapy_raboty_block2_card1,
+.etapy_raboty_block2_card2,
+.etapy_raboty_block2_card3,
+.etapy_raboty_block2_card4 {
+    width: 265px;
+}
+.etapy_raboty_block2_card1_text,
+.etapy_raboty_block2_card2_text,
+.etapy_raboty_block2_card3_text,
+.etapy_raboty_block2_card4_text {
+    color: var(--black, #000);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 22.1px */
+    margin-top: 16px;
+}
+.csifra_etapy_raboty {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    background: #335E50;
+    display: flex;
+    color: var(--White, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 26px */
+    position: absolute;
+    top: 0;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.zayavka_na_dom_container,
+.zayavka_na_dom_container2 {
+    margin-top: 94px;
+    border: 3px solid #EFE0D1;
+    display: flex;
+    justify-content: space-between;
+    min-width: 1146px;
+    max-width: 1146px;
+    margin-bottom: 70px;
+}
+.zayavka_na_dom {
+    display: flex;
+    justify-content: center;
+}
+.zayavka_na_dom_heading {
+    color: var(--black, #000);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    max-width: 596px;
+}
+.button_zayavka_na_dom {
+    background-color: var(--Green);
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 102px;
+    font-size: 15px;
+    line-height: 133%;
+    cursor: pointer;
+    margin-top: 21px;
+    font-weight: 700;
+    margin-top: 41px;
+}
+.button_zayavka_na_dom_catalog {
+    margin-top: 24px;
+}
+.button_zayavka_na_dom:hover  {
+    opacity: .6;
+    transition: all 0.2s ease;
+}
+.zayavka_na_dom_block1 {
+    padding: 87px 0 87px 40px;
+}
+.zayavka_na_dom_block1_homepage {
+    padding: 65px 0 64px 40px;
+}
+.zayavka_na_dom_block1_catalog {
+    padding: 27px 0 36px 40px;
+}
+.zayavka_na_dom_foto {
+    margin-bottom: 16px;
+    width: 487px;
+    height: 335px;
+}
+.zayavka_na_dom_foto_homepage {
+    width: 644px;
+    height: 305px;
+    align-self: center;
+    margin-bottom: 0;
+    margin-right: 24px;
+}
+.zayavka_na_dom_foto_catalog {
+    width: 429px;
+    height: 268px;
+    margin-bottom: -2px;
+    margin-top: -43px;
+    /* position: absolute;
+    bottom: 0;
+    right: 0; */
+}
+.years_on_market {
+    font-size: 15px;
+    line-height: 133%;
+}
+.etapy_raboty_heading {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.zayavka_na_dom_text {
+    display: none;
+}
+.chramy_chasovni_button:hover  {
+    opacity: .6;
+    transition: all 0.2s ease;
+}
+.homepage_slider_2_container {
+    /* width: 100%; */
+    /* min-width: auto; */
+    /* max-width: none; */
+    min-width: 1146px;
+    max-width: 1146px;
+}
+.sobstvennoe_proizvodstvo_container_seopravki {
+    min-width: 740px;
+    max-width: 740px;
+}
+@media (max-width: 1480px) {
+    .proecty_homepage {
+        /* justify-content: flex-start; */
+        justify-content: space-around;
+        margin-left: 17px;
+        margin-right: 17px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .proecty_homepage_baths {
+        width: 100%;
+        height: 16.1vw;
+    }
+    .proecty_homepage_gazebos_and_mafs {
+        width: 100%;
+        height: 16.1vw;
+    }
+    .proecty_homepage_houses {
+        width: 100%;
+        height: 33vw;
+    }
+    .proecty_homepage_baths_container {
+        width: 100%;
+    }
+    .proecty_homepage_gazebos_and_mafs_container {
+        width: 100%;
+    }
+    .proecty_homepage_block_two {
+        width: 53%;
+    }
+    .block_dostijeniy_container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .sobstvennoe_proizvodstvo_container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .homepage_slider_2_container {
+        width: 100%;
+        min-width: auto;
+        max-width: none;
+    }
+    .homepage_slider_2 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .kachestvo_breven_section_container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .chramy_chasovni_container {
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .etapy_raboty_container {
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .etapy_raboty_block2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    .zayavka_na_dom_container {
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+}
+@media (max-width: 1420px) {
+    .proecty_homepage_block_two {
+        width: 53%;
+    }
+    .kachestvo_breven {
+        flex-direction: column;
+    }
+    .kachestvo_breven_section_container {
+        min-width: auto;
+        /* max-width: max-content; */
+        max-width: none;
+        display: flex;
+        justify-content: center;
+    }
+    .kachestvo_breven_list {
+        padding: 0px 81px 47px 75px;
+    }
+    .chramy_chasovni_container {
+        flex-direction: column;
+        min-width: auto;
+        /* max-width: max-content; */
+        max-width: none;
+    }
+    .chramy_chasovni_block1 {
+        margin-top: 525px;
+        margin-right: 36px;
+    }
+    .chramy_chasovni_foto {
+        position: absolute;
+        /* right: 93px; */
+        top: -25px;
+        /* top: 50%; */
+        left: 50%;
+        transform: translate(-50%, 0%);
+        max-width: 100%; /* Чтобы изображение не выходило за пределы блока */
+        max-height: 100%;
+    }
+    .etapy_raboty_container {
+        min-width: auto;
+        max-width: none;
+        /* max-width: max-content; */
+    }
+    .etapy_raboty_block2 {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .zayavka_na_dom_container,
+    .zayavka_na_dom_container2 {
+        min-width: auto;
+        /* max-width: max-content; */
+        /* margin-left: 17px; */
+        /* margin-right: 17px; */
+        gap: 15px;
+    }
+    .sobstvennoe_proizvodstvo_container {
+        min-width: auto;
+        max-width: none;
+    }
+    .kachestvo_breven_heading {
+        width: auto;
+        padding-right: 35px;
+    }
+    .kachestvo_breven_section_one_text {
+        width: auto;
+        padding-right: 30px;
+    }
+    .kachestvo_breven_list_point {
+        width: auto;
+    }
+    .chramy_chasovni_heading {
+        max-width: max-content;
+    }
+    .chramy_chasovni_point {
+        width: auto;
+    }
+    .zayavka_na_dom_block1 {
+        padding: 42px 17px 10px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .zayavka_na_dom_heading {
+        max-width: none;
+        text-align: center;
+    }
+}
+@media (max-width: 1415px) {
+    .zayavka_na_dom_container_homepage {
+        flex-direction: column;
+    }
+    .button_zayavka_na_dom {
+        width: max-content;
+        align-self: center;
+    }
+}
+@media (max-width: 1330px) {
+    .zayavka_na_dom_block1_homepage {
+        /* padding: 42px 17px 10px 40px; */
+        padding: 42px 20px 10px 20px;
+    }
+    .zayavka_na_dom_foto_homepage {
+        align-self: center;
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+    }
+}
+@media (max-width: 1314px) {
+    .zayavka_na_dom_foto_catalog {
+        margin-top: 0;
+        align-self: flex-end;
+    }
+}
+@media (max-width: 1275px) {
+    .block_dostijeniy_container {
+        /* min-width: 85vw;
+        max-width: 85vw; */
+        width: 100%;
+        min-width: auto;
+        max-width: none;
+    }
+    .block_dostijeniy {
+        /* justify-content: flex-start; */
+        justify-content: space-between;
+    }
+    /* .dostijenie_csifra  {
+        font-size: 50px;
+    } */
+}
+@media (max-width: 1225px) {
+    .proecty_homepage {
+        flex-direction: column;
+    }
+    .proecty_homepage_block_two {
+        flex-direction: row;
+        width: 100%;
+        gap: 15px;
+    }
+    .proecty_homepage {
+        gap: 15px;
+    }
+    .proecty_homepage_baths {
+        /* height: 233px; */
+        height: 19.1vw;
+    }
+    .proecty_homepage_gazebos_and_mafs {
+        height: 19.1vw;
+    }
+    .proecty_homepage_houses {
+        height: 39vw;
+    }
+}
+@media (max-width: 1150px) {
+    .zayavka_na_dom_container {
+        flex-direction: column;
+    }
+    .zayavka_na_dom_text {
+        display: block;
+        margin-top: 17px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 130%;
+        text-align: center;
+    }
+    .zayavka_na_dom_foto {
+        align-self: center;
+    }
+}
+@media (max-width: 1130px) {
+    .sobstvennoe_proizvodstvo_text {
+        width: auto;
+    }
+}
+@media (max-width: 1100px) {
+    .dostijenie_csifra {
+        font-size: 49px;
+    }
+    .dostijenie_csifra_one {
+        padding-left: 5.4px;
+        padding-right: 5px;
+    }
+    .dostijenie_csifra_two {
+        padding-left: 8.1px;
+        padding-right: 10px;
+    }
+    .dostijenie_csifra_three {
+        padding-left: 5.1px;
+        padding-right: 6px;
+    }
+    .laurel_branch_left,
+    .laurel_branch_right {
+        height: 52px;
+        width: auto;
+    }
+    .years_on_market {
+        font-size: 14px;
+    }
+    .block_dostijeniy {
+        margin-top: 43px;
+    }
+    .overlay_proecty_homepage_houses {
+        height: 19vw;
+    }
+    .overlay_proecty_homepage_baths {
+        height: 19vw;
+    }
+    .overlay_proecty_homepage_gazebos_and_mafs {
+        height: 19vw;
+    }
+    .proecty_homepage {
+        margin-top: 47px;
+    }
+    .sobstvennoe_proizvodstvo_heading {
+        width: auto;
+    }
+}
+@media (max-width: 1080px) {
+    .zayavka_na_dom_heading {
+        font-size: 3.715vw;
+    }
+}
+/* @media (max-width: 1070px) {
+    .sobstvennoe_proizvodstvo_text {
+        width: 58vw;
+    }
+} */
+@media (max-width: 1015px) {
+    .zayavka_na_dom_foto_homepage {
+        width: 446px;
+        height: auto;
+    }
+}
+@media (max-width: 990px) {
+    .sobstvennoe_proizvodstvo_heading2 {
+        width: auto;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}
+/* @media (max-width: 955px) {
+    .zayavka_na_dom_foto_homepage {
+        width: 500px;
+        height: auto;
+    }
+} */
+@media (max-width: 900px) {
+    .kachestvo_breven_list {
+        padding: 0px 16px 47px 55px;
+    }
+    .kachestvo_breven_section_one {
+        padding: 0px 0px 59px 62px;
+    }
+    .chramy_chasovni_block1 {
+        margin-right: 50px;
+    }
+    /* .chramy_chasovni_point {
+        width: 423px;
+    } */
+    .chramy_chasovni_heading {
+        max-width: 448px;
+    }
+}
+@media (max-width: 890px) {
+    .proecty_homepage_houses_text {
+        font-size: 21px;
+    }
+    .proecty_homepage_baths_text {
+        font-size: 21px;
+    }
+    .proecty_homepage_gazebos_and_mafs_text {
+        font-size: 21px;
+    }
+    .etapy_raboty_block2 {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 880px) {
+    .block_dostijeniy_container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .chramy_chasovni_block1 {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 830px) {
+    .years_on_market {
+        font-size: 12px;
+    }
+}
+@media (max-width: 810px) {
+    .years_on_market {
+        font-size: 12px;
+    }
+}
+@media (max-width: 810px) {
+    .block_dostijeniy {
+        margin-top: 30px;
+    }
+    .proecty_homepage_houses {
+        height: 52vw;
+    }
+    .proecty_homepage_baths {
+        height: 27vw;
+    }
+    .proecty_homepage_gazebos_and_mafs {
+        height: 27vw;
+    }
+    .sobstvennoe_proizvodstvo_text {
+        /* width: 85vw; */
+        width: auto;
+    }
+    .sobstvennoe_proizvodstvo_heading {
+        /* width: 88vw; */
+        margin-top: 60px;
+        font-size: 30px;
+        /* font-size: 6.3vw; */
+        font-size: 4vw;
+        line-height: 120%; /* 24px */
+    }
+    .sobstvennoe_proizvodstvo_heading2 {
+        /* width: 88vw; */
+        font-size: 30px;
+        font-size: 4vw;
+        line-height: 120%;
+    }
+    .sobstvennoe_proizvodstvo_text {
+        font-size: 18px;
+    }
+    .stroitelniye_uslugi_text_pravki_font {
+        font-size: 18px;
+    }
+    .kachestvo_breven_list {
+        padding: 0px 30px 47px 70px;
+    }
+    .kachestvo_breven_section_one {
+        padding: 0px 0px 50px 34px;
+    }
+    .kachestvo_breven_heading {
+        font-size: 4vw;
+        line-height: 120%;
+    }
+    .kachestvo_breven_section_one_text {
+        font-size: 18px;
+        line-height: 133%;
+        margin-top: 20px;
+    }
+    .kachestvo_breven_list_point {
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .kachestvo_breven_list_point_interval {
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .chramy_chasovni_block1 {
+        margin-right: 40px;
+    }
+    .chramy_chasovni_heading {
+        font-size: 4vw;
+        line-height: 120%;
+    }
+    .chramy_chasovni_point {
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .chramy_chasovni_list {
+        margin-top: 30px;
+    }
+    .etapy_raboty_heading {
+        font-size: 4vw;
+        line-height: 120%;
+    }
+    .zayavka_na_dom_heading {
+        font-size: 4vw;
+        line-height: 120%;
+        text-align: center;
+    }
+    .zayavka_na_dom_text {
+        text-align: center;
+    }
+    .years_on_market {
+        font-size: 14px;
+    }
+    .chramy_chasovni_container {
+        max-width: none;
+    }
+    .etapy_raboty_block2 {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 660px) {
+    .etapy_raboty_block2 {
+        column-gap: 18px;
+    }
+}
+@media (max-width: 650px) {
+    .etapy_raboty_block2 {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 600px) {
+    .dostijenie_csifra {
+        font-size: 40px;
+    }
+    .dostijenie_csifra_one {
+        padding-left: 7px;
+        padding-right: 6px;
+    }
+    .dostijenie_csifra_two {
+        padding-left: 4px;
+        padding-right: 6px;
+    }
+    .dostijenie_csifra_three {
+        padding-left: 6px;
+        padding-right: 5px;
+    }
+    .laurel_branch_left,
+    .laurel_branch_right {
+        height: 40px;
+        width: auto;
+    }
+    .years_on_market {
+        font-size: 13px;
+    }
+    .proecty_homepage_gazebos_and_mafs_text {
+        width: 35vw;
+    }
+    .proecty_homepage_houses_text {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .proecty_homepage_baths_text {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .proecty_homepage_gazebos_and_mafs_text {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .sobstvennoe_proizvodstvo_text {
+        font-size: 15px;
+        line-height: 133%;
+        margin-top: 16px;
+        /* width: 86vw; */
+    }
+    .stroitelniye_uslugi_text_pravki_font {
+        font-size: 15px;
+        line-height: 133%;
+        margin-top: 16px;
+    }
+    .sobstvennoe_proizvodstvo_button {
+        font-size: 13px;
+    }
+    .kachestvo_breven_section_one_text {
+        font-size: 15px;
+    }
+    .kachestvo_breven_list_point {
+        font-size: 14px;
+    }
+    .kachestvo_breven_list_point_interval {
+        font-size: 14px;
+    }
+    .kachestvo_breven_list {
+        list-style-image: url(../icons/homepage/check_mark3.svg);
+    }
+    .kachestvo_breven_section_one_img {
+        width: 233px;
+        height: 214px;
+        padding-left: 0;
+    }
+    .kachestvo_breven_list_point {
+        font-size: 13px;
+    }
+    .kachestvo_breven_list_point_interval {
+        font-size: 13px;
+    }
+    .kachestvo_breven_list_point {
+        padding-left: 5px;
+        width: auto;
+    }
+    .kachestvo_breven_list {
+        gap: 9px;
+    }
+    .kachestvo_breven_section_one {
+        padding: 0px 0px 43px 40px;
+    }
+    .kachestvo_breven_section_one_text {
+        margin-top: 16px;
+    }
+    .kachestvo_breven_list {
+        padding: 0px 40px 39px 70px;
+    }
+    .kachestvo_breven_section_container {
+        width: 100%;
+    }
+    .kachestvo_breven_heading {
+        width: auto;
+        padding-right: 15px;
+        margin-top: 43px;
+    }
+    .kachestvo_breven_section_one_text {
+        width: auto;
+        padding-right: 25px;
+    }
+    .chramy_chasovni_container {
+        max-width: 100%;
+        width: 100%;
+    }
+    .chramy_chasovni_foto {
+        width: 244px;
+        height: 366px;
+    }
+    .chramy_chasovni_foto {
+        top: 16px;
+    }
+    .chramy_chasovni_block1 {
+        margin-top: 402px;
+    }
+    .chramy_chasovni_point {
+        font-size: 13px;
+    }
+    .chramy_chasovni_list {
+        list-style-image: url(../icons/homepage/check_mark4.svg);
+        gap: 9px;
+    }
+    .chramy_chasovni_button {
+        font-size: 13px;
+    }
+    .chramy_chasovni_point {
+        width: auto;
+    }
+    .etapy_raboty_heading {
+        margin-top: 40px;
+    }
+    .zayavka_na_dom_foto {
+        width: 268px;
+        height: 190px;
+    }
+    .zayavka_na_dom_foto_catalog {
+        width: 268px;
+        height: auto
+    }
+    .zayavka_na_dom_block1 {
+        padding: 42px 30px 10px 30px;
+    }
+    .button_zayavka_na_dom {
+        font-size: 13px;
+        margin-top: 19px;
+    }
+    .zayavka_na_dom_container {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .sobstvennoe_proizvodstvo_text_last {
+        margin-bottom: 40px;
+    }
+    .zayavka_na_dom_foto_homepage {
+        width: 263px;
+        height: auto;
+    }
+}
+@media (max-width: 550px) {
+    .proecty_homepage {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .block_dostijeniy_container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sobstvennoe_proizvodstvo_container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .kachestvo_breven_section_container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .chramy_chasovni_container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .etapy_raboty_container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .etapy_raboty_heading {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .zayavka_na_dom_container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .sobstvennoe_proizvodstvo_heading {
+        /* font-size: 5vw; */
+        font-size: 20px;
+    }
+    .sobstvennoe_proizvodstvo_heading2 {
+        font-size: 20px;
+    }
+    .kachestvo_breven_section_one {
+        padding: 0px 20px 43px 20px;
+    }
+    .kachestvo_breven_heading {
+        padding-right: 0px;
+    }
+    .kachestvo_breven_section_one_text {
+        padding-right: 0px;
+    }
+    .kachestvo_breven_list {
+        padding: 0px 20px 39px 50px;
+    }
+    .chramy_chasovni {
+        margin-top: 0;
+    }
+    .etapy_raboty_heading {
+        font-size: 20px;
+    }
+    .etapy_raboty_block2_card1_text,
+    .etapy_raboty_block2_card2_text,
+    .etapy_raboty_block2_card3_text,
+    .etapy_raboty_block2_card4_text {
+        font-size: 15px;
+    }
+    .etapy_raboty_block2 {
+        margin-top: 24px;
+    }
+    .block_dostijeniy_container {
+        flex-wrap: wrap;
+        column-gap: 25px;
+        row-gap: 26px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .proecty_homepage {
+        margin-top: 40px;
+    }
+    .kachestvo_breven_heading {
+        font-size: 20px;
+    }
+    .chramy_chasovni_heading {
+        font-size: 20px;
+    }
+    .chramy_chasovni_list {
+        margin-top: 16px;
+    }
+    .chramy_chasovni_button {
+        margin-top: 30px;
+    }
+    .chramy_chasovni_block1 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .zayavka_na_dom_text {
+        width: 206px;
+        align-self: center;
+    }
+    .zayavka_na_dom_heading {
+        font-size: 20px;
+    }
+    .proecty_homepage_block_two {
+        gap: 10px;
+    }
+    .proecty_homepage {
+        gap: 10px;
+    }
+    .proecty_homepage_gazebos_and_mafs_text {
+        font-size: 17px;
+        padding-right: 5px;
+        width: 100%;
+    }
+    .proecty_homepage_baths_text {
+        font-size: 17px;
+    }
+    .proecty_homepage_houses_text {
+        font-size: 17px;
+    }
+    .kachestvo_breven_section_container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .chramy_chasovni_container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .kachestvo_breven_section_one {
+        display: flex;
+        flex-direction: column;
+    }
+    .kachestvo_breven_section_one_img {
+        padding-right: 40px;
+        /* align-self: end; */
+    }
+    .proizvodstvo_heading {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .proecty_homepage_gazebos_and_mafs_text {
+        width: 38vw;
+    }
+}
+@media (max-width: 440px) {
+    .kachestvo_breven_section_one_img {
+        padding-right: 15px;
+    }
+}
+@media (max-width: 420px) {
+    .proecty_homepage_houses_text {
+        font-size: 15px;
+        /* font-size: 4.7vw; */
+    }
+    .proecty_homepage_baths_text {
+        font-size: 15px;
+        /* font-size: 4.7vw; */
+    }
+    .proecty_homepage_gazebos_and_mafs_text {
+        font-size: 15px;
+        width: 36vw;
+        /* font-size: 4.7vw; */
+    }
+    .block_dostijeniy_container {
+        column-gap: 16px;
+    }
+}
+/* @media (max-width: 400px) {
+    .kachestvo_breven_section_one_img {
+        padding-right: 20px;
+    }
+} */
+@media (max-width: 370px) {
+    .kachestvo_breven_section_one_img {
+        padding-right: 0px;
+    }
+}
+@media (max-width: 360px) {
+    .dostijenie_csifra {
+        font-size: 38px;
+    }
+    .sobstvennoe_proizvodstvo_heading {
+        font-size: 18px;
+    }
+    .zayavka_na_dom_foto_homepage {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .zayavka_na_dom_block1 {
+        padding: 42px 0px 10px 0px;
+    }
+    .zayavka_na_dom_foto_homepage {
+        width: 253px;
+    }
+    .zayavka_na_dom_heading {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* .block_dostijeniy_container {
+        padding-left: 10px;
+        padding-right: 10px;
+    } */
+}
+/* homepage конец */
+
+/* слайдер №1 на странице homepage начало */
+.homepage_slider_one {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 60px; */
+}
+.homepage_slider_one_component {
+    min-width: 1366px;
+    max-width: 1366px;
+    position: relative;
+}
+.homepage_body {
+    overflow-x: hidden;
+}
+.slider_1_container .slick-prev {
+    position: absolute;
+    z-index: 1;
+    /* opacity: .5; */
+    background-color: unset;
+    border: none;
+    bottom: 27px;
+    left: 93px;
+    cursor: pointer;
+}
+.slider_1_container .slick-next {
+    position: absolute;
+    z-index: 1;
+    /* opacity: .5; */
+    background-color: unset;
+    border: none;
+    bottom: 27px;
+    /* left: 80%; */
+    right: 93px;
+    cursor: pointer;
+}
+.slider_1_container {
+    height: 674px;
+}
+.slider_1_foto_1,  
+.slider_1_foto_2,  
+.slider_1_foto_3,  
+.slider_1_foto_4,  
+.slider_1_foto_5,  
+.slider_1_foto_6,  
+.slider_1_foto_7  {
+    height: 674px;
+    width: 100%;
+    object-fit: cover;
+    /* object-fit: contain; */
+}
+.slider_1_container .slick-slide {
+    border: 17px solid #FFFFFF;
+}
+.slider_1_container .slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    z-index: 1;
+    bottom: 27px;
+    cursor: pointer;
+    width: 100%;
+}
+.slider_1_container .slick-dots li {
+    list-style-type: none;
+}
+.slider_1_container .slick-dots li button {
+    border: none;
+}
+.slider_1_container .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    /* width: 10px; */
+    /* width: 13px; */
+    width: 12px;
+    /* height: 10px; */
+    /* height: 13px; */
+    height: 12px;
+    border-radius: 50%;
+    /* background-color: #bbb; */
+    /* background-color: #D9D9D9; */
+    background-color: #FFFFFF;
+    /* fill: #FFF; */
+    opacity: 0.4;
+    border: none;
+    cursor: pointer;
+}
+.slider_1_container .slick-dots li.slick-active button {
+    /* background-color: #000; */
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+.slider_1_heading {
+    position: absolute;
+    z-index: 1;
+    /* bottom: 27px; */
+    bottom: 131px;
+    color: #FFFFFF;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 57.2px */
+    width: 796px;
+    left: 93px;
+}
+@media (max-width: 1620px) {
+    .homepage_slider_one {
+        justify-content: flex-start;
+    }
+    .homepage_slider_one_component,
+    .slider_1_container,
+    .slider_1_foto_1,  
+    .slider_1_foto_2,  
+    .slider_1_foto_3,  
+    .slider_1_foto_4,  
+    .slider_1_foto_5,  
+    .slider_1_foto_6,  
+    .slider_1_foto_7  {
+        /* min-width: 1366px;
+        max-width: 1366px; */
+        /* width: 100%; */
+        height: calc(42vw - 20px);
+        width: 100%;
+        min-width: auto;
+    }
+    /* .homepage_slider_one_component,
+    .slider_1_container,
+    .slider_1_foto_1,  
+    .slider_1_foto_2,  
+    .slider_1_foto_3,  
+    .slider_1_foto_4,  
+    .slider_1_foto_5,  
+    .slider_1_foto_6,  
+    .slider_1_foto_7  {
+        
+    } */
+}
+@media (max-width: 1600px) {
+    /* .homepage_slider_one_component {
+        min-width: 1366px;
+        max-width: 1366px;
+    } */
+    /* .slider_1_foto_1 {
+        width: 100vw;
+    } */
+}
+@media (max-width: 1400px) {
+    .slider_1_heading {
+        font-size: 3.715vw;
+        width: 60vw;
+    }
+}
+@media (max-width: 1200px) {
+    .slider_1_container .slick-prev svg {
+        width: 40px;
+        height: 40px;
+    }
+    .slider_1_container .slick-next svg {
+        width: 40px;
+        height: 40px;
+    }
+    .slider_1_heading {
+        bottom: 8vw;
+    }
+    .slider_1_container .slick-prev,
+    .slider_1_container .slick-next,
+    .slider_1_container .slick-dots {
+        bottom: 2.25vw;
+    }
+    .slider_1_container .slick-slide {
+        border: 12px solid #FFFFFF;
+    }
+}
+@media (max-width: 985px) {
+    .slider_1_container .slick-prev svg {
+        width: 30px;
+        height: 30px;
+    }
+    .slider_1_container .slick-next svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 900px) {
+    .slider_1_heading {
+        width: 49vw;
+    }
+}
+@media (max-width: 810px) {
+    .sidebar_navigation {
+        display: none;
+    }
+    .main_section {
+        margin-left: 0;
+    }
+}
+/* слайдер №1 на странице homepage конец */
+
+/* header adaptive начало */
+.header_adaptive {
+    display: none;
+}
+.header_adaptive_component {
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+}
+.header_adaptive_component_container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+.menu_hamburger {
+    display: none;
+    position: absolute;
+    /* right: 10px; */
+    /* right: 0px; */
+    /* left: 10%; */
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    /* height: 14px; */
+    height: 4px;
+}
+.menu_hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #618B70;
+    margin-bottom: 4px;
+    transition: 0.5s all;
+}
+.header_adaptive_component_logo_link {
+    display: flex;
+}
+.slider_1_container .slick-prev,
+.slider_1_container .slick-next {
+    position: absolute;
+    z-index: 2;
+}
+@media (max-width: 810px) {
+    .header_adaptive {
+        display: flex;
+        justify-content: center;
+        /* margin-top: 10px;
+        margin-bottom: 10px; */
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 13;
+        background-color: #ffffff;
+        height: 60px;
+    }
+    .slider_1_container .slick-slide {
+        border: none;
+    }
+    .menu_hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 12;
+        height: 14px;
+    }
+}
+@media (max-width: 690px) {
+    .slider_1_heading {
+        bottom: 9.3vw;
+    }
+}
+@media (max-width: 618px) {
+    .slider_1_foto_1,
+    .slider_1_foto_2,
+    .slider_1_foto_3,
+    .slider_1_foto_4,
+    .slider_1_foto_5,
+    .slider_1_foto_6
+    .slider_1_foto_7 {
+        height: 321px;
+        /* width: auto; */
+    }
+    /* .homepage_slider_one_component .slick-list {
+        margin-left: -65px;
+    } */
+    .homepage_slider_one_component,
+    .slider_1_container, 
+    .slider_1_foto_1, 
+    .slider_1_foto_2, 
+    .slider_1_foto_3, 
+    .slider_1_foto_4, 
+    .slider_1_foto_5, 
+    .slider_1_foto_6, 
+    .slider_1_foto_7 {
+        height: 321px;
+    }
+    .slider_1_container .slick-prev, .slider_1_container .slick-next, .slider_1_container .slick-dots {
+        bottom: 4.25vw;
+    }
+    .slider_1_heading {
+        bottom: 13.3vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .slider_1_heading {
+        font-size: 22px;
+        /* width: 279px; */
+        width: 310px;
+    }
+}
+@media (max-width: 500px) {
+    .menu_hamburger {
+        left: 20px;
+    }
+    .slider_1_heading {
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .slider_1_container .slick-prev {
+        left: 20px;
+        bottom: 20px;
+    }
+    .slider_1_container .slick-next {
+        right: 20px;
+        bottom: 20px;
+    }
+    .slider_1_container .slick-dots {
+        bottom: 32px;
+    }
+    .slider_1_container .slick-dots li button {
+        width: 8px;
+        height: 8px;
+    }
+    .slider_1_container .slick-dots {
+        gap: 12px;
+    }
+    .slider_1_heading {
+        bottom: 74px;
+    }
+}
+@media (max-width: 480px) {
+    .homepage_slider_one_component,
+    .slider_1_container, 
+    .slider_1_foto_1, 
+    .slider_1_foto_2, 
+    .slider_1_foto_3, 
+    .slider_1_foto_4, 
+    .slider_1_foto_5, 
+    .slider_1_foto_6, 
+    .slider_1_foto_7 {
+        /* height: 321px; */
+        height: 240px;
+        width: 100%;
+    }
+}
+/* @media (max-width: 470px) {
+    .homepage_slider_one_component .slick-list {
+        margin-left: -120px;
+    }
+}
+@media (max-width: 390px) {
+    .homepage_slider_one_component .slick-list {
+        margin-left: -168px;
+    }
+} */
+@media (max-width: 380px) {
+    .slider_1_heading {
+        width: 279px;
+    }
+}
+/* header adaptive конец */
+
+/* меню hamburger начало */
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    top: 0;
+    /* left: 0; */
+    right: 0;
+    width: 100%;
+    /* width: 97%; */
+    height: 100vh;
+    padding: 11px 0;
+    /* padding: 20px 15px; */
+    /* background-color: rgba(0,0,0,0.8); */
+    /* background-color: #49B7B7; */
+    /* background-color: #34A4BD; */
+    background-color: #F4F4F4;
+    opacity: 0.96;
+    transition: 0.6s all;
+    z-index: 11;
+}
+.hamburger_active span {
+    margin-bottom: -2px;
+}
+.hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+}
+.hamburger_active span:nth-child(2) {
+    display: none;
+}
+.hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+}
+.menu_active {
+    /* left: -107%; */
+    right: -107%;
+}
+.logo_header_adaptive {
+    /* z-index: 12; */
+    position: relative;
+}
+.header_logo_and_links_list_link {
+    color: var(--335-e-50);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1.98px;
+    text-transform: uppercase;
+}
+.header_connection_callback {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    color: #335D50;
+    text-align: center;
+    margin-top: 7px;
+    max-width: 178px;
+    cursor: pointer;
+}
+.button_calculate_header {
+    background-color: var(--Green);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 102px;
+    font-size: 13px;
+    line-height: 153%;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.button_calculate_header:hover  {
+    opacity: .6;
+    transition: all 0.2s ease;
+}
+@media (max-width: 450px) {
+    .menu_hamburger {
+        left: 20px;
+    }
+    .menu {
+        /* width: 93%; */
+        width: 100%;
+    }
+}
+/* меню hamburger конец */
+
+/* error page начало */
+.error_page2_flex--p1,
+.error_page2_flex--p2 {
+    font-size: 31px;
+}
+.error_page2_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 29%;
+    padding-bottom: 29%;
+    gap: 7px;
+}
+@media (max-width: 700px) {
+    .error_page2_flex--p1,
+    .error_page2_flex--p2 {
+        font-size: 4.4vw;
+    }
+}
+/* error page конец */
+
+/* page /politika начало*/
+.politika_heading_1level {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 122%;
+    max-width: 90%;
+    padding-top: 20px;
+}
+.politika_container {
+    padding: 50px;
+}
+.politika_text_1 {
+    padding-top: 15px;
+}
+.politika_heading_2level {
+    padding-top: 20px;
+}
+.politika_text_2 {
+    padding-top: 13px;
+}
+@media (max-width: 1200px) {
+    .politika_heading_1level {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+}
+@media (max-width: 810px) {
+    .politika_container {
+        padding: 40px;
+    }
+}
+@media (max-width: 610px) {
+    .politika_container {
+        padding: 30px;
+    }
+    .politika_heading_1level {
+        font-size: 24px;
+    }
+    .politika_heading_2level {
+        font-size: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .politika_heading_1level {
+        font-size: 20px;
+    }
+    .politika_heading_2level {
+        font-size: 18px;
+    }
+    .politika_container {
+        padding: 20px;
+    }
+}
+/* page /politika конец*/
+
+/* устанавливаем полупрозрачность для активной ссылки в сайдбаре и меню гамбургер */
+.opasity_link {
+    opacity: 0.5;
+}
+/* конец */
+
+/**/
+@media (max-width: 1420px) {
+    .gallery_justified {
+        display: block;
+    }
+}
+@media (max-width: 500px) {
+    .gallery_container_justified {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 375px) {
+    .gallery_container_justified {
+        min-width: auto;
+    }
+}
+/**/
+/* правки от 09.02.2023 */
+@media (max-width: 500px) {
+    .stroitelniye_uslugi_page_text_pravki {
+        margin-top: 0;
+    }
+}
+/**/
+
+/* блок "спасибо, ваше сообщение отправлено" */
+.success_send_message_block_container {
+    /* position: fixed;
+    z-index: 11;
+    top: 20%; */
+    position: fixed;
+    z-index: 17;
+    /* top: 20%; */
+    top: 21%;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    max-width: 703px;
+    min-width: 703px;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.success_send_message_block {
+    /* background-color: #F4DDDD;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    max-width: 1146px;
+    min-width: 1146px;
+    border-radius: 2px;
+    top: calc(50% - 78px / 2 - 67.5px);
+    padding: 34px 31px 31px 31px;
+    box-shadow: 0px 48px 48px -32px rgba(0, 0, 0, 0.1); */
+    display: flex !important;
+    padding: 35px 60px 37px 60px;
+    box-shadow: 0px 48px 48px -32px rgba(0, 0, 0, 0.1);
+    /* background-color: #F4DDDD; */
+    /* gap: 40px; */
+    gap: 20px;
+    display: flex;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.success_send_message_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.success_send_message_block_text {
+    font-size: 28px;
+    font-weight: 700;
+}
+.success_send_message_block_link {
+    background-color: #34A4BD;
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 140%;
+    /* margin-bottom: 28px; */
+    /* margin-left: 22px; */
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 102px;
+}
+.gray_background_header_sendMessage {
+    position: fixed;
+    top: -100%;
+    right: 0%;
+    left: -100%;
+    bottom: -1000%;
+    /* background-color: #7B7B7B; */
+    background-color: #000000;
+    opacity: 0.25;
+    z-index: 14;
+}
+@media (max-width: 1180px) {
+    .success_send_message_block_container {
+        margin-left: 10%;
+        max-width: 432px;
+        min-width: 432px;
+    }
+    .success_send_message_block_text {
+        font-size: 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 810px) {
+    .success_send_message_block_container {
+        margin-left: 10%;
+        max-width: 80%;
+        min-width: 80%;
+        margin-right: 10%;
+    }
+    .success_send_message_block_text {
+        font-size: 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 555px) {
+    .success_send_message_block {
+        padding: 20px 30px 20px 30px;
+    }
+}
+@media (max-width: 480px) {
+    .success_send_message_block_text {
+        font-size: 18px;
+    }
+    .success_send_message_block_link {
+        font-size: 13px;
+        padding: 7px 15px;
+    }
+}
+@media (max-width: 480px) {
+    .success_send_message_thanks {
+        text-align: center;
+    }
+}
+@media (max-width: 395px) {
+    .success_send_message_block_container {
+        margin-left: 17%;
+        max-width: 66%;
+        min-width: 66%;
+        margin-right: 17%;
+    }
+    .success_send_message_block_text {
+        text-align: center;
+    }
+}
+/* блок "спасибо, ваше сообщение отправлено" конец */
