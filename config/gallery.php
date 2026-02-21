@@ -1,67 +1,75 @@
 <?php
 
+$baseDir = dirname(__DIR__);
+
+/**
+ * Scan a directory for .webp files, return gallery image entries sorted naturally.
+ */
+function scanGalleryImages(string $baseDir, string $relDir, string $captionPrefix = ''): array
+{
+    $absDir = $baseDir . '/' . $relDir;
+    $files = glob($absDir . '/*.webp');
+    if (!$files) {
+        return [];
+    }
+    natsort($files);
+
+    $images = [];
+    foreach ($files as $file) {
+        $filename = basename($file);
+        // Extract number from filename for caption
+        preg_match('/(\d+)/', $filename, $m);
+        $num = $m[1] ?? '';
+        $images[] = [
+            'src' => '../' . $relDir . '/' . $filename,
+            'caption' => $captionPrefix ? "{$captionPrefix} {$num}" : '',
+        ];
+    }
+    return $images;
+}
+
 return [
     [
         'id' => 'gallery1',
         'title' => 'Производство',
         'thumbnail' => '../img/gallery2/gallery2_photo1.webp',
         'css_class' => '',
-        'images' => array_map(fn($i) => [
-            'src' => sprintf('../img/gallery/production/production_%d.webp', $i),
-            'caption' => "Производство {$i}",
-        ], range(1, 17)),
+        'images' => scanGalleryImages($baseDir, 'img/gallery/production', 'Производство'),
     ],
     [
         'id' => 'gallery2',
         'title' => 'Строительный <br>процесс',
         'thumbnail' => '../img/gallery2/gallery2_photo2.webp',
         'css_class' => '',
-        'images' => array_map(fn($i) => [
-            'src' => "../img/proizvodstvo/slider3/slider3_foto{$i}.webp",
-            'caption' => "Строительный процесс {$i}",
-        ], array_merge(
-            [34], range(1, 33), range(35, 61)
-        )),
+        'images' => scanGalleryImages($baseDir, 'img/proizvodstvo/slider3', 'Строительный процесс'),
     ],
     [
         'id' => 'gallery3',
         'title' => 'Частные проекты',
         'thumbnail' => '../img/gallery2/gallery2_photo3.webp',
         'css_class' => '',
-        'images' => array_map(fn($i) => [
-            'src' => sprintf('../img/gallery/chastniye/Privat_%02d.webp', $i),
-            'caption' => '',
-        ], range(1, 74)),
+        'images' => scanGalleryImages($baseDir, 'img/gallery/chastniye'),
     ],
     [
         'id' => 'gallery4',
         'title' => "База отдыха <br>«Лесной Оазис»",
         'thumbnail' => '../img/gallery2/gallery2_photo4.webp',
         'css_class' => '',
-        'images' => array_map(fn($i) => [
-            'src' => sprintf('../img/gallery/kommercheskiye/LesOazis/LesOazis_%02d.webp', $i),
-            'caption' => "База отдыха «Лесной Оазис» {$i}",
-        ], [10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 11, 12, 10, 14, 15, 16, 17, 18, 19, 20]),
+        'images' => scanGalleryImages($baseDir, 'img/gallery/kommercheskiye/LesOazis', 'База отдыха «Лесной Оазис»'),
     ],
     [
         'id' => 'gallery5',
         'title' => 'Банный комплекс «Усадьба банная»',
         'thumbnail' => '../img/gallery2/gallery2_photo5.webp',
         'css_class' => '',
-        'images' => array_map(fn($i) => [
-            'src' => sprintf('../img/gallery/kommercheskiye/MskBani/MskBani_%02d.webp', $i),
-            'caption' => "Банный комплекс «Усадьба банная» {$i}",
-        ], [4, 1, 2, 3, 5, 6, 7]),
+        'images' => scanGalleryImages($baseDir, 'img/gallery/kommercheskiye/MskBani', 'Банный комплекс «Усадьба банная»'),
     ],
     [
         'id' => 'gallery6',
         'title' => 'Эко отель «Заозерье»',
         'thumbnail' => '../img/gallery2/gallery2_photo6.webp',
         'css_class' => '',
-        'images' => array_map(fn($i) => [
-            'src' => sprintf('../img/gallery/kommercheskiye/Zaozere/Zaozere_%02d.webp', $i),
-            'caption' => "Эко отель «Заозерье» {$i}",
-        ], range(1, 12)),
+        'images' => scanGalleryImages($baseDir, 'img/gallery/kommercheskiye/Zaozere', 'Эко отель «Заозерье»'),
     ],
     [
         'id' => 'gallery7',
