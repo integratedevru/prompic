@@ -1,36 +1,5 @@
 <?php $bodyClass = "homepage_body"; ?>
-<section class="homepage_slider_one">
-                <div class="homepage_slider_one_component">    
-                    <div class="slider_1_container">
-                        <div class="slider_1_img_container">
-                            <!-- <img src="../img/homepage/slider1/slider1_foto1_1.jpg" alt="Slide 1" class="slider_1_foto_1"> -->
-                            <img src="../img/homepage/slider1/slider1_foto1.jpg" alt="Slide 1" class="slider_1_foto_1">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider1/slider1_foto2.jpg" alt="Slide 2" class="slider_1_foto_2">
-                        </div>
-                        <div>
-                            <!-- <img src="../img/homepage/slider1/slider1_foto3_1.jpg" alt="Slide 3" class="slider_1_foto_3"> -->
-                            <img src="../img/homepage/slider1/slider1_foto3.jpg" alt="Slide 3" class="slider_1_foto_3">
-                        </div>
-                        <div>
-                            <!-- <img src="../img/homepage/slider1/slider1_foto4_1.jpg" alt="Slide 4" class="slider_1_foto_4"> -->
-                            <img src="../img/homepage/slider1/slider1_foto4.jpg" alt="Slide 4" class="slider_1_foto_4">
-                        </div>
-                        <div>
-                            <!-- <img src="../img/homepage/slider1/slider1_foto5_1.jpg" alt="Slide 5" class="slider_1_foto_5"> -->
-                            <!-- <img src="../img/homepage/slider1/slider1_foto5_3.jpg" alt="Slide 5" class="slider_1_foto_5"> -->
-                            <img src="../img/homepage/slider1/slider1_foto5_2.jpg" alt="Slide 5" class="slider_1_foto_5">
-                        </div>
-                        <div>
-                            <!-- <img src="../img/homepage/slider1/slider1_foto6_5.jpg" alt="Slide 6" class="slider_1_foto_6"> -->
-                            <img src="../img/homepage/slider1/slider1_foto6_4.jpg" alt="Slide 6" class="slider_1_foto_6">
-                        </div>
-                    </div>
-                    <!-- <h1 class="slider_1_heading">Производство срубов, строительство деревянных домов, бань, беседок по Псковской области</h1> -->
-                    <h1 class="slider_1_heading">Производство срубов, строительство деревянных домов, бань, беседок в Санкт-Петербурге и области</h1>
-                </div>
-            </section>
+<?php include __DIR__ . '/partials/homepage/hero_slider.php'; ?>
 
             <section class="block_dostijeniy">
                 <div class="block_dostijeniy_container">
@@ -181,74 +150,7 @@
                 </div>
             </section>
 
-            <section class="homepage_slider_2">
-                <div class="homepage_slider_2_container">
-                    <div class="sobstvennoe_proizvodstvo_slider">
-                        <!-- !!!!!Здесь будет слайдер!!!!! -->
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto1.jpeg" alt="Slide 1" class="slider_2_foto_1">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto2.jpeg" alt="Slide 2" class="slider_2_foto_2">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto3.jpeg" alt="Slide 3" class="slider_2_foto_3">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto4.jpeg" alt="Slide 4" class="slider_2_foto_4">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto5.jpeg" alt="Slide 5" class="slider_2_foto_5">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto6.jpeg" alt="Slide 6" class="slider_2_foto_6">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto7.jpeg" alt="Slide 7" class="slider_2_foto_7">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto8.jpeg" alt="Slide 8" class="slider_2_foto_8">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto9.jpeg" alt="Slide 9" class="slider_2_foto_9">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto10.jpeg" alt="Slide 10" class="slider_2_foto_10">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto11.jpeg" alt="Slide 11" class="slider_2_foto_11">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto12.jpeg" alt="Slide 12" class="slider_2_foto_12">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto13.jpeg" alt="Slide 13" class="slider_2_foto_13">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto14.jpeg" alt="Slide 14" class="slider_2_foto_14">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto15.jpeg" alt="Slide 15" class="slider_2_foto_14">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto16.jpeg" alt="Slide 16" class="slider_2_foto_14">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider2/slider2_foto17.jpeg" alt="Slide 17" class="slider_2_foto_14">
-                        </div>
-                        <!-- <div>
-                            <img src="../img/homepage/slider2/slider2_foto18.jpg" alt="Slide 18" class="slider_2_foto_14">
-                        </div> -->
-                    </div>
-                    <button type="button" class="custom-prev">
-                        <img src="../img/homepage/slider2/button_custom_prev.svg" alt="Previous">
-                    </button>
-
-                    <button type="button" class="custom-next">
-                        <img src="../img/homepage/slider2/button_custom_next.svg" alt="Next">
-                    </button>
-                </div>
-            </section>
+            <?php include __DIR__ . '/partials/homepage/projects_slider.php'; ?>
 
             <section class="common_section">
                 <div class="common_section_container2">
@@ -268,44 +170,7 @@
                 </div>
             </section>
 
-            <section class="proizvodstvo_vidy">
-                <div class="proizvodstvo_vidy_container">
-                    <div class="proizvodstvo_vidy_container_2">
-                        <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto1.jpg" alt="" class="proizvodstvo_vidy_foto">
-                            <p class="proizvodstvo_vidy_block_text">Собственные делянки в экологически чистых районах Псковской области</p>
-                        </div>
-                        <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto2.jpg" alt="" class="proizvodstvo_vidy_foto">
-                            <p class="proizvodstvo_vidy_block_text">Сортировка леса</p>
-                        </div>                        
-                        <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto3.jpg" alt="" class="proizvodstvo_vidy_foto">
-                            <p class="proizvodstvo_vidy_block_text">Изготовление погонажной продукции</p>
-                        </div>                        
-                        <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto4.jpg" alt="" class="proizvodstvo_vidy_foto">
-                            <p class="proizvodstvo_vidy_block_text">Естественная или искусственная сушка</p>
-                        </div>                        
-                        <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto5.jpg" alt="" class="proizvodstvo_vidy_foto">
-                            <p class="proizvodstvo_vidy_block_text">Выборка чашек под проект и обработка антисептиком «Просепт Био»</p>
-                        </div>                        
-                        <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto6.jpg" alt="" class="proizvodstvo_vidy_foto">
-                            <p class="proizvodstvo_vidy_block_text">Вертикальная загрузка с помощью крана-балки</p>
-                        </div>                        
-                        <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto7.jpg" alt="" class="proizvodstvo_vidy_foto">
-                            <p class="proizvodstvo_vidy_block_text">Горизонтальная загрузка с помощью погрузчика</p>
-                        </div>                        
-                        <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto8.jpg" alt="" class="proizvodstvo_vidy_foto">
-                            <p class="proizvodstvo_vidy_block_text">Доставка на объект заказчика</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <?php include __DIR__ . '/partials/homepage/production_types.php'; ?>
 
             <section class="common_section">
                 <div class="common_section_container2">
@@ -382,82 +247,7 @@
                 </div>
             </section>
 
-            <!-- <section class="common_section">
-                <div class="common_section_container">
-                    <h2 class="common_header common_header5">
-                        Строительно-монтажные услуги
-                    </h2>
-                </div>
-            </section> -->
-
-            <section class="stroitelniye_uslugi">
-                <div class="stroitelniye_uslugi_container">
-                    <section class="stroitelniye_uslugi_domokomplekt">
-                        <ul class="stroitelniye_uslugi_domokomplekt_list">
-                            <li class="stroitelniye_uslugi_domokomplekt_list_point stroitelniye_uslugi_domokomplekt_list_point1">
-                                <div class="stroitelniye_uslugi_domokomplekt_list_img_link">
-                                    <img src="../img/page_stroitelniye_uslugi/domokomplekt2.jpg" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
-                                </div>
-                                <!-- <a href="" class="stroitelniye_uslugi_domokomplekt_list_img_link">
-                                    <img src="../img/page_stroitelniye_uslugi/domokomplekt.jpg" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
-                                </a> -->
-                                <div class="stroitelniye_uslugi_domokomplekt_domokomplekt">
-                                    <h3 class="stroitelniye_uslugi_domokomplekt_domokomplekt_heading">Домокомплект</h3>
-                                    <ul class="stroitelniye_uslugi_domokomplekt_domokomplekt_list">
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_grey">Фундамент</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Сруб</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Монтаж</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_grey">Полы и потолки</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_grey">Стропильная и кровельная системы</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_grey">Окна и двери</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_grey">Инженерные системы</li>
-                                    </ul>
-                                    <!-- <button class="button_stroitelniye_uslugi_domokomplekt_domokomplekt project_calculation14">Оставить заявку</button> -->
-                                </div>
-                            </li>
-                            <li class="stroitelniye_uslugi_domokomplekt_list_point stroitelniye_uslugi_domokomplekt_list_point2">
-                                <div class="stroitelniye_uslugi_domokomplekt_list_img_link">
-                                    <img src="../img/page_stroitelniye_uslugi/pod_krishu.jpg" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
-                                </div>
-                                <div class="stroitelniye_uslugi_domokomplekt_pod_krishu">
-                                    <h3 class="stroitelniye_uslugi_domokomplekt_pod_krishu_heading">Строительство под крышу</h3>
-                                    <ul class="stroitelniye_uslugi_domokomplekt_pod_krishu_list">
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Фундамент</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Сруб</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Монтаж</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Полы и потолки</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Стропильная и кровельная системы</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_grey">Окна и двери</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_grey">Инженерные системы</li>
-                                    </ul>
-                                    <!-- <button class="button_stroitelniye_uslugi_domokomplekt_pod_krishu project_calculation15">Оставить заявку</button> -->
-                                </div>
-                            </li>
-                            <li class="stroitelniye_uslugi_domokomplekt_list_point stroitelniye_uslugi_domokomplekt_list_point3">
-                                <div class="stroitelniye_uslugi_domokomplekt_list_img_link">
-                                    <img src="../img/page_stroitelniye_uslugi/pod_kluch2.jpg" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
-                                </div>
-                                <div class="stroitelniye_uslugi_domokomplekt_pod_kluch">
-                                    <h3 class="stroitelniye_uslugi_domokomplekt_pod_kluch_heading">Строительство под ключ</h3>
-                                    <ul class="stroitelniye_uslugi_domokomplekt_pod_kluch_list">
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Фундамент</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Сруб</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Монтаж</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Полы и потолки</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Стропильная и кровельная системы</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Окна и двери</li>
-                                        <li class="stroitelniye_uslugi_domokomplekt_point_black">Инженерные системы</li>
-                                    </ul>
-                                    <!-- <button class="button_stroitelniye_uslugi_domokomplekt_pod_kluch project_calculation16">Оставить заявку</button> -->
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="stroitelniye_uslugi_domokomplekt_btn">
-                            <button class="button_stroitelniye_uslugi_total project_calculation32">Оставить заявку</button>
-                        </div>
-                    </section>
-                </div>
-            </section>
+            <?php include __DIR__ . '/partials/homepage/construction_services.php'; ?>
 
             <!-- <section class="o_companii" id="targetElement5"> -->
             <section class="o_companii targetElement5">
