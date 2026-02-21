@@ -33,8 +33,8 @@ try {
         }
     }
 
-    $mail->Subject = '(Спб)Запрос от ' . $namecallback;
-    $mail->Body = '(Спб)Поступил запрос из формы "Заказать обратный звонок"' . "\n" .
+    $mail->Subject = $siteConfig['email_prefix'] . 'Запрос от ' . $namecallback;
+    $mail->Body = $siteConfig['email_prefix'] . 'Поступил запрос из формы "Заказать обратный звонок"' . "\n" .
         'от ' . $namecallback . "\n" .
         'номер телефона: ' . $phonecallback;
 

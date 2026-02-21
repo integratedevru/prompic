@@ -34,8 +34,8 @@ try {
         }
     }
 
-    $mail->Subject = '(Спб)Запрос от ' . $name;
-    $mail->Body = '(Спб)Поступил запрос из формы "Заявка на расчёт проекта"' . "\n" .
+    $mail->Subject = $siteConfig['email_prefix'] . 'Запрос от ' . $name;
+    $mail->Body = $siteConfig['email_prefix'] . 'Поступил запрос из формы "Заявка на расчёт проекта"' . "\n" .
         'от ' . $name . "\n" .
         'номер телефона: ' . $phone;
 

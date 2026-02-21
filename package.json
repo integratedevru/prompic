@@ -4,10 +4,11 @@
     "private": true,
     "description": "SPB branch website for PP-DOM wooden house construction",
     "scripts": {
-        "dev": "php -S localhost:8000 router.php"
+        "dev": "(test -f .env || cp .env.example .env) && php -S localhost:8080 router.php"
     },
     "dependencies": {
         "jquery": "3.6.4",
+        "lightgallery": "^2.9.0",
         "slick-carousel": "1.8.1"
     }
 }

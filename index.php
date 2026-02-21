@@ -4,24 +4,26 @@
 
     $request = (string)explode('?', $_SERVER['REQUEST_URI'])[0];
     $arg = explode('/', $request);
-    // $request_array = array("/", "/combined_bathroom", "/new_building");
-    // if(!in_array($request, $request_array)){
-    //     header("HTTP/1.0 404 Not Found");
-    // }
-    // include(dirname(__FILE__).'/includes/main.php');
+    $slug = $arg[1] === '' ? 'homepage' : $arg[1];
 
-    if( $arg[1] == ''){
-        include(dirname(__FILE__).'/pages/homepage.php');
+    $variant = $siteConfig['variant'];
+
+    // Validate slug against allowed pages for this variant
+    if (!in_array($slug, $siteConfig['valid_pages'])) {
+        header("HTTP/1.0 404 Not Found");
+        $slug = 'error404';
+    }
+
+    // Three-tier resolution: variant-specific → shared → 404
+    $variantPath = __DIR__ . '/pages/' . $variant . '/' . $slug . '.php';
+    $sharedPath = __DIR__ . '/pages/shared/' . $slug . '.php';
+
+    if (file_exists($variantPath)) {
+        include $variantPath;
+    } elseif (file_exists($sharedPath)) {
+        include $sharedPath;
     } else {
-        if( file_exists(dirname(__FILE__).'/pages/'.$arg[1].'.php') ) {
-            include(dirname(__FILE__).'/pages/'.$arg[1].'.php');
-        } else {
-            //php return 404 status
-            // var_dump(http_response_code(404));
-            // include(http_response_code(404));
-            // http_response_code(404);
-            header("HTTP/1.0 404 Not Found");
-            include(dirname(__FILE__).'/pages/error404.php');
-        }
+        header("HTTP/1.0 404 Not Found");
+        include __DIR__ . '/pages/shared/error404.php';
     }
 ?>

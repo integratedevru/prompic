@@ -4,7 +4,7 @@
     <div class="gray_background_footer gray_background_footer_2 form_hidden"></div>
         <!-- <div class="gray_background_footer gray_background_footer_first"></div> -->
 
-    <?php if($_GET['success']) { ?>
+    <?php if(!empty($_GET['success'])) { ?>
                 
         <div class="success_send_message_block_container">
             <div class="success_send_message_block">
@@ -18,7 +18,7 @@
         </a>
 
     <?php } ?>
-    <?php if($_GET['error']) { ?>
+    <?php if(!empty($_GET['error'])) { ?>
         
         <div class="success_send_message_block_container">
             <div class="success_send_message_block">
@@ -1267,7 +1267,7 @@
     <div class="gray_background_footer gray_background_footer_5 form_hidden"></div>
     <!-- <div class="gray_background_footer gray_background_footer_first"></div> -->
 
-    <?php if($_GET['success']) { ?>
+    <?php if(!empty($_GET['success'])) { ?>
                 
         <div class="success_send_message_block_container">
             <div class="success_send_message_block">
@@ -1281,7 +1281,7 @@
         </a>
 
     <?php } ?>
-    <?php if($_GET['error']) { ?>
+    <?php if(!empty($_GET['error'])) { ?>
         
         <div class="success_send_message_block_container">
             <div class="success_send_message_block">

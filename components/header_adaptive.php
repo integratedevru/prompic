@@ -12,67 +12,7 @@
             <a href="/" class="header_adaptive_component_logo_link">
                 <img src="../img/header_adaptive/header_adaptive.svg" alt="" class="logo_header_adaptive">
             </a>
-            <!-- <a href="/">
-                <img src="../img/header_adaptive/header_adaptive.svg" alt="" class="logo_header_adaptive">
-            </a> -->
-            <!-- <ul>
-                <li class="menu_item">
-                    <a class="menu_link" href="/fundaments">Каталог проектов</a>
-                </li>
-                <li class="menu_item">
-                    <a class="menu_link" href="/raboty_foto">Галерея</a>
-                </li>
-                <li class="menu_item promyshlenniy_angar">
-                    <a href="/promishlenniy_angar" class="links_block_services promyshlenniy_angar menu_link">Производство</a>
-                </li>
-                <li class="menu_item">
-                    <a class="menu_link" href="/contacts">Продукция</a>
-                </li>
-                <li class="menu_item">
-                    <a class="menu_link" href="/contacts">Услуги</a>
-                </li>
-                <li class="menu_item">
-                    <a class="menu_link" href="/contacts">О нас</a>
-                </li>
-            </ul> -->
-            <!-- <div> -->
-                <ul class="nav_logo_and_links_list mt2_spb">
-                    <li>
-                        <!-- <a href="/catalog-domov" class="header_logo_and_links_list_link"> -->
-                        <div class="header_logo_and_links_list_link scrollButtonMobile" data-target-mobile="targetElement1" data-offset-mobile="-30">
-                            Проекты
-                        </div>
-                    </li>
-                    <li>
-                        <!-- <a href="/gallery" class="header_logo_and_links_list_link"> -->
-                        <div class="header_logo_and_links_list_link scrollButtonMobile" data-target-mobile="targetElement2" data-offset-mobile="-30">
-                            Преимущества
-                        </div>
-                    </li>
-                    <li>
-                        <!-- <a href="/tehnology" class="header_logo_and_links_list_link"> -->
-                        <div class="header_logo_and_links_list_link scrollButtonMobile" data-target-mobile="targetElement3" data-offset-mobile="-70">
-                            Производство
-                        </div>
-                    </li>
-                    <li>
-                        <!-- <a href="/production" class="header_logo_and_links_list_link"> -->
-                        <div class="header_logo_and_links_list_link scrollButtonMobile" data-target-mobile="targetElement4" data-offset-mobile="-90">
-                            Строительные услуги
-                        </div>
-                    </li>
-                    <li>
-                        <!-- <a href="/stroitelniye_uslugi" class="header_logo_and_links_list_link"> -->
-                        <div class="header_logo_and_links_list_link scrollButtonMobile" data-target-mobile="targetElement5" data-offset-mobile="-50">
-                            Контакты
-                        </div>
-                    </li>
-                    <li>
-                        <a href="https://pp-dom.ru/" class="header_logo_and_links_list_link">
-                            Основной сайт
-                        </a>
-                    </li>
-                </ul>
+                <?php include __DIR__ . '/nav/header_links_' . $siteConfig['variant'] . '.php'; ?>
                 <section class="nav_connection">
                     <ul class="nav_connection_list">
                         <li>

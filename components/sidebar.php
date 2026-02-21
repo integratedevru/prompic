@@ -9,49 +9,7 @@
                     <img src="../icons/sidebar/logo_mobile1.png" alt="" class="logo_mobile_sidebar">
                 </a>
             </div>
-            <ul class="nav_logo_and_links_list">
-                <li class="nav_logo_and_links_list_point">
-                    <!-- <a href="/catalog-domov" class="nav_logo_and_links_list_link"> -->
-                    <!-- <div class="nav_logo_and_links_list_link scrollButton" data-target="targetElement1" data-offset-desktop="-100"> -->
-
-                    <!-- data-offset-desktop="40" - 40 - пиксели, которые прибавляются к расположению места, к которому перематывается расположение экрана -->
-                    <div class="nav_logo_and_links_list_link scrollButtonDesktop" data-target-desktop="targetElement1" data-offset-desktop="40">
-                        Проекты
-                    </div>
-                </li>
-                <li class="nav_logo_and_links_list_point">
-                    <!-- <a href="/gallery" class="nav_logo_and_links_list_link"> -->
-                    <!-- <div class="nav_logo_and_links_list_link scrollButton" data-target="targetElement2" data-offset-desktop="-150"> -->
-                    <div class="nav_logo_and_links_list_link scrollButtonDesktop" data-target-desktop="targetElement2" data-offset-desktop="10">
-                        Преимущества
-                    </div>
-                </li>
-                <li class="nav_logo_and_links_list_point">
-                    <!-- <a href="/tehnology" class="nav_logo_and_links_list_link"> -->
-                    <!-- <div class="nav_logo_and_links_list_link scrollButton" data-target="targetElement3" data-offset-desktop="-200"> -->
-                    <div class="nav_logo_and_links_list_link scrollButtonDesktop" data-target-desktop="targetElement3" data-offset-desktop="-40">
-                        Производство
-                    </div>
-                </li>
-                <li class="nav_logo_and_links_list_point">
-                    <!-- <a href="/production" class="nav_logo_and_links_list_link"> -->
-                    <!-- <div class="nav_logo_and_links_list_link scrollButton" data-target="targetElement4" data-offset-desktop="-250"> -->
-                    <div class="nav_logo_and_links_list_link scrollButtonDesktop" data-target-desktop="targetElement4" data-offset-desktop="-50">
-                        Строительные услуги
-                    </div>
-                </li>
-                <li class="nav_logo_and_links_list_point">
-                    <!-- <div class="nav_logo_and_links_list_link scrollButton" data-target="targetElement5" data-offset-desktop="-300"> -->
-                    <div class="nav_logo_and_links_list_link scrollButtonDesktop" data-target-desktop="targetElement5" data-offset-desktop="10">
-                        Контакты
-                    </div>
-                </li>
-                <li class="nav_logo_and_links_list_point">
-                    <a href="https://pp-dom.ru/" class="nav_logo_and_links_list_link">
-                        Основной сайт
-                    </a>
-                </li>
-            </ul>
+            <?php include __DIR__ . '/nav/sidebar_links_' . $siteConfig['variant'] . '.php'; ?>
         </section>
         <section class="nav_connection">
             <ul class="nav_connection_list">
@@ -71,7 +29,6 @@
                     </a>
                 </li>
                 <li>
-                    <!-- <a href="https://api.whatsapp.com/send/?phone=79113603030"> -->
                     <a href="https://wa.me/79113603030">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                             <path d="M0 32L2.29593 23.4708C0.444319 20.1482 -0.143955 16.2711 0.639054 12.5508C1.42206 8.8305 3.52383 5.51665 6.55868 3.21731C9.59353 0.917974 13.3579 -0.212607 17.161 0.0330315C20.9641 0.27867 24.5509 1.88405 27.2631 4.55458C29.9753 7.22511 31.631 10.7817 31.9265 14.5716C32.2219 18.3615 31.1373 22.1306 28.8715 25.1873C26.6058 28.2439 23.311 30.383 19.5917 31.2121C15.8723 32.0412 11.978 31.5046 8.62328 29.7009L0 32ZM9.03908 26.5092L9.57239 26.8248C12.0023 28.2614 14.8404 28.8558 17.6443 28.5156C20.4483 28.1753 23.0607 26.9194 25.0744 24.9436C27.0881 22.9678 28.39 20.383 28.7771 17.5922C29.1643 14.8013 28.615 11.961 27.2149 9.51404C25.8148 7.06704 23.6425 5.15075 21.0365 4.06379C18.4305 2.97683 15.5372 2.78026 12.8075 3.50471C10.0778 4.22917 7.66506 5.83395 5.94522 8.06898C4.22538 10.304 3.29507 13.0437 3.29927 15.8612C3.29698 18.1973 3.94471 20.4883 5.17035 22.479L5.5048 23.029L4.22125 27.7895L9.03908 26.5092Z" fill="#93C2B3"/>
@@ -80,7 +37,6 @@
                     </a>
                 </li>
             </ul>
-            <!-- <a href="tel:+79113974773" class="nav_connection_tel">+7 911 397-47-73</a> -->
             <a href="tel:+79113603030" class="nav_connection_tel">+7 911 360-30-30</a>
             <p class="nav_connection_callback ordering_call_first">Заказать обратный звонок</p>
             <button class="button_calculate_sidebar project_calculation1">Рассчитать проект</button>
