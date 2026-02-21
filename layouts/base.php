@@ -16,6 +16,8 @@ $_bufferedContent = ob_get_clean();
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="/node_modules/slick-carousel/slick/slick.css"/>
         <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
         <title><?= htmlspecialchars($siteConfig['meta'][$pageSlug]['title'] ?? 'ПромПик') ?></title>
         <meta name="description" content="<?= htmlspecialchars($siteConfig['meta'][$pageSlug]['description'] ?? '') ?>">
         <script src="https://www.google.com/recaptcha/enterprise.js?render=<?= htmlspecialchars($_ENV['RECAPTCHA_SITE_KEY']) ?>"></script>
@@ -50,5 +52,6 @@ $_bufferedContent = ob_get_clean();
             <?php include __DIR__ . '/../components/footer.php'; ?>
         </footer>
         <script src="/js/index.js"></script>
+        <script src="/js/lightbox-init.js"></script>
     </body>
 </html>
