@@ -5449,22 +5449,8 @@
     /* width: auto; */
     /* height: 282px; */
 /* } */
-.slider_2_foto_1,
-.slider_2_foto_2,
-.slider_2_foto_3,
-.slider_2_foto_4,
-.slider_2_foto_5,
-.slider_2_foto_6,
-.slider_2_foto_7,
-.slider_2_foto_8,
-.slider_2_foto_9,
-.slider_2_foto_10,
-.slider_2_foto_11,
-.slider_2_foto_12,
-.slider_2_foto_13,
-.slider_2_foto_14 {
+.sobstvennoe_proizvodstvo_slider img {
     height: 282px;
-    /* width: auto; */
 }
 .homepage_slider_2 .custom-prev, 
 .homepage_slider_2 .custom-next {
@@ -5508,21 +5494,7 @@
     }
 } */
 @media (max-width: 600px) {
-    .slider_2_foto_1,
-    .slider_2_foto_2,
-    .slider_2_foto_3,
-    .slider_2_foto_4,
-    .slider_2_foto_5,
-    .slider_2_foto_6,
-    .slider_2_foto_7,
-    .slider_2_foto_8,
-    .slider_2_foto_9,
-    .slider_2_foto_10,
-    .slider_2_foto_11,
-    .slider_2_foto_12,
-    .slider_2_foto_13,
-    .slider_2_foto_14 {
-        /* height: 121px; */
+    .sobstvennoe_proizvodstvo_slider img {
         height: 91px;
     }
     /* .homepage_slider_2_container {
