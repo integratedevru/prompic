@@ -410,7 +410,7 @@
     margin-top: 40px
 }
 .before_after_pluses_list_point::before {
-    content: url(/icons/page_products/check_mark2.png);
+    content: url(/icons/page_products/check_mark2.webp);
     position: absolute;
     left: 0; /* Позиционируем маркер слева от текста */
     top: 0;
@@ -963,11 +963,11 @@
     margin-left: 234px;
     display: flex;
     justify-content: center;
-    background-image: url("../img/footer/background_footer.jpg");
+    background-image: url("../img/footer/background_footer.webp");
     background-color: #FDF9F3;
 }
 .footer_component_container {
-    /* background-image: url("../img/footer/background_footer.jpg"); */
+    /* background-image: url("../img/footer/background_footer.webp"); */
     /* background-color: #FDF9F3; */
     display: flex;
     gap: 314px;
@@ -1543,10 +1543,10 @@
     justify-content: space-between;
 }
 .stroitelniye_uslugi_domokomplekt_point_grey::before {
-    content: url(/icons/page_stroitelniye_uslugi/house_kit_cross.png);
+    content: url(/icons/page_stroitelniye_uslugi/house_kit_cross.webp);
 }
 .stroitelniye_uslugi_domokomplekt_point_black::before {
-    content: url(/icons/page_stroitelniye_uslugi/domokomplekt_checkmark.png);
+    content: url(/icons/page_stroitelniye_uslugi/domokomplekt_checkmark.webp);
 }
 .button_stroitelniye_uslugi_domokomplekt_domokomplekt,
 .button_stroitelniye_uslugi_domokomplekt_pod_krishu,
@@ -1865,7 +1865,7 @@
 .proecty_homepage_houses {
     width: 756px;
     height: 470px;
-    background-image: url("../img/homepage/project_houses.jpg");
+    background-image: url("../img/homepage/project_houses.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1895,7 +1895,7 @@
 .proecty_homepage_baths {
     width: 378px;
     height: 226px;
-    background-image: url("../img/homepage/project_baths.jpg");
+    background-image: url("../img/homepage/project_baths.webp");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center; */
@@ -1909,7 +1909,7 @@
 .proecty_homepage_gazebos_and_mafs {
     width: 378px;
     height: 233px;
-    background-image: url("../img/homepage/project_gazebos_and_mafs.jpg");
+    background-image: url("../img/homepage/project_gazebos_and_mafs.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

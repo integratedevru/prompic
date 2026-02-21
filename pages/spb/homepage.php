@@ -5,25 +5,25 @@
                 <div class="block_dostijeniy_container">
                     <div class="let_na_rynke">
                         <div class="block_dostijeniy_one">
-                            <img src="../icons/homepage/laurel_branch_left.png" alt="" class="laurel_branch_left">
+                            <img src="../icons/homepage/laurel_branch_left.webp" alt="" class="laurel_branch_left">
                             <p class="dostijenie_csifra dostijenie_csifra_one">26</p>
-                            <img src="../icons/homepage/laurel_branch_right.png" alt="" class="laurel_branch_right">
+                            <img src="../icons/homepage/laurel_branch_right.webp" alt="" class="laurel_branch_right">
                         </div>
                         <p class="years_on_market">лет на рынке</p>
                     </div>
                     <div class="dovolnih_klientov">
                         <div class="block_dostijeniy_two">
-                            <img src="../icons/homepage/laurel_branch_left.png" alt="" class="laurel_branch_left">
+                            <img src="../icons/homepage/laurel_branch_left.webp" alt="" class="laurel_branch_left">
                             <p class="dostijenie_csifra dostijenie_csifra_two">5200</p>
-                            <img src="../icons/homepage/laurel_branch_right.png" alt="" class="laurel_branch_right">
+                            <img src="../icons/homepage/laurel_branch_right.webp" alt="" class="laurel_branch_right">
                         </div>
                         <p class="years_on_market">довольных клиентов</p>
                     </div>
                     <div class="sudebnih_razbiratelstv">
                         <div class="block_dostijeniy_two">
-                            <img src="../icons/homepage/laurel_branch_left.png" alt="" class="laurel_branch_left">
+                            <img src="../icons/homepage/laurel_branch_left.webp" alt="" class="laurel_branch_left">
                             <p class="dostijenie_csifra dostijenie_csifra_three">0</p>
-                            <img src="../icons/homepage/laurel_branch_right.png" alt="" class="laurel_branch_right">
+                            <img src="../icons/homepage/laurel_branch_right.webp" alt="" class="laurel_branch_right">
                         </div>
                         <p class="years_on_market">судебных разбирательств</p>
                     </div>
@@ -85,7 +85,7 @@
                         <!-- <button class="button_zayavka_na_dom project_calculation4">Оставьте заявку</button> -->
                         <button class="button_zayavka_na_dom project_calculation4">Узнать стоимость</button>
                     </div>
-                    <img src="../img/homepage/zayavka_na_dom_foto2_1.png" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage zayavka_na_dom_foto_homepage_spb">
+                    <img src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage zayavka_na_dom_foto_homepage_spb">
                 </div>
             </section>
 
@@ -105,7 +105,7 @@
                 <div class="kachestvo_breven_section_container">
                     <div class="kachestvo_breven kachestvo_breven_margintop2">
                         <div class="kachestvo_breven_section_one">
-                            <img src="../img/page_products/brevno.png" alt="" class="kachestvo_breven_section_one_img">
+                            <img src="../img/page_products/brevno.webp" alt="" class="kachestvo_breven_section_one_img">
                             <h2 class="kachestvo_breven_heading">Высокое качество продукции</h2>
                             <p class="kachestvo_breven_section_one_text">Используем собственную технологию механической обработки леса, что позволяет добиться качества ручной рубки:</p>
                         </div>
@@ -127,8 +127,8 @@
                 <section class="before_after">
                     <div class="before_after_block1">
                         <div class="before_after_block1_foto">
-                            <img src="../img/page_products/brevno_do.png" alt="" class="before_after_brevno_do">
-                            <img src="../img/page_products/brevno_posle.png" alt="" class="before_after_brevno_posle">
+                            <img src="../img/page_products/brevno_do.webp" alt="" class="before_after_brevno_do">
+                            <img src="../img/page_products/brevno_posle.webp" alt="" class="before_after_brevno_posle">
                         </div>
                         <div class="before_after_block1_text_container">
                             <h2 class="before_after_block1_heading">Производим бревна высокого качества по собственной ноу хау технологии</h2>
@@ -184,7 +184,7 @@
                 <div class="stage_section_container">
                     <ul class="stage_project_list">
                         <li class="stage_project_point">
-                            <img src="../img/stages/stage1_icon_2.png" alt="" class="stage_project_point_photo stage_project_point_photo1">
+                            <img src="../img/stages/stage1_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo1">
                             <p class="stage_project_point_text">
                                 <span class="stage_project_interval">
                                     Оставьте заявку на расчет проекта под ключ.
@@ -193,7 +193,7 @@
                             </p>
                         </li>
                         <li class="stage_project_point">
-                            <img src="../img/stages/stage2_icon_2.png" alt="" class="stage_project_point_photo stage_project_point_photo2">
+                            <img src="../img/stages/stage2_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo2">
                             <p class="stage_project_point_text">
                                 <span class="stage_project_interval">
                                     Проектирование, 3D-визуализация и сметный расчет производятся бесплатно
@@ -201,7 +201,7 @@
                             </p>
                         </li>
                         <li class="stage_project_point">
-                            <img src="../img/stages/stage3_icon_2.png" alt="" class="stage_project_point_photo stage_project_point_photo3">
+                            <img src="../img/stages/stage3_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo3">
                             <p class="stage_project_point_text">
                                 <span class="stage_project_interval">
                                     Работаем по договору. Поэтапная 50% предоплата.
@@ -210,7 +210,7 @@
                             </p>
                         </li>
                         <li class="stage_project_point">
-                            <img src="../img/stages/stage4_icon_2.png" alt="" class="stage_project_point_photo stage_project_point_photo4">
+                            <img src="../img/stages/stage4_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo4">
                             <p class="stage_project_point_text">
                                 <span class="stage_project_interval">
                                     Производственный процесс.
@@ -234,8 +234,8 @@
                         </ul>
                         <button class="chramy_chasovni_button project_calculation3">Оставить заявку</button>
                     </div>
-                    <!-- <img src="../img/homepage/hram2.png" alt="" class="chramy_chasovni_foto"> -->
-                    <img src="../img/homepage/hram3_1.png" alt="" class="chramy_chasovni_foto">
+                    <!-- <img src="../img/homepage/hram2.webp" alt="" class="chramy_chasovni_foto"> -->
+                    <img src="../img/homepage/hram3_1.webp" alt="" class="chramy_chasovni_foto">
                 </div>
             </section>
 
@@ -260,7 +260,7 @@
                                     <p class="o_companii_karta_adress_proizvodstva_text1">Адрес производства</p>
                                     <p class="o_companii_karta_adress_proizvodstva_text2">180502, г. Псков, пос.<br> Неелово-1, ул. Юбилейная 3А</p>
                                 </div>
-                                <img src="../img/o_companii/gerb.png" alt="" class="o_companii_karta_block1_gerb">
+                                <img src="../img/o_companii/gerb.webp" alt="" class="o_companii_karta_block1_gerb">
                             </div>
                             <div class="o_companii_karta_tel">
                                 <p class="o_companii_karta_tel_text1">Телефоны</p>

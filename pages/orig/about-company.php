@@ -25,7 +25,7 @@
                                     <p class="o_companii_karta_adress_proizvodstva_text1">Адрес производства</p>
                                     <p class="o_companii_karta_adress_proizvodstva_text2">180502, г. Псков, пос.<br> Неелово-1, ул. Юбилейная 3А</p>
                                 </div>
-                                <img src="../img/o_companii/gerb.png" alt="" class="o_companii_karta_block1_gerb">
+                                <img src="../img/o_companii/gerb.webp" alt="" class="o_companii_karta_block1_gerb">
                             </div>
                             <div class="o_companii_karta_tel">
                                 <p class="o_companii_karta_tel_text1">Телефоны</p>

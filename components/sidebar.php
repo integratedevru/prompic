@@ -3,10 +3,10 @@
         <section class="nav_logo_and_links">
             <div class="logo_sidebar_container">
                 <a href="/">
-                    <img src="../icons/sidebar/logo_desktop2.png" alt="" class="logo_desktop_sidebar">
+                    <img src="../icons/sidebar/logo_desktop2.webp" alt="" class="logo_desktop_sidebar">
                 </a>
                 <a href="/">
-                    <img src="../icons/sidebar/logo_mobile1.png" alt="" class="logo_mobile_sidebar">
+                    <img src="../icons/sidebar/logo_mobile1.webp" alt="" class="logo_mobile_sidebar">
                 </a>
             </div>
             <?php include __DIR__ . '/nav/sidebar_links_' . $siteConfig['variant'] . '.php'; ?>

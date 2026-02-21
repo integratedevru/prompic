@@ -10,35 +10,35 @@
                 <div class="proizvodstvo_vidy_container">
                     <div class="proizvodstvo_vidy_container_2">
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto1.jpg" alt="" class="proizvodstvo_vidy_foto">
+                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto1.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Собственные делянки в экологически чистых районах Псковской области</p>
                         </div>
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto2.jpg" alt="" class="proizvodstvo_vidy_foto">
+                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto2.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Сортировка леса</p>
                         </div>                        
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto3.jpg" alt="" class="proizvodstvo_vidy_foto">
+                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto3.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Изготовление погонажной продукции</p>
                         </div>                        
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto4.jpg" alt="" class="proizvodstvo_vidy_foto">
+                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto4.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Естественная или искусственная сушка</p>
                         </div>                        
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto5.jpg" alt="" class="proizvodstvo_vidy_foto">
+                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto5.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Выборка чашек под проект и обработка антисептиком «Просепт Био»</p>
                         </div>                        
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto6.jpg" alt="" class="proizvodstvo_vidy_foto">
+                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto6.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Вертикальная загрузка с помощью крана-балки</p>
                         </div>                        
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto7.jpg" alt="" class="proizvodstvo_vidy_foto">
+                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto7.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Горизонтальная загрузка с помощью погрузчика</p>
                         </div>                        
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto8.jpg" alt="" class="proizvodstvo_vidy_foto">
+                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto8.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Доставка на объект заказчика</p>
                         </div>
                     </div>
@@ -54,58 +54,58 @@
                 <div class="homepage_slider_2_container">
                     <div class="sobstvennoe_proizvodstvo_slider">
 <div>
-                            <img src="../img/homepage/slider2/slider2_foto1.jpg" alt="Slide 1" class="slider_2_foto_1">
+                            <img src="../img/homepage/slider2/slider2_foto1.webp" alt="Slide 1" class="slider_2_foto_1">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto2.jpg" alt="Slide 2" class="slider_2_foto_2">
+                            <img src="../img/homepage/slider2/slider2_foto2.webp" alt="Slide 2" class="slider_2_foto_2">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto3.jpg" alt="Slide 3" class="slider_2_foto_3">
+                            <img src="../img/homepage/slider2/slider2_foto3.webp" alt="Slide 3" class="slider_2_foto_3">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto4.jpg" alt="Slide 4" class="slider_2_foto_4">
+                            <img src="../img/homepage/slider2/slider2_foto4.webp" alt="Slide 4" class="slider_2_foto_4">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto5.jpg" alt="Slide 5" class="slider_2_foto_5">
+                            <img src="../img/homepage/slider2/slider2_foto5.webp" alt="Slide 5" class="slider_2_foto_5">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto6.jpg" alt="Slide 6" class="slider_2_foto_6">
+                            <img src="../img/homepage/slider2/slider2_foto6.webp" alt="Slide 6" class="slider_2_foto_6">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto7.jpg" alt="Slide 7" class="slider_2_foto_7">
+                            <img src="../img/homepage/slider2/slider2_foto7.webp" alt="Slide 7" class="slider_2_foto_7">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto8.jpg" alt="Slide 8" class="slider_2_foto_8">
+                            <img src="../img/homepage/slider2/slider2_foto8.webp" alt="Slide 8" class="slider_2_foto_8">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto9.jpg" alt="Slide 9" class="slider_2_foto_9">
+                            <img src="../img/homepage/slider2/slider2_foto9.webp" alt="Slide 9" class="slider_2_foto_9">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto10.jpg" alt="Slide 10" class="slider_2_foto_10">
+                            <img src="../img/homepage/slider2/slider2_foto10.webp" alt="Slide 10" class="slider_2_foto_10">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto11.jpg" alt="Slide 11" class="slider_2_foto_11">
+                            <img src="../img/homepage/slider2/slider2_foto11.webp" alt="Slide 11" class="slider_2_foto_11">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto12.jpg" alt="Slide 12" class="slider_2_foto_12">
+                            <img src="../img/homepage/slider2/slider2_foto12.webp" alt="Slide 12" class="slider_2_foto_12">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto13.jpg" alt="Slide 13" class="slider_2_foto_13">
+                            <img src="../img/homepage/slider2/slider2_foto13.webp" alt="Slide 13" class="slider_2_foto_13">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto14.jpg" alt="Slide 14" class="slider_2_foto_14">
+                            <img src="../img/homepage/slider2/slider2_foto14.webp" alt="Slide 14" class="slider_2_foto_14">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto15.jpg" alt="Slide 15" class="slider_2_foto_14">
+                            <img src="../img/homepage/slider2/slider2_foto15.webp" alt="Slide 15" class="slider_2_foto_14">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto16.jpg" alt="Slide 16" class="slider_2_foto_14">
+                            <img src="../img/homepage/slider2/slider2_foto16.webp" alt="Slide 16" class="slider_2_foto_14">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto17.jpg" alt="Slide 17" class="slider_2_foto_14">
+                            <img src="../img/homepage/slider2/slider2_foto17.webp" alt="Slide 17" class="slider_2_foto_14">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto18.jpg" alt="Slide 18" class="slider_2_foto_14">
+                            <img src="../img/homepage/slider2/slider2_foto18.webp" alt="Slide 18" class="slider_2_foto_14">
                         </div>
                     </div>
                     <button type="button" class="custom-prev">

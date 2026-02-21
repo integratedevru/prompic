@@ -26,13 +26,13 @@
                 <div class="stage_section_container">
                     <ul class="car_icon_list">
                         <li class="car_icon_item">
-                            <img src="../img/dostavka_i_oplata/car_icon1.png" alt="" class="car_icon1">
+                            <img src="../img/dostavka_i_oplata/car_icon1.webp" alt="" class="car_icon1">
                         </li>
                         <li class="car_icon_item">
-                            <img src="../img/dostavka_i_oplata/car_icon2.png" alt="" class="car_icon2">
+                            <img src="../img/dostavka_i_oplata/car_icon2.webp" alt="" class="car_icon2">
                         </li>
                         <li class="car_icon_item">
-                            <img src="../img/dostavka_i_oplata/car_icon3.png" alt="" class="car_icon3">
+                            <img src="../img/dostavka_i_oplata/car_icon3.webp" alt="" class="car_icon3">
                         </li>
                     </ul>
                 </div>
@@ -47,25 +47,25 @@
                 <div class="homepage_slider_4_container">
                     <div class="dostavka_slider">
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto16.jpg" alt="Slide 16" class="slider_2_foto_14">
+                            <img src="../img/homepage/slider2/slider2_foto16.webp" alt="Slide 16" class="slider_2_foto_14">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto17.jpg" alt="Slide 17" class="slider_2_foto_14">
+                            <img src="../img/homepage/slider2/slider2_foto17.webp" alt="Slide 17" class="slider_2_foto_14">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto18.jpg" alt="Slide 18" class="slider_2_foto_14">
+                            <img src="../img/homepage/slider2/slider2_foto18.webp" alt="Slide 18" class="slider_2_foto_14">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto1.jpg" alt="Slide 1" class="slider_2_foto_1">
+                            <img src="../img/homepage/slider2/slider2_foto1.webp" alt="Slide 1" class="slider_2_foto_1">
                         </div>
                         <div>
-                            <img src="../img/homepage/slider2/slider2_foto2.jpg" alt="Slide 2" class="slider_2_foto_2">
+                            <img src="../img/homepage/slider2/slider2_foto2.webp" alt="Slide 2" class="slider_2_foto_2">
                         </div>
 <div>
-                            <img src="../img/homepage/slider2/slider2_foto5.jpg" alt="Slide 5" class="slider_2_foto_5">
+                            <img src="../img/homepage/slider2/slider2_foto5.webp" alt="Slide 5" class="slider_2_foto_5">
                         </div>
 <div>
-                            <img src="../img/homepage/slider2/slider2_foto11.jpg" alt="Slide 11" class="slider_2_foto_11">
+                            <img src="../img/homepage/slider2/slider2_foto11.webp" alt="Slide 11" class="slider_2_foto_11">
                         </div>
 </div>
                     <button type="button" class="dostavka-custom-prev">
@@ -106,19 +106,19 @@
                 <div class="stage_section_container">
                     <ul class="stage_project_list">
 <li class="stage_project_point stage_project_point1">
-<img src="../img/stages/stage2_icon_3.png" alt="" class="stage_project_point_photo stage_project_point_photo2">
+<img src="../img/stages/stage2_icon_3.webp" alt="" class="stage_project_point_photo stage_project_point_photo2">
                             <p class="stage_project_point_text stage_project_point_text1">
 После подписания договора вы оплачиваете 50% стоимости работ.
                             </p>
                         </li>
                         <li class="stage_project_point stage_project_point2">
-<img src="../img/stages/stage3_icon_3.png" alt="" class="stage_project_point_photo stage_project_point_photo3">
+<img src="../img/stages/stage3_icon_3.webp" alt="" class="stage_project_point_photo stage_project_point_photo3">
                             <p class="stage_project_point_text stage_project_point_text2">
 Доставляем строительные материалы и свою бригаду к вам на участок, и приступаем к строительству
                             </p>
 </li>
                         <li class="stage_project_point stage_project_point3">
-<img src="../img/stages/stage4_icon_4.png" alt="" class="stage_project_point_photo stage_project_point_photo4">
+<img src="../img/stages/stage4_icon_4.webp" alt="" class="stage_project_point_photo stage_project_point_photo4">
                             <p class="stage_project_point_text stage_project_point_text3">
 После окончания работ вы подписываете акт приёмки и оплачиваете остальные 50%
                             </p>

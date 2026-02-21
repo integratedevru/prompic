@@ -191,14 +191,14 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/doma/Dom01_1_1.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_1_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/doma/Dom01_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_1_1 houses_block_foto_active">
                                             <!-- <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 houses_block_foto_1_2"> -->
-                                            <img src="../img/page_catalog/doma/Dom01_2.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_1_2">
+                                            <img src="../img/page_catalog/doma/Dom01_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/doma/Dom01_1_1.jpeg" alt="" class="houses_block_foto_2 houses1_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom01_1_1.webp" alt="" class="houses_block_foto_2 houses1_button1 active_houses_block_foto">
                                             <!-- <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 houses1_button2 non_active_houses_block_foto"> -->
-                                            <img src="../img/page_catalog/doma/Dom01_2.jpeg" alt="" class="houses_block_foto_3 houses1_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom01_2.webp" alt="" class="houses_block_foto_3 houses1_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -240,12 +240,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/doma/Dom03_1_1.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom03_2.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_2_2">
+                                            <img src="../img/page_catalog/doma/Dom03_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_2_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/doma/Dom03_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/doma/Dom03_1_1.jpeg" alt="" class="houses_block_foto_2 houses2_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom03_2.jpeg" alt="" class="houses_block_foto_3 houses2_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom03_1_1.webp" alt="" class="houses_block_foto_2 houses2_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom03_2.webp" alt="" class="houses_block_foto_3 houses2_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -273,12 +273,12 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/doma/Dom08_1_1.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_3_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom08_2.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_3_2">
+                                            <img src="../img/page_catalog/doma/Dom08_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_3_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/doma/Dom08_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_3_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/doma/Dom08_1_1.jpeg" alt="" class="houses_block_foto_2 houses3_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom08_2.jpeg" alt="" class="houses_block_foto_3 houses3_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom08_1_1.webp" alt="" class="houses_block_foto_2 houses3_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom08_2.webp" alt="" class="houses_block_foto_3 houses3_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -306,14 +306,14 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/doma/Dom24_1_1.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_4_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom24_2.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_4_2">
-                                            <img src="../img/page_catalog/doma/Dom24_3.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_4_3">
+                                            <img src="../img/page_catalog/doma/Dom24_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_4_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/doma/Dom24_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_4_2">
+                                            <img src="../img/page_catalog/doma/Dom24_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_4_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/doma/Dom24_1_1.jpeg" alt="" class="houses_block_foto_2 houses4_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom24_2.jpeg" alt="" class="houses_block_foto_3 houses4_button2 non_active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom24_3.jpeg" alt="" class="houses_block_foto_3 houses4_button3 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom24_1_1.webp" alt="" class="houses_block_foto_2 houses4_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom24_2.webp" alt="" class="houses_block_foto_3 houses4_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom24_3.webp" alt="" class="houses_block_foto_3 houses4_button3 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -341,14 +341,14 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/doma/Dom26_1_1.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_5_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom26_2.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_5_2">
-                                            <img src="../img/page_catalog/doma/Dom26_3.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_5_3">
+                                            <img src="../img/page_catalog/doma/Dom26_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_5_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/doma/Dom26_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_5_2">
+                                            <img src="../img/page_catalog/doma/Dom26_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_5_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/doma/Dom26_1_1.jpeg" alt="" class="houses_block_foto_2 houses5_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom26_2.jpeg" alt="" class="houses_block_foto_3 houses5_button2 non_active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom26_3.jpeg" alt="" class="houses_block_foto_3 houses5_button3 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom26_1_1.webp" alt="" class="houses_block_foto_2 houses5_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom26_2.webp" alt="" class="houses_block_foto_3 houses5_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom26_3.webp" alt="" class="houses_block_foto_3 houses5_button3 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -376,14 +376,14 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/doma/Dom29_1_1.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_6_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom29_2.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_6_2">
-                                            <img src="../img/page_catalog/doma/Dom29_3.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_6_3">
+                                            <img src="../img/page_catalog/doma/Dom29_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_6_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/doma/Dom29_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_6_2">
+                                            <img src="../img/page_catalog/doma/Dom29_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_6_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/doma/Dom29_1_1.jpeg" alt="" class="houses_block_foto_2 houses6_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom29_2.jpeg" alt="" class="houses_block_foto_3 houses6_button2 non_active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom29_3.jpeg" alt="" class="houses_block_foto_3 houses6_button3 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom29_1_1.webp" alt="" class="houses_block_foto_2 houses6_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom29_2.webp" alt="" class="houses_block_foto_3 houses6_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom29_3.webp" alt="" class="houses_block_foto_3 houses6_button3 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -411,14 +411,14 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/doma/Dom30_1_1.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_7_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom30_2.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_7_2">
-                                            <img src="../img/page_catalog/doma/Dom30_3.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_7_3">
+                                            <img src="../img/page_catalog/doma/Dom30_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_7_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/doma/Dom30_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_7_2">
+                                            <img src="../img/page_catalog/doma/Dom30_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_7_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/doma/Dom30_1_1.jpeg" alt="" class="houses_block_foto_2 houses7_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom30_2.jpeg" alt="" class="houses_block_foto_3 houses7_button2 non_active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom30_3.jpeg" alt="" class="houses_block_foto_3 houses7_button3 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom30_1_1.webp" alt="" class="houses_block_foto_2 houses7_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom30_2.webp" alt="" class="houses_block_foto_3 houses7_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom30_3.webp" alt="" class="houses_block_foto_3 houses7_button3 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -446,14 +446,14 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/doma/Dom31_1_1.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_8_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom31_2.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_8_2">
-                                            <img src="../img/page_catalog/doma/Dom31_3.jpeg" alt="" class="houses_block_foto_1 houses_block_foto_8_3">
+                                            <img src="../img/page_catalog/doma/Dom31_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_8_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/doma/Dom31_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_8_2">
+                                            <img src="../img/page_catalog/doma/Dom31_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_8_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/doma/Dom31_1_1.jpeg" alt="" class="houses_block_foto_2 houses8_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom31_2.jpeg" alt="" class="houses_block_foto_3 houses8_button2 non_active_houses_block_foto">
-                                            <img src="../img/page_catalog/doma/Dom31_3.jpeg" alt="" class="houses_block_foto_3 houses8_button3 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom31_1_1.webp" alt="" class="houses_block_foto_2 houses8_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom31_2.webp" alt="" class="houses_block_foto_3 houses8_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/doma/Dom31_3.webp" alt="" class="houses_block_foto_3 houses8_button3 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -487,11 +487,11 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_bath1.jpg" alt="" class="houses_block_foto_1 baths_block_foto_1_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_1 baths_block_foto_1_1 houses_block_foto_active">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 baths_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_bath1.jpg" alt="" class="houses_block_foto_2 baths1_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_2 baths1_button1 active_houses_block_foto">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 baths1_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
@@ -518,11 +518,11 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_bath1.jpg" alt="" class="houses_block_foto_1 baths_block_foto_2_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_1 baths_block_foto_2_1 houses_block_foto_active">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 baths_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_bath1.jpg" alt="" class="houses_block_foto_2 baths2_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_2 baths2_button1 active_houses_block_foto">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 baths2_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
@@ -553,11 +553,11 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_maf1.jpg" alt="" class="houses_block_foto_1 maf_block_foto_1_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/catalog_maf1.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_1 houses_block_foto_active">
                                             <img src="../img/page_catalog/catalog_maf1_planirovka.svg" alt="" class="houses_block_foto_1 maf_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_maf1.jpg" alt="" class="houses_block_foto_2 maf1_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/catalog_maf1.webp" alt="" class="houses_block_foto_2 maf1_button1 active_houses_block_foto">
                                             <img src="../img/page_catalog/catalog_maf1_planirovka.svg" alt="" class="houses_block_foto_3 maf1_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
@@ -584,11 +584,11 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_maf1.jpg" alt="" class="houses_block_foto_1 maf_block_foto_2_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/catalog_maf1.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_1 houses_block_foto_active">
                                             <img src="../img/page_catalog/catalog_maf1_planirovka.svg" alt="" class="houses_block_foto_1 maf_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_maf1.jpg" alt="" class="houses_block_foto_2 maf2_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/catalog_maf1.webp" alt="" class="houses_block_foto_2 maf2_button1 active_houses_block_foto">
                                             <img src="../img/page_catalog/catalog_maf1_planirovka.svg" alt="" class="houses_block_foto_3 maf2_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
@@ -654,12 +654,12 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/bani/Bania01_1_1.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_1_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania01_2.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_1_2">
+                                            <img src="../img/page_catalog/bani/Bania01_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_1_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/bani/Bania01_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog//bani/Bania01_1_1.jpeg" alt="" class="houses_block_foto_2 baths1_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/bani/Bania01_2.jpeg" alt="" class="houses_block_foto_3 baths1_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog//bani/Bania01_1_1.webp" alt="" class="houses_block_foto_2 baths1_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania01_2.webp" alt="" class="houses_block_foto_3 baths1_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -693,12 +693,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/bani/Bania02_1_1.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania02_2.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_2_2">
+                                            <img src="../img/page_catalog/bani/Bania02_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_2_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/bani/Bania02_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/bani/Bania02_1_1.jpeg" alt="" class="houses_block_foto_2 baths2_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/bani/Bania02_2.jpeg" alt="" class="houses_block_foto_3 baths2_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania02_1_1.webp" alt="" class="houses_block_foto_2 baths2_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania02_2.webp" alt="" class="houses_block_foto_3 baths2_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -726,12 +726,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/bani/Bania03_1_1.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_3_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania03_2.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_3_2">
+                                            <img src="../img/page_catalog/bani/Bania03_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_3_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/bani/Bania03_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_3_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/bani/Bania03_1_1.jpeg" alt="" class="houses_block_foto_2 baths3_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/bani/Bania03_2.jpeg" alt="" class="houses_block_foto_3 baths3_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania03_1_1.webp" alt="" class="houses_block_foto_2 baths3_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania03_2.webp" alt="" class="houses_block_foto_3 baths3_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -759,12 +759,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/bani/Bania04_1_1.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_4_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania04_2.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_4_2">
+                                            <img src="../img/page_catalog/bani/Bania04_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_4_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/bani/Bania04_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_4_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/bani/Bania04_1_1.jpeg" alt="" class="houses_block_foto_2 baths4_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/bani/Bania04_2.jpeg" alt="" class="houses_block_foto_3 baths4_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania04_1_1.webp" alt="" class="houses_block_foto_2 baths4_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania04_2.webp" alt="" class="houses_block_foto_3 baths4_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -792,12 +792,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/bani/Bania05_1_1.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_5_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania05_2.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_5_2">
+                                            <img src="../img/page_catalog/bani/Bania05_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_5_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/bani/Bania05_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_5_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/bani/Bania05_1_1.jpeg" alt="" class="houses_block_foto_2 baths5_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/bani/Bania05_2.jpeg" alt="" class="houses_block_foto_3 baths5_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania05_1_1.webp" alt="" class="houses_block_foto_2 baths5_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania05_2.webp" alt="" class="houses_block_foto_3 baths5_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -825,12 +825,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/bani/Bania06_1_1.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_6_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania06_2.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_6_2">
+                                            <img src="../img/page_catalog/bani/Bania06_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_6_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/bani/Bania06_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_6_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/bani/Bania06_1_1.jpeg" alt="" class="houses_block_foto_2 baths6_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/bani/Bania06_2.jpeg" alt="" class="houses_block_foto_3 baths6_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania06_1_1.webp" alt="" class="houses_block_foto_2 baths6_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania06_2.webp" alt="" class="houses_block_foto_3 baths6_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -858,12 +858,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/bani/Bania07_1_1.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_7_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania07_2.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_7_2">
+                                            <img src="../img/page_catalog/bani/Bania07_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_7_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/bani/Bania07_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_7_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/bani/Bania07_1_1.jpeg" alt="" class="houses_block_foto_2 baths7_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/bani/Bania07_2.jpeg" alt="" class="houses_block_foto_3 baths7_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania07_1_1.webp" alt="" class="houses_block_foto_2 baths7_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania07_2.webp" alt="" class="houses_block_foto_3 baths7_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -891,14 +891,14 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/bani/Bania08_1_1.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_8_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania08_2.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_8_2">
-                                            <img src="../img/page_catalog/bani/Bania08_3.jpeg" alt="" class="houses_block_foto_1 baths_block_foto_8_3">
+                                            <img src="../img/page_catalog/bani/Bania08_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_8_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/bani/Bania08_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_8_2">
+                                            <img src="../img/page_catalog/bani/Bania08_3.webp" alt="" class="houses_block_foto_1 baths_block_foto_8_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/bani/Bania08_1_1.jpeg" alt="" class="houses_block_foto_2 baths8_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/bani/Bania08_2.jpeg" alt="" class="houses_block_foto_3 baths8_button2 non_active_houses_block_foto">
-                                            <img src="../img/page_catalog/bani/Bania08_3.jpeg" alt="" class="houses_block_foto_3 baths8_button3 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania08_1_1.webp" alt="" class="houses_block_foto_2 baths8_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania08_2.webp" alt="" class="houses_block_foto_3 baths8_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/bani/Bania08_3.webp" alt="" class="houses_block_foto_3 baths8_button3 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -958,11 +958,11 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_house1.jpg" alt="" class="houses_block_foto_1 houses_block_foto_1_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/catalog_house1.webp" alt="" class="houses_block_foto_1 houses_block_foto_1_1 houses_block_foto_active">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 houses_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_house1.jpg" alt="" class="houses_block_foto_2 houses1_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/catalog_house1.webp" alt="" class="houses_block_foto_2 houses1_button1 active_houses_block_foto">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 houses1_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
@@ -991,11 +991,11 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_house1.jpg" alt="" class="houses_block_foto_1 houses_block_foto_2_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/catalog_house1.webp" alt="" class="houses_block_foto_1 houses_block_foto_2_1 houses_block_foto_active">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 houses_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_house1.jpg" alt="" class="houses_block_foto_2 houses2_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/catalog_house1.webp" alt="" class="houses_block_foto_2 houses2_button1 active_houses_block_foto">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 houses2_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
@@ -1028,11 +1028,11 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_bath1.jpg" alt="" class="houses_block_foto_1 baths_block_foto_1_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_1 baths_block_foto_1_1 houses_block_foto_active">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 baths_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_bath1.jpg" alt="" class="houses_block_foto_2 baths1_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_2 baths1_button1 active_houses_block_foto">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 baths1_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
@@ -1059,11 +1059,11 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_bath1.jpg" alt="" class="houses_block_foto_1 baths_block_foto_2_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_1 baths_block_foto_2_1 houses_block_foto_active">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 baths_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_bath1.jpg" alt="" class="houses_block_foto_2 baths2_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_2 baths2_button1 active_houses_block_foto">
                                             <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 baths2_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
@@ -1094,12 +1094,12 @@
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/maf/Besedka01_1_1.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_1_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka01_2.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_1_2">
+                                            <img src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/maf/Besedka01_1_1.jpeg" alt="" class="houses_block_foto_2 maf1_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/maf/Besedka01_2.jpeg" alt="" class="houses_block_foto_3 maf1_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_2 maf1_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_3 maf1_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -1125,12 +1125,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/maf/Besedka02_1_1.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka02_2.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_2_2">
+                                            <img src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/maf/Besedka02_1_1.jpeg" alt="" class="houses_block_foto_2 maf2_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/maf/Besedka02_2.jpeg" alt="" class="houses_block_foto_3 maf2_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_2 maf2_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_3 maf2_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -1155,12 +1155,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/maf/Besedka03_1_1.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_3_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka03_2.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_3_2">
+                                            <img src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_3_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_3_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/maf/Besedka03_1_1.jpeg" alt="" class="houses_block_foto_2 maf3_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/maf/Besedka03_2.jpeg" alt="" class="houses_block_foto_3 maf3_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_2 maf3_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_3 maf3_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -1185,12 +1185,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/maf/Besedka04_1_1.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_4_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka04_2.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_4_2">
+                                            <img src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_4_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_4_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/maf/Besedka04_1_1.jpeg" alt="" class="houses_block_foto_2 maf4_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/maf/Besedka04_2.jpeg" alt="" class="houses_block_foto_3 maf4_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_2 maf4_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_3 maf4_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -1215,12 +1215,12 @@
                                 <li class="houses_block_list_point houses_block_list_point2">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/maf/Besedka05_1_1.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_5_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka05_2.jpeg" alt="" class="houses_block_foto_1 maf_block_foto_5_2">
+                                            <img src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_5_1 houses_block_foto_active">
+                                            <img src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_5_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/maf/Besedka05_1_1.jpeg" alt="" class="houses_block_foto_2 maf5_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/maf/Besedka05_2.jpeg" alt="" class="houses_block_foto_3 maf5_button2 non_active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_2 maf5_button1 active_houses_block_foto">
+                                            <img src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_3 maf5_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
@@ -1325,7 +1325,7 @@
             </div>
             <div class="footer_block_three_section_two">
                 <a href="#">
-                    <img class="footer_logo_metasystems" src="../icons/footer/logo_metasystems.png" alt="">
+                    <img class="footer_logo_metasystems" src="../icons/footer/logo_metasystems.webp" alt="">
                 </a>
                 <div class="footer_block_three_is_made">
                     <p class="footer_block_three_is_made_text">

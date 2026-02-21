@@ -4,8 +4,8 @@
                     <section class="before_after">
                         <div class="before_after_block1">
                             <div class="before_after_block1_foto">
-                                <img src="../img/page_products/brevno_do.png" alt="" class="before_after_brevno_do">
-                                <img src="../img/page_products/brevno_posle.png" alt="" class="before_after_brevno_posle">
+                                <img src="../img/page_products/brevno_do.webp" alt="" class="before_after_brevno_do">
+                                <img src="../img/page_products/brevno_posle.webp" alt="" class="before_after_brevno_posle">
                             </div>
                             <div class="before_after_block1_text_container">
                                 <h2 class="before_after_block1_heading">Производим бревна высокого качества по собственной ноу хау технологии</h2>
@@ -36,7 +36,7 @@
                 <div class="products_component_container2">
                     <section class="type_of_brevno">
                         <div class="card_ocilindrovannoe_brevno">
-                            <img src="../img/page_products/ocilindrovannoe_brevno.png" alt="" class="card_ocilindrovannoe_brevno_img">
+                            <img src="../img/page_products/ocilindrovannoe_brevno.webp" alt="" class="card_ocilindrovannoe_brevno_img">
                             <div class="card_ocilindrovannoe_brevno_text_container">
                                 <div class="card_ocilindrovannoe_brevno_text">
                                     <h3 class="card_ocilindrovannoe_brevno_heading">Оцилиндрованное бревно</h3>
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="card_okoryonnoe_brevno">
-                            <img src="../img/page_products/okoryonnoe_brevno.png" alt="" class="card_okoryonnoe_brevno_img">
+                            <img src="../img/page_products/okoryonnoe_brevno.webp" alt="" class="card_okoryonnoe_brevno_img">
                             <div class="card_okoryonnoe_brevno_text_container">
                                 <div class="card_okoryonnoe_brevno_text">
                                     <h3 class="card_okoryonnoe_brevno_heading">Строганное бревно</h3>

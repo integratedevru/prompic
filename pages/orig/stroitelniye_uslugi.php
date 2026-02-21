@@ -5,7 +5,7 @@
                         <ul class="stroitelniye_uslugi_domokomplekt_list">
                             <li class="stroitelniye_uslugi_domokomplekt_list_point">
                                 <div class="stroitelniye_uslugi_domokomplekt_list_img_link">
-                                    <img src="../img/page_stroitelniye_uslugi/domokomplekt2.jpg" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
+                                    <img src="../img/page_stroitelniye_uslugi/domokomplekt2.webp" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
                                 </div>
 <div class="stroitelniye_uslugi_domokomplekt_domokomplekt">
                                     <h3 class="stroitelniye_uslugi_domokomplekt_domokomplekt_heading">Домокомплект</h3>
@@ -23,7 +23,7 @@
                             </li>
                             <li class="stroitelniye_uslugi_domokomplekt_list_point">
                                 <div class="stroitelniye_uslugi_domokomplekt_list_img_link">
-                                    <img src="../img/page_stroitelniye_uslugi/pod_krishu.jpg" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
+                                    <img src="../img/page_stroitelniye_uslugi/pod_krishu.webp" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
                                 </div>
                                 <div class="stroitelniye_uslugi_domokomplekt_pod_krishu">
                                     <h3 class="stroitelniye_uslugi_domokomplekt_pod_krishu_heading">Строительство под крышу</h3>
@@ -41,7 +41,7 @@
                             </li>
                             <li class="stroitelniye_uslugi_domokomplekt_list_point">
                                 <div class="stroitelniye_uslugi_domokomplekt_list_img_link">
-                                    <img src="../img/page_stroitelniye_uslugi/pod_kluch2.jpg" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
+                                    <img src="../img/page_stroitelniye_uslugi/pod_kluch2.webp" class="stroitelniye_uslugi_domokomplekt_list_img" alt="">
                                 </div>
                                 <div class="stroitelniye_uslugi_domokomplekt_pod_kluch">
                                     <h3 class="stroitelniye_uslugi_domokomplekt_pod_kluch_heading">Строительство под ключ</h3>
@@ -71,103 +71,103 @@
                 <div class="homepage_slider_3_container">
 <div class="stroitelniye_uslugi_slider">
 <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto1.jpg" alt="Slide 1" class="slider_3_foto_1">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto1.webp" alt="Slide 1" class="slider_3_foto_1">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto2.jpg" alt="Slide 2" class="slider_3_foto_2">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto2.webp" alt="Slide 2" class="slider_3_foto_2">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto3.jpg" alt="Slide 3" class="slider_3_foto_3">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto3.webp" alt="Slide 3" class="slider_3_foto_3">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto4.jpg" alt="Slide 4" class="slider_3_foto_4">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto4.webp" alt="Slide 4" class="slider_3_foto_4">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto5.jpg" alt="Slide 5" class="slider_3_foto_5">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto5.webp" alt="Slide 5" class="slider_3_foto_5">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto6.jpg" alt="Slide 6" class="slider_3_foto_6">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto6.webp" alt="Slide 6" class="slider_3_foto_6">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto7.jpg" alt="Slide 7" class="slider_3_foto_7">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto7.webp" alt="Slide 7" class="slider_3_foto_7">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto8.jpg" alt="Slide 8" class="slider_3_foto_8">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto8.webp" alt="Slide 8" class="slider_3_foto_8">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto9.jpg" alt="Slide 9" class="slider_3_foto_9">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto9.webp" alt="Slide 9" class="slider_3_foto_9">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto10.jpg" alt="Slide 10" class="slider_3_foto_10">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto10.webp" alt="Slide 10" class="slider_3_foto_10">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto11.jpg" alt="Slide 11" class="slider_3_foto_11">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto11.webp" alt="Slide 11" class="slider_3_foto_11">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto12.jpg" alt="Slide 12" class="slider_3_foto_12">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto12.webp" alt="Slide 12" class="slider_3_foto_12">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto13.jpg" alt="Slide 13" class="slider_3_foto_13">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto13.webp" alt="Slide 13" class="slider_3_foto_13">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto14.jpg" alt="Slide 14" class="slider_3_foto_14">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto14.webp" alt="Slide 14" class="slider_3_foto_14">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto15.jpg" alt="Slide 15" class="slider_3_foto_15">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto15.webp" alt="Slide 15" class="slider_3_foto_15">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto16.jpg" alt="Slide 16" class="slider_3_foto_16">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto16.webp" alt="Slide 16" class="slider_3_foto_16">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto17.jpg" alt="Slide 17" class="slider_3_foto_17">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto17.webp" alt="Slide 17" class="slider_3_foto_17">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto18.jpg" alt="Slide 18" class="slider_3_foto_18">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto18.webp" alt="Slide 18" class="slider_3_foto_18">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto19.jpg" alt="Slide 19" class="slider_3_foto_19">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto19.webp" alt="Slide 19" class="slider_3_foto_19">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto20.jpg" alt="Slide 20" class="slider_3_foto_20">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto20.webp" alt="Slide 20" class="slider_3_foto_20">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto21.jpg" alt="Slide 21" class="slider_3_foto_21">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto21.webp" alt="Slide 21" class="slider_3_foto_21">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto22.jpg" alt="Slide 22" class="slider_3_foto_22">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto22.webp" alt="Slide 22" class="slider_3_foto_22">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto23.jpg" alt="Slide 23" class="slider_3_foto_23">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto23.webp" alt="Slide 23" class="slider_3_foto_23">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto24.jpg" alt="Slide 24" class="slider_3_foto_24">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto24.webp" alt="Slide 24" class="slider_3_foto_24">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto25.jpg" alt="Slide 25" class="slider_3_foto_25">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto25.webp" alt="Slide 25" class="slider_3_foto_25">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto26.jpg" alt="Slide 26" class="slider_3_foto_26">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto26.webp" alt="Slide 26" class="slider_3_foto_26">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto27.jpg" alt="Slide 27" class="slider_3_foto_27">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto27.webp" alt="Slide 27" class="slider_3_foto_27">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto28.jpg" alt="Slide 28" class="slider_3_foto_28">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto28.webp" alt="Slide 28" class="slider_3_foto_28">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto29.jpg" alt="Slide 29" class="slider_3_foto_28">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto29.webp" alt="Slide 29" class="slider_3_foto_28">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto30.jpg" alt="Slide 30" class="slider_3_foto_28">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto30.webp" alt="Slide 30" class="slider_3_foto_28">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto31.jpg" alt="Slide 31" class="slider_3_foto_28">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto31.webp" alt="Slide 31" class="slider_3_foto_28">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto32.jpg" alt="Slide 32" class="slider_3_foto_28">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto32.webp" alt="Slide 32" class="slider_3_foto_28">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto33.jpg" alt="Slide 33" class="slider_3_foto_28">
+                            <img src="../img/proizvodstvo/slider3/slider3_foto33.webp" alt="Slide 33" class="slider_3_foto_28">
                         </div>
                     </div>
                     <button type="button" class="uslugi-custom-prev">
