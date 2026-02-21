@@ -1741,69 +1741,6 @@
 }
 
 @media (max-width: 1440px) {
-    .gallery_block2_img_container_1 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .block2_img_1,
-    .block2_img_2 {
-        width: 362px;
-        height: 254px;
-    }
-    .block1_img_1_1,
-    .block1_img_1_2,
-    .block1_img_3_1,
-    .block1_img_3_2 {
-        width: 362px;
-        height: 254px;
-    }
-    .gallery_block2_img_container_1 {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .img_block2_photo1 {
-        display: flex;
-        align-items: flex-end;
-    }
-    .img_block2_photo2 {
-        display: flex;
-        align-items: flex-end;
-    }
-    .img_block1_line1_photo1, 
-    .img_block1_line1_photo2, 
-    .img_block1_line2_photo1,
-    .img_block1_line2_photo2,
-    .img_block1_line2_photo3,
-    .img_block1_line3_photo1,
-    .img_block1_line3_photo2 {
-        display: flex;
-        align-items: flex-end;
-    }
-    .gallery_block1_img_container_1,
-    .gallery_block1_img_container_2,
-    .gallery_block1_img_container_3 {
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .block1_img_1_1, .img_block1_line1_photo1 {
-        width: 362px;
-        height: 254px;
-    }
-    .block1_img_1_2, .img_block1_line1_photo2 {
-        width: 362px;
-        height: 254px;
-    }
-    .block1_img_3_1, .img_block1_line3_photo1 {
-        width: 362px;
-        height: 254px;
-    }
-    .block1_img_3_2,
-    .img_block1_line3_photo2 {
-        width: 362px;
-        height: 254px;
-    }
 }
 
 @media (max-width: 1420px) {
@@ -1820,12 +1757,6 @@
         
         padding-left: 40px;
         padding-right: 40px;
-    }
-    .gallery_block3_img_container_1 {
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-left: 20px;
-        padding-right: 20px;
     }
     .gallery_privare_container {
         min-width: 100%;
@@ -1887,34 +1818,11 @@
         font-size: 3.715vw;
         line-height: 123.077%;
     }
-    .gallery_section_temples_chapels_heading,
-    .gallery_section_commercial_buildings_heading,
-    .gallery_section_houses_baths_gazebos_heading {
-        font-size: 3vw;
-    }
 }
 
 @media (max-width: 1110px) {
     .gallery_under_heading_text {
         font-size: 1.7vw;
-    }
-}
-
-@media (max-width: 1035px) {
-    .gallery3_1_text,
-    .gallery3_2_text,
-    .gallery3_3_text,
-    .gallery2_1_text,
-    .gallery2_2_text,
-    .gallery1_1_1_text,
-    .gallery1_1_2_text,
-    .gallery1_2_1_text,
-    .gallery1_2_2_text,
-    .gallery1_2_3_text,
-    .gallery1_3_1_text,
-    .gallery1_3_2_text {
-        font-size: 17px;
-        line-height: 120%;
     }
 }
 
@@ -1946,11 +1854,6 @@
     .gallery_heading {
         font-size: 4vw;
     }
-    .gallery_section_temples_chapels_heading,
-    .gallery_section_commercial_buildings_heading,
-    .gallery_section_houses_baths_gazebos_heading {
-        font-size: 3.25vw;
-    }
 }
 
 @media (max-width: 740px) {
@@ -1966,9 +1869,6 @@
     }
     .project1_heading {
         font-size: 16px;
-    }
-    .gallery_section_commercial_buildings {
-        margin-top: 35px;
     }
     .private_life_text {
         font-size: 16px;
@@ -1997,42 +1897,7 @@
     .gallery_heading {
         margin-top: 30px;
     }
-    .gallery_section_temples_chapels,
-    .gallery_section_commercial_buildings {
-        margin-top: 35px;
-        margin-bottom: 16px;
-    }
-    .gallery_section_houses_baths_gazebos {
-        margin-top: 40px;
-    }
-    .gallery_block1_img_container {
-        margin-top: 16px;
-    }
-    .gallery_section_temples_chapels_heading,
-    .gallery_section_commercial_buildings_heading,
-    .gallery_section_houses_baths_gazebos_heading {
-        line-height: 120%;
-    }
-    .gallery3_1_text,
-    .gallery3_2_text,
-    .gallery3_3_text,
-    .gallery2_1_text,
-    .gallery2_2_text,
-    .gallery1_1_1_text,
-    .gallery1_1_2_text,
-    .gallery1_2_1_text,
-    .gallery1_2_2_text,
-    .gallery1_2_3_text,
-    .gallery1_3_1_text,
-    .gallery1_3_2_text {
-        font-size: 15px;
-    }
-    .gallery_block1_img_container {
-        margin-bottom: 40px;
-    }
-    .gallery_section_commercial_buildings_heading {
-        font-size: 20px;
-    }
+
     .private_life_container {
         margin-top: 20px;
     }
@@ -2064,17 +1929,8 @@
         margin-top: 16px;
         text-align: left;
     }
-    .gallery_section_temples_chapels_heading,
-    .gallery_section_commercial_buildings_heading,
-    .gallery_section_houses_baths_gazebos_heading {
-        
-        font-size: 17px;
-    }
     .gallery_under_heading_text {
         font-size: 15px;
-    }
-    .gallery_section_commercial_buildings {
-        margin-top: 31px;
     }
     .project1_heading {
         font-size: 15px;
@@ -2098,86 +1954,8 @@
 
 @media (max-width: 420px) {
     
-    .block3_img_1,
-    .block3_img_2,
-    .block3_img_3,
-    .block2_img_1,
-    .block2_img_2,
-    .block1_img_1_1,
-    .block1_img_1_2,
-    .block1_img_2_1,
-    .block1_img_2_2,
-    .block1_img_2_3,
-    .block1_img_3_1,
-    .block1_img_3_2 {
-        width: 283px;
-        height: 207px;
-    }
-    .overlay_gallery_width_3_1, 
-    .overlay_gallery_width_3_2, 
-    .overlay_gallery_width_3_3 {
-        width: 283px;
-        height: 207px;
-    }
-    .img_block3_photo1,
-    .img_block3_photo2,
-    .img_block3_photo3 {
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-    }
     .overlay_gallery {
         left: auto;
-    }
-    .block3_img_1, 
-    .img_block3_photo1 {
-        width: 283px;
-        height: 207px;
-    }
-    .block3_img_2, 
-    .img_block3_photo2 {
-        width: 283px;
-        height: 207px;
-    }
-    .block3_img_3, 
-    .img_block3_photo3 {
-        width: 283px;
-        height: 207px;
-    }
-    .block1_img_1_1, 
-    .img_block1_line1_photo1 {
-        width: 283px;
-        height: 207px;
-    }
-    .block1_img_1_2, 
-    .img_block1_line1_photo2 {
-        width: 283px;
-        height: 207px;
-    }
-    .block1_img_2_1, 
-    .img_block1_line2_photo1 {
-        width: 283px;
-        height: 207px;
-    }
-    .block1_img_2_2, 
-    .img_block1_line2_photo2 {
-        width: 283px;
-        height: 207px;
-    }
-    .block1_img_2_3, 
-    .img_block1_line2_photo3 {
-        width: 283px;
-        height: 207px;
-    }
-    .block1_img_3_1, 
-    .img_block1_line3_photo1 {
-        width: 283px;
-        height: 207px;
-    }
-    .block1_img_3_2, 
-    .img_block1_line3_photo2 {
-        width: 283px;
-        height: 207px;
     }
 }
 
@@ -2202,14 +1980,6 @@
 }
 
 @media (max-width: 340px) {
-    .gallery_block3_img_container_1,
-    .gallery_block2_img_container_1,
-    .gallery_block1_img_container_1,
-    .gallery_block1_img_container_2,
-    .gallery_block1_img_container_3 {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 }
 
 @media (max-width: 1450px) {
@@ -2949,34 +2719,7 @@
 }
 
 @media (max-width: 600px) {
-    .slider_3_foto_1,
-    .slider_3_foto_2,
-    .slider_3_foto_3,
-    .slider_3_foto_4,
-    .slider_3_foto_5,
-    .slider_3_foto_6,
-    .slider_3_foto_7,
-    .slider_3_foto_8,
-    .slider_3_foto_9,
-    .slider_3_foto_10,
-    .slider_3_foto_11,
-    .slider_3_foto_12,
-    .slider_3_foto_13,
-    .slider_3_foto_14,
-    .slider_3_foto_15,
-    .slider_3_foto_16,
-    .slider_3_foto_17,
-    .slider_3_foto_18,
-    .slider_3_foto_19,
-    .slider_3_foto_20,
-    .slider_3_foto_21,
-    .slider_3_foto_22,
-    .slider_3_foto_23,
-    .slider_3_foto_24,
-    .slider_3_foto_25,
-    .slider_3_foto_26,
-    .slider_3_foto_27,
-    .slider_3_foto_28 {
+    .stroitelniye_uslugi_slider img {
         
         height: 91px;
         

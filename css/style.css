@@ -403,16 +403,16 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 130%; /* 19.5px */
+    line-height: 130%;
     width: 252px;
     position: relative;
     padding-top: 34px;
     margin-top: 40px
 }
 .before_after_pluses_list_point::before {
-    content: url(/icons/page_products/check_mark2.webp);
+    content: url(/icons/page_products/check_mark3.svg);
     position: absolute;
-    left: 0; /* Позиционируем маркер слева от текста */
+    left: 0;
     top: 0;
 }
 .before_after_pluses_list_point_interval {
@@ -569,12 +569,6 @@
     display: flex;
     gap: 85px;
 }
-
-.footer_block_two_list {
-    
-    
-    
-}
 .footer_section {
     margin-left: 234px;
     display: flex;
@@ -680,9 +674,6 @@
     width: 2px;
     height: 15px;
     background-color: #618B7E;
-    
-    
-    
     transform: translate(-50%,-50%) rotate(45deg);
 }
 .window_close:after {
@@ -693,9 +684,6 @@
     width: 2px;
     height: 15px;
     background-color: #618B7E;
-    
-    
-    
     transform: translate(-50%,-50%) rotate(-45deg);
 }
 .window_close:hover {
@@ -835,9 +823,6 @@
 .stroitelniye_uslugi_domokomplekt_domokomplekt,
 .stroitelniye_uslugi_domokomplekt_pod_krishu,
 .stroitelniye_uslugi_domokomplekt_pod_kluch {
-    
-    
-    
     margin-top: -4px;
     padding-top: 16px;
     padding-bottom: 23px;
@@ -942,8 +927,6 @@
     margin-top: 70px;
 }
 .stroitelniye_uslugi_page_text_one_text {
-    
-    
     max-width: 978px;
     color: #43382F;
     font-size: 15px;
@@ -957,10 +940,6 @@
 .stroitelniye_uslugi_margintop_none {
     margin-top: 0 !important;
 }
-
-/* page stroitelniye_uslugi конец */
-
-/* homepage начало */
 
 .block_dostijeniy_one,
 .block_dostijeniy_two {
@@ -1081,29 +1060,7 @@
     margin-bottom: 26px;
     z-index: 3;
 }
-.gallery1_1_1_text,
-.gallery1_1_2_text,
-.gallery1_2_1_text,
-.gallery1_2_2_text,
-.gallery1_2_3_text,
-.gallery1_3_1_text,
-.gallery1_3_2_text,
-.gallery2_1_text,
-.gallery2_2_text,
-.gallery3_1_text,
-.gallery3_2_text,
-.gallery3_3_text {
-    position: absolute;
-    color: var(--White, #FFF);
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%; /* 31.2px */
-    z-index: 3;
-    margin-left: 24px;
-    margin-bottom: 26px;
-    bottom: 0;
-}
+
 .proecty_homepage {
     display: flex;
     
@@ -1167,39 +1124,7 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
     z-index: 2;
 }
-.overlay_gallery_width_1_1_1 {
-    width: 656px;
-    height: 120px;
-}
-.overlay_gallery_width_1_1_2 {
-    width: 460px;
-    height: 120px;
-}
-.overlay_gallery_width_1_2_1,
-.overlay_gallery_width_1_2_2,
-.overlay_gallery_width_1_2_3 {
-    width: 362px;
-    height: 120px;
-}
-.overlay_gallery_width_1_3_1,
-.overlay_gallery_width_1_3_2 {
-    width: 558px;
-    height: 120px;
-}
-.overlay_gallery_width_2_1 {
-    width: 508px;
-    height: 120px;
-}
-.overlay_gallery_width_2_2 {
-    width: 609px;
-    height: 120px;
-}
-.overlay_gallery_width_3_1,
-.overlay_gallery_width_3_2,
-.overlay_gallery_width_3_3 {
-    width: 362px;
-    height: 120px;
-}
+
 .proecty_homepage_baths_container,
 .proecty_homepage_gazebos_and_mafs_container {
     position: relative;
@@ -1571,153 +1496,6 @@
 .gallery_under_heading_text_700 {
     font-weight: 700;
     opacity: 0.9;
-}
-.gallery_section_houses_baths_gazebos_heading,
-.gallery_section_commercial_buildings_heading,
-.gallery_section_temples_chapels_heading {
-    color: var(--black, #000);
-    text-align: center;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px; /* 126.316% */
-}
-.gallery_block1_img_container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 30px;
-    margin-bottom: 65px;
-}
-.gallery_block1_img_container_1 {
-    display: flex;
-    gap: 30px;
-}
-.gallery_block1_img_container_2,
-.gallery_block1_img_container_3 {
-    display: flex;
-    gap: 30px;
-}
-.gallery_block1_img_container img,
-.gallery_block2_img_container img,
-.gallery_block3_img_container img {
-    transition: all 0.3s ease-in-out;
-}
-.gallery_block1_img_container img:hover,
-.gallery_block2_img_container img:hover,
-.gallery_block3_img_container img:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    opacity: .75;
-}
-.block1_img_1_1,
-.img_block1_line1_photo1 {
-    width: 656px;
-    height: 411px;
-    object-fit: cover;
-}
-.block1_img_1_2,
-.img_block1_line1_photo2 {
-    width: 460px;
-    height: 411px;
-    object-fit: cover;
-}
-.block1_img_2_1,
-.img_block1_line2_photo1 {
-    width: 362px;
-    height: 254px;
-    object-fit: cover;
-}
-.block1_img_2_2,
-.img_block1_line2_photo2 {
-    width: 362px;
-    height: 254px;
-    object-fit: cover;
-}
-.block1_img_2_3,
-.img_block1_line2_photo3 {
-    width: 362px;
-    height: 254px;
-    object-fit: cover;
-}
-.block1_img_3_1,
-.img_block1_line3_photo1 {
-    width: 558px;
-    height: 371px;
-    object-fit: cover;
-}
-.block1_img_3_2,
-.img_block1_line3_photo2 {
-    width: 558px;
-    height: 371px;
-    object-fit: cover;
-}
-.block2_img_1,
-.img_block2_photo1 {
-    max-width: 508px;
-    max-height: 371px;
-}
-.block2_img_2,
-.img_block2_photo2 {
-    max-width: 609px;
-    max-height: 371px;
-}
-.block3_img_1,
-.img_block3_photo1 {
-    
-    width: 362px;
-    height: 254px;
-    object-fit: cover;
-}
-.block3_img_2,
-.img_block3_photo2 {
-    
-    width: 362px;
-    height: 254px;
-    object-fit: cover;
-}
-.block3_img_3,
-.img_block3_photo3 {
-    
-    width: 362px;
-    height: 254px;
-    object-fit: cover;
-}
-.img_block1_line1_photo1,
-.img_block1_line1_photo2,
-.img_block1_line2_photo1,
-.img_block1_line2_photo2,
-.img_block1_line2_photo3,
-.img_block1_line3_photo1, 
-.img_block1_line3_photo2,
-.img_block2_photo1,
-.img_block2_photo2,
-.img_block3_photo1,
-.img_block3_photo2,
-.img_block3_photo3 {
-    overflow: hidden;
-    
-}
-.gallery_block2_img_container_1,
-.gallery_block3_img_container_1 {
-    display: flex;
-    gap: 30px;
-    margin-top: 30px;
-}
-.gallery_section_houses_baths_gazebos {
-    margin-top: 67px;
-}
-.gallery_section_temples_chapels {
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-.gallery_section_commercial_buildings {
-    
-    margin-top: 50px;
-    
-}
-.gallery_block3_img_container {
-    
 }
 .block_relative {
     position: relative;
@@ -2518,34 +2296,7 @@
     right: -29px;
     cursor: pointer;
 }
-.slider_3_foto_1,
-.slider_3_foto_2,
-.slider_3_foto_3,
-.slider_3_foto_4,
-.slider_3_foto_5,
-.slider_3_foto_6,
-.slider_3_foto_7,
-.slider_3_foto_8,
-.slider_3_foto_9,
-.slider_3_foto_10,
-.slider_3_foto_11,
-.slider_3_foto_12,
-.slider_3_foto_13,
-.slider_3_foto_14,
-.slider_3_foto_15,
-.slider_3_foto_16,
-.slider_3_foto_17,
-.slider_3_foto_18,
-.slider_3_foto_19,
-.slider_3_foto_20,
-.slider_3_foto_21,
-.slider_3_foto_22,
-.slider_3_foto_23,
-.slider_3_foto_24,
-.slider_3_foto_25,
-.slider_3_foto_26,
-.slider_3_foto_27,
-.slider_3_foto_28 {
+.stroitelniye_uslugi_slider img {
     height: 282px;
 }
 .homepage_slider_3 .slick-track {
@@ -2784,10 +2535,6 @@ figure {
     opacity: 0.25;
     z-index: 14;
 }
-
-/**/
-
-/* h2 */
 .common_section {
     display: flex;
     justify-content: center;
