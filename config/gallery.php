@@ -6,26 +6,10 @@ return [
         'title' => 'Производство',
         'thumbnail' => '../img/gallery2/gallery2_photo1.webp',
         'css_class' => '',
-        'images' => [
-            ['src' => '../img/homepage/slider2/slider2_foto9.webp', 'caption' => 'Производство оцилиндрованного бревна фото 1'],
-            ['src' => '../img/homepage/slider2/slider2_foto1.webp', 'caption' => 'Производство бревен фото 1'],
-            ['src' => '../img/homepage/slider2/slider2_foto2.webp', 'caption' => 'Производство бревен фото 2'],
-            ['src' => '../img/homepage/slider2/slider2_foto3.webp', 'caption' => 'Производство бревен фото 3'],
-            ['src' => '../img/homepage/slider2/slider2_foto4.webp', 'caption' => 'Дома из бревен производство фото 1'],
-            ['src' => '../img/homepage/slider2/slider2_foto5.webp', 'caption' => 'Дома из бревен производство фото 2'],
-            ['src' => '../img/homepage/slider2/slider2_foto6.webp', 'caption' => 'Производство оцилиндрованного бревна фото 2'],
-            ['src' => '../img/homepage/slider2/slider2_foto7.webp', 'caption' => 'Производство оцилиндрованного бревна фото 3'],
-            ['src' => '../img/homepage/slider2/slider2_foto8.webp', 'caption' => 'Производство домов из оцилиндрованного бревна фото 1'],
-            ['src' => '../img/homepage/slider2/slider2_foto9.webp', 'caption' => 'Производство срубов из оцилиндрованного бревна фото 1'],
-            ['src' => '../img/homepage/slider2/slider2_foto10.webp', 'caption' => 'Производство срубов фото 1'],
-            ['src' => '../img/homepage/slider2/slider2_foto11.webp', 'caption' => 'Производство домов из оцилиндрованного бревна фото 2'],
-            ['src' => '../img/homepage/slider2/slider2_foto12.webp', 'caption' => 'Производство срубов из оцилиндрованного бревна фото 2'],
-            ['src' => '../img/homepage/slider2/slider2_foto13.webp', 'caption' => 'Дома из бревен производство фото 3'],
-            ['src' => '../img/homepage/slider2/slider2_foto14.webp', 'caption' => 'Производство срубов фото 2'],
-            ['src' => '../img/homepage/slider2/slider2_foto15.webp', 'caption' => 'Производство домов из оцилиндрованного бревна фото 3'],
-            ['src' => '../img/homepage/slider2/slider2_foto16.webp', 'caption' => 'Производство срубов из оцилиндрованного бревна фото 3'],
-            ['src' => '../img/homepage/slider2/slider2_foto17.webp', 'caption' => 'Производство срубов фото 3'],
-        ],
+        'images' => array_map(fn($i) => [
+            'src' => sprintf('../img/gallery/production/production_%d.webp', $i),
+            'caption' => "Производство {$i}",
+        ], range(1, 17)),
     ],
     [
         'id' => 'gallery2',
@@ -47,9 +31,7 @@ return [
         'images' => array_map(fn($i) => [
             'src' => sprintf('../img/gallery/chastniye/Privat_%02d.webp', $i),
             'caption' => '',
-        ], array_merge(
-            [52], range(1, 30), range(32, 51), range(53, 73)
-        )),
+        ], range(1, 74)),
     ],
     [
         'id' => 'gallery4',
