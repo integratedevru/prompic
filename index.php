@@ -19,11 +19,19 @@
     $sharedPath = __DIR__ . '/pages/shared/' . $slug . '.php';
 
     if (file_exists($variantPath)) {
-        include $variantPath;
+        $pageContent = $variantPath;
     } elseif (file_exists($sharedPath)) {
-        include $sharedPath;
+        $pageContent = $sharedPath;
     } else {
         header("HTTP/1.0 404 Not Found");
-        include __DIR__ . '/pages/shared/error404.php';
+        $pageContent = __DIR__ . '/pages/shared/error404.php';
+        $slug = 'error404';
     }
+
+    // Set layout variables (pages can override $bodyClass)
+    $pageSlug = $slug;
+    $bodyClass = '';
+
+    // Render through layout
+    include __DIR__ . '/layouts/base.php';
 ?>

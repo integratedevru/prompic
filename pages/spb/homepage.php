@@ -1,48 +1,5 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../icons/favicon/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/node_modules/slick-carousel/slick/slick.css"/>
-    <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
-    <title>Купить сруб из бревна с установкой в Санкт-Петербурге и области</title>
-    <meta name="description" content="Строительство срубов из бревна в Санкт-Петербурге и области. Изготовление срубов от производителя под ключ. Комфортные цены, большой опыт ☎+7(911)3974773">
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=<?= htmlspecialchars($_ENV['RECAPTCHA_SITE_KEY']) ?>"></script>
-    <!-- Yandex.Metrika counter -->
-    <!-- <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(93882072, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/93882072" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
-    <!-- /Yandex.Metrika counter -->
-</head>
-    <body class="homepage_body">
-        <aside class="aside_sidebar">
-            <?php
-                include 'components/sidebar.php';        
-            ?>
-        </aside>
-        <header class="header_adaptive">
-            <?php
-                include 'components/header_adaptive.php';        
-            ?>
-        </header>
-        <main class="main_section">
-            <section class="homepage_slider_one">
+<?php $bodyClass = "homepage_body"; ?>
+<section class="homepage_slider_one">
                 <div class="homepage_slider_one_component">    
                     <div class="slider_1_container">
                         <div class="slider_1_img_container">
@@ -75,32 +32,6 @@
                 </div>
             </section>
 
-            <!-- <section class="">
-                <div class="">    
-                    <div class="slider_1_container">
-                        <div class="">
-                            <img src="../img/homepage/slider1/slider1_foto1.jpg" alt="Slide 1" class="slider_1_foto_1">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider1/slider1_foto2.jpg" alt="Slide 2" class="slider_1_foto_2">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider1/slider1_foto3.jpg" alt="Slide 3" class="slider_1_foto_3">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider1/slider1_foto4.jpg" alt="Slide 4" class="slider_1_foto_4">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider1/slider1_foto5.jpg" alt="Slide 5" class="slider_1_foto_5">
-                        </div>
-                        <div>
-                            <img src="../img/homepage/slider1/slider1_foto6.jpg" alt="Slide 6" class="slider_1_foto_6">
-                        </div>
-                    </div>
-                    <h1 class="slider_1_heading">Производство срубов, строительство деревянных домов, бань, беседок по Псковской области</h1>
-                </div>
-            </section> -->
-            
             <section class="block_dostijeniy">
                 <div class="block_dostijeniy_container">
                     <div class="let_na_rynke">
@@ -593,76 +524,10 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- <div class="o_companii_karta_block2"> -->
-                        <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7ed1e0d1ebb325125dd8846bab269e8e62b2ffabef505d56bfcfc1687da7ed6a&amp;source=constructor" width="649" height="505" frameborder="0"></iframe> -->
-                        <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7ed1e0d1ebb325125dd8846bab269e8e62b2ffabef505d56bfcfc1687da7ed6a&amp;source=constructor" width="100%" height="509" frameborder="0" class="o_companii_karta_container_iframe"></iframe> -->
-                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8a4043756c8194b6ced9599f7f826ac231a1de192e59de7e4960a4c68849042e&amp;source=constructor" width="100%" height="509" frameborder="0" class="o_companii_karta_container_iframe"></iframe>
-                        <!-- </div> -->
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8a4043756c8194b6ced9599f7f826ac231a1de192e59de7e4960a4c68849042e&amp;source=constructor" width="100%" height="509" frameborder="0" class="o_companii_karta_container_iframe"></iframe>
                     </div>
                 </div>
             </section>
-
-            <!-- ниже - блок с формой отправки данных со страницы лендинга -->
-            <!-- <section class="common_section">
-                <div class="common_section_container2">
-                    <div class="form_zayavka">
-                        
-                        <div class="form_zayavka_container1">
-                        <div class="popup_order_call_left mar_lef_mar_top1">
-                            <p class="popup_order_call_left_h2 popup_order_call_left_h2_2">Заявка <br>на расчет проекта</p>
-                            <p class="popup_order_call_left_p popup_order_call_left_p_2">Отправьте свои контактные данные, и мы свяжемся с вами в ближайшее время</p>
-                        </div>
-                        <div class="popup_order_call_right">
-                            <form
-                                id="form1" 
-                                action="/handlers/send_email1.php"
-                                class="order_call_form order_call_form_mt" 
-                                method="POST" 
-                                name="send_email
-                            ">
-                                <p class="popup_order_call_right_text text_bottom1">
-                                    <label for="phone" class="order_call_form_label">Имя</label>
-                                    <input type="text" name="name" id="name" autocomplete="on" required class="order_call_form_input form_zayavka_input">
-                                </p>
-                                <p class="popup_order_call_right_text text_bottom1">
-                                    <label for="phone" class="order_call_form_label">Почта</label>
-                                    <input type="text" name="mailform" id="email" autocomplete="on" required class="order_call_form_input form_zayavka_input">
-                                </p>
-                                <p class="popup_order_call_right_text">
-                                    <label for="phone" class="order_call_form_label">Телефон</label>
-                                    <input type="text" name="phone" id="phone" placeholder="8 900 000 00 00" pattern="(8|\+7)\s?(\(\d{3}\)|\d{3})\s?\d{3}\s?\d{2}\s?\d{2}" autocomplete="on" required class="order_call_form_input form_zayavka_input" title="Введите корректный номер телефона">
-                                </p>
-                                <button 
-                                    type="submit" 
-                                    class="g-recaptcha order_call_form_button order_call_form_button_2"
-                                    data-sitekey="<?= htmlspecialchars($_ENV['RECAPTCHA_SITE_KEY_ALT']) ?>"
-                                    data-callback='onSelectionFormSubmit1'
-                                    data-action='submit'
-                                >
-                                    Отправить
-                                </button>
-                            </form>
-                            <script>
-                                function onSelectionFormSubmit1(token) {
-                                    event.preventDefault();
-                                    const form = document.getElementById("form1");
-                                    if (form.checkValidity()) {
-                                        form.submit();
-                                        return true;
-                                    } else {
-                                        form.reportValidity();
-                                        return false;
-                                    }
-                                }
-                            </script>
-                            <p class="popup_order_call_right_p">Нажимая на кнопку Отправить, вы даете согласие на обработку ваших персональных данных и соглашаетесь <span class="types_foundations_red_text">с политикой конфиденциальности</span></p>
-                        </div>
-                        </div>
-
-                        <img src="../img/homepage/form_zayavka_photo.png" alt="" class="zayavka_photo">
-                    </div>
-                </div>
-            </section> -->
 
             <section class="stroitelniye_uslugi_page_text_one">
                 <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">
@@ -676,12 +541,3 @@
                     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_page_text_one_text_last">Подготовительная работа (подготовка площадки, фундамент) – тоже на нашей бригаде. Окна, двери, крыша – все это вы можете заказать у нас. В итоге мы предоставляем полный спектр услуг: от проекта до конька крыши. Позвоните нам и присоединяйтесь к довольным обладателям бань, построенных из псковского экологичного леса, надежными профессиональными руками.</p>
                 </div>
             </section>
-        </main>
-        <footer class="footer_section">
-            <?php
-                include 'components/footer.php';        
-            ?>
-        </footer>
-        <script src="/js/index.js"></script>
-    </body>
-</html>

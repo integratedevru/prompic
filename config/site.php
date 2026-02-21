@@ -83,6 +83,18 @@ $variants = [
     ],
 ];
 
+// Shared page metadata (used by all variants)
+$sharedMeta = [
+    'error404' => [
+        'title' => 'Страница 404',
+        'description' => 'Страница не найдена',
+    ],
+    'politika' => [
+        'title' => 'Политика конфиденциальности',
+        'description' => 'Политика конфиденциальности для сайта pp-dom',
+    ],
+];
+
 // Shared pages available to all variants
 $sharedPages = ['politika', 'error404'];
 
@@ -95,5 +107,6 @@ if (!isset($variants[$variant])) {
 $config = $variants[$variant];
 $config['shared_pages'] = $sharedPages;
 $config['valid_pages'] = array_merge($sharedPages, $config['pages']);
+$config['meta'] = array_merge($sharedMeta, $config['meta']);
 
 return $config;
