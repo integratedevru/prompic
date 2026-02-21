@@ -1,0 +1,18 @@
+{
+  "allowCloudSettings": true,
+  "permissions": {
+    "defaultModel": "bypassedPermissions",
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "NotebookEdit(*)",
+      "mcp__ssh__*",
+      "mcp__playwright__*",
+      "WebSearch"
+    ]
+  }
+}

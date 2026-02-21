@@ -5,7 +5,4 @@
 Thumbs.db
 *.swp
 *.log
-.claude/
-.cursor/
-.mcp.json
 composer.phar

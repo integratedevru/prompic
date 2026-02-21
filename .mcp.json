@@ -1,0 +1,40 @@
+{
+    "mcpServers": {
+        "context7": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@upstash/context7-mcp"
+            ],
+            "env": []
+        },
+        "laravel-boost": {
+            "command": "php",
+            "args": [
+                "artisan",
+                "boost:mcp"
+            ]
+        },
+        "playwright": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@playwright/mcp@latest"
+            ]
+        },
+        "ssh": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "ssh-mcp",
+                "--",
+                "--host=31.31.196.248",
+                "--user=u2527108",
+                "--password=qAoZ7AD10llqK6Zp"
+            ]
+        }
+    }
+}
