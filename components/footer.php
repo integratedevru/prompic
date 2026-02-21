@@ -50,15 +50,10 @@
                         <label for="name" class="order_call_form_label">Имя</label>
                         <input type="text" name="name" id="name" autocomplete="on" required class="order_call_form_input">
                     </p>
-                    <!-- <p class="popup_order_call_right_text mt4_spb">
-                        <label for="email" class="order_call_form_label">Почта</label>
-                        <input type="text" name="mailform" id="email" autocomplete="on" required class="order_call_form_input">
-                    </p> -->
                     <p class="popup_order_call_right_text mt4_spb">
                         <label for="phone" class="order_call_form_label">Телефон</label>
                         <input type="text" name="phone" id="phone" placeholder="8 900 000 00 00" pattern="(8|\+7)\s?(\(\d{3}\)|\d{3})\s?\d{3}\s?\d{2}\s?\d{2}" autocomplete="on" required class="order_call_form_input" title="Введите корректный номер телефона">
                     </p>
-                    <!-- <button type="submit" class="order_call_form_button" form="send_email">Отправить</button> -->
                     <button 
                         type="submit" 
                         class="g-recaptcha order_call_form_button mt5_spb"
@@ -86,11 +81,6 @@
             </div>
         </div>
     </section>
-    <!-- <form action="" name="send_email2">
-        <input type="text" name="phone" id="phone" autocomplete="on" required class="order_call_form_input">
-        <button type="submit" class="order_call_form_button">Отправить</button>
-    </form> -->
-
     <section class="popup_order_call_container2">
         <div class="popup_order_call popup_order_call_first">
             <button type="button" class="window_close window_close_footer_first"></button>
@@ -107,18 +97,12 @@
                     method="POST" 
                     name="order_call_form"
                 >
-                    <!-- <p>
-                        <input type="text" placeholder="ваш телефон" name="phone" id="phone" autocomplete="on" required class="order_call_form_input">
-                        <label for="phone" class="order_call_form_label">без спама</label>
-                    </p>
-                    <button type="submit" class="order_call_form_button">Отправить</button> -->
                     <p class="popup_order_call_right_text mt3_spb">
                         <label for="name" class="order_call_form_label">Имя</label>
                         <input type="text" name="namecallback" id="name" autocomplete="on" required class="order_call_form_input">
                     </p>
                     <p class="popup_order_call_right_text mt4_spb">
                         <label for="phone" class="order_call_form_label">Телефон</label>
-                        <!-- <input type="text" name="phonecallback" id="phone" placeholder="8 900 000 00 00" pattern="8\s?(\(\d{3}\)|\d{3})\s?\d{3}\s?\d{2}\s?\d{2}" autocomplete="on" required class="order_call_form_input"> -->
                         <input 
                             type="text" 
                             name="phonecallback" 
@@ -171,17 +155,9 @@
             <section class="dom_container">
 
                 <section class="buttons_bath_houses_maf">
-                    <!-- <a  class="buttons_houses buttons_bath_houses_maf_active" href="/catalog-domov">дома</a> -->
                     <div class="buttons_houses buttons_bath_houses_maf_active"><span class="buttons_houses_point">дома</span></div>
-                    <!-- <a href="/catalog-bani" class="buttons_bath project_open2">бани</a> -->
                     <div class="buttons_bath project_open4"><bath_ class="buttons_bath_point">бани</bath_></div>
-                    <!-- <a href="/catalog-besedki" class="buttons_maf project_open3">маф</a> -->
                     <div class="buttons_maf project_open5"><span class="buttons_maf_point">маф</span></div>
-
-
-                    <!-- <div class="buttons_houses buttons_bath_houses_maf_active">дома</div> -->
-                    <!-- <div class="buttons_bath">бани</div> -->
-                    <!-- <div class="buttons_maf">маф</div> -->
                 </section>
 
                 <section class="catalog">
@@ -192,30 +168,15 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/doma/Dom01_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_1_1 houses_block_foto_active">
-                                            <!-- <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 houses_block_foto_1_2"> -->
-                                            <img src="../img/page_catalog/doma/Dom01_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_1_2">
+                                            <img src="../img/page_catalog/doma/Dom01_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/doma/Dom01_1_1.webp" alt="" class="houses_block_foto_2 houses1_button1 active_houses_block_foto">
-                                            <!-- <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 houses1_button2 non_active_houses_block_foto"> -->
                                             <img src="../img/page_catalog/doma/Dom01_2.webp" alt="" class="houses_block_foto_3 houses1_button2 non_active_houses_block_foto">
                                         </div>
                                     </div>
                                     <div class="houses_block_parameters_section">
                                         <h2 class="houses_block_heading">Одноэтажный дом 1</h2>
-                                        <!-- <div class="houses_block_parameters">
-                                            <div class="houses_block_parameters1">
-                                                <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Кол-комнат</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p>
-                                            </div>
-                                            <div class="houses_block_parameters2">
-                                                <p class="houses_block_parameters2_text">от Ø 200 </p>
-                                                <p class="houses_block_parameters2_text">34,9 м²</p>
-                                                <p class="houses_block_parameters2_text">1</p>
-                                                <p class="houses_block_parameters2_text">6x6 м</p>
-                                            </div> -->
                                         <div class="houses_block_parameters">
                                             <div class="houses_block_parameters1">
                                                 <p class="houses_block_parameters1_text">Этажность</p>
@@ -230,7 +191,6 @@
                                                 <p class="houses_block_parameters2_text">1,0</p>
                                             </div>
                                         </div>
-                                        <!-- <p class="houses_block_text1">от 3 200 000 ₽ </p> -->
                                         <p class="houses_block_text1">260 000 ₽</p>
                                         <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                         <button class="houses_block_button project_calculation6">Рассчитать проект</button>
@@ -241,7 +201,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/doma/Dom03_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom03_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_2_2">
+                                            <img src="../img/page_catalog/doma/Dom03_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/doma/Dom03_1_1.webp" alt="" class="houses_block_foto_2 houses2_button1 active_houses_block_foto">
@@ -274,7 +234,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/doma/Dom08_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_3_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom08_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_3_2">
+                                            <img src="../img/page_catalog/doma/Dom08_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_3_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/doma/Dom08_1_1.webp" alt="" class="houses_block_foto_2 houses3_button1 active_houses_block_foto">
@@ -307,8 +267,8 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/doma/Dom24_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_4_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom24_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_4_2">
-                                            <img src="../img/page_catalog/doma/Dom24_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_4_3">
+                                            <img src="../img/page_catalog/doma/Dom24_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_4_2">
+                                            <img src="../img/page_catalog/doma/Dom24_3.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_4_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/doma/Dom24_1_1.webp" alt="" class="houses_block_foto_2 houses4_button1 active_houses_block_foto">
@@ -342,8 +302,8 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/doma/Dom26_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_5_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom26_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_5_2">
-                                            <img src="../img/page_catalog/doma/Dom26_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_5_3">
+                                            <img src="../img/page_catalog/doma/Dom26_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_5_2">
+                                            <img src="../img/page_catalog/doma/Dom26_3.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_5_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/doma/Dom26_1_1.webp" alt="" class="houses_block_foto_2 houses5_button1 active_houses_block_foto">
@@ -377,8 +337,8 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/doma/Dom29_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_6_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom29_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_6_2">
-                                            <img src="../img/page_catalog/doma/Dom29_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_6_3">
+                                            <img src="../img/page_catalog/doma/Dom29_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_6_2">
+                                            <img src="../img/page_catalog/doma/Dom29_3.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_6_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/doma/Dom29_1_1.webp" alt="" class="houses_block_foto_2 houses6_button1 active_houses_block_foto">
@@ -412,8 +372,8 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/doma/Dom30_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_7_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom30_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_7_2">
-                                            <img src="../img/page_catalog/doma/Dom30_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_7_3">
+                                            <img src="../img/page_catalog/doma/Dom30_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_7_2">
+                                            <img src="../img/page_catalog/doma/Dom30_3.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_7_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/doma/Dom30_1_1.webp" alt="" class="houses_block_foto_2 houses7_button1 active_houses_block_foto">
@@ -447,8 +407,8 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/doma/Dom31_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_8_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/doma/Dom31_2.webp" alt="" class="houses_block_foto_1 houses_block_foto_8_2">
-                                            <img src="../img/page_catalog/doma/Dom31_3.webp" alt="" class="houses_block_foto_1 houses_block_foto_8_3">
+                                            <img src="../img/page_catalog/doma/Dom31_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_8_2">
+                                            <img src="../img/page_catalog/doma/Dom31_3.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_8_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/doma/Dom31_1_1.webp" alt="" class="houses_block_foto_2 houses8_button1 active_houses_block_foto">
@@ -480,140 +440,6 @@
 
                             </ul>
                         </section>
-
-
-                        <!-- <section class="bath_block">
-                            <ul class="houses_block_list">
-                                <li class="houses_block_list_point houses_block_list_point1">
-                                    <div class="houses_block_foto_section">
-                                        <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_1 baths_block_foto_1_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 baths_block_foto_1_2">
-                                        </div>
-                                        <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_2 baths1_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 baths1_button2 non_active_houses_block_foto">
-                                        </div>
-                                    </div>
-                                    <div class="houses_block_parameters_section">
-                                        <h2 class="houses_block_heading">Баня 1</h2>
-                                        <div class="houses_block_parameters">
-                                            <div class="houses_block_parameters1">
-                                                <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p>
-                                            </div>
-                                            <div class="houses_block_parameters2">
-                                                <p class="houses_block_parameters2_text">Ø 180 или 200 </p>
-                                                <p class="houses_block_parameters2_text">24 м²</p>
-                                                <p class="houses_block_parameters2_text">2x2 м</p>
-                                            </div>
-                                        </div>
-                                        <p class="bath_block_text1">от 800 000 ₽ </p>
-                                        <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
-                                        <button class="houses_block_button project_calculation8">Рассчитать проект</button>
-                                    </div>
-                                </li>
-
-                                <li class="houses_block_list_point houses_block_list_point2">
-                                    <div class="houses_block_foto_section">
-                                        <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_1 baths_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 baths_block_foto_2_2">
-                                        </div>
-                                        <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_2 baths2_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 baths2_button2 non_active_houses_block_foto">
-                                        </div>
-                                    </div>
-                                    <div class="houses_block_parameters_section">
-                                        <h2 class="houses_block_heading">Баня 2</h2>
-                                        <div class="houses_block_parameters">
-                                            <div class="houses_block_parameters1">
-                                                <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p>
-                                            </div>
-                                            <div class="houses_block_parameters2">
-                                                <p class="houses_block_parameters2_text">Ø 180 или 200 </p>
-                                                <p class="houses_block_parameters2_text">24 м²</p>
-                                                <p class="houses_block_parameters2_text">2x2 м</p>
-                                            </div>
-                                        </div>
-                                        <p class="bath_block_text1">от 800 000 ₽ </p>
-                                        <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
-                                        <button class="houses_block_button project_calculation9">Рассчитать проект</button>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section> -->
-
-                        <!-- <section class="maf_block">
-                            <ul class="houses_block_list">
-                                <li class="houses_block_list_point houses_block_list_point1">
-                                    <div class="houses_block_foto_section">
-                                        <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_maf1.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/catalog_maf1_planirovka.svg" alt="" class="houses_block_foto_1 maf_block_foto_1_2">
-                                        </div>
-                                        <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_maf1.webp" alt="" class="houses_block_foto_2 maf1_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/catalog_maf1_planirovka.svg" alt="" class="houses_block_foto_3 maf1_button2 non_active_houses_block_foto">
-                                        </div>
-                                    </div>
-                                    <div class="houses_block_parameters_section">
-                                        <h2 class="houses_block_heading">Беседка 1</h2>
-                                        <div class="houses_block_parameters">
-                                            <div class="houses_block_parameters1">
-                                                <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p>
-                                            </div>
-                                            <div class="houses_block_parameters2">
-                                                <p class="houses_block_parameters2_text">Ø 180 или 200 </p>
-                                                <p class="houses_block_parameters2_text">4 м²</p>
-                                                <p class="houses_block_parameters2_text">2x2 м</p>
-                                            </div>
-                                        </div>
-                                        <p class="bath_block_text1">от 500 000 ₽ </p>
-                                        <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
-                                        <button class="houses_block_button project_calculation10">Рассчитать проект</button>
-                                    </div>
-                                </li>
-
-                                <li class="houses_block_list_point houses_block_list_point2">
-                                    <div class="houses_block_foto_section">
-                                        <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_maf1.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/catalog_maf1_planirovka.svg" alt="" class="houses_block_foto_1 maf_block_foto_2_2">
-                                        </div>
-                                        <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_maf1.webp" alt="" class="houses_block_foto_2 maf2_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/catalog_maf1_planirovka.svg" alt="" class="houses_block_foto_3 maf2_button2 non_active_houses_block_foto">
-                                        </div>
-                                    </div>
-                                    <div class="houses_block_parameters_section">
-                                        <h2 class="houses_block_heading">Беседка 2</h2>
-                                        <div class="houses_block_parameters">
-                                            <div class="houses_block_parameters1">
-                                                <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p>
-                                            </div>
-                                            <div class="houses_block_parameters2">
-                                                <p class="houses_block_parameters2_text">Ø 180 или 200 </p>
-                                                <p class="houses_block_parameters2_text">4 м²</p>
-                                                <p class="houses_block_parameters2_text">2x2 м</p>
-                                            </div>
-                                        </div>
-                                        <p class="bath_block_text1">от 500 000 ₽ </p>
-                                        <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
-                                        <button class="houses_block_button project_calculation11">Рассчитать проект</button>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section> -->
-
                     </div>
                 </section>
             </section>
@@ -633,18 +459,9 @@
             <section class="bania_container">
 
                 <section class="buttons_bath_houses_maf">
-                    <!-- <a  class="buttons_houses" href="/catalog-domov">дома</a> -->
                     <div class="buttons_houses project_open6">дома</div>
-                    <!-- <a href="/catalog-bani" class="buttons_bath buttons_bath_houses_maf_active">бани</a> -->
                     <div class="buttons_bath buttons_bath_houses_maf_active">бани</div>
-                    <!-- <a href="/catalog-besedki" class="buttons_maf">маф</a> -->
                     <div class="buttons_maf project_open7">маф</div>
-                    
-
-
-                    <!-- <div class="buttons_houses buttons_bath_houses_maf_active">дома</div> -->
-                    <!-- <div class="buttons_bath">бани</div> -->
-                    <!-- <div class="buttons_maf">маф</div> -->
                 </section>
 
                 <section class="catalog">
@@ -655,7 +472,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/bani/Bania01_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_1_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania01_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_1_2">
+                                            <img src="../img/page_catalog/bani/Bania01_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub baths_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog//bani/Bania01_1_1.webp" alt="" class="houses_block_foto_2 baths1_button1 active_houses_block_foto">
@@ -694,7 +511,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/bani/Bania02_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania02_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_2_2">
+                                            <img src="../img/page_catalog/bani/Bania02_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub baths_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/bani/Bania02_1_1.webp" alt="" class="houses_block_foto_2 baths2_button1 active_houses_block_foto">
@@ -727,7 +544,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/bani/Bania03_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_3_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania03_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_3_2">
+                                            <img src="../img/page_catalog/bani/Bania03_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub baths_block_foto_3_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/bani/Bania03_1_1.webp" alt="" class="houses_block_foto_2 baths3_button1 active_houses_block_foto">
@@ -760,7 +577,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/bani/Bania04_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_4_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania04_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_4_2">
+                                            <img src="../img/page_catalog/bani/Bania04_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub baths_block_foto_4_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/bani/Bania04_1_1.webp" alt="" class="houses_block_foto_2 baths4_button1 active_houses_block_foto">
@@ -793,7 +610,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/bani/Bania05_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_5_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania05_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_5_2">
+                                            <img src="../img/page_catalog/bani/Bania05_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub baths_block_foto_5_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/bani/Bania05_1_1.webp" alt="" class="houses_block_foto_2 baths5_button1 active_houses_block_foto">
@@ -826,7 +643,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/bani/Bania06_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_6_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania06_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_6_2">
+                                            <img src="../img/page_catalog/bani/Bania06_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub baths_block_foto_6_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/bani/Bania06_1_1.webp" alt="" class="houses_block_foto_2 baths6_button1 active_houses_block_foto">
@@ -859,7 +676,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/bani/Bania07_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_7_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania07_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_7_2">
+                                            <img src="../img/page_catalog/bani/Bania07_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub baths_block_foto_7_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/bani/Bania07_1_1.webp" alt="" class="houses_block_foto_2 baths7_button1 active_houses_block_foto">
@@ -892,8 +709,8 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/bani/Bania08_1_1.webp" alt="" class="houses_block_foto_1 baths_block_foto_8_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/bani/Bania08_2.webp" alt="" class="houses_block_foto_1 baths_block_foto_8_2">
-                                            <img src="../img/page_catalog/bani/Bania08_3.webp" alt="" class="houses_block_foto_1 baths_block_foto_8_3">
+                                            <img src="../img/page_catalog/bani/Bania08_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub baths_block_foto_8_2">
+                                            <img src="../img/page_catalog/bani/Bania08_3.webp" alt="" class="houses_block_foto_1 catalog-foto-sub baths_block_foto_8_3">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/bani/Bania08_1_1.webp" alt="" class="houses_block_foto_2 baths8_button1 active_houses_block_foto">
@@ -944,158 +761,19 @@
                 
                 <section class="buttons_bath_houses_maf">
                     <div class="buttons_houses project_open8">дома</div>
-                    <!-- <div class="buttons_houses buttons_bath_houses_maf_active">дома</div> -->
                     <div class="buttons_bath project_open9">бани</div>
                     <div class="buttons_maf buttons_bath_houses_maf_active">маф</div>
-                    <!-- <div class="buttons_bath">бани</div> -->
-                    <!-- <div class="buttons_maf">маф</div> -->
                 </section>
 
                 <section class="catalog">
                     <div class="catalog_container">
-                        <!-- <section class="houses_block houses_bath_maf_active">
-                            <ul class="houses_block_list">
-                                <li class="houses_block_list_point houses_block_list_point1">
-                                    <div class="houses_block_foto_section">
-                                        <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_house1.webp" alt="" class="houses_block_foto_1 houses_block_foto_1_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 houses_block_foto_1_2">
-                                        </div>
-                                        <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_house1.webp" alt="" class="houses_block_foto_2 houses1_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 houses1_button2 non_active_houses_block_foto">
-                                        </div>
-                                    </div>
-                                    <div class="houses_block_parameters_section">
-                                        <h2 class="houses_block_heading">Одноэтажный дом 1</h2>
-                                        <div class="houses_block_parameters">
-                                            <div class="houses_block_parameters1">
-                                                <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Кол-комнат</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p>
-                                            </div>
-                                            <div class="houses_block_parameters2">
-                                                <p class="houses_block_parameters2_text">от Ø 200 </p>
-                                                <p class="houses_block_parameters2_text">72 м²</p>
-                                                <p class="houses_block_parameters2_text">5</p>
-                                                <p class="houses_block_parameters2_text">6x6 м</p>
-                                            </div>
-                                        </div>
-                                        <p class="houses_block_text1">от 3 200 000 ₽ </p>
-                                        <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
-                                        <button class="houses_block_button project_calculation6">Рассчитать проект</button>
-                                    </div>
-                                </li>
-
-                                <li class="houses_block_list_point houses_block_list_point2">
-                                    <div class="houses_block_foto_section">
-                                        <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_house1.webp" alt="" class="houses_block_foto_1 houses_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 houses_block_foto_2_2">
-                                        </div>
-                                        <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_house1.webp" alt="" class="houses_block_foto_2 houses2_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 houses2_button2 non_active_houses_block_foto">
-                                        </div>
-                                    </div>
-                                    <div class="houses_block_parameters_section">
-                                        <h2 class="houses_block_heading">Одноэтажный дом 2</h2>
-                                        <div class="houses_block_parameters">
-                                            <div class="houses_block_parameters1">
-                                                <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Кол-комнат</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p>
-                                            </div>
-                                            <div class="houses_block_parameters2">
-                                                <p class="houses_block_parameters2_text">от Ø 200 </p>
-                                                <p class="houses_block_parameters2_text">72 м²</p>
-                                                <p class="houses_block_parameters2_text">5</p>
-                                                <p class="houses_block_parameters2_text">6x6 м</p>
-                                            </div>
-                                        </div>
-                                        <p class="houses_block_text1">от 3 200 000 ₽ </p>
-                                        <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
-                                        <button class="houses_block_button project_calculation7">Рассчитать проект</button>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section> -->
-
-                        <!-- <section class="bath_block">
-                            <ul class="houses_block_list">
-                                <li class="houses_block_list_point houses_block_list_point1">
-                                    <div class="houses_block_foto_section">
-                                        <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_1 baths_block_foto_1_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 baths_block_foto_1_2">
-                                        </div>
-                                        <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_2 baths1_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 baths1_button2 non_active_houses_block_foto">
-                                        </div>
-                                    </div>
-                                    <div class="houses_block_parameters_section">
-                                        <h2 class="houses_block_heading">Баня 1</h2>
-                                        <div class="houses_block_parameters">
-                                            <div class="houses_block_parameters1">
-                                                <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p>
-                                            </div>
-                                            <div class="houses_block_parameters2">
-                                                <p class="houses_block_parameters2_text">Ø 180 или 200 </p>
-                                                <p class="houses_block_parameters2_text">24 м²</p>
-                                                <p class="houses_block_parameters2_text">2x2 м</p>
-                                            </div>
-                                        </div>
-                                        <p class="bath_block_text1">от 800 000 ₽ </p>
-                                        <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
-                                        <button class="houses_block_button project_calculation8">Рассчитать проект</button>
-                                    </div>
-                                </li>
-
-                                <li class="houses_block_list_point houses_block_list_point2">
-                                    <div class="houses_block_foto_section">
-                                        <div class="houses_block_foto_section1">
-                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_1 baths_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_1 baths_block_foto_2_2">
-                                        </div>
-                                        <div class="houses_block_foto_section2">
-                                            <img src="../img/page_catalog/catalog_bath1.webp" alt="" class="houses_block_foto_2 baths2_button1 active_houses_block_foto">
-                                            <img src="../img/page_catalog/catalog_house1_planirovka.svg" alt="" class="houses_block_foto_3 baths2_button2 non_active_houses_block_foto">
-                                        </div>
-                                    </div>
-                                    <div class="houses_block_parameters_section">
-                                        <h2 class="houses_block_heading">Баня 2</h2>
-                                        <div class="houses_block_parameters">
-                                            <div class="houses_block_parameters1">
-                                                <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p>
-                                            </div>
-                                            <div class="houses_block_parameters2">
-                                                <p class="houses_block_parameters2_text">Ø 180 или 200 </p>
-                                                <p class="houses_block_parameters2_text">24 м²</p>
-                                                <p class="houses_block_parameters2_text">2x2 м</p>
-                                            </div>
-                                        </div>
-                                        <p class="bath_block_text1">от 800 000 ₽ </p>
-                                        <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
-                                        <button class="houses_block_button project_calculation9">Рассчитать проект</button>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section> -->
-
                         <section class="maf_block houses_bath_maf_active">
                             <ul class="houses_block_list">
                                 <li class="houses_block_list_point houses_block_list_point1">
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_2">
+                                            <img src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_1_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_2 maf1_button1 active_houses_block_foto">
@@ -1126,7 +804,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_2">
+                                            <img src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_2_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_2 maf2_button1 active_houses_block_foto">
@@ -1156,7 +834,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_3_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_3_2">
+                                            <img src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_3_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_2 maf3_button1 active_houses_block_foto">
@@ -1186,7 +864,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_4_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_4_2">
+                                            <img src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_4_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_2 maf4_button1 active_houses_block_foto">
@@ -1216,7 +894,7 @@
                                     <div class="houses_block_foto_section">
                                         <div class="houses_block_foto_section1">
                                             <img src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_5_1 houses_block_foto_active">
-                                            <img src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_5_2">
+                                            <img src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_5_2">
                                         </div>
                                         <div class="houses_block_foto_section2">
                                             <img src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_2 maf5_button1 active_houses_block_foto">
@@ -1252,20 +930,11 @@
         </div>
     </section>
 
-    <!-- окно-попап(форма) в каталоге (попап в попапе) -->
-    <!-- <section class="popup_order_call_container4">
-        <div>
-
-        </div>
-    </section> -->
-
-
     <div class="gray_background_footer gray_background_footer_first form_hidden"></div>
     <div class="gray_background_footer gray_background_footer_2 form_hidden"></div>
     <div class="gray_background_footer_1 gray_background_footer_3 form_hidden"></div>
     <div class="gray_background_footer gray_background_footer_4 form_hidden"></div>
     <div class="gray_background_footer gray_background_footer_5 form_hidden"></div>
-    <!-- <div class="gray_background_footer gray_background_footer_first"></div> -->
 
     <?php if(!empty($_GET['success'])) { ?>
                 
@@ -1273,7 +942,6 @@
             <div class="success_send_message_block">
                 <p class="success_send_message_block_text"><span class="success_send_message_thanks">Спасибо, ваше сообщение</span> <span class="nowrap">отправлено !</span></p>
                 <a href="/" id="close-btn" class="success_send_message_block_link">Закрыть</a>
-                <!-- <button id="close-btn">Закрыть</button> -->
             </div>
         </div>
         <a href="/">    
@@ -1320,8 +988,6 @@
         <div class="footer_block_three">
             <div class="footer_block_three_section_one">
                 <a href="/politika" class="footer_block_three_section_one_politics">Политика в отношении обработки персональных данных</a>
-                <!-- <p class="footer_block_three_section_one_politics">Политика в отношении обработки персональных данных</p> -->
-                <!-- <p class="footer_block_three_section_one_user_agreement">Пользовательское соглашение</p> -->
             </div>
             <div class="footer_block_three_section_two">
                 <a href="#">
@@ -1331,7 +997,6 @@
                     <p class="footer_block_three_is_made_text">
                         Сайт сделали <br>в
                         <a href="https://nikisystems.ru/" class="footer_block_three_is_made_img"> nikisystems</a>
-                        <!-- <span class="footer_block_three_is_made_img"> nikisystems</span> -->
                     </p>
                 </div>
             </div>

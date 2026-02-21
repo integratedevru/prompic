@@ -23,7 +23,7 @@
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
                                         <img src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_2">
+                                        <img src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_1_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
                                         <img src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_2 maf1_button1 active_houses_block_foto">
@@ -52,7 +52,7 @@
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
                                         <img src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_2">
+                                        <img src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_2_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
                                         <img src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_2 maf2_button1 active_houses_block_foto">
@@ -82,7 +82,7 @@
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
                                         <img src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_3_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_3_2">
+                                        <img src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_3_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
                                         <img src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_2 maf3_button1 active_houses_block_foto">
@@ -112,7 +112,7 @@
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
                                         <img src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_4_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_4_2">
+                                        <img src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_4_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
                                         <img src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_2 maf4_button1 active_houses_block_foto">
@@ -142,7 +142,7 @@
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
                                         <img src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_5_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_1 maf_block_foto_5_2">
+                                        <img src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_5_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
                                         <img src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_2 maf5_button1 active_houses_block_foto">
