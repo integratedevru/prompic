@@ -1,7 +1,5 @@
 {
-  "allowCloudSettings": true,
   "permissions": {
-    "defaultModel": "bypassedPermissions",
     "allow": [
       "Bash(*)",
       "Read(*)",
@@ -12,7 +10,10 @@
       "NotebookEdit(*)",
       "mcp__ssh__*",
       "mcp__playwright__*",
-      "WebSearch"
-    ]
-  }
+      "WebSearch",
+      "mcp__ssh-mcp-31-58-76-63__exec"
+    ],
+    "defaultModel": "bypassedPermissions"
+  },
+  "allowCloudSettings": true
 }

@@ -779,7 +779,6 @@
     gap: 7px;
 }
 .stroitelniye_uslugi_domokomplekt_point_black {
-    color: var(--White, #fff);
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -793,10 +792,10 @@
     justify-content: space-between;
 }
 .stroitelniye_uslugi_domokomplekt_point_grey::before {
-    content: url(/icons/page_stroitelniye_uslugi/house_kit_cross.webp);
+    content: url(/icons/page_stroitelniye_uslugi/house_kit_cross.png);
 }
 .stroitelniye_uslugi_domokomplekt_point_black::before {
-    content: url(/icons/page_stroitelniye_uslugi/domokomplekt_checkmark.webp);
+    content: url(/icons/page_stroitelniye_uslugi/domokomplekt_checkmark.png);
 }
 .button_stroitelniye_uslugi_domokomplekt_domokomplekt,
 .button_stroitelniye_uslugi_domokomplekt_pod_krishu,
@@ -2648,41 +2647,33 @@ figure {
     padding-right: 20px;
     padding-bottom: 25px;
 }
-.stage_project_point {
-    list-style-type: none;
-}
 .stage_project_list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 47px;
-    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 35px;
+    margin-bottom: 76px;
 }
 .stage_project_interval {
     font-weight: 700;
 }
 .stage_project_point {
+    list-style-type: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 280px;
 }
 .stage_project_point_photo {
-    width: 150px;
-    height: 120px;
-}
-.stage_project_point_photo1 {
-    margin-left: 21px;
-}
-.stage_project_point_photo2 {
-    margin-left: 10px;
-}
-.stage_project_point_photo3 {
-    margin-left: 21px;
-}
-.stage_project_point_photo4 {
-    margin-left: 42px;
+    width: auto;
+    height: auto;
+    max-height: 100px;
 }
 .stage_project_point_text {
-    margin-top: 28px;
+    margin-top: 16px;
     font-size: 17px;
+    line-height: 130%;
 }
 .mt3_spb {
     margin-top: 5px;
@@ -2710,3 +2701,150 @@ figure {
     opacity: .6;
     transition: all 0.2s ease;
 }
+
+/* Доставка и оплата - начало */
+.dostavka_slider {
+    margin-top: 30px;
+}
+.dostavka_slider img {
+    height: 282px;
+}
+.homepage_slider_2 .dostavka-custom-prev,
+.homepage_slider_2 .dostavka-custom-next {
+    position: absolute;
+    z-index: 2;
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+}
+.homepage_slider_2 .dostavka-custom-prev {
+    bottom: 100px;
+    left: -29px;
+}
+.homepage_slider_2 .dostavka-custom-next {
+    bottom: 100px;
+    right: -29px;
+}
+.dostavka_container {
+    display: flex;
+    padding-top: 30px;
+}
+.dostavka_block1 {
+    flex: 1;
+    padding: 13px 32px 48px 0;
+}
+.dostavka_block2 {
+    flex: 0.95;
+    padding: 20px 15px 26px 24px;
+    background-color: #F6EDE3;
+}
+.dostavka_text1 {
+    max-width: 511px;
+    opacity: 0.7;
+    font-size: 20px;
+    line-height: 140%;
+    padding-top: 20px;
+}
+.dostavka_point {
+    font-size: 15px;
+    opacity: 0.7;
+}
+.dostavka_heading1,
+.oplata_heading1 {
+    font-size: 38px;
+    line-height: 126%;
+    font-weight: 700;
+}
+.dostavka_heading2,
+.oplata_heading2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+}
+.dostavka_heading2 {
+    padding-left: 6px;
+}
+.dostavka_list1 {
+    padding-left: 25px;
+    padding-top: 19px;
+    max-width: 476px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.how_dostavka_heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    margin-top: 60px;
+}
+.poryadok_oplaty_heading {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 60px;
+}
+.oplata_container {
+    display: flex;
+    margin-top: 90px;
+}
+.oplata_block1 {
+    flex: 1;
+    padding-right: 30px;
+}
+.oplata_block2 {
+    flex: 1;
+    background-color: #CAEBE0;
+    padding: 21px 0 30px 30px;
+}
+.oplata_heading1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 126%;
+}
+.oplata_heading2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+}
+.oplata_text1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    opacity: 0.7;
+    max-width: 527px;
+    margin-top: 20px;
+}
+.oplata_point {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    opacity: 0.7;
+    list-style-type: none;
+    padding-left: 9px;
+}
+.oplata_list {
+    padding-left: 32px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style-image: url("../icons/dostavka_i_oplata/check_mark5.svg");
+}
+.dostavka_link {
+    color: #618B7E;
+    text-decoration: none;
+    margin-top: 18px;
+    display: block;
+}
+.car_icon_item {
+    list-style-type: none;
+}
+.car_icon_list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+/* Доставка и оплата - конец */

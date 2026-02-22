@@ -1,3 +1,7 @@
+<?php
+    $galleries = require __DIR__ . '/../../config/gallery.php';
+    $constructionImages = $galleries[1]['images'];
+?>
 <section class="stroitelniye_uslugi">
                 <div class="stroitelniye_uslugi_container">
 <h1 class="stroitelniye_uslugi_heading">Строительные услуги</h1>
@@ -69,106 +73,12 @@
             
             <section class="homepage_slider_3 stroitelniye_uslugi_page_text_one_bottom">
                 <div class="homepage_slider_3_container">
-<div class="stroitelniye_uslugi_slider">
-<div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto1.webp" alt="Slide 1" class="slider_3_foto_1">
-                        </div>
+                    <div class="stroitelniye_uslugi_slider">
+                        <?php foreach ($constructionImages as $i => $image): ?>
                         <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto2.webp" alt="Slide 2" class="slider_3_foto_2">
+                            <img src="<?= htmlspecialchars($image['src']) ?>" alt="Slide <?= $i + 1 ?>">
                         </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto3.webp" alt="Slide 3" class="slider_3_foto_3">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto4.webp" alt="Slide 4" class="slider_3_foto_4">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto5.webp" alt="Slide 5" class="slider_3_foto_5">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto6.webp" alt="Slide 6" class="slider_3_foto_6">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto7.webp" alt="Slide 7" class="slider_3_foto_7">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto8.webp" alt="Slide 8" class="slider_3_foto_8">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto9.webp" alt="Slide 9" class="slider_3_foto_9">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto10.webp" alt="Slide 10" class="slider_3_foto_10">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto11.webp" alt="Slide 11" class="slider_3_foto_11">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto12.webp" alt="Slide 12" class="slider_3_foto_12">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto13.webp" alt="Slide 13" class="slider_3_foto_13">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto14.webp" alt="Slide 14" class="slider_3_foto_14">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto15.webp" alt="Slide 15" class="slider_3_foto_15">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto16.webp" alt="Slide 16" class="slider_3_foto_16">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto17.webp" alt="Slide 17" class="slider_3_foto_17">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto18.webp" alt="Slide 18" class="slider_3_foto_18">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto19.webp" alt="Slide 19" class="slider_3_foto_19">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto20.webp" alt="Slide 20" class="slider_3_foto_20">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto21.webp" alt="Slide 21" class="slider_3_foto_21">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto22.webp" alt="Slide 22" class="slider_3_foto_22">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto23.webp" alt="Slide 23" class="slider_3_foto_23">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto24.webp" alt="Slide 24" class="slider_3_foto_24">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto25.webp" alt="Slide 25" class="slider_3_foto_25">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto26.webp" alt="Slide 26" class="slider_3_foto_26">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto27.webp" alt="Slide 27" class="slider_3_foto_27">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto28.webp" alt="Slide 28" class="slider_3_foto_28">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto29.webp" alt="Slide 29" class="slider_3_foto_28">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto30.webp" alt="Slide 30" class="slider_3_foto_28">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto31.webp" alt="Slide 31" class="slider_3_foto_28">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto32.webp" alt="Slide 32" class="slider_3_foto_28">
-                        </div>
-                        <div>
-                            <img src="../img/proizvodstvo/slider3/slider3_foto33.webp" alt="Slide 33" class="slider_3_foto_28">
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                     <button type="button" class="uslugi-custom-prev">
                         <img src="../img/homepage/slider2/button_custom_prev.svg" alt="Previous">

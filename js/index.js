@@ -129,6 +129,52 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Слайдер на странице Доставка и оплата
+document.addEventListener('DOMContentLoaded', function() {
+    $('.dostavka_slider').slick({
+        autoplay: false,
+        arrows: false,
+        dots: false,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        variableWidth: true,
+        swipeToSlide: true,
+        adaptiveHeight: true,
+        cssEase: 'linear',
+        responsive: [
+            {
+                breakpoint: 1170,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    variableWidth: true,
+                    swipeToSlide: true,
+                    cssEase: 'linear',
+                    speed: 100,
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    variableWidth: true,
+                    swipeToSlide: true,
+                    cssEase: 'linear',
+                    speed: 100,
+                }
+            }
+        ],
+    });
+    $('.dostavka-custom-prev').click(function(){
+        $('.dostavka_slider').slick('slickPrev');
+    });
+    $('.dostavka-custom-next').click(function(){
+        $('.dostavka_slider').slick('slickNext');
+    });
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     $('.stroitelniye_uslugi_slider').slick({
         // настройки слайдера

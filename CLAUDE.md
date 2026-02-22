@@ -43,6 +43,10 @@ Key env vars:
 - `RECAPTCHA_SITE_KEY_ALT` - Alternative key (used in homepage inline form)
 - `RECAPTCHA_SECRET_KEY` - Server-side verification key
 
+## Agent Behavior
+
+- Always paste relevant command output directly in response text — the VS Code extension collapses Bash tool output, so the user cannot see it otherwise.
+
 ## Important Notes
 
 - `.htaccess` rewrites unknown paths to `index.php` but skips existing files (handlers work because they are real files)

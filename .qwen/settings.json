@@ -1,0 +1,34 @@
+{
+  "$version": 3,
+  "modelProviders": {
+    "openai": [
+      {
+        "id": "qwen/qwen3-coder-next",
+        "name": "Qwen3 Coder Next",
+        "baseUrl": "https://openrouter.ai/api/v1",
+        "envKey": "OPENROUTER_API_KEY",
+        "description": "Qwen3 Coder Next via OpenRouter - optimized for coding agents"
+      },
+      {
+        "id": "qwen/qwen3.5-plus-02-15",
+        "name": "Qwen3.5 Plus",
+        "baseUrl": "https://openrouter.ai/api/v1",
+        "envKey": "OPENROUTER_API_KEY",
+        "description": "Qwen3.5 Plus via OpenRouter"
+      },
+      {
+        "id": "qwen/qwen3.5-397b-a17b",
+        "name": "Qwen3.5 397B",
+        "baseUrl": "https://openrouter.ai/api/v1",
+        "envKey": "OPENROUTER_API_KEY",
+        "description": "Qwen3.5 397B via OpenRouter"
+      }
+    ]
+  },
+  "model": {
+    "name": "qwen/qwen3.5-plus-02-15"
+  },
+  "ide": {
+    "hasSeenNudge": true
+  }
+}
