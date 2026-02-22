@@ -483,18 +483,12 @@
                                         <h2 class="houses_block_heading">Баня 1</h2>
                                         <div class="houses_block_parameters">
                                             <div class="houses_block_parameters1">
-                                                <!-- <p class="houses_block_parameters1_text">Диаметр бревна</p>
-                                                <p class="houses_block_parameters1_text">Площадь</p>
-                                                <p class="houses_block_parameters1_text">Размеры</p> -->
                                                 <p class="houses_block_parameters1_text">Этажность</p>
                                                 <p class="houses_block_parameters1_text no_wrap">Размер по осям, м</p>
                                                 <p class="houses_block_parameters1_text">S общ. жил., м2</p>
                                                 <p class="houses_block_parameters1_text">Кол-во комнат</p>
                                             </div>
                                             <div class="houses_block_parameters2">
-                                                <!-- <p class="houses_block_parameters2_text">Ø 180 или 200 </p>
-                                                <p class="houses_block_parameters2_text">20,2 м²</p>
-                                                <p class="houses_block_parameters2_text">4x5 м</p> -->
                                                 <p class="houses_block_parameters2_text">1</p>
                                                 <p class="houses_block_parameters2_text">4 х 5</p>
                                                 <p class="houses_block_parameters2_text">20,2</p>

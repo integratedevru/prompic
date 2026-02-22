@@ -30,59 +30,43 @@
                 </div>
             </section>
             <section class="common_section">
-                <!-- <div class="common_section_container mtop2"> -->
-                <!-- <div class="common_section_container mtop2 targetElement1"> -->
                 <div class="common_section_container2 mtop2 targetElement1">
-                    <!-- <h2 class="common_header common_header1" id="targetElement1"> -->
                     <h2 class="common_header common_header1">
                         Наши лучшие проекты
                     </h2>
                 </div>
             </section>
             <section class="proecty_homepage">
-                <!-- <a href="/catalog-domov" class="proecty_homepage_baths_container"> -->
                 <div class="proecty_homepage_baths_container project_open">
-                <!-- <div class="proecty_homepage_baths_container project_open"> -->
-
                     <div class="proecty_homepage_houses">
-                        <!-- <img src="" alt=""> -->
-                    </div>    
+                    </div>
                     <p class="proecty_homepage_houses_text">Проекты домов</p>
                     <div class="overlay_proecty_homepage_houses">
                     </div>
-                <!-- </div> -->
                 </div>
-                    <div class="proecty_homepage_block_two">
-                        <!-- <a href="/catalog-bani" class="proecty_homepage_baths_container"> -->
-                        <div class="proecty_homepage_baths_container project_open2">
-                            <div class="proecty_homepage_baths">
-                                <!-- <img src="" alt=""> -->
-                                <!-- <img src="" alt=""> -->
-                            </div>
-                            <p class="proecty_homepage_baths_text">Проекты бань</p>
-                            <div class="overlay_proecty_homepage_baths">
-                                
-                            </div>
+                <div class="proecty_homepage_block_two">
+                    <div class="proecty_homepage_baths_container project_open2">
+                        <div class="proecty_homepage_baths">
                         </div>
-                        <div class="proecty_homepage_gazebos_and_mafs_container project_open3">
-                            <!-- <a href="#" class="proecty_homepage_gazebos_and_mafs"> -->
-                            <!-- </a> -->
-                            <div class="proecty_homepage_gazebos_and_mafs">
-                            </div>
-                            <p class="proecty_homepage_gazebos_and_mafs_text">Проекты беседок и маф</p>
-                            <div class="overlay_proecty_homepage_gazebos_and_mafs">
-                                
-                            </div>
+                        <p class="proecty_homepage_baths_text">Проекты бань</p>
+                        <div class="overlay_proecty_homepage_baths">
                         </div>
+                    </div>
+                    <div class="proecty_homepage_gazebos_and_mafs_container project_open3">
+                        <div class="proecty_homepage_gazebos_and_mafs">
+                        </div>
+                        <p class="proecty_homepage_gazebos_and_mafs_text">Проекты беседок и маф</p>
+                        <div class="overlay_proecty_homepage_gazebos_and_mafs">
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section class="zayavka_na_dom">
                 <div class="zayavka_na_dom_container zayavka_na_dom_container_homepage zayavka_na_dom_bcolor mt1_spb">
                     <div class="zayavka_na_dom_block1 zayavka_na_dom_block1_homepage">
                         <h2 class="zayavka_na_dom_heading">Хотите дом или баню по индивидуальному проекту?</h2>
-                        <!-- <p class="zayavka_na_dom_text_spb">Бесплатное моделирование и расчет</p> -->
                         <p class="zayavka_na_dom_text_spb">Расчёт и эскиз проекта <span class="zayavka_na_dom_text_spb_bold">— бесплатно!</span></p>
-                        <!-- <button class="button_zayavka_na_dom project_calculation4">Оставьте заявку</button> -->
                         <button class="button_zayavka_na_dom project_calculation4">Узнать стоимость</button>
                     </div>
                     <img src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage zayavka_na_dom_foto_homepage_spb">
@@ -91,16 +75,13 @@
 
             <section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none">
                 <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">
-                    <!-- <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_heading_pravki_font stroitelniye_uslugi_page_text_one_text_first">Собственное технологичное производство</h2> -->
                     <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_text_first">Собственное технологичное производство</h2>
-                    <!-- <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Наша компания покупает сортирует и отбирает качественный лес с хорошей ровной геометрией в экологически чистом Гдовском районе Псковской области. Бревна транспортируются на наше производство в поселок Неелово, в 5 км от города Пскова. На производстве применяется досушка бревна, как в естественных условиях крытого склада, так и с применением камерной сушки. После сушки бревна проходят механическую обработку на европейском импортном оборудовании, который снимает только верхний слой в виде коры. Далее бревно обрабатывается антисептическим биологически безопасным раствором, и проходит процессы естественного впитывания антисептика и сушки. Далее бревно режется под проект, бьются чашки. В конце процесса производства каждое бревно еще раз проходит антисептическую обработку. </p> -->
                     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Мы закупаем лес в Гдовском районе Псковской области, известном своей экологической чистотой, отбирая бревна с идеальной геометрией. После тщательной сортировки лесоматериалы доставляются на наше производство, а затем на объекты по всей Ленинградской области.</p>
                     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">На производстве мы используем методы сушки, обеспечивающие качественную обработку древесины. Естественная сушка проходит на крытых складах, а также применяется камерная сушка для ускорения процесса. Обработку бревен проводим на передовом европейском оборудовании, которое бережно снимает только кору, сохраняя целостность древесины.</p>
                     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">После этого бревна пропитываются антисептиками, безопасными для окружающей среды, и проходят дополнительный процесс сушки и впитывания. Затем древесина нарезается согласно проектным спецификациям, включая вырубку чашек. В финале каждый элемент подвергается повторной антисептической обработке, гарантируя долговечность и высокое качество продукции.</p>
                 </div>
             </section>
 
-            <!-- <section class="kachestvo_breven_section" id="targetElement2"> -->
             <section class="kachestvo_breven_section targetElement2">
                 <div class="kachestvo_breven_section_container">
                     <div class="kachestvo_breven kachestvo_breven_margintop2">
@@ -154,7 +135,6 @@
 
             <section class="common_section">
                 <div class="common_section_container2">
-                    <!-- <h2 class="common_header common_header4" id="targetElement3"> -->
                     <h2 class="common_header common_header4 targetElement3">
                         Собственное производство
                     </h2>
@@ -163,7 +143,6 @@
 
             <section class="proizvodstvo">
                 <div class="proizvodstvo_container">
-                    <!-- <h2 class="proizvodstvo_heading">Производство и технологии</h2> -->
                     <p class="proizvodstvo_under_heading_text">
                         Заготавливаем высококачественный отборный лес с идеальной геометрией в Гдовском районе Псковской области. Доставляем на производство в Неелово.  Применяем механическую обработку и снимаем только верхний слой. Используем естественную и камерную сушку.
                     </p>
@@ -188,7 +167,7 @@
                             <p class="stage_project_point_text">
                                 <span class="stage_project_interval">
                                     Оставьте заявку на расчет проекта под ключ.
-                                </span> 
+                                </span>
                                 С вами свяжется специалист и поможет составить техническое задание
                             </p>
                         </li>
@@ -221,8 +200,7 @@
                     </ul>
                 </div>
             </section>
-            
-            <!-- <section class="chramy_chasovni" id="targetElement4"> -->
+
             <section class="chramy_chasovni targetElement4">
                 <div class="chramy_chasovni_container">
                     <div class="chramy_chasovni_block1">
@@ -234,7 +212,6 @@
                         </ul>
                         <button class="chramy_chasovni_button project_calculation3">Оставить заявку</button>
                     </div>
-                    <!-- <img src="../img/homepage/hram2.webp" alt="" class="chramy_chasovni_foto"> -->
                     <img src="../img/homepage/hram3_1.webp" alt="" class="chramy_chasovni_foto">
                 </div>
             </section>
@@ -249,7 +226,6 @@
 
             <?php include __DIR__ . '/partials/homepage/construction_services.php'; ?>
 
-            <!-- <section class="o_companii" id="targetElement5"> -->
             <section class="o_companii targetElement5">
                 <div class="o_companii_container">
                     <div class="o_companii_karta_container">
@@ -273,7 +249,7 @@
                                     <li class="o_companii_karta_tel_list_point">
                                         <a href="tel: +78112672600" class="o_companii_karta_tel_list_point_link">
                                             +7 (8112) 672-600
-                                        </a>    
+                                        </a>
                                     </li>
                                     <li class="o_companii_karta_tel_list_point">
                                         <a href="tel: +79113974773" class="o_companii_karta_tel_list_point_link">
