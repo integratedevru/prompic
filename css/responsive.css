@@ -22,12 +22,12 @@
 
 @media (max-width: 1420px) {
     .before_after_pluses_list {
-        flex-wrap: wrap;
-    }
-    .before_after_pluses_list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
+        gap: 38px;
+        padding: 0 19px 0 19px;
+        justify-content: space-around;
     }
     .type_of_brevno {
         flex-wrap: wrap;
@@ -35,27 +35,13 @@
     .products_component {
         justify-content: flex-start;
     }
-    .products_component1,
-    .products_component2,
-    .products_component3 {
-        
-    }
     .products_component_container1,
     .products_component_container2 {
-    
         min-width: 89%;
         max-width: 89%;
     }
     .products_component_container3 {
-        min-width: 740px;
-        max-width: 740px;
-    }
-    .before_after_pluses_list {
-        gap: 38px;
-        padding: 0 19px 0 19px;
-    }
-    .before_after_pluses_list {
-        justify-content: space-around;
+        width: 740px;
     }
     .type_of_brevno {
         
@@ -120,13 +106,11 @@
     .card_ocilindrovannoe_brevno, 
     .card_okoryonnoe_brevno {
         
-        min-width: 408px;
-        max-width: 408px;
+        width: 408px;
     }
     .card_okoryonnoe_brevno_text_container, 
     .card_ocilindrovannoe_brevno_text_container {
-        min-width: 353px;
-        max-width: 353px;
+        width: 353px;
     }
     
     .card_ocilindrovannoe_brevno_heading,
@@ -169,19 +153,16 @@
         flex-direction: column;
     }
     .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        min-width: 372px;
-        max-width: 372px;
+        width: 372px;
     }
     .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
-        min-width: 325px;
-        max-width: 325px;
+        width: 325px;
     }
 }
 
 @media (max-width: 1107px) {
     .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
-        min-width: 281px;
-        max-width: 281px;
+        width: 281px;
     }
     .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
         font-size: 13px;
@@ -195,8 +176,7 @@
         padding-bottom: 15px;
     }
     .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        min-width: 319px;
-        max-width: 319px;
+        width: 319px;
     }
     .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
         font-size: 19px;
@@ -241,14 +221,12 @@
         justify-content: center;
     } 
     .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        min-width: 450px;
-        max-width: 450px;
+        width: 450px;
         padding-top: 22px;
         padding-bottom: 28px;
     }
     .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
-        min-width: 371px;
-        max-width: 371px;
+        width: 371px;
     }
     .card_ocilindrovannoe_brevno_price, .card_okoryonnoe_brevno_price {
         flex-direction: row;
@@ -269,14 +247,11 @@
 
 @media (max-width: 855px) {
     .before_after_block1 {
-        padding: 35px 40px 42px 40px;
+        padding: 35px 17px 42px 17px;
     }
     .type_of_brevno {
         padding-left: 0;
         padding-right: 0;
-    }
-    .before_after_block1 {
-        padding: 35px 17px 42px 17px;
     }
 }
 
@@ -292,8 +267,6 @@
 @media (max-width: 810px) {
     .products_component_heading {
         font-size: 4vw;
-    }
-    .products_component_heading {
         margin-top: 30px;
     }
     .before_after_pluses_list_point {
@@ -378,14 +351,12 @@
         justify-content: center;
     } 
     .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        min-width: 319px;
-        max-width: 319px;
+        width: 319px;
         padding-top: 22px;
         padding-bottom: 28px;
     }
     .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
-        min-width: 281px;
-        max-width: 281px;
+        width: 281px;
     }
     .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
         font-size: 13px;
@@ -414,12 +385,10 @@
 @media (max-width: 500px) {
     .products_component_heading {
         margin-top: 30px;
+        font-size: 20px;
     }
     .before_after {
         padding-top: 16px;
-    }
-    .products_component_heading {
-        font-size: 20px;
     }
     .before_after_block1 {
         gap: 27px;
@@ -453,13 +422,8 @@
     }
     .products_page_text_one_text {
         margin-top: 7px;
-    }
-    .products_page_text_one_text {
         font-size: 13px;
         line-height: 130%;
-    }
-    .products_component_heading {
-        font-size: 20px;
     }
 }
 
@@ -467,9 +431,8 @@
     .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
         padding-top: 16px;
         padding-bottom: 13px;
-    }
-    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
         gap: 20px;
+        width: 280px;
     }
     .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
         font-size: 15px;
@@ -477,22 +440,13 @@
     .button_card_ocilindrovannoe_brevno_price, .button_card_okoryonnoe_brevno_price {
         font-size: 13px;
         padding: 10px 16px;
-    }
-    .button_card_ocilindrovannoe_brevno_price, .button_card_okoryonnoe_brevno_price {
         max-width: 154px;
-    }
-    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        min-width: 280px;
-        max-width: 280px;
     }
 }
 
 @media (max-width: 365px) {
     .before_after_pluses_list_point {
-        width: auto;
-    }
-    .before_after_pluses_list_point {
-        width: 224px;   
+        width: 224px;
     }
     .before_after_pluses_list {
         padding: 0 6px 0 6px;
@@ -689,7 +643,6 @@
 @media (max-width: 635px) {
     .popup_order_call_left_h2 {
         font-size: 20px;
-        line-height: 120%;
         line-height: 120%;
     }
     .popup_order_call_left_p {
@@ -1250,9 +1203,6 @@
     .years_on_market {
         font-size: 12px;
     }
-}
-
-@media (max-width: 810px) {
     .block_dostijeniy {
         margin-top: 30px;
     }
@@ -1266,20 +1216,14 @@
         height: 27vw;
     }
     .sobstvennoe_proizvodstvo_text {
-        
         width: auto;
     }
     .sobstvennoe_proizvodstvo_heading {
-        
         margin-top: 60px;
-        font-size: 30px;
-        
         font-size: 4vw;
-        line-height: 120%; /* 24px */
+        line-height: 120%;
     }
     .sobstvennoe_proizvodstvo_heading2 {
-        
-        font-size: 30px;
         font-size: 4vw;
         line-height: 120%;
     }
@@ -1740,9 +1684,6 @@
     
 }
 
-@media (max-width: 1440px) {
-}
-
 @media (max-width: 1420px) {
     .gallery_container {
         min-width: auto;
@@ -1977,9 +1918,6 @@
         padding-left: 28px;
         padding-right: 12px;
     }
-}
-
-@media (max-width: 340px) {
 }
 
 @media (max-width: 1450px) {
@@ -2270,8 +2208,6 @@
 @media (max-width: 620px) {
     .proizvodstvo_under_heading_text {
         font-size: 17px;
-    }
-    .proizvodstvo_under_heading_text {
         margin-top: 16px;
     }
 }
@@ -2603,11 +2539,6 @@
         width: 100%;
         min-width: auto;
     }
-    
-}
-
-@media (max-width: 1600px) {
-    
     
 }
 
@@ -3140,8 +3071,7 @@
 @media (max-width: 1180px) {
     .success_send_message_block_container {
         margin-left: 10%;
-        max-width: 432px;
-        min-width: 432px;
+        width: 432px;
     }
     .success_send_message_block_text {
         font-size: 23px;
@@ -3324,19 +3254,12 @@
 @media (max-width: 635px) {
     .form_zayavka_container1 {
         flex-direction: column;
-    }
-    
-    .form_zayavka_container1 {
-        padding-right: 0px;
-    }
-    .form_zayavka_container1 {
+        padding-right: 0;
         align-items: center;
+        gap: 0;
     }
     .mar_lef_mar_top1 {
         margin-left: 0;
-    }
-    .form_zayavka_container1 {
-        gap: 0vw;
     }
     .order_call_form_mt {
         margin-top: 27px;
@@ -3345,10 +3268,8 @@
         margin-top: 25px;
     }
     .zayavka_photo {
-        margin-bottom: -40px;
-    }
-    .zayavka_photo {
         margin-top: -45px;
+        margin-bottom: -40px;
     }
     .popup_order_call_right {
         max-width: 54vw;
