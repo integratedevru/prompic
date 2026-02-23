@@ -10,49 +10,13 @@
 
 <?php include __DIR__ . '/../shared/partials/homepage/achievements.php'; ?>
 
-<section class="proecty_homepage">
-    <a href="/catalog-domov" class="proecty_homepage_baths_container">
-        <div class="proecty_homepage_houses">
-            <img src="../img/homepage/project_houses.webp" alt="Проекты домов фото" loading="lazy" class="proecty_homepage_houses_bg">
-        </div>
-        <p class="proecty_homepage_houses_text">Проекты домов</p>
-        <div class="overlay_proecty_homepage_houses"></div>
-    </a>
-    <div class="proecty_homepage_block_two">
-        <a href="/catalog-bani" class="proecty_homepage_baths_container">
-            <div class="proecty_homepage_baths">
-                <img src="../img/homepage/project_baths.webp" alt="Проекты бань фото" loading="lazy" class="proecty_homepage_baths_bg">
-            </div>
-            <p class="proecty_homepage_baths_text">Проекты бань</p>
-            <div class="overlay_proecty_homepage_baths"></div>
-        </a>
-        <a href="/catalog-besedki" class="proecty_homepage_gazebos_and_mafs_container">
-            <div class="proecty_homepage_gazebos_and_mafs">
-                <img src="../img/homepage/project_gazebos_and_mafs.webp" alt="Проекты беседок фото" loading="lazy" class="proecty_homepage_gazebos_and_mafs_bg">
-            </div>
-            <p class="proecty_homepage_gazebos_and_mafs_text">Проекты беседок и маф</p>
-            <div class="overlay_proecty_homepage_gazebos_and_mafs"></div>
-        </a>
-    </div>
-    </section>         </br>            
-    <div class="sobstvennoe_proizvodstvo2_container" style="display: flex; justify-content: center; width: 100%;">
-        <a class="sobstvennoe_proizvodstvo_button" href="/gallery">👉Посмотреть готовые проекты и цены</a>
-    </div>
+<?php include __DIR__ . '/../shared/partials/homepage/best_projects.php'; ?>   
 
-<section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none">
-    <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">
-        <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_heading_pravki_font stroitelniye_uslugi_page_text_one_text_first">Собственное технологичное производство</h2>
-        <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">
-            Мы изготавливаем срубы <b>на собственном производстве</b>, поэтому полностью контролируем качество и сроки. Для вас это означает <b>предсказуемый результат без сюрпризов </b>на этапе сборки и дальнейшей эксплуатации дома. </br>
-            
-            Лес отбираем в <b>экологически чистом Гдовском районе Псковской области</b> — используем только ровные бревна с правильной геометрией.
-            Перед обработкой древесина проходит естественную или камерную сушку, что снижает риск трещин, перекосов и избыточной усадки уже в готовом доме. </br>
-            Обработка выполняется на <b>европейском оборудовании</b>, которое аккуратно снимает только кору, сохраняя прочность и плотность бревна. Далее древесина <b>пропитывается биологически безопасным антисептиком</b> и нарезается строго 
-            под проект — с точными чашками и ровным пазом. Сруб приезжает на участок полностью готовым к сборке, без подгонки и «доработок на месте». Перед отгрузкой каждое бревно проходит повторную защитную обработку.
-            </br> </br> 
-            <b><u> Итог для Вас</u>:</b> бревно не «ведёт» со временем, а дом собирается быстро, выглядит аккуратно и служит десятилетиями без лишних затрат на ремонт.</br></br> </p>
-    </div>
-</section>
+<div class="sobstvennoe_proizvodstvo2_container" style="display: flex; justify-content: center; width: 100%;">
+    <a class="sobstvennoe_proizvodstvo_button" href="/gallery">👉Посмотреть готовые проекты и цены</a>
+</div>
+
+<?php include __DIR__ . '/../shared/partials/homepage/production_text.php'; ?>
 
 <?php include __DIR__ . '/../shared/partials/homepage/projects_slider.php'; ?>
 
@@ -63,6 +27,7 @@
 </section>
 
 <?php include __DIR__ . '/../shared/partials/homepage/quality_features.php'; ?>
+
 <?php include __DIR__ . '/../shared/partials/homepage/temples.php'; ?>
 
 <section class="etapy_raboty">

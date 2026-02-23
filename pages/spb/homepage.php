@@ -4,38 +4,7 @@
 
 <?php include __DIR__ . '/../shared/partials/homepage/achievements.php'; ?>
 
-<section class="common_section">
-    <div class="common_section_container2 mtop2 targetElement1">
-        <h2 class="common_header common_header1">
-            Наши лучшие проекты
-        </h2>
-    </div>
-</section>
-<section class="proecty_homepage">
-    <div class="proecty_homepage_baths_container project_open">
-        <div class="proecty_homepage_houses">
-        </div>
-        <p class="proecty_homepage_houses_text">Проекты домов</p>
-        <div class="overlay_proecty_homepage_houses">
-        </div>
-    </div>
-    <div class="proecty_homepage_block_two">
-        <div class="proecty_homepage_baths_container project_open2">
-            <div class="proecty_homepage_baths">
-            </div>
-            <p class="proecty_homepage_baths_text">Проекты бань</p>
-            <div class="overlay_proecty_homepage_baths">
-            </div>
-        </div>
-        <div class="proecty_homepage_gazebos_and_mafs_container project_open3">
-            <div class="proecty_homepage_gazebos_and_mafs">
-            </div>
-            <p class="proecty_homepage_gazebos_and_mafs_text">Проекты беседок и маф</p>
-            <div class="overlay_proecty_homepage_gazebos_and_mafs">
-            </div>
-        </div>
-    </div>
-</section>
+<?php include __DIR__ . '/../shared/partials/homepage/best_projects.php'; ?>
 
 <section class="zayavka_na_dom">
     <div class="zayavka_na_dom_container zayavka_na_dom_container_homepage zayavka_na_dom_bcolor mt1_spb">
@@ -48,14 +17,7 @@
     </div>
 </section>
 
-<section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none">
-    <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">
-        <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_text_first">Собственное технологичное производство</h2>
-        <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Мы закупаем лес в Гдовском районе Псковской области, известном своей экологической чистотой, отбирая бревна с идеальной геометрией. После тщательной сортировки лесоматериалы доставляются на наше производство, а затем на объекты по всей Ленинградской области.</p>
-        <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">На производстве мы используем методы сушки, обеспечивающие качественную обработку древесины. Естественная сушка проходит на крытых складах, а также применяется камерная сушка для ускорения процесса. Обработку бревен проводим на передовом европейском оборудовании, которое бережно снимает только кору, сохраняя целостность древесины.</p>
-        <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">После этого бревна пропитываются антисептиками, безопасными для окружающей среды, и проходят дополнительный процесс сушки и впитывания. Затем древесина нарезается согласно проектным спецификациям, включая вырубку чашек. В финале каждый элемент подвергается повторной антисептической обработке, гарантируя долговечность и высокое качество продукции.</p>
-    </div>
-</section>
+<?php include __DIR__ . '/../shared/partials/homepage/production_text.php'; ?>
 
 <?php include __DIR__ . '/../shared/partials/homepage/quality_features.php'; ?>
 
