@@ -42,12 +42,13 @@
     flex-direction: column;
     gap: 31px;
 }
-.nav_logo_and_links_list {
+.nav_logo_and_links_list,
+.nav_logo_and_links_list1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    
+
 }
 .nav_logo_and_links_list_point {
     cursor: pointer;
@@ -70,6 +71,7 @@
     position: relative;
 }
 .nav_logo_and_links_list li,
+.nav_logo_and_links_list1 li,
 .nav_connection_list li {
     list-style-type: none;
 }
@@ -92,6 +94,14 @@
     line-height: 20px; /* 153.846% */
     letter-spacing: 1.43px;
     text-transform: uppercase;
+}
+.nav_projects_and_prices_item {
+    color: var(--335-e-50);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.6px;
 }
 .nav_connection_tel {
     color: var(--black);
@@ -832,9 +842,6 @@
 .stroitelniye_uslugi_page_text_one_bottom {
     margin-bottom: 70px;
 }
-.stroitelniye_uslugi_margintop_none {
-    margin-top: 0 !important;
-}
 
 .block_dostijeniy_one,
 .block_dostijeniy_two {
@@ -1019,6 +1026,14 @@
 .proecty_homepage_gazebos_and_mafs_container {
     position: relative;
     cursor: pointer;
+    overflow: hidden;
+}
+.proecty_homepage_houses_bg,
+.proecty_homepage_baths_bg,
+.proecty_homepage_gazebos_and_mafs_bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .sobstvennoe_proizvodstvo_heading {
     margin-top: 70px;

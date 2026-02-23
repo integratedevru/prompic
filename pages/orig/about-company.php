@@ -1,7 +1,9 @@
             <section class="o_companii">
                 <div class="o_companii_container1">
                     <div class="iframe_o_kompanii_container">
-                        <iframe class="iframe_o_kompanii" src="https://www.youtube.com/embed/Zm0urIn-cm0" frameborder="0" allowfullscreen></iframe>
+                        <video class="iframe_o_kompanii" controls preload="metadata">
+                            <source src="../video/video.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </section>
