@@ -1,34 +1,7 @@
 <?php $bodyClass = "homepage_body"; ?>
-<?php include __DIR__ . '/partials/homepage/hero_slider.php'; ?>
+<?php include __DIR__ . '/../shared/partials/homepage/hero_slider.php'; ?>
 
-            <section class="block_dostijeniy">
-                <div class="block_dostijeniy_container">
-                    <div class="let_na_rynke">
-                        <div class="block_dostijeniy_one">
-                            <img src="../icons/homepage/laurel_branch_left.webp" alt="" class="laurel_branch_left">
-                            <p class="dostijenie_csifra dostijenie_csifra_one">26</p>
-                            <img src="../icons/homepage/laurel_branch_right.webp" alt="" class="laurel_branch_right">
-                        </div>
-                        <p class="years_on_market">лет на рынке</p>
-                    </div>
-                    <div class="dovolnih_klientov">
-                        <div class="block_dostijeniy_two">
-                            <img src="../icons/homepage/laurel_branch_left.webp" alt="" class="laurel_branch_left">
-                            <p class="dostijenie_csifra dostijenie_csifra_two">5200</p>
-                            <img src="../icons/homepage/laurel_branch_right.webp" alt="" class="laurel_branch_right">
-                        </div>
-                        <p class="years_on_market">довольных клиентов</p>
-                    </div>
-                    <div class="sudebnih_razbiratelstv">
-                        <div class="block_dostijeniy_two">
-                            <img src="../icons/homepage/laurel_branch_left.webp" alt="" class="laurel_branch_left">
-                            <p class="dostijenie_csifra dostijenie_csifra_three">0</p>
-                            <img src="../icons/homepage/laurel_branch_right.webp" alt="" class="laurel_branch_right">
-                        </div>
-                        <p class="years_on_market">судебных разбирательств</p>
-                    </div>
-                </div>
-            </section>
+<?php include __DIR__ . '/../shared/partials/homepage/achievements.php'; ?>
             <section class="common_section">
                 <div class="common_section_container2 mtop2 targetElement1">
                     <h2 class="common_header common_header1">
@@ -82,26 +55,7 @@
                 </div>
             </section>
 
-            <section class="kachestvo_breven_section targetElement2">
-                <div class="kachestvo_breven_section_container">
-                    <div class="kachestvo_breven kachestvo_breven_margintop2">
-                        <div class="kachestvo_breven_section_one">
-                            <img src="../img/page_products/brevno.webp" alt="" class="kachestvo_breven_section_one_img">
-                            <h2 class="kachestvo_breven_heading">Высокое качество продукции</h2>
-                            <p class="kachestvo_breven_section_one_text">Используем собственную технологию механической обработки леса, что позволяет добиться качества ручной рубки:</p>
-                        </div>
-                        <div class="kachestvo_breven_section_two">
-                            <ul class="kachestvo_breven_list">
-                                <li class="kachestvo_breven_list_point"><span class="kachestvo_breven_list_point_interval">сортируем</span> деловой лес (срубный лес, ровный по геометрии, отличный от итогового диаметра на 1-2 мм);</li>
-                                <li class="kachestvo_breven_list_point">используем <span class="kachestvo_breven_list_point_interval">финскую линию обработки древесины</span> (идеальные геометрия и посадка бревен, минимум трещин);</li>
-                                <li class="kachestvo_breven_list_point">используем <span class="kachestvo_breven_list_point_interval">специализированный софт</span> для создания проекта и раскроя (отсутствие необходимости собирать сруб на предприятии);</li>
-                                <li class="kachestvo_breven_list_point"><span class="kachestvo_breven_list_point_interval">опытные операторы</span> линии оцилиндровки и нарезки (идеальные лунный паз и русская чаша);</li>
-                                <li class="kachestvo_breven_list_point">на производстве применяются <span class="kachestvo_breven_list_point_interval">эффективные растворы</span> обработки древесины;</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
+<?php include __DIR__ . '/../shared/partials/homepage/quality_features.php'; ?>
 
             <section class="common_section">
                 <div class="products_component_container">
@@ -131,7 +85,7 @@
                 </div>
             </section>
 
-            <?php include __DIR__ . '/partials/homepage/projects_slider.php'; ?>
+            <?php include __DIR__ . '/../shared/partials/homepage/projects_slider.php'; ?>
 
             <section class="common_section">
                 <div class="common_section_container2">
@@ -201,20 +155,7 @@
                 </div>
             </section>
 
-            <section class="chramy_chasovni targetElement4">
-                <div class="chramy_chasovni_container">
-                    <div class="chramy_chasovni_block1">
-                        <h2 class="chramy_chasovni_heading">Строим деревянные православные храмы и часовни под ключ</h2>
-                        <ul class="chramy_chasovni_list">
-                            <li class="chramy_chasovni_point">Строим целиком — от фундамента до купола с крестом по канонам православной церкви</li>
-                            <li class="chramy_chasovni_point">Имеем благодарности от РПЦ</li>
-                            <li class="chramy_chasovni_point">От 3 месяцев</li>
-                        </ul>
-                        <button class="chramy_chasovni_button project_calculation3">Оставить заявку</button>
-                    </div>
-                    <img src="../img/homepage/hram3_1.webp" alt="" class="chramy_chasovni_foto">
-                </div>
-            </section>
+<?php include __DIR__ . '/../shared/partials/homepage/temples.php'; ?>
 
             <section class="common_section">
                 <div class="common_section_container2">
