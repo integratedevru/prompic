@@ -48,7 +48,7 @@
     </li>
     <li>
         <a href="/about-company" class="nav_logo_and_links_list_link nav_logo_and_links_list_link_js">
-            О нас
+            Контакты
         </a>
     </li>
     <li>

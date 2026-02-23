@@ -31,7 +31,7 @@
     </li>
     <li>
         <a href="/about-company" class="header_logo_and_links_list_link header_logo_and_links_list_link_js">
-            О нас
+        Контакты
         </a>
     </li>
     <li>

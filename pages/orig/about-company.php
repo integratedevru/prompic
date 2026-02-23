@@ -1,23 +1,4 @@
             <section class="o_companii">
-                <div class="o_companii_container1">
-                    <div class="iframe_o_kompanii_container">
-                        <video class="iframe_o_kompanii" controls preload="metadata">
-                            <source src="../video/video.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </section>
-<section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none">
-                <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container o_companii_container2">
-                    <h1 class="o_companii_container_heading">О нас</h1>
-<p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Предприятие ООО “Пром-Пик” было образовано в 1997 году. Производственная база находится в городе Пскове, что позволяет успешно работать с Московской, Ленинградской, Новгородской и другими областями России и ближним зарубежьем: Эстонией, Литвой и Латвией. Наша компания имеет дочерние предприятия в Прибалтике, Краснодарском крае, Ростовской, Ленинградской, Волгоградской и Московской областях.</p>
-                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Одной из основных специализаций предприятия является производство экологически чистого оцилиндрованного бревна на высокотехнологичном импортном оборудовании. В 2011 году на предприятии веден в эксплуатацию новый “раскроечный” комплекс для изготовления элементов различных конструкций. В настоящее время у нас можно заказать дом, баню и другие строения по Вашему индивидуальному проекту, либо использовать типовой проект с привязкой к участку застройки.</p>
-                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Основное наше преимущество — качество изготавливаемой продукции. Использование импортного оборудования позволяет исключить кривизну по всей длине и обеспечить при монтаже идеальное прилегание элементов друг к другу, что позволяет уменьшить теплопроводность и сохранить тепло.</p>
-                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Одно из главных преимуществ конструкций из дерева является сравнительно короткое время монтажа, от 1 до 30 дней, в зависимости от объема строения. При этом стоимость строительно-монтажных работы значительно ниже стоимости возведения объектов из других строительных материалов.</p>
-                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font o_companii_text_last">“Пром-Пик” — место где древесина приобретает “Вторую Жизнь”</p>
-                </div>
-            </section>
-            <section class="o_companii">
                 <div class="o_companii_container">
                     <div class="o_companii_karta_container">
                         <div class="o_companii_karta_block1">
@@ -76,5 +57,29 @@
 <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7ed1e0d1ebb325125dd8846bab269e8e62b2ffabef505d56bfcfc1687da7ed6a&amp;source=constructor" width="100%" height="509" frameborder="0" class="o_companii_karta_container_iframe"></iframe>
 </div>
                 </div>
+            </section></br> </br>
+
+            <section class="o_companii">
+                <div class="o_companii_container1">
+                    <div class="iframe_o_kompanii_container">
+                        <video class="iframe_o_kompanii" controls preload="metadata">
+                            <source src="../video/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
             </section>
+<section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none">
+                <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container o_companii_container2">
+                    <h1 class="o_companii_container_heading">О компании «Пром-Пик»</h1>
+<p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">ООО «Пром-Пик» работает с 1997 года. Производственная база расположена в городе Пскове, что позволяет нам успешно выполнять заказы в Московской, 
+    Ленинградской, Новгородской областях, а также в странах ближнего зарубежья — Эстонии, Литве и Латвии. Компания имеет дочерние предприятия в Прибалтике, Краснодарском крае, Ростовской, Ленинградской, Волгоградской и Московской областях.
+      Одно из ключевых направлений нашей работы — производство экологически чистого <a href="/production">оцилиндрованного бревна</a> на современном импортном оборудовании. В 2011 году на предприятии был введен в эксплуатацию собственный 
+      раскроечный комплекс для изготовления элементов деревянных конструкций. Сегодня у нас можно заказать дом, баню и другие строения как по индивидуальному проекту, так и по типовому решению с привязкой к участку застройки.</p>
+ <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Наше основное преимущество — стабильное качество продукции. Импортное оборудование позволяет добиться идеальной геометрии бревна 
+                        и плотного прилегания элементов при монтаже, что снижает теплопотери и помогает сохранять тепло в доме.                     </p>
+<p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Деревянные конструкции отличаются короткими сроками монтажа — от 1 до 30 дней, в зависимости от объема строения. При этом 
+                        стоимость <a href="/stroitelniye_uslugi">строительно-монтажных работ</a> существенно ниже, чем при строительстве из других материалов.</p></br>
+                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font o_companii_text_last"><b>“Пром-Пик” — место где древесина приобретает “Вторую Жизнь”</b></p>
+                </div>
+            </section> </br></br></br></br>
 
