@@ -21,7 +21,7 @@
                             <img src="../img/homepage/slider1/slider1_foto6_4.webp" alt="Slide 6" class="slider_1_foto_6">
                         </div>
                     </div>
-                    <h1 class="slider_1_heading">Производство срубов, строительство деревянных домов, бань, беседок по Псковской области</h1>
+                    <h1 class="slider_1_heading">Производство срубов и строительство деревянных домов под ключ в Псковской области</h1>
                 </div>
             </section>
 

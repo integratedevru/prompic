@@ -38,7 +38,7 @@
     </li>
     <li>
         <a href="/production" class="nav_logo_and_links_list_link nav_logo_and_links_list_link_js">
-            Продукция
+            Бревно  
         </a>
     </li>
     <li>
