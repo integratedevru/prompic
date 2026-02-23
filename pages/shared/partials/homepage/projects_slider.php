@@ -1,6 +1,6 @@
 <?php
-$sliders = require __DIR__ . '/../../../../config/homepage_sliders.php';
-$projects = $sliders['projects'];
+    $sliders = require __DIR__ . '/../../../../config/homepage_sliders.php';
+    $projects = $sliders['projects'];
 ?>
 <section class="homepage_slider_2">
     <div class="homepage_slider_2_container">
