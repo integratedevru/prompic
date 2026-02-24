@@ -2621,3 +2621,57 @@ figure {
     margin-top: 60px;
 }
 /* Доставка и оплата - конец */
+
+/* Cookie banner - начало */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(97, 139, 126, 0.88);
+    z-index: 10000;
+    padding: 14px 30px;
+}
+.cookie-banner__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.cookie-banner__text {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+.cookie-banner__buttons {
+    display: flex;
+    gap: 12px;
+    flex-shrink: 0;
+}
+.cookie-banner__btn {
+    padding: 10px 28px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    transition: opacity 0.2s;
+}
+.cookie-banner__btn:hover {
+    opacity: 0.85;
+}
+.cookie-banner__btn--accept {
+    background-color: #335E50;
+    color: #ffffff;
+}
+.cookie-banner__btn--more {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+/* Cookie banner - конец */
