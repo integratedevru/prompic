@@ -95,10 +95,14 @@ $sharedMeta = [
         'title' => 'Политика конфиденциальности',
         'description' => 'Политика конфиденциальности для сайта pp-dom',
     ],
+    'cookies-policy' => [
+        'title' => 'Политика использования файлов Cookie',
+        'description' => 'Политика использования файлов Cookie для сайта pp-dom',
+    ],
 ];
 
 // Shared pages available to all variants
-$sharedPages = ['politika', 'error404'];
+$sharedPages = ['politika', 'cookies-policy', 'error404'];
 
 $variant = $_ENV['SITE_VARIANT'] ?? 'orig';
 
