@@ -1,4 +1,4 @@
-<h1 class="catalog_heading">Беседки из оцилиндрованного бревна в Пскове</h1>
+<h1 class="catalog_heading">Беседки из сруба (оцилиндрованного бревна) в Пскове</h1>
 <section class="zayavka_na_dom">
                 <div class="zayavka_na_dom_container zayavka_na_dom_container_catalog2">
                     <div class="zayavka_na_dom_block1 zayavka_na_dom_block1_homepage">
