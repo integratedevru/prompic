@@ -52,7 +52,7 @@
                                             <p class="houses_block_parameters2_text">1,0</p>
                                         </div>
                                     </div>
-<p class="houses_block_text1">260 000 ₽</p>
+                    <p class="houses_block_text1">370 000 ₽</p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation6">Рассчитать проект</button>
                                 </div>
@@ -85,7 +85,7 @@
                                             <p class="houses_block_parameters2_text">2,0</p>
                                         </div>
                                     </div>
-                                    <p class="houses_block_text1">320 000 ₽ </p>
+                                    <p class="houses_block_text1">450 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation7">Рассчитать проект</button>
                                 </div>
@@ -118,7 +118,7 @@
                                             <p class="houses_block_parameters2_text">3,0</p>
                                         </div>
                                     </div>
-                                    <p class="houses_block_text1">480 000 ₽ </p>
+                                    <p class="houses_block_text1">720 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation17">Рассчитать проект</button>
                                 </div>
@@ -153,7 +153,7 @@
                                             <p class="houses_block_parameters2_text">3,0</p>
                                         </div>
                                     </div>
-                                    <p class="houses_block_text1">650 000 ₽ </p>
+                                    <p class="houses_block_text1">1 050 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation18">Рассчитать проект</button>
                                 </div>
@@ -188,7 +188,7 @@
                                             <p class="houses_block_parameters2_text">3,0</p>
                                         </div>
                                     </div>
-                                    <p class="houses_block_text1">840 000 ₽ </p>
+                                    <p class="houses_block_text1">950 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation19">Рассчитать проект</button>
                                 </div>
@@ -223,7 +223,7 @@
                                             <p class="houses_block_parameters2_text">4,0</p>
                                         </div>
                                     </div>
-                                    <p class="houses_block_text1">960 000 ₽ </p>
+                                    <p class="houses_block_text1">1 170 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation20">Рассчитать проект</button>
                                 </div>
@@ -258,7 +258,7 @@
                                             <p class="houses_block_parameters2_text">3,0</p>
                                         </div>
                                     </div>
-                                    <p class="houses_block_text1">1 180 000 ₽ </p>
+                                    <p class="houses_block_text1">1 260 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation21">Рассчитать проект</button>
                                 </div>
@@ -293,34 +293,33 @@
                                             <p class="houses_block_parameters2_text">4,0</p>
                                         </div>
                                     </div>
-                                    <p class="houses_block_text1">1 310 000 ₽ </p>
+                                    <p class="houses_block_text1">1 330 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation22">Рассчитать проект</button>
                                 </div>  </li>  </ul>    </section> </div>          </section>
-            <section class="stroitelniye_uslugi_page_text_one">
+            <section class="stroitelniye_uslugi_page_text_one" style="margin-top: 50px">
                 <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">
-                <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_heading_pravki_font">Купить сруб дома из бревна в Пскове</h2>
-                   <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Сруб дома из бревна — это надежное и проверенное временем решение для загородного строительства. Такие дома подходят как для сезонного проживания, так и для 
-                    круглогодичного использования в климатических условиях Псковской области и других регионов России.</p>
+                <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_heading_pravki_font" style="margin-top: 0;">Купить сруб дома из бревна в Пскове</h2>
+                   <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Сруб дома из бревна — это надежное и проверенное временем решение для загородного строительства. Такие дома подходят как для 
+                    сезонного проживания, так и для круглогодичного использования в климатических условиях Псковской области и других регионов России.</p>
                     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font"><b>Срубы из бревна отличаются: </b></p>
-<ul class="catalog_domov_list1">
-    <li class="catalog_domov_list1_point" style="font-size: 18px;">высокой прочностью и долговечностью;</li>
-    <li class="catalog_domov_list1_point" style="font-size: 18px;">отличным сохранением тепла; </li>
-    <li class="catalog_domov_list1_point" style="font-size: 18px;">естественным микроклиматом без «парникового эффекта»;  </li>
-    <li class="catalog_domov_list1_point" style="font-size: 18px;">экологичностью и безопасностью для здоровья.</li>
-</ul>
+                    <ul class="catalog_domov_list1">
+                    <li class="catalog_domov_list1_point">высокой прочностью и долговечностью;</li>
+                    <li class="catalog_domov_list1_point">отличным сохранением тепла; </li>
+                    <li class="catalog_domov_list1_point">естественным микроклиматом без «парникового эффекта»;  </li>
+                    <li class="catalog_domov_list1_point">экологичностью и безопасностью для здоровья.</li> </ul>
                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font"><b>Дом из сруба сохраняет комфортную температуру зимой и прохладу летом, создавая уютную атмосферу для жизни на десятилетия вперед.</b></p>
                   <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_heading_pravki_font">Почему стоит заказать сруб дома у нас</h2>
-                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Компания «Пром-Пик» занимается производством псковских срубов с 1997 года. Мы не перекупаем домокомплекты, а изготавливаем их на собственном производстве, 
-                        контролируя качество на каждом этапе — от отбора леса до готового сруба. </p>
+                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Компания «Пром-Пик» занимается производством псковских срубов с 1997 года. Мы не перекупаем домокомплекты, 
+                        а изготавливаем их на собственном производстве, контролируя качество на каждом этапе — от отбора леса до готового сруба. </p>
                         <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font"><b>Наши преимущества:</b></p>
                        <ul class="catalog_domov_list1">
-                        <li class="catalog_domov_list1_point" style="font-size: 18px;">собственное производство срубов из бревна в Псковской области; </li>
-                        <li class="catalog_domov_list1_point" style="font-size: 18px;">качественный северный лес с ровной геометрией;</li>                      
-                         <li class="catalog_domov_list1_point" style="font-size: 18px;">точная обработка бревен и плотная посадка элементов;</li>
-                        <li class="catalog_domov_list1_point" style="font-size: 18px;">экономия на отделочных работах;</li>
-                        <li class="catalog_domov_list1_point" style="font-size: 18px;">возможность купить сруб дома недорого — без посредников;</li>
-                        <li class="catalog_domov_list1_point" style="font-size: 18px;">реальные сроки изготовления и сборки.</li>
+                        <li class="catalog_domov_list1_point">собственное производство срубов из бревна в Псковской области; </li>
+                        <li class="catalog_domov_list1_point">качественный северный лес с ровной геометрией;</li>                      
+                         <li class="catalog_domov_list1_point">точная обработка бревен и плотная посадка элементов;</li>
+                        <li class="catalog_domov_list1_point">экономия на отделочных работах;</li>
+                        <li class="catalog_domov_list1_point">возможность купить сруб дома недорого — без посредников;</li>
+                        <li class="catalog_domov_list1_point">реальные сроки изготовления и сборки.</li>
                     </ul>
                     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font stroitelniye_uslugi_page_text_one_text_last"><b>Мы строим дома, которые не требуют постоянных доработок и служат десятилетиями.</b></p>
                 </div>

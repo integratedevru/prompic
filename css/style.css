@@ -788,6 +788,11 @@
     font-size: 38px;
     margin-top: 70px;
 }
+.stroitelniye_uslugi_page_text_one_heading_h3 {
+    font-size: 26px; /* в 1.5 раза меньше, чем 38px */
+    margin-top: 30px;
+    color: #555555;
+}
 .process_stroitelstva,
 .stroitelniye_uslugi_page_text_one {
     display: flex;
@@ -820,7 +825,7 @@
     margin-top: 29.8px;
 }
 .stroitelniye_uslugi_page_text_one {
-    margin-top: 75px;
+    margin-top: 25px;
 }
 .stroitelniye_uslugi_page_text_one_text {
     margin-top: 23px;
@@ -1930,9 +1935,11 @@
     max-width: 740px;
 }
 .catalog_domov_list1_point {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 140%;
+    line-height: 28px;
+    opacity: 0.7;
+    color: #000000;
     padding-left: 5px;
 }
 .catalog-foto-sub {

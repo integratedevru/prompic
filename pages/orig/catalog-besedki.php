@@ -42,7 +42,7 @@
                                             <p class="houses_block_parameters2_text">6,2</p>
 </div>
                                     </div>
-                                    <p class="bath_block_text1 bath_block_text1_besedki">52 000 ₽ </p>
+                                    <p class="bath_block_text1 bath_block_text1_besedki">67 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation10">Рассчитать проект</button>
                                 </div>
@@ -71,7 +71,7 @@
                                             <p class="houses_block_parameters2_text">12,5</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1 bath_block_text1_besedki">74 000 ₽ </p>
+                                    <p class="bath_block_text1 bath_block_text1_besedki">96 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation11">Рассчитать проект</button>
                                 </div>
@@ -101,7 +101,7 @@
                                             <p class="houses_block_parameters2_text">12,0</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1 bath_block_text1_besedki">96 000 ₽ </p>
+                                    <p class="bath_block_text1 bath_block_text1_besedki">118 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation29">Рассчитать проект</button>
                                 </div>
@@ -131,7 +131,7 @@
                                             <p class="houses_block_parameters2_text">16,0</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1 bath_block_text1_besedki">102 000 ₽ </p>
+                                    <p class="bath_block_text1 bath_block_text1_besedki">126 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation30">Рассчитать проект</button>
                                 </div>
@@ -161,7 +161,7 @@
                                             <p class="houses_block_parameters2_text">29,1</p>   
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1 bath_block_text1_besedki">125 000 ₽ </p>
+                                    <p class="bath_block_text1 bath_block_text1_besedki">150 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation31">Рассчитать проект</button>
                                 </div>

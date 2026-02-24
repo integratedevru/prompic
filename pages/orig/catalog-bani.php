@@ -1,5 +1,8 @@
 
-            <h1 class="catalog_heading">Псковские бани из сруба в нашем каталоге</h1>
+            <h1 class="catalog_heading">Срубы бань из бревна – купить в Псковской области</h1>
+            <section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
+     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font" style="font-size: calc(100% + 10px); transform: translateX(-100px); white-space: nowrap;">
+         <b>👉Бани из сруба — готовые проекты и индивидуальный расчет</b> </p>    </section>
 <section class="zayavka_na_dom">
                 <div class="zayavka_na_dom_container zayavka_na_dom_container_catalog2">
                     <div class="zayavka_na_dom_block1 zayavka_na_dom_block1_homepage">
@@ -49,7 +52,7 @@
                                             <p class="houses_block_parameters2_text">1</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1">160 000 ₽ </p>
+                                    <p class="bath_block_text1">290 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation8">Рассчитать проект</button>
                                 </div>
@@ -82,7 +85,7 @@
                                             <p class="houses_block_parameters2_text">1</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1">220 000 ₽ </p>
+                                    <p class="bath_block_text1">360 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation9">Рассчитать проект</button>
                                 </div>
@@ -115,7 +118,7 @@
                                             <p class="houses_block_parameters2_text">1</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1">265 000 ₽ </p>
+                                    <p class="bath_block_text1">380 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation23">Рассчитать проект</button>
                                 </div>
@@ -148,7 +151,7 @@
                                             <p class="houses_block_parameters2_text">1</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1">345 000 ₽ </p>
+                                    <p class="bath_block_text1">460 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation24">Рассчитать проект</button>
                                 </div>
@@ -181,7 +184,7 @@
                                             <p class="houses_block_parameters2_text">1</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1">384 000 ₽ </p>
+                                    <p class="bath_block_text1">480 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation25">Рассчитать проект</button>
                                 </div>
@@ -214,7 +217,7 @@
                                             <p class="houses_block_parameters2_text">1</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1">495 000 ₽ </p>
+                                    <p class="bath_block_text1">690 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation26">Рассчитать проект</button>
                                 </div>
@@ -247,7 +250,7 @@
                                             <p class="houses_block_parameters2_text">3</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1">657 000 ₽ </p>
+                                    <p class="bath_block_text1">1 100 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation27">Рассчитать проект</button>
                                 </div>
@@ -282,25 +285,46 @@
                                             <p class="houses_block_parameters2_text">5</p>
                                         </div>
                                     </div>
-                                    <p class="bath_block_text1">840 000 ₽ </p>
+                                    <p class="bath_block_text1">1 050 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation28">Рассчитать проект</button>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
+                                </div>   </li>  </ul>   </section>  </div>     </section>
 
-</div>
-            </section>
-            <section class="stroitelniye_uslugi_page_text_one">
-                <div class="stroitelniye_uslugi_page_text_one_container stroitelniye_uslugi_page_text_one_container_seopravki">
-<p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_page_text_one_text_first">Постройка бани - традиция, которая сохраняет свою актуальность и в современном мире. И если вы рассматриваете вариант приобретения сруба для вашей будущей бани, то вы оказались в нужном месте.</p>
-                    <ol class="catalog_domov_list1 stroitelniye_uslugi_page_text_one_text_last">
-                        <li class="catalog_domov_list1_point">Псковские срубы для бань изготавливаются из натурального дерева. Вы избегаете применения синтетических материалов, а значит, воздух в бане будет чище и безопаснее для вашего здоровья.</li>
-                        <li class="catalog_domov_list1_point">Срубы бывают разных стилей и размеров, что позволяет вам выбрать тот, который подходит именно вам. Вы можете реализовать свои дизайнерские идеи и создать уникальное пространство, которое отражает ваш вкус и предпочтения.</li>
-                        <li class="catalog_domov_list1_point">Они изготавливаются с учетом всех норм и стандартов, что гарантирует их долгий срок службы. Ваша будущая баня будет служить вам десятилетиями.</li>
-                        <li class="catalog_domov_list1_point">Деревянные срубы обладают прекрасными теплоизоляционными свойствами, что позволяет быстро нагревать баню и поддерживать в ней комфортную температуру. В такой бане можно расслабиться и забыть обо всех заботах.</li>
-                    </ol>
+                                <section class="stroitelniye_uslugi_page_text_one" style="margin-top: 50px">
+     <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">
+     <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_heading_pravki_font" style="margin-top: 0;">Почему наши срубы бань выбирают снова и снова </h2>
+     <h3 class="stroitelniye_uslugi_page_text_one_heading_h3">Экономия на отделочных работах, эксплуатации, а не только на покупке</h3>
 
-                </div>
-            </section>
+        <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Мы используем плотную псковскую древесину и отработанную технологию производства. За счёт этого сруб:</p>
+         <ul class="catalog_domov_list1">
+         <li class="catalog_domov_list1_point">не «ведёт» со временем;</li>
+         <li class="catalog_domov_list1_point">дает минимальную усадку;</li>
+         <li class="catalog_domov_list1_point">лучше держит тепло;</li>
+         <li class="catalog_domov_list1_point">требует меньше обслуживания и ремонтов.     </li> </ul>
+        <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font"><b>👉В итоге баня обходится дешевле в эксплуатации и служит десятилетиями.</b></p>
+        
+       <h3 class="stroitelniye_uslugi_page_text_one_heading_h3"> Быстрый монтаж без нервов и переделок</h3>
+       <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Сруб бани приезжает на участок полностью подготовленным – всё нарезано под проект, без подгонки «на месте».</br>
+        Сборка занимает от 3 до 15 дней, в зависимости от размера и комплектации.</br>
+        Это позволяет оперативно ввести баню в эксплуатацию, а не строиться годами.  </p>
+        <h3 class="stroitelniye_uslugi_page_text_one_heading_h3"> Настоящая баня с чистым воздухом</h3>
+             <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Мы работаем только с <a href="/production">натуральным деревом </a> без синтетики и вредных пропиток.В такой бане:</p>
+            <ul class="catalog_domov_list1">
+             <li class="catalog_domov_list1_point">мягкий и «легкий» пар;</li>
+             <li class="catalog_domov_list1_point">легко дышится;</li>                      
+              <li class="catalog_domov_list1_point">улучшается самочувствие;</li>
+             <li class="catalog_domov_list1_point">комфортно и взрослым, и детям.</ul></li></ul>
+               <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font stroitelniye_uslugi_page_text_one_text_last"><b>👉Это не просто постройка, а баня для здоровья и отдыха.</b></p>
+                <h3 class="stroitelniye_uslugi_page_text_one_heading_h3"> Проверенное качество, а не обещания</h3>
+                <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">Производим <a href="/tehnology">срубы на собственном оборудовании</a> и контролируем каждый этап — от леса до отгрузки.</br>
+                С 1997 года построено более 10000 объектов: бани, дома, беседки.</br>
+                Нам доверяют, потому что мы отвечаем за результат./p>
+                <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_heading_pravki_font"> Кому подойдут наши срубы бань?</h2>   
+            <ul class="catalog_domov_list1">
+        <li class="catalog_domov_list1_point">владельцам дач и загородных участков,</li>
+        <li class="catalog_domov_list1_point">тем, кто хочет баню для круглогодичного использования,</li>                      
+         <li class="catalog_domov_list1_point">предпринимателям (базы отдыха, гостевые дома, банные комплексы),
+                 <li class="catalog_domov_list1_point">людям, которым важны качество, сроки и понятная цена без «сюрпризов».</li></ul>
+        <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font stroitelniye_uslugi_page_text_one_text_last"><b>👉Мы строим бани, которые не требуют вложений, но служат многие десятилетия.</b></p>
+     </div>
+ </section>
