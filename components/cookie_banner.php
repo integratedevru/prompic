@@ -3,7 +3,7 @@
         <p class="cookie-banner__text">Нажимая кнопку «Принять» или продолжая пользоваться сайтом, вы соглашаетесь на обработку файлов «Cookie»</p>
         <div class="cookie-banner__buttons">
             <button id="cookie-accept" class="cookie-banner__btn cookie-banner__btn--accept">ПРИНЯТЬ</button>
-            <a href="/politika" class="cookie-banner__btn cookie-banner__btn--more">ПОДРОБНЕЕ</a>
+            <a href="/cookies-policy" class="cookie-banner__btn cookie-banner__btn--more">ПОДРОБНЕЕ</a>
         </div>
     </div>
 </div>
