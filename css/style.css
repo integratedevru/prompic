@@ -2278,9 +2278,11 @@ figure {
 }
 .politika_container {
     padding: 50px;
+    margin-left: 100px;
+margin-right: 400px;
 }
 .cookies_policy_container {
-    margin-left: 400px;
+    margin-left: 100px;
     margin-right: 400px;
 }
 .politika_text_1 {

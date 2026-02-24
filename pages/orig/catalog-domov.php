@@ -70,7 +70,7 @@
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
-                                    <h2 class="houses_block_heading">Одноэтажный дом 3</h2>
+                                    <h2 class="houses_block_heading">Одноэтажный дом 2</h2>
                                     <div class="houses_block_parameters">
                                         <div class="houses_block_parameters1">
                                             <p class="houses_block_parameters1_text">Этажность</p>
@@ -103,7 +103,7 @@
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
-                                    <h2 class="houses_block_heading">Одноэтажный дом 8</h2>
+                                    <h2 class="houses_block_heading">Одноэтажный дом 3</h2>
                                     <div class="houses_block_parameters">
                                         <div class="houses_block_parameters1">
                                             <p class="houses_block_parameters1_text">Этажность</p>
@@ -138,7 +138,7 @@
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
-                                    <h2 class="houses_block_heading">Двухэтажный дом 24</h2>
+                                    <h2 class="houses_block_heading">Двухэтажный дом 4</h2>
                                     <div class="houses_block_parameters">
                                         <div class="houses_block_parameters1">
                                             <p class="houses_block_parameters1_text">Этажность</p>
@@ -173,7 +173,7 @@
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
-                                    <h2 class="houses_block_heading">Двухэтажный дом 26</h2>
+                                    <h2 class="houses_block_heading">Двухэтажный дом 5</h2>
                                     <div class="houses_block_parameters">
                                         <div class="houses_block_parameters1">
                                             <p class="houses_block_parameters1_text">Этажность</p>
@@ -208,7 +208,7 @@
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
-                                    <h2 class="houses_block_heading">Двухэтажный дом 29</h2>
+                                    <h2 class="houses_block_heading">Двухэтажный дом 6</h2>
                                     <div class="houses_block_parameters">
                                         <div class="houses_block_parameters1">
                                             <p class="houses_block_parameters1_text">Этажность</p>
@@ -243,7 +243,7 @@
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
-                                    <h2 class="houses_block_heading">Двухэтажный дом 30</h2>
+                                    <h2 class="houses_block_heading">Двухэтажный дом 7</h2>
                                     <div class="houses_block_parameters">
                                         <div class="houses_block_parameters1">
                                             <p class="houses_block_parameters1_text">Этажность</p>
@@ -278,7 +278,7 @@
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
-                                    <h2 class="houses_block_heading">Двухэтажный дом 31</h2>
+                                    <h2 class="houses_block_heading">Двухэтажный дом 8</h2>
                                     <div class="houses_block_parameters">
                                         <div class="houses_block_parameters1">
                                             <p class="houses_block_parameters1_text">Этажность</p>

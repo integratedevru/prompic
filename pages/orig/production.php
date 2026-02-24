@@ -49,7 +49,7 @@
                                     </ul>
                                 </div>
                                 <div class="card_ocilindrovannoe_brevno_price">
-                                    <p class="card_ocilindrovannoe_brevno_price_text">от 15 000 руб/м<sup>3</sup></p>
+                                    <p class="card_ocilindrovannoe_brevno_price_text"><b>от 23 000 руб/м</b><sup>3</sup></p>
                                     <button class="button_card_ocilindrovannoe_brevno_price project_calculation12">Оставить заявку</button>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                                     </ul>
                                 </div>
                                 <div class="card_okoryonnoe_brevno_price">
-                                    <p class="card_okoryonnoe_brevno_price_text">от 17 000 руб/м<sup>3</sup></p>
+                                    <p class="card_okoryonnoe_brevno_price_text"><b>от 28 000 руб/м</b><sup>3</sup></p>
                                     <button class="button_card_okoryonnoe_brevno_price project_calculation13">Оставить заявку</button>
                                 </div>
                             </div>
