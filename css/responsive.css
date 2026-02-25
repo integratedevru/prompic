@@ -324,11 +324,6 @@
         gap: 14vw;
         padding: 52px 55px 55px 55px;
     }
-    .popup_order_call_container,
-    .popup_order_call_container2 {
-        max-width: none;
-        min-width: auto;
-    }
     .stroitelniye_uslugi_domokomplekt_list {
         gap: 15px;
         padding-left: 20px;
@@ -1209,12 +1204,6 @@
         height: 17.6vw;
     }
 }
-@media (max-width: 885px) {
-    .popup_order_call_container,
-    .popup_order_call_container2 {
-        margin-left: 1%;
-    }
-}
 @media (max-width: 880px) {
     .block_dostijeniy_container {
         padding-left: 40px;
@@ -1287,10 +1276,6 @@
     }
     .footer_component_container {
         padding: 52px 30px 55px 30px;
-    }
-    .popup_order_call_container,
-    .popup_order_call_container2 {
-        margin-left: 10%;
     }
     .stroitelniye_uslugi_heading {
         font-size: 4vw;
@@ -1742,11 +1727,6 @@
     }
     .popup_order_call {
         padding: 40px 20px 20px 20px;
-    }
-    .popup_order_call_container2,
-    .popup_order_call_container {
-        margin-right: 19%;
-        margin-left: 19%;
     }
     .form_zayavka_container1 {
         flex-direction: column;
@@ -2416,11 +2396,6 @@
         font-size: 13px;
         line-height: 130%;
     }
-    .popup_order_call_container2,
-    .popup_order_call_container {
-        margin-right: 15%;
-        margin-left: 15%;
-    }
     .stroitelniye_uslugi_heading {
         font-size: 20px;
     }
@@ -3060,11 +3035,6 @@
         font-size: 13px;
         padding: 10px 16px;
         max-width: 154px;
-    }
-    .popup_order_call_container2,
-    .popup_order_call_container {
-        margin-right: 10%;
-        margin-left: 10%;
     }
     .private_life_container {
         flex-direction: column;
