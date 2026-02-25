@@ -1618,6 +1618,11 @@
 @media (max-width: 670px) {
     .before_after_pluses_list {
         display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .before_after_pluses_list_point {
+        width: auto;
     }
 }
 @media (max-width: 665px) {
@@ -1856,8 +1861,15 @@
     .politika_heading_2level {
         font-size: 20px;
     }
+    .stroitelniye_uslugi_text_pravki_font {
+        white-space: normal !important;
+        transform: none !important;
+    }
 }
 @media (max-width: 600px) {
+    .nav_logo_and_links_list{
+        margin-top: 15px;
+    }
     .before_after {
         padding-top: 40px;
     }
@@ -2679,7 +2691,7 @@
         font-size: 20px;
     }
     .stroitelniye_uslugi_page_text_one {
-        margin-top: 40px;
+        margin-top: 20px;
     }
     .stroitelniye_uslugi_page_text_one_text {
         margin-bottom: 0px;
