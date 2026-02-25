@@ -1,3 +1,29 @@
+<?php
+$schemaData = [
+    '@context' => 'https://schema.org',
+    '@type' => 'LocalBusiness',
+    'name' => 'ООО «Пром-Пик»',
+    'description' => 'Производство оцилиндрованного бревна, изготовление срубов и строительство деревянных домов, бань, беседок в Псковской области с 1997 года.',
+    'url' => 'https://pp-dom.ru/about-company',
+    'foundingDate' => '1997',
+    'telephone' => ['+7-911-360-30-30', '+7-8112-672-600', '+7-911-397-47-73'],
+    'address' => [
+        '@type' => 'PostalAddress',
+        'streetAddress' => 'пос. Неелово-1, ул. Юбилейная 3А',
+        'addressLocality' => 'Псков',
+        'postalCode' => '180502',
+        'addressCountry' => 'RU',
+    ],
+    'geo' => [
+        '@type' => 'GeoCoordinates',
+        'latitude' => '57.7977',
+        'longitude' => '28.3350',
+    ],
+    'sameAs' => [
+        'https://vk.com/pp_dom',
+    ],
+];
+?>
             <section class="o_companii">
                 <div class="o_companii_container">
                     <div class="o_companii_karta_container">

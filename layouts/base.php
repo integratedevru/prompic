@@ -20,6 +20,9 @@ $_bufferedContent = ob_get_clean();
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
         <link rel="canonical" href="<?= htmlspecialchars('https://' . $siteConfig['domain'] . (rtrim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/') ?: '/')) ?>">
+        <?php if (!empty($schemaData)): ?>
+        <script type="application/ld+json"><?= json_encode($schemaData, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) ?></script>
+        <?php endif; ?>
         <title><?= htmlspecialchars($siteConfig['meta'][$pageSlug]['title'] ?? 'ПромПик') ?></title>
         <meta name="description" content="<?= htmlspecialchars($siteConfig['meta'][$pageSlug]['description'] ?? '') ?>">
         <script src="https://www.google.com/recaptcha/enterprise.js?render=<?= htmlspecialchars($_ENV['RECAPTCHA_SITE_KEY']) ?>"></script>

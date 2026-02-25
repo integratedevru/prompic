@@ -1,4 +1,35 @@
 
+<?php
+$schemaData = [
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Строительство бань из сруба',
+    'description' => 'Срубы бань из оцилиндрованного бревна — готовые проекты и индивидуальный расчёт. Производство и строительство под ключ в Псковской области.',
+    'url' => 'https://pp-dom.ru/catalog-bani',
+    'provider' => [
+        '@type' => 'LocalBusiness',
+        'name' => 'ООО «Пром-Пик»',
+        'url' => 'https://pp-dom.ru',
+        'telephone' => '+7-911-360-30-30',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => 'пос. Неелово-1, ул. Юбилейная 3А',
+            'addressLocality' => 'Псков',
+            'postalCode' => '180502',
+            'addressCountry' => 'RU',
+        ],
+    ],
+    'areaServed' => 'Псковская область',
+    'hasOfferCatalog' => [
+        '@type' => 'OfferCatalog',
+        'name' => 'Каталог бань из сруба',
+        'itemListElement' => [
+            ['@type' => 'Offer', 'itemOffered' => ['@type' => 'Product', 'name' => 'Баня из сруба Б1', 'description' => 'Баня из оцилиндрованного бревна']],
+            ['@type' => 'Offer', 'itemOffered' => ['@type' => 'Product', 'name' => 'Баня из сруба Б2', 'description' => 'Двухэтажная баня из оцилиндрованного бревна']],
+        ],
+    ],
+];
+?>
             <h1 class="catalog_heading">Срубы бань из бревна – купить в Псковской области</h1>
             <section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
                 <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font" style="font-size: calc(100% + 10px); transform: translateX(-100px); white-space: nowrap;">

@@ -1,3 +1,34 @@
+<?php
+$schemaData = [
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Беседки из сруба под ключ',
+    'description' => 'Беседки из оцилиндрованного бревна — купить в Пскове. Готовые и индивидуальные проекты, производство и строительство под ключ.',
+    'url' => 'https://pp-dom.ru/catalog-besedki',
+    'provider' => [
+        '@type' => 'LocalBusiness',
+        'name' => 'ООО «Пром-Пик»',
+        'url' => 'https://pp-dom.ru',
+        'telephone' => '+7-911-360-30-30',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => 'пос. Неелово-1, ул. Юбилейная 3А',
+            'addressLocality' => 'Псков',
+            'postalCode' => '180502',
+            'addressCountry' => 'RU',
+        ],
+    ],
+    'areaServed' => 'Псковская область',
+    'hasOfferCatalog' => [
+        '@type' => 'OfferCatalog',
+        'name' => 'Каталог беседок из сруба',
+        'itemListElement' => [
+            ['@type' => 'Offer', 'itemOffered' => ['@type' => 'Product', 'name' => 'Беседка из сруба М1', 'description' => 'Беседка из оцилиндрованного бревна']],
+            ['@type' => 'Offer', 'itemOffered' => ['@type' => 'Product', 'name' => 'Беседка из сруба М2', 'description' => 'Большая беседка из оцилиндрованного бревна']],
+        ],
+    ],
+];
+?>
 <h1 class="catalog_heading">Беседки из сруба (оцилиндрованного бревна) в Пскове</h1>
 <section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
      <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font" style="font-size: calc(100% + 10px); transform: translateX(-100px); white-space: nowrap;">

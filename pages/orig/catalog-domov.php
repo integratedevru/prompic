@@ -1,3 +1,34 @@
+<?php
+$schemaData = [
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Строительство деревянных домов из сруба',
+    'description' => 'Типовые и индивидуальные проекты домов из оцилиндрованного бревна. Производство и строительство под ключ в Псковской области.',
+    'url' => 'https://pp-dom.ru/catalog-domov',
+    'provider' => [
+        '@type' => 'LocalBusiness',
+        'name' => 'ООО «Пром-Пик»',
+        'url' => 'https://pp-dom.ru',
+        'telephone' => '+7-911-360-30-30',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => 'пос. Неелово-1, ул. Юбилейная 3А',
+            'addressLocality' => 'Псков',
+            'postalCode' => '180502',
+            'addressCountry' => 'RU',
+        ],
+    ],
+    'areaServed' => 'Псковская область',
+    'hasOfferCatalog' => [
+        '@type' => 'OfferCatalog',
+        'name' => 'Каталог домов из сруба',
+        'itemListElement' => [
+            ['@type' => 'Offer', 'itemOffered' => ['@type' => 'Product', 'name' => 'Дом из сруба Д1', 'description' => 'Одноэтажный дом из оцилиндрованного бревна']],
+            ['@type' => 'Offer', 'itemOffered' => ['@type' => 'Product', 'name' => 'Дом из сруба Д2', 'description' => 'Двухэтажный дом из оцилиндрованного бревна']],
+        ],
+    ],
+];
+?>
 <h1 class="catalog_heading">Купить сруб дома из бревна в Псковской области</h1>
 <section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
      <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font" style="font-size: calc(100% + 10px); transform: translateX(-100px); white-space: nowrap;">
