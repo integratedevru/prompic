@@ -1436,6 +1436,8 @@
     }
     .politika_container {
         padding: 40px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .success_send_message_block_container {
         margin-left: 10%;

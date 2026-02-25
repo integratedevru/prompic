@@ -45,7 +45,12 @@
                     }
                 }
             </script>
-            <p class="popup_order_call_right_p">Нажимая на кнопку Отправить, вы даете согласие на обработку ваших персональных данных и соглашаетесь <span class="types_foundations_red_text">с политикой конфиденциальности</span></p>
+            <label class="popup_order_call_consent">
+                <input type="checkbox" name="consent" id="popup_consent" required class="popup_order_call_consent_checkbox">
+                <span class="popup_order_call_right_p">Даю согласие на обработку 
+                    <a href='/politika' target='_blank'>персональных данных</a>
+                </span>
+            </label>
         </div>
     </div>
 </section>

@@ -639,8 +639,22 @@
 .order_call_form_button:hover {
     opacity: 0.7;
 }
-.popup_order_call_right_p {
+.popup_order_call_consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
     margin-top: 16px;
+    cursor: pointer;
+}
+.popup_order_call_consent_checkbox {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+    accent-color: #618B7E;
+}
+.popup_order_call_right_p {
     font-size: 12px;
     line-height: 133%;
 }
