@@ -3,18 +3,20 @@
             <section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
      <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font" style="font-size: calc(100% + 10px); transform: translateX(-100px); white-space: nowrap;">
          <b>👉Бани из сруба — готовые проекты и индивидуальный расчет</b> </p>    </section>
-<section class="zayavka_na_dom">
-                <div class="zayavka_na_dom_container zayavka_na_dom_container_catalog2">
+         <section class="stroitelniye_uslugi_page_text_one">
+    <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">
+        <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font stroitelniye_uslugi_page_text_one_text_first">
+        <b>Мы делаем срубы бань с 1997 года: от компактных 4×5  до просторных 10×10. Возможна бесплатная разработка индивидуального проекта под размеры участка и ваши задачи. Рассчитываем точную смету, 
+            изготавливаем только комплект сруба или делаем под ключ. </b></p></div></section>
+                     <section class="zayavka_na_dom">
+                       <div class="zayavka_na_dom_container zayavka_na_dom_container_catalog2">
                     <div class="zayavka_na_dom_block1 zayavka_na_dom_block1_homepage">
                         <h2 class="zayavka_na_dom_heading">Хотите дом по индивидуальному проекту?</h2>
                         <p class="zayavka_na_dom_text">Рассчитаем смету и подготовим документацию по проекту бесплатно</p>
                         <button class="button_zayavka_na_dom project_calculation4">Оставьте заявку</button>
                     </div>
                     <img src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage">
-                </div>
-            </section>
-
-
+                </div>            </section>
 <section class="buttons_bath_houses_maf">
                 <a  class="buttons_houses" href="/catalog-domov">дома</a>
 <a href="/catalog-bani" class="buttons_bath buttons_bath_houses_maf_active">бани</a>

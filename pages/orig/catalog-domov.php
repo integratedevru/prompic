@@ -2,7 +2,13 @@
 <section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
      <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font" style="font-size: calc(100% + 10px); transform: translateX(-100px); white-space: nowrap;">
          <b>👉Типовые и индивидуальные проекты псковских срубов от производителя</b> </p>
- </section></br> </br>
+ </section>
+ <section class="stroitelniye_uslugi_page_text_one">
+    <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">
+        <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font stroitelniye_uslugi_page_text_one_text_first">
+        <b> В каталоге представлены типовые проекты домов из сруба — от компактных одноэтажных решений до просторных двухэтажных домов для постоянного проживания. 
+        Все проекты можно адаптировать под ваш участок, изменить планировку, размеры и комплектацию.</b></p> </div>  </section>
+
  <section class="zayavka_na_dom">
                 <div class="zayavka_na_dom_container zayavka_na_dom_container_catalog2">
                     <div class="zayavka_na_dom_block1 zayavka_na_dom_block1_homepage">
@@ -321,6 +327,6 @@
                         <li class="catalog_domov_list1_point">возможность купить сруб дома недорого — без посредников;</li>
                         <li class="catalog_domov_list1_point">реальные сроки изготовления и сборки.</li>
                     </ul>
-                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font stroitelniye_uslugi_page_text_one_text_last"><b>Мы строим дома, которые не требуют постоянных доработок и служат десятилетиями.</b></p>
+                    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font stroitelniye_uslugi_page_text_one_text_last"><b>👉Мы строим дома, которые не требуют постоянных доработок и служат десятилетиями.</b></p>
                 </div>
             </section>

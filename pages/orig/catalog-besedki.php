@@ -11,10 +11,7 @@
             тем выше расход древесины и цена за кубометр. Для большинства домов и бань оптимально используются бревна
             диаметром 18–23 см — они обеспечивают хороший баланс между стоимостью, теплотехническими характеристиками и
             внешним видом. Мы помогаем подобрать подходящий диаметр под проект и бюджет, чтобы вы получили надежный
-            результат без переплат.
-        </p>
-    </div>
-</section>
+            результат без переплат. </p>     </div>  </section>
         <section class="zayavka_na_dom">
                 <div class="zayavka_na_dom_container zayavka_na_dom_container_catalog2">
                     <div class="zayavka_na_dom_block1 zayavka_na_dom_block1_homepage">
@@ -23,8 +20,7 @@
                         <button class="button_zayavka_na_dom project_calculation4">Оставьте заявку</button>
                     </div>
                     <img src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage">
-                </div>
-            </section>
+                </div>             </section>
             <section class="buttons_bath_houses_maf">
                 <a  class="buttons_houses" href="/catalog-domov">дома</a>
 <a href="/catalog-bani" class="buttons_bath">бани</a>
