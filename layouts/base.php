@@ -53,6 +53,7 @@ $_bufferedContent = ob_get_clean();
             <?php include __DIR__ . '/../components/footer.php'; ?>
         </footer>
         <?php include __DIR__ . '/../components/cookie_banner.php'; ?>
+        <script src="/js/sliders.js"></script>
         <script src="/js/index.js"></script>
         <script src="/js/lightbox-init.js"></script>
     </body>
