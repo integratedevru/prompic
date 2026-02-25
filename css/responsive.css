@@ -1,3 +1,49 @@
+@media (min-width: 1600px) {
+    .footer_section {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1620px) {
+    .homepage_slider_one {
+        justify-content: flex-start;
+    }
+    .homepage_slider_one_component,
+    .slider_1_container,
+    .slider_1_foto_1,  
+    .slider_1_foto_2,  
+    .slider_1_foto_3,  
+    .slider_1_foto_4,  
+    .slider_1_foto_5,  
+    .slider_1_foto_6,  
+    .slider_1_foto_7  {
+        
+        
+        height: calc(42vw - 20px);
+        width: 100%;
+        min-width: auto;
+    }
+    
+}
+
+@media (max-width: 1535px) {
+    .footer_component_container {
+        
+        gap: 14vw;
+    }
+}
+
+@media (max-width: 1495px) {
+    
+    .popup_order_call_container3,
+    .popup_order_call_container4,
+    .popup_order_call_container5 {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+}
+
 @media (max-width: 1480px) {
     .before_after_block1 {
         padding: 35px 55px 42px 52px;
@@ -17,6 +63,182 @@
     .products_component_container {
         min-width: auto;
         max-width: max-content;
+    }
+
+    .proecty_homepage {
+        
+        justify-content: space-around;
+        margin-left: 17px;
+        margin-right: 17px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .proecty_homepage_baths {
+        width: 100%;
+        height: 16.1vw;
+    }
+    .proecty_homepage_gazebos_and_mafs {
+        width: 100%;
+        height: 16.1vw;
+    }
+    .proecty_homepage_houses {
+        width: 100%;
+        height: 33vw;
+    }
+    .proecty_homepage_block_two .proecty_homepage_baths_container {
+        width: 100%;
+    }
+    .proecty_homepage_block_two .proecty_homepage_gazebos_and_mafs_container {
+        width: 100%;
+    }
+    .proecty_homepage_block_two {
+        width: 53%;
+    }
+    .block_dostijeniy_container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .sobstvennoe_proizvodstvo_container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .homepage_slider_2_container {
+        width: 100%;
+        min-width: auto;
+        max-width: none;
+    }
+    .homepage_slider_2 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .kachestvo_breven_section_container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .chramy_chasovni_container {
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .etapy_raboty_container {
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+    .etapy_raboty_block2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    .zayavka_na_dom_container {
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+        min-width: auto;
+        max-width: none;
+    }
+
+    .homepage_slider_3_container {
+        min-width: auto;
+        max-width: none;
+        width: 100%;
+    }
+    .homepage_slider_3 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .common_section_container2 {
+        width: 100%;
+        
+        
+        
+        min-width: auto;
+        
+        max-width: 100%;
+    }
+    .stage_section_container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        
+        min-width: auto;
+        max-width: none;
+    }
+
+    .stage_project_list {
+        gap: 3%;
+    }
+}
+
+@media (max-width: 1460px) {
+    .zayavka_na_dom_block1 {
+        padding: 42px 17px 10px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .zayavka_na_dom_heading {
+        max-width: none;
+        text-align: center;
+    }
+    .zayavka_na_dom_text_spb {
+        margin-top: 22px;
+    }
+
+    .zayavka_na_dom_container {
+        flex-direction: column;
+    }
+
+    .zayavka_na_dom_foto_homepage_spb {
+        margin-left: 0px;
+    }
+    .zayavka_na_dom_text_spb {
+        text-align: center;
+        max-width: none;
+    }
+    .zayavka_na_dom_block1_homepage {
+        padding: 42px 33px 10px 33px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .o_companii_container_text_container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .o_companii_karta_container {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .o_companii_karta_container_iframe {
+        height: 527px;
+    }
+
+    .stroitelniye_uslugi_page_text_one_container {
+        min-width: auto;
+        
+        min-width: 740px;
+    }
+}
+
+@media (max-width: 1430px) {
+    .gallery_container_details {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -132,580 +354,17 @@
         margin-left: 13px;
     }
 
-}
-
-@media (max-width: 1400px) {
-    .products_component_heading {
-        font-size: 3.715vw;
-    }
-}
-
-@media (max-width: 1285px) {
-    .type_of_brevno {
-        justify-content: space-between;
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 1190px) {
-    .card_ocilindrovannoe_brevno_price, .card_okoryonnoe_brevno_price {
-        flex-direction: column;
-    }
-    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        width: 372px;
-    }
-    .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
-        width: 325px;
-    }
-}
-
-@media (max-width: 1107px) {
-    .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
-        width: 281px;
-    }
-    .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
-        font-size: 13px;
-    }
-    .card_okoryonnoe_brevno {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .card_ocilindrovannoe_brevno {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        width: 319px;
-    }
-    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
-        font-size: 19px;
-    }
-}
-
-@media (max-width: 1060px) {
-    .products_page_text_one {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .products_page_text_one_text {
-        width: auto;
-    }
-}
-
-@media (max-width: 1024px) {
-    .kachestvo_breven_section_one_img {
-        align-self: end;
-        padding-right: 40px;
-    }
-    .kachestvo_breven_section_one {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 1000px) {
-    .products_component_container3 {
-        min-width: auto;
-        max-width: none;
-    }
-    .products_page_text_one {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-}
-
-@media (max-width: 990px) {
-    .type_of_brevno {
-        gap: 10px;
-        justify-content: center;
-    } 
-    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        width: 450px;
-        padding-top: 22px;
-        padding-bottom: 28px;
-    }
-    .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
-        width: 371px;
-    }
-    .card_ocilindrovannoe_brevno_price, .card_okoryonnoe_brevno_price {
-        flex-direction: row;
-    }
-    .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
-        font-size: 15px;
-    }
-    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
-        font-size: 21px;
-    }
-}
-
-@media (max-width: 950px) {
-    .before_after_pluses_list_point {
-        width: 201px;
-    }
-}
-
-@media (max-width: 855px) {
-    .before_after_block1 {
-        padding: 35px 17px 42px 17px;
-    }
-    .type_of_brevno {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 830px) {
-    .before_after_pluses_list_point {
-        margin-top: 0;
-    }
-    .before_after_pluses_list {
-        margin-top: 34px;
-    }
-}
-
-@media (max-width: 810px) {
-    .products_component_heading {
-        font-size: 4vw;
-        margin-top: 30px;
-    }
-    .before_after_pluses_list_point {
-        width: 252px;
-    }
-}
-
-@media (max-width: 740px) {
-    .before_after_block1_heading,
-    .before_after_block1_text {
-        font-size: 3vw;
-    }
-}
-
-@media (max-width: 700px) {
-    .products_page_text_one_heading {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 670px) {
-    .before_after_pluses_list {
-        display: flex;
-    }
-}
-
-@media (max-width: 642px) {
-    .before_after_pluses_list {
-        gap: 15px;
-    }
-}
-
-@media (max-width: 620px) {
-    .before_after_brevno_do {
-        width: 48%;
-        height: 100%;
-    }
-    .before_after_brevno_posle {
-        width: 49%;
-        height: 100%;
-    }
-    .before_after_block1 {
-        padding: 35px 30px 42px 30px;
-    }
-    .before_after_block1_foto {
-        gap: 11px;
-    }
-    .products_component_heading {
-        font-size: 24px;
-    }
-    .before_after_block1_heading,
-    .before_after_block1_text {
-        font-size: 17px;
-        line-height: 133%;
-    }
-    
-}
-
-@media (max-width: 600px) {
-    .before_after {
-        padding-top: 40px;
-    }
-}
-
-@media (max-width: 595px) {
-    .type_of_brevno {
-        margin-top: 40px;
-        gap: 20px;
-    }
-}
-
-@media (max-width: 550px) {
-    .products_page_text_one {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-@media (max-width: 510px) {
-    .type_of_brevno {
-        gap: 10px;
-        justify-content: center;
-    } 
-    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        width: 319px;
-        padding-top: 22px;
-        padding-bottom: 28px;
-    }
-    .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
-        width: 281px;
-    }
-    .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
-        font-size: 13px;
-    }
-    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
-        font-size: 19px;
-    }
-    .card_ocilindrovannoe_brevno_price, .card_okoryonnoe_brevno_price {
-        flex-direction: column;
-    }
-    .card_ocilindrovannoe_brevno_price_text, .card_okoryonnoe_brevno_price_text {
-        font-size: 15px;
-    }
-    .button_card_ocilindrovannoe_brevno_price, .button_card_okoryonnoe_brevno_price {
-        max-width: 175px;
-    }
-    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        gap: 20px;
-    }
-}
-
-@media (max-width: 500px) {
-    .products_component_heading {
-        margin-top: 30px;
-        font-size: 20px;
-    }
-    .before_after {
-        padding-top: 16px;
-    }
-    .before_after_block1 {
-        gap: 27px;
-    }
-    .before_after_block1 {
-        padding: 30px 30px 27px 30px;
-    }
-    .before_after_block1_text_container {
-        gap: 12px;
-    }
-    .before_after_pluses_list_point,
-    .before_after_pluses_list_point_interval {
-        font-size: 13px;
-    }
-    .before_after_pluses_list_point {
-        padding-top: 0;
-        margin-left: 30px;
-    }
-    .before_after_pluses_list_point::before {
-        content: url(/icons/page_products/check_mark3.svg);
-        left: -37px; /* Позиционируем маркер слева от текста */
-        top: 0;
-    }
-    .products_page_text_one_heading {
-        font-size: 15px;
-        line-height: 120%;
-    }
-    .products_page_text_one {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-    .products_page_text_one_text {
-        margin-top: 7px;
-        font-size: 13px;
-        line-height: 130%;
-    }
-}
-
-@media (max-width: 375px) {
-    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
-        padding-top: 16px;
-        padding-bottom: 13px;
-        gap: 20px;
-        width: 280px;
-    }
-    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
-        font-size: 15px;
-    }
-    .button_card_ocilindrovannoe_brevno_price, .button_card_okoryonnoe_brevno_price {
-        font-size: 13px;
-        padding: 10px 16px;
-        max-width: 154px;
-    }
-}
-
-@media (max-width: 365px) {
-    .before_after_pluses_list_point {
-        width: 224px;
-    }
-    .before_after_pluses_list {
-        padding: 0 6px 0 6px;
-    }
-}
-
-@media (max-width: 360px) {
-    .before_after_block1_heading,
-    .before_after_block1_text {
-        font-size: 4.7vw;
-    }
-    .before_after_pluses_list_point {
-        width: 243px;
-        margin-left: 47px;
-    }
-}
-
-@media (min-width: 1600px) {
-    .footer_section {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 1535px) {
-    .footer_component_container {
-        
-        gap: 14vw;
-    }
-}
-
-@media (max-width: 1420px) {
     .footer_component_container {
         gap: 14vw;
         padding: 52px 55px 55px 55px;
     }
-}
 
-@media (max-width: 1340px) {
-    .footer_component_container {
-        gap: 9vw;
-    }
-}
-
-@media (max-width: 1250px) {
-    .footer_component_container {
-        padding: 52px 54px 55px 55px;
-    }
-}
-
-@media (max-width: 1190px) {
-    .footer_component_container {
-        gap: 3vw;
-    }
-}
-
-@media (max-width: 1160px) {
-    .footer_component_container {
-        gap: 3vw;
-    }
-    .footer_block_one_two_container {
-        gap: 3vw;
-    }
-}
-
-@media (max-width: 1060px) {
-    .footer_component_container {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 855px) {
-    .footer_component_container_center {
-        width: auto;
-    }
-}
-
-@media (max-width: 810px) {
-    .footer_component_container {
-        flex-direction: row;
-    }
-    .footer_section {
-        margin-left: 0;
-    }
-    .footer_component_container {
-        padding: 52px 30px 55px 30px;
-    }
-    
-    
-}
-
-@media (max-width: 770px) {
-    .footer_component_container {
-        flex-direction: column;
-    }
-    .footer_block_one_two_container {
-        gap: 11vw;
-    }
-}
-
-@media (max-width: 550px) {
-    .footer_block_one_two_container {
-        flex-direction: column;
-        gap: 30px;
-    }
-}
-
-@media (max-width: 420px) {
-    .footer_component_container {
-        padding: 30px 54px 40px 20px;
-    }
-    .footer_company_name {
-        font-size: 15px;
-        line-height: 140%;
-    }
-    .footer_block_one_text_one,
-    .footer_block_one_text_two,
-    .footer_block_one_text_three {
-        font-size: 11px;
-    }
-    .footer_block_one {
-        gap: 12px;
-    }
-    .footer_block_one_text_two {
-        margin-top: -4px;
-    }
-    .footer_block_two_list_point_link {
-        font-size: 14px;
-        font-weight: 400;
-    }
-    .footer_block_two_list_point {
-        margin-bottom: 0;
-    }
-    .footer_block_two_list {
-        margin-bottom: 4px;
-    }
-    .footer_block_two_mail {
-        font-size: 14px;
-        width: max-content;
-    }
-    .footer_component_container {
-        gap: 30px;
-    }
-    .footer_block_three_section_one_politics,
-    .footer_block_three_section_one_user_agreement {
-        font-size: 11px;
-    }
-    .footer_block_three {
-        gap: 30px;
-    }
-    .footer_block_three_is_made_text {
-        font-size: 11px;
-    }
-    .footer_logo_metasystems {
-        width: 35px;
-        height: 32.9px;
-    }
-}
-
-@media (max-width: 400px) {
-    .footer_component_container {
-        padding: 30px 20px 40px 20px;
-    }
-}
-
-@media (max-width: 365px) {
-    .footer_block_one {
-        width: auto;
-    }
-}
-
-@media (max-width: 1420px) {
     .popup_order_call_container,
     .popup_order_call_container2 {
         max-width: none;
         min-width: auto;
     }
-}
 
-@media (max-width: 885px) {
-    .popup_order_call_container,
-    .popup_order_call_container2 {
-        
-        margin-left: 1%;
-    }
-}
-
-@media (max-width: 810px) {
-    .popup_order_call_container,
-    .popup_order_call_container2 {
-        margin-left: 10%;
-    }
-}
-
-@media (max-width: 635px) {
-    .popup_order_call_left_h2 {
-        font-size: 20px;
-        line-height: 120%;
-    }
-    .popup_order_call_left_p {
-        font-size: 13px;
-        line-height: 130%;
-        margin-top: 9px;
-    }
-    .popup_order_call {
-        flex-direction: column;
-        gap: 24px;
-    }
-    .order_call_form_label {
-        font-size: 13px;
-        line-height: 153%;
-    }
-    .popup_order_call_right_text {
-        gap: 6px;
-    }
-    .order_call_form_button {
-        font-size: 13px;
-        line-height: 153%;
-        margin-top: 0;
-    }
-    .popup_order_call_right_p {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .popup_order_call_right {
-        max-width: 280px;
-    }
-    .popup_order_call_left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .popup_order_call {
-        padding: 40px 20px 20px 20px;
-    }
-    .popup_order_call_container2,
-    .popup_order_call_container {
-        margin-right: 19%;
-        margin-left: 19%;
-    }
-}
-
-@media (max-width: 500px) {
-    .popup_order_call_container2,
-    .popup_order_call_container {
-        margin-right: 15%;
-        margin-left: 15%;
-    }
-}
-
-@media (max-width: 375px) {
-    .popup_order_call_container2,
-    .popup_order_call_container {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-}
-
-@media (max-width: 1420px) {
     .stroitelniye_uslugi_domokomplekt_list {
         gap: 15px;
         padding-left: 20px;
@@ -720,202 +379,7 @@
     }
 
     
-}
 
-@media (max-width: 1400px) {
-    .stroitelniye_uslugi_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
-}
-
-@media (max-width: 1310px) {
-    .stroitelniye_uslugi_page_text_one_text {
-        max-width: 740px;
-    }
-}
-
-@media (max-width: 810px) {
-    .stroitelniye_uslugi_heading {
-        font-size: 4vw;
-        padding-top: 50px;
-    }
-}
-
-@media (max-width: 600px) {
-    .stroitelniye_uslugi_domokomplekt_list {
-        margin-top: 16px;
-    }
-    .stroitelniye_uslugi_heading {
-        padding-top: 30px;
-    }
-    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
-        margin-top: 60px;
-    }
-}
-
-@media (max-width: 500px) {
-    .stroitelniye_uslugi_heading {
-        font-size: 20px;
-    }
-    .stroitelniye_uslugi_domokomplekt_list_img {
-        width: 280px;
-        height: 198px;
-    }
-    .stroitelniye_uslugi_domokomplekt_list_img_link {
-        display: flex;
-        justify-content: center;
-    }
-    .stroitelniye_uslugi_domokomplekt_domokomplekt_heading,
-    .stroitelniye_uslugi_domokomplekt_pod_krishu_heading,
-    .stroitelniye_uslugi_domokomplekt_pod_kluch_heading  {
-        font-size: 15px;
-        line-height: 120%;
-    }
-    .stroitelniye_uslugi_domokomplekt_point_grey,
-    .stroitelniye_uslugi_domokomplekt_point_black {
-        font-size: 13px;
-        line-height: 130%;
-    }
-    .button_stroitelniye_uslugi_domokomplekt_domokomplekt,
-    .button_stroitelniye_uslugi_domokomplekt_pod_krishu,
-    .button_stroitelniye_uslugi_domokomplekt_pod_kluch {
-        font-size: 13px;
-        line-height: 153.846%;
-    }
-    .button_stroitelniye_uslugi_domokomplekt_domokomplekt, 
-    .button_stroitelniye_uslugi_domokomplekt_pod_krishu, 
-    .button_stroitelniye_uslugi_domokomplekt_pod_kluch {
-        margin-top: 16px;
-    }
-    .stroitelniye_uslugi_domokomplekt_domokomplekt,
-    .stroitelniye_uslugi_domokomplekt_pod_krishu,
-    .stroitelniye_uslugi_domokomplekt_pod_kluch {
-        padding-left: 14px;
-        padding-bottom: 17px;
-        padding-right: 14px;
-    }
-    .stroitelniye_uslugi_domokomplekt_point_black,
-    .stroitelniye_uslugi_domokomplekt_point_grey {
-        max-width: 220px;
-    }
-    .stroitelniye_uslugi_page_text_one_bottom {
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 340px) {
-    .stroitelniye_uslugi_domokomplekt_list {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
-
-@media (max-width: 1480px) {
-    .proecty_homepage {
-        
-        justify-content: space-around;
-        margin-left: 17px;
-        margin-right: 17px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    .proecty_homepage_baths {
-        width: 100%;
-        height: 16.1vw;
-    }
-    .proecty_homepage_gazebos_and_mafs {
-        width: 100%;
-        height: 16.1vw;
-    }
-    .proecty_homepage_houses {
-        width: 100%;
-        height: 33vw;
-    }
-    .proecty_homepage_block_two .proecty_homepage_baths_container {
-        width: 100%;
-    }
-    .proecty_homepage_block_two .proecty_homepage_gazebos_and_mafs_container {
-        width: 100%;
-    }
-    .proecty_homepage_block_two {
-        width: 53%;
-    }
-    .block_dostijeniy_container {
-        width: 100%;
-        padding-left: 40px;
-        padding-right: 40px;
-        min-width: auto;
-        max-width: none;
-    }
-    .sobstvennoe_proizvodstvo_container {
-        width: 100%;
-        padding-left: 40px;
-        padding-right: 40px;
-        min-width: auto;
-        max-width: none;
-    }
-    .homepage_slider_2_container {
-        width: 100%;
-        min-width: auto;
-        max-width: none;
-    }
-    .homepage_slider_2 {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    .kachestvo_breven_section_container {
-        width: 100%;
-        padding-left: 40px;
-        padding-right: 40px;
-        min-width: auto;
-        max-width: none;
-    }
-    .chramy_chasovni_container {
-        width: 100%;
-        margin-left: 40px;
-        margin-right: 40px;
-        min-width: auto;
-        max-width: none;
-    }
-    .etapy_raboty_container {
-        width: 100%;
-        margin-left: 40px;
-        margin-right: 40px;
-        min-width: auto;
-        max-width: none;
-    }
-    .etapy_raboty_block2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-    }
-    .zayavka_na_dom_container {
-        width: 100%;
-        margin-left: 40px;
-        margin-right: 40px;
-        min-width: auto;
-        max-width: none;
-    }
-}
-
-@media (max-width: 1460px) {
-    .zayavka_na_dom_block1 {
-        padding: 42px 17px 10px 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .zayavka_na_dom_heading {
-        max-width: none;
-        text-align: center;
-    }
-    .zayavka_na_dom_text_spb {
-        margin-top: 22px;
-    }
-}
-
-@media (max-width: 1420px) {
     .proecty_homepage_block_two {
         width: 53%;
     }
@@ -993,6 +457,132 @@
     .chramy_chasovni_point {
         width: auto;
     }
+
+    .gallery_container {
+        min-width: auto;
+        max-width: none;
+    }
+    .gallery_under_heading_text {
+        
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .gallery_heading {
+        
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .gallery_privare_container {
+        min-width: 100%;
+    }
+    .private_life_container {
+        gap: 3vw;
+    }
+    .gallery3_container {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .gallery3_container .grid-item.center {
+        grid-column: 1 / -1;
+        justify-self: center;
+        max-width: 362px;
+    }
+
+    .o_companii_container1 {
+        
+        min-width: 100%;
+        max-width: none;
+    }
+    .o_companii_container_text {
+        width: auto;
+    }
+    .o_companii_container {
+        min-width: 100%;
+        max-width: none;
+    }
+
+    .proizvodstvo_under_heading_text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .proizvodstvo_container {
+        min-width: auto;
+        max-width: none;
+    }
+    .proizvodstvo_under_heading_text {
+        width: auto;
+    }
+    .proizvodstvo_vidy_container {
+        width: 100%;
+    }
+    .proizvodstvo_vidy_container_2 {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-width: auto;
+        max-width: none;
+        column-gap: 20px;
+        justify-content: space-evenly;
+    }
+    .process_stroitelstva_container {
+        min-width: auto;
+        max-width: none;
+    }
+    
+
+    .zayavka_na_dom_container2 {
+        min-width: auto;
+        max-width: max-content;
+        margin-left: 17px;
+        margin-right: 17px;
+        gap: 15px;
+    }
+    .houses_block_foto_section {
+
+        height: 424px;
+        
+    }
+    .houses_block_list_point  {
+        flex-direction: column;
+    }
+    .catalog_container {
+        min-width: auto;
+        max-width: none;
+    }
+    .houses_block_foto_section2 {
+        position: absolute;
+        bottom: -84px;
+    }
+    .houses_block_parameters_section {
+        margin-top: 85px;
+    }
+    .houses_block_text1,
+    .bath_block_text1 {
+        margin-top: 29px;
+    }
+    .houses_block_foto_1 {
+        width: 759px;
+        height: 427px;
+    }
+    .catalog-foto-sub {
+        width: 753px;
+        height: 415px;
+    }
+
+    .sobstvennoe_proizvodstvo2_container {
+        min-width: auto;
+        max-width: max-content;
+    }
+
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 22vw;
+    }
+
+    .gallery_justified {
+        display: block;
+    }
 }
 
 @media (max-width: 1415px) {
@@ -1002,6 +592,69 @@
     .button_zayavka_na_dom {
         width: max-content;
         align-self: center;
+    }
+}
+
+@media (max-width: 1400px) {
+    .products_component_heading {
+        font-size: 3.715vw;
+    }
+
+    .stroitelniye_uslugi_heading {
+        font-size: 3.715vw;
+        line-height: 123.077%;
+    }
+
+    .gallery_heading {
+        font-size: 3.715vw;
+        line-height: 123.077%;
+    }
+
+    .o_companii_container_heading {
+        font-size: 3.715vw;
+        line-height: 123.077%;
+    }
+
+    .proizvodstvo_heading {
+        font-size: 3.715vw;
+        line-height: 123.077%;
+    }
+
+    .catalog_heading {
+        font-size: 3.715vw;
+        line-height: 123.077%;
+    }
+
+    .slider_1_heading {
+        font-size: 3.715vw;
+        width: 60vw;
+    }
+}
+
+@media (max-width: 1380px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 21.8vw;
+    }
+}
+
+@media (max-width: 1357px) {
+    .dostavka_block1 {
+        flex: 1;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 1340px) {
+    .footer_component_container {
+        gap: 9vw;
+    }
+}
+
+@media (max-width: 1335px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 21.6vw;
     }
 }
 
@@ -1017,12 +670,64 @@
         padding-right: 15px;
         padding-bottom: 25px;
     }
+
+    .zayavka_photo {
+        width: 29.5%;
+    }
+    .form_zayavka_container1 {
+        gap: 3vw;
+    }
+
+    .stage_project_point_text {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 1314px) {
     .zayavka_na_dom_foto_catalog {
         margin-top: 0;
         align-self: flex-end;
+    }
+}
+
+@media (max-width: 1310px) {
+    .stroitelniye_uslugi_page_text_one_text {
+        max-width: 740px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 21.4vw;
+    }
+}
+
+@media (max-width: 1290px) {
+    .o_companii_karta_container {
+        flex-direction: column;
+    }
+    .o_companii_container {
+        
+        min-width: 71%;
+    }
+    .o_companii_karta_container_iframe {
+        flex: none;
+    }
+    .o_companii_karta_adress_proizvodstva_container {
+        
+        justify-content: space-between;
+    }
+    .o_companii_karta_container_iframe {
+        height: 509px;
+    }
+}
+
+@media (max-width: 1285px) {
+    .type_of_brevno {
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -1038,6 +743,53 @@
         justify-content: space-between;
     }
     
+}
+
+@media (max-width: 1255px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 21.1vw;
+    }
+}
+
+@media (max-width: 1250px) {
+    .footer_component_container {
+        padding: 52px 54px 55px 55px;
+    }
+
+    .car_icon2 {
+        width: 25vw;
+    }
+    .car_icon1,
+    .car_icon3 {
+        width: 13vw;
+    }
+}
+
+@media (max-width: 1240px) {
+    .oplata_container {
+        flex-direction: column;
+    }
+    .oplata_text1 {
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 26px;
+    }
+    .oplata_block2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .oplata_block1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+    }
+    .oplata_container {
+        margin-top: 43px;
+    }
 }
 
 @media (max-width: 1225px) {
@@ -1064,6 +816,115 @@
     }
 }
 
+@media (max-width: 1220px) {
+    .form_zayavka {
+        display: flex;
+    }
+}
+
+@media (max-width: 1210px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 20.9vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .iframe_o_kompanii_container .iframe_o_kompanii {
+        padding-top: 12px;
+    }
+    .o_companii {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .slider_1_container .slick-prev svg {
+        width: 40px;
+        height: 40px;
+    }
+    .slider_1_container .slick-next svg {
+        width: 40px;
+        height: 40px;
+    }
+    .slider_1_heading {
+        bottom: 8vw;
+    }
+    .slider_1_container .slick-prev,
+    .slider_1_container .slick-next,
+    .slider_1_container .slick-dots {
+        bottom: 2.25vw;
+    }
+    .slider_1_container .slick-slide {
+        border: 12px solid #FFFFFF;
+    }
+
+    .politika_heading_1level {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    .cookies_policy_container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1190px) {
+    .card_ocilindrovannoe_brevno_price, .card_okoryonnoe_brevno_price {
+        flex-direction: column;
+    }
+    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
+        width: 372px;
+    }
+    .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
+        width: 325px;
+    }
+
+    .footer_component_container {
+        gap: 3vw;
+    }
+
+    .zayavka_photo {
+        width: 22.5%;
+    }
+}
+
+@media (max-width: 1185px) {
+    .stage_project_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 54px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 20.7vw;
+    }
+
+    .success_send_message_block_container {
+        margin-left: 10%;
+        width: 432px;
+    }
+    .success_send_message_block_text {
+        font-size: 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1160px) {
+    .footer_component_container {
+        gap: 3vw;
+    }
+    .footer_block_one_two_container {
+        gap: 3vw;
+    }
+}
+
 @media (max-width: 1150px) {
     .zayavka_na_dom_container {
         flex-direction: column;
@@ -1079,11 +940,65 @@
     .zayavka_na_dom_foto {
         align-self: center;
     }
+
+    .zayavka_na_dom_container2 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1143px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 20.5vw;
+    }
 }
 
 @media (max-width: 1130px) {
     .sobstvennoe_proizvodstvo_text {
         width: auto;
+    }
+}
+
+@media (max-width: 1125px) {
+    .stroitelniye_uslugi_page_text_one {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 1115px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 20.3vw;
+    }
+}
+
+@media (max-width: 1110px) {
+    .gallery_under_heading_text {
+        font-size: 1.7vw;
+    }
+}
+
+@media (max-width: 1107px) {
+    .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
+        width: 281px;
+    }
+    .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
+        font-size: 13px;
+    }
+    .card_okoryonnoe_brevno {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .card_ocilindrovannoe_brevno {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
+        width: 319px;
+    }
+    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
+        font-size: 19px;
     }
 }
 
@@ -1129,10 +1044,125 @@
     .sobstvennoe_proizvodstvo_heading {
         width: auto;
     }
+
+    .form_zayavka {
+        flex-direction: column;
+    }
+    .form_zayavka_container1 {
+        justify-content: space-around;
+    }
+    .zayavka_photo {
+        width: 66.5%;
+        object-fit: contain;
+        margin-top: -60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .common_header1,
+    .common_header2,
+    .common_header3,
+    .common_header5 {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1095px) {
+    
+    .stage_project_point_photo1,
+    .stage_project_point_photo2,
+    .stage_project_point_photo3,
+    .stage_project_point_photo4 {
+        margin-left: 42px;
+    }
+}
+
+@media (max-width: 1087px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 20.1vw;
+    }
 }
 
 @media (max-width: 1080px) {
     .zayavka_na_dom_heading {
+        font-size: 3.715vw;
+    }
+
+    .process_stroitelstva_heading {
+        font-size: 3.715vw;
+    }
+}
+
+@media (max-width: 1070px) {
+    .stroitelniye_uslugi_page_text_one_container {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 1063px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 19.9vw;
+    }
+}
+
+@media (max-width: 1060px) {
+    .products_page_text_one {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .products_page_text_one_text {
+        width: auto;
+    }
+
+    .footer_component_container {
+        flex-direction: column;
+    }
+
+    .stroitelniye_uslugi_page_text_one_text {
+        max-width: max-content;
+    }
+}
+
+@media (max-width: 1050px) {
+    .houses_block_foto_section {
+        width: 500px;
+    }
+    .houses_block_foto_1 {
+        width: 506px;
+        height: auto;
+    }
+    .houses_block_foto_section {
+        height: 287px;
+    }
+    .catalog-foto-sub {
+        
+        width: 499px;
+        
+    }
+}
+
+@media (max-width: 1036px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 19.6vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .kachestvo_breven_section_one_img {
+        align-self: end;
+        padding-right: 40px;
+    }
+    .kachestvo_breven_section_one {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1020px) {
+    .common_header {
         font-size: 3.715vw;
     }
 }
@@ -1144,11 +1174,150 @@
     }
 }
 
+@media (max-width: 1005px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 19.4vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .products_component_container3 {
+        min-width: auto;
+        max-width: none;
+    }
+    .products_page_text_one {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .gallery3_container .grid-item .text {
+        font-size: 20px;
+    }
+    .gallery3_container .grid-item img {
+        height: 280px;
+    }
+
+    .project1_heading {
+        margin-top: 19px;
+        
+        font-size: 17px;
+        margin-top: 11px;
+    }
+    .project2_heading {
+        margin-top: 38px;
+    }
+    .private_life_text {
+        font-size: 18px;
+    }
+    .private_life_container {
+        padding: 20px;
+    }
+}
+
 @media (max-width: 990px) {
+    .type_of_brevno {
+        gap: 10px;
+        justify-content: center;
+    } 
+    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
+        width: 450px;
+        padding-top: 22px;
+        padding-bottom: 28px;
+    }
+    .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
+        width: 371px;
+    }
+    .card_ocilindrovannoe_brevno_price, .card_okoryonnoe_brevno_price {
+        flex-direction: row;
+    }
+    .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
+        font-size: 15px;
+    }
+    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
+        font-size: 21px;
+    }
+
     .sobstvennoe_proizvodstvo_heading2 {
         width: auto;
         padding-left: 17px;
         padding-right: 17px;
+    }
+}
+
+@media (max-width: 986px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 19.2vw;
+    }
+}
+
+@media (max-width: 985px) {
+    .slider_1_container .slick-prev svg {
+        width: 30px;
+        height: 30px;
+    }
+    .slider_1_container .slick-next svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .common_header6 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 975px) {
+    .zayavka_photo {
+        margin-bottom: -20px;
+    }
+    .form_zayavka_container1 {
+        padding-right: 25px;
+    }
+}
+
+@media (max-width: 963px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 18.4vw;
+    }
+}
+
+@media (max-width: 960px) {
+    .dostavka_container {
+        flex-direction: column;
+    }
+    .dostavka_block1 {
+        padding-left: 17px;
+        padding-bottom: 26px;
+    }
+    .dostavka_heading1,
+    .oplata_heading1 {
+        font-size: 3.315vw;
+    }
+    .dostavka_heading2,
+    .oplata_heading2 {
+        font-size: 2.72vw;
+    }
+    .how_dostavka_heading,
+    .poryadok_oplaty_heading {
+        font-size: 2.72vw;
+    }
+    .dostavka_block2 {
+        padding: 20px 15px 26px 16px;
+    }
+}
+
+@media (max-width: 950px) {
+    .before_after_pluses_list_point {
+        width: 201px;
+    }
+}
+
+@media (max-width: 930px) {
+    .gallery_under_heading_text {
+        font-size: 16px;
     }
 }
 
@@ -1165,6 +1334,10 @@
     
     .chramy_chasovni_heading {
         max-width: 448px;
+    }
+
+    .slider_1_heading {
+        width: 49vw;
     }
 }
 
@@ -1183,6 +1356,21 @@
     }
 }
 
+@media (max-width: 886px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 17.6vw;
+    }
+}
+
+@media (max-width: 885px) {
+    .popup_order_call_container,
+    .popup_order_call_container2 {
+        
+        margin-left: 1%;
+    }
+}
+
 @media (max-width: 880px) {
     .block_dostijeniy_container {
         padding-left: 40px;
@@ -1193,13 +1381,92 @@
     }
 }
 
+@media (max-width: 870px) {
+    .zayavka_photo {
+        margin-bottom: -50px;
+    }
+}
+
+@media (max-width: 860px) {
+    .thumbnail_hram_scheglovo {
+        height: 120vw;
+    }
+}
+
+@media (max-width: 855px) {
+    .before_after_block1 {
+        padding: 35px 17px 42px 17px;
+    }
+    .type_of_brevno {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer_component_container_center {
+        width: auto;
+    }
+}
+
 @media (max-width: 830px) {
+    .before_after_pluses_list_point {
+        margin-top: 0;
+    }
+    .before_after_pluses_list {
+        margin-top: 34px;
+    }
+
     .years_on_market {
         font-size: 12px;
     }
 }
 
+@media (max-width: 820px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 17.2vw;
+    }
+}
+
+@media (max-width: 815px) {
+    .zayavka_photo {
+        margin-bottom: -60px;
+    }
+    .popup_order_call_right {
+        max-width: 240px;
+    }
+}
+
 @media (max-width: 810px) {
+    .products_component_heading {
+        font-size: 4vw;
+        margin-top: 30px;
+    }
+    .before_after_pluses_list_point {
+        width: 252px;
+    }
+
+    .footer_component_container {
+        flex-direction: row;
+    }
+    .footer_section {
+        margin-left: 0;
+    }
+    .footer_component_container {
+        padding: 52px 30px 55px 30px;
+    }
+    
+    
+
+    .popup_order_call_container,
+    .popup_order_call_container2 {
+        margin-left: 10%;
+    }
+
+    .stroitelniye_uslugi_heading {
+        font-size: 4vw;
+        padding-top: 50px;
+    }
+
     .years_on_market {
         font-size: 12px;
     }
@@ -1293,6 +1560,289 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+    .gallery_heading {
+        font-size: 4vw;
+    }
+
+    .o_companii_container_heading {
+        font-size: 4vw;
+    }
+    .iframe_o_kompanii_container .iframe_o_kompanii {
+        padding-top: 0px;
+    }
+    .o_companii {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .proizvodstvo_heading {
+        font-size: 4vw;
+    }
+    .proizvodstvo_heading {
+        margin-top: 50px;
+    }
+    .process_stroitelstva_heading {
+        font-size: 4vw;
+    }
+    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
+        
+        font-size: 4vw;
+    }
+
+    .catalog_heading {
+        font-size: 4vw;
+    }
+
+    .sidebar_navigation {
+        display: none;
+    }
+    .main_section {
+        margin-left: 0;
+    }
+
+    .header_adaptive {
+        display: flex;
+        justify-content: center;
+        
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 13;
+        background-color: #ffffff;
+        height: 60px;
+    }
+    .slider_1_container .slick-slide {
+        border: none;
+    }
+    .menu_hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 12;
+        height: 14px;
+    }
+
+    .thumbnail_hram_scheglovo {
+        height: 164vw;
+    }
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 24.8vw;
+    }
+
+    .politika_container {
+        padding: 40px;
+    }
+
+    .success_send_message_block_container {
+        margin-left: 10%;
+        max-width: 80%;
+        min-width: 80%;
+        margin-right: 10%;
+    }
+    .success_send_message_block_text {
+        font-size: 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .zayavka_photo {
+        margin-bottom: -20px;
+    }
+    .popup_order_call_right {
+        max-width: 262px;
+    }
+
+    .popup_order_call_container3 {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .dostavka_container {
+        flex-direction: row;
+    }
+    .dostavka_block1 {
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .dostavka_point {
+        font-size: 14px;
+    }
+    .dostavka_list1 {
+        padding-top: 14px;
+        gap: 10px;
+    }
+    .dostavka_text1,
+    .oplata_text1 {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    .oplata_text1 {
+        margin-top: 0;
+    }
+    .oplata_point {
+        font-size: 18px;
+    }
+    .oplata_list {
+        gap: 8px;
+    }
+    .oplata_block2 {
+        padding-bottom: 23px;
+    }
+    .poryadok_oplaty_heading {
+        margin-top: 43px;
+    }
+}
+
+@media (max-width: 790px) {
+    .zayavka_na_dom_text_spb {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 787px) {
+    .my_gallery1 {
+        width: 140vw;
+    }
+}
+
+@media (max-width: 770px) {
+    .footer_component_container {
+        flex-direction: column;
+    }
+    .footer_block_one_two_container {
+        gap: 11vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .cookie-banner {
+        padding: 12px 16px;
+    }
+    .cookie-banner__inner {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+    .cookie-banner__text {
+        font-size: 13px;
+    }
+    .cookie-banner__btn {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 740px) {
+    .before_after_block1_heading,
+    .before_after_block1_text {
+        font-size: 3vw;
+    }
+
+    .gallery_under_heading_text {
+        font-size: 17px;
+        line-height: 133%;
+    }
+
+    .o_companii_container_text {
+        font-size: 3vw;
+        line-height: 133%;
+    }
+
+    .proizvodstvo_under_heading_text {
+        font-size: 3vw;
+        line-height: 133%;
+    }
+}
+
+@media (max-width: 730px) {
+    .zayavka_photo {
+        margin-bottom: -34px;
+    }
+}
+
+@media (max-width: 700px) {
+    .products_page_text_one_heading {
+        font-size: 20px;
+    }
+
+    .gallery3_container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .gallery3_container .grid-item.center {
+        max-width: none;
+    }
+    .gallery3_container .grid-item img {
+        height: 254px;
+    }
+    .gallery3_container .grid-item .text {
+        font-size: 18px;
+    }
+
+    .stroitelniye_uslugi_page_text_one_heading {
+        font-size: 20px;
+    }
+    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
+        font-size: 4vw;
+    }
+
+    .error_page2_flex--p1,
+    .error_page2_flex--p2 {
+        font-size: 4.4vw;
+    }
+
+    .zayavka_na_dom_container {
+        margin-bottom: 56px;
+    }
+
+    .car_icon2 {
+        width: 30vw;
+    }
+    .car_icon1,
+    .car_icon3 {
+        width: 16vw;
+    }
+}
+
+@media (max-width: 690px) {
+    .slider_1_heading {
+        bottom: 9.3vw;
+    }
+}
+
+@media (max-width: 675px) {
+    .catalog_heading {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 670px) {
+    .before_after_pluses_list {
+        display: flex;
+    }
+}
+
+@media (max-width: 665px) {
+    .gallery_under_heading_text {
+        font-size: 16px;
+    }
+    .project1_heading {
+        font-size: 16px;
+    }
+    .private_life_text {
+        font-size: 16px;
+    }
+    .private_life_container {
+        padding: 17px;
+        gap: 4vw;
+    }
+    .private_life_icon1,
+    .private_life_icon2 {
+        width: 38px;
+        height: 38px;
+    }
 }
 
 @media (max-width: 660px) {
@@ -1305,9 +1855,246 @@
     .etapy_raboty_block2 {
         grid-template-columns: 1fr;
     }
+
+    .dostavka_container {
+        flex-direction: column;
+    }
+    .dostavka_block1 {
+        padding-left: 17px;
+        padding-bottom: 26px;
+    }
+    .dostavka_heading1,
+    .oplata_heading1 {
+        font-size: 21px;
+    }
+    .dostavka_heading2,
+    .oplata_heading2 {
+        font-size: 17px;
+    }
+    .dostavka_text1,
+    .oplata_text1 {
+        font-size: 16px;
+    }
+    .dostavka_container {
+        padding-top: 15px;
+    }
+    .how_dostavka_heading,
+    .poryadok_oplaty_heading {
+        font-size: 17px;
+    }
+    .oplata_point {
+        font-size: 16px;
+    }
+    .oplata_list {
+        gap: 5px;
+        margin-top: 11px;
+    }
+}
+
+@media (max-width: 642px) {
+    .before_after_pluses_list {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    .o_companii_container_text_container {
+        gap: 8px;
+    }
+    .o_companii_container_text {
+        padding-bottom: 3px;
+    }
+}
+
+@media (max-width: 635px) {
+    .popup_order_call_left_h2 {
+        font-size: 20px;
+        line-height: 120%;
+    }
+    .popup_order_call_left_p {
+        font-size: 13px;
+        line-height: 130%;
+        margin-top: 9px;
+    }
+    .popup_order_call {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .order_call_form_label {
+        font-size: 13px;
+        line-height: 153%;
+    }
+    .popup_order_call_right_text {
+        gap: 6px;
+    }
+    .order_call_form_button {
+        font-size: 13px;
+        line-height: 153%;
+        margin-top: 0;
+    }
+    .popup_order_call_right_p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .popup_order_call_right {
+        max-width: 280px;
+    }
+    .popup_order_call_left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .popup_order_call {
+        padding: 40px 20px 20px 20px;
+    }
+    .popup_order_call_container2,
+    .popup_order_call_container {
+        margin-right: 19%;
+        margin-left: 19%;
+    }
+
+    .form_zayavka_container1 {
+        flex-direction: column;
+        padding-right: 0;
+        align-items: center;
+        gap: 0;
+    }
+    .mar_lef_mar_top1 {
+        margin-left: 0;
+    }
+    .order_call_form_mt {
+        margin-top: 27px;
+    }
+    .order_call_form_button_2 {
+        margin-top: 25px;
+    }
+    .zayavka_photo {
+        margin-top: -45px;
+        margin-bottom: -40px;
+    }
+    .popup_order_call_right {
+        max-width: 54vw;
+    }
+    .popup_order_call_left_h2_2 {
+        max-width: 285px;
+        font-size: 4.715vw;
+    }
+
+    .mt5_spb {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 630px) {
+    .project1_heading {
+        margin-top: 4px;
+    }
+    .project2_heading {
+        margin-top: 36px;
+    }
+}
+
+@media (max-width: 620px) {
+    .before_after_brevno_do {
+        width: 48%;
+        height: 100%;
+    }
+    .before_after_brevno_posle {
+        width: 49%;
+        height: 100%;
+    }
+    .before_after_block1 {
+        padding: 35px 30px 42px 30px;
+    }
+    .before_after_block1_foto {
+        gap: 11px;
+    }
+    .products_component_heading {
+        font-size: 24px;
+    }
+    .before_after_block1_heading,
+    .before_after_block1_text {
+        font-size: 17px;
+        line-height: 133%;
+    }
+    
+
+    .o_companii_container_text {
+        font-size: 17px;
+    }
+
+    .proizvodstvo_under_heading_text {
+        font-size: 17px;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 618px) {
+    .slider_1_foto_1,
+    .slider_1_foto_2,
+    .slider_1_foto_3,
+    .slider_1_foto_4,
+    .slider_1_foto_5,
+    .slider_1_foto_6
+    .slider_1_foto_7 {
+        height: 321px;
+        
+    }
+    
+    .homepage_slider_one_component,
+    .slider_1_container, 
+    .slider_1_foto_1, 
+    .slider_1_foto_2, 
+    .slider_1_foto_3, 
+    .slider_1_foto_4, 
+    .slider_1_foto_5, 
+    .slider_1_foto_6, 
+    .slider_1_foto_7 {
+        height: 321px;
+    }
+    .slider_1_container .slick-prev, .slider_1_container .slick-next, .slider_1_container .slick-dots {
+        bottom: 4.25vw;
+    }
+    .slider_1_heading {
+        bottom: 13.3vw;
+    }
+}
+
+@media (max-width: 615px) {
+    .thumbnail_hram_mshinskaya_1,
+    .thumbnail_hram_mshinskaya_2 {
+        height: 23.9vw;
+    }
+}
+
+@media (max-width: 610px) {
+    .politika_container {
+        padding: 30px;
+    }
+    .politika_heading_1level {
+        font-size: 24px;
+    }
+    .politika_heading_2level {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 600px) {
+    .before_after {
+        padding-top: 40px;
+    }
+
+    .stroitelniye_uslugi_domokomplekt_list {
+        margin-top: 16px;
+    }
+    .stroitelniye_uslugi_heading {
+        padding-top: 30px;
+    }
+    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
+        margin-top: 60px;
+    }
+
     .dostijenie_csifra {
         font-size: 40px;
     }
@@ -1467,9 +2254,275 @@
         width: 263px;
         height: auto;
     }
+
+    .gallery_heading {
+        margin-top: 30px;
+    }
+
+    .private_life_container {
+        margin-top: 20px;
+    }
+
+    .o_companii_karta_container {
+        margin-top: 35px;
+        
+    }
+
+    .proizvodstvo_heading {
+        margin-top: 30px;
+    }
+    .stroitelniye_uslugi_page_text_one {
+        margin-top: 60px;
+    }
+    .process_stroitelstva {
+        margin-top: 60px;
+    }
+    .sobstvennoe_proizvodstvo_slider {
+        margin-top: 12px;
+    }
+    .stroitelniye_uslugi_text_pravki_font {
+        margin-bottom: 30px;
+    }
+    .o_companii_text_last {
+        margin-bottom: 0;
+    }
+
+    .sobstvennoe_proizvodstvo_slider img {
+        height: 91px;
+    }
+    
+    .homepage_slider_2 .custom-prev img, 
+    .homepage_slider_2 .custom-next img {
+        width: 32px;
+        height: 32px;
+    }
+    .homepage_slider_2 .custom-next {
+        
+        bottom: 27px;
+        right: -17px;
+    }
+    .homepage_slider_2 .custom-prev {
+        
+        bottom: 27px;
+        left: -17px;
+    }
+    .homepage_slider_2 .slick-track {
+        
+        gap: 5px;
+    }
+
+    .stroitelniye_uslugi_slider img {
+        
+        height: 91px;
+        
+    }
+    .homepage_slider_3 .uslugi-custom-prev img, 
+    .homepage_slider_3 .uslugi-custom-next img {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .homepage_slider_3 .uslugi-custom-next {
+        
+        bottom: 27px;
+        
+        right: -16px;
+    }
+    .homepage_slider_3 .uslugi-custom-prev {
+        
+        bottom: 27px;
+        
+        
+        left: -16px;
+    }
+    .homepage_slider_3 .slick-track {
+        gap: 5px;
+    }
+
+    .slider_1_heading {
+        font-size: 22px;
+        
+        width: 310px;
+    }
+
+    .zayavka_na_dom_text_spb {
+        margin-top: 12px;
+    }
+    .mt1_spb {
+        margin-top: 40px;
+    }
+    .common_header1,
+    .common_header2,
+    .common_header3,
+    .common_header4,
+    .common_header5 {
+        margin-top: 40px;
+    }
+    .common_header6 {
+        margin-top: 60px;
+    }
+    .common_header5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .zayavka_na_dom_container {
+        margin-bottom: 40px;
+    }
+
+    .mtop2 {
+        margin-top: 15px;
+    }
+
+    .stage_project_list {
+        margin-top: 30px;
+    }
+    .stage_project_point_text {
+        font-size: 15px;
+    }
+
+    .stroitelniye_uslugi_domokomplekt_btn {
+        margin-top: 35px;
+    }
+    .button_stroitelniye_uslugi_total {
+        font-size: 13px;
+    }
+
+    .how_dostavka_heading,
+    .poryadok_oplaty_heading {
+        margin-top: 40px;
+    }
+    .homepage_slider_2 .dostavka-custom-next {
+        bottom: 26px;
+        right: -16px;
+    }
+    .homepage_slider_2 .dostavka-custom-prev {
+        bottom: 26px;
+        left: -16px;
+    }
+    .homepage_slider_2 .dostavka-custom-prev img,
+    .homepage_slider_2 .dostavka-custom-next img {
+        width: 32px;
+        height: 32px;
+    }
+    .car_icon_list {
+        margin-top: 45px;
+    }
+
+    /* Fix button container centering: prevent max-content shrink so flex justify-content: center works */
+    .sobstvennoe_proizvodstvo2_container {
+        max-width: 100%;
+        width: 100%;
+    }
+    /* etapy_raboty: remove inner padding and resize images to fit 2-per-row */
+    .proizvodstvo_vidy_container_2 {
+        padding-left: 0;
+        padding-right: 0;
+        column-gap: 0;
+    }
+    .proizvodstvo_vidy_foto {
+        width: 40vw;
+        height: 40vw;
+    }
+    .proizvodstvo_vidy_block_text {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 595px) {
+    .type_of_brevno {
+        margin-top: 40px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+    .gallery_heading {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .houses_block_heading {
+        font-size: 15px;
+    }
+    .houses_block_parameters1_text,
+    .houses_block_parameters2_text {
+        font-size: 13px;
+    }
+    .houses_block_text1,
+    .bath_block_text1 {
+        font-size: 13px;
+        line-height: 120%;
+    }
+    .houses_block_text2 {
+        font-size: 11px;
+        line-height: 140%;
+    }
+    .houses_block_button {
+        font-size: 13px;
+    }
+    .houses_block_parameters {
+        margin-top: 12px;
+    }
+    .houses_block_parameters1, .houses_block_parameters2 {
+        gap: 5px;
+    }
+    .houses_block_text2 {
+        margin-top: 2px;
+    }
+    .houses_block_button {
+        margin-top: 16px;
+        margin-bottom: 18px;
+    }
+    .houses_block_foto_2,
+    .houses_block_foto_3  {
+        width: 64px;
+        height: auto;
+    }
+    .houses_block_foto_section {
+        width: 280px;
+    }
+    .catalog_container {
+        
+        width: 280px;
+    }
+    .houses_block_foto_1 {
+        width: 280px;
+    }
+    .houses_block_foto_section {
+        height: 155px;
+    }
+    .houses_block_foto_section2 {
+        bottom: -62px;
+    }
+    .houses_block_parameters_section {
+        margin-top: 71px;
+    }
+    .catalog-foto-sub {
+        
+        
+        width: 272px;
+        
+    }
+}
+
+@media (max-width: 555px) {
+    .success_send_message_block {
+        padding: 20px 30px 20px 30px;
+    }
 }
 
 @media (max-width: 550px) {
+    .products_page_text_one {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer_block_one_two_container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
     .proecty_homepage {
         margin-left: 20px;
         margin-right: 20px;
@@ -1502,9 +2555,183 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .gallery_under_heading_text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .stroitelniye_uslugi_page_text_one {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .catalog_heading {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .homepage_slider_2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .homepage_slider_3 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 540px) {
+    .stage_project_point_photo1, 
+    .stage_project_point_photo2, 
+    .stage_project_point_photo3, 
+    .stage_project_point_photo4 {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 518px) {
+    .my_gallery1 {
+        width: 150vw;
+    }
+}
+
+@media (max-width: 510px) {
+    .type_of_brevno {
+        gap: 10px;
+        justify-content: center;
+    } 
+    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
+        width: 319px;
+        padding-top: 22px;
+        padding-bottom: 28px;
+    }
+    .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
+        width: 281px;
+    }
+    .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
+        font-size: 13px;
+    }
+    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
+        font-size: 19px;
+    }
+    .card_ocilindrovannoe_brevno_price, .card_okoryonnoe_brevno_price {
+        flex-direction: column;
+    }
+    .card_ocilindrovannoe_brevno_price_text, .card_okoryonnoe_brevno_price_text {
+        font-size: 15px;
+    }
+    .button_card_ocilindrovannoe_brevno_price, .button_card_okoryonnoe_brevno_price {
+        max-width: 175px;
+    }
+    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
+        gap: 20px;
+    }
 }
 
 @media (max-width: 500px) {
+    .products_component_heading {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .before_after {
+        padding-top: 16px;
+    }
+    .before_after_block1 {
+        gap: 27px;
+    }
+    .before_after_block1 {
+        padding: 30px 30px 27px 30px;
+    }
+    .before_after_block1_text_container {
+        gap: 12px;
+    }
+    .before_after_pluses_list_point,
+    .before_after_pluses_list_point_interval {
+        font-size: 13px;
+    }
+    .before_after_pluses_list_point {
+        padding-top: 0;
+        margin-left: 30px;
+    }
+    .before_after_pluses_list_point::before {
+        content: url(/icons/page_products/check_mark3.svg);
+        left: -37px; /* Позиционируем маркер слева от текста */
+        top: 0;
+    }
+    .products_page_text_one_heading {
+        font-size: 15px;
+        line-height: 120%;
+    }
+    .products_page_text_one {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .products_page_text_one_text {
+        margin-top: 7px;
+        font-size: 13px;
+        line-height: 130%;
+    }
+
+    .popup_order_call_container2,
+    .popup_order_call_container {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .stroitelniye_uslugi_heading {
+        font-size: 20px;
+    }
+    .stroitelniye_uslugi_domokomplekt_list_img {
+        width: 280px;
+        height: 198px;
+    }
+    .stroitelniye_uslugi_domokomplekt_list_img_link {
+        display: flex;
+        justify-content: center;
+    }
+    .stroitelniye_uslugi_domokomplekt_domokomplekt_heading,
+    .stroitelniye_uslugi_domokomplekt_pod_krishu_heading,
+    .stroitelniye_uslugi_domokomplekt_pod_kluch_heading  {
+        font-size: 15px;
+        line-height: 120%;
+    }
+    .stroitelniye_uslugi_domokomplekt_point_grey,
+    .stroitelniye_uslugi_domokomplekt_point_black {
+        font-size: 13px;
+        line-height: 130%;
+    }
+    .button_stroitelniye_uslugi_domokomplekt_domokomplekt,
+    .button_stroitelniye_uslugi_domokomplekt_pod_krishu,
+    .button_stroitelniye_uslugi_domokomplekt_pod_kluch {
+        font-size: 13px;
+        line-height: 153.846%;
+    }
+    .button_stroitelniye_uslugi_domokomplekt_domokomplekt, 
+    .button_stroitelniye_uslugi_domokomplekt_pod_krishu, 
+    .button_stroitelniye_uslugi_domokomplekt_pod_kluch {
+        margin-top: 16px;
+    }
+    .stroitelniye_uslugi_domokomplekt_domokomplekt,
+    .stroitelniye_uslugi_domokomplekt_pod_krishu,
+    .stroitelniye_uslugi_domokomplekt_pod_kluch {
+        padding-left: 14px;
+        padding-bottom: 17px;
+        padding-right: 14px;
+    }
+    .stroitelniye_uslugi_domokomplekt_point_black,
+    .stroitelniye_uslugi_domokomplekt_point_grey {
+        max-width: 220px;
+    }
+    .stroitelniye_uslugi_page_text_one_bottom {
+        margin-bottom: 30px;
+    }
+
     .sobstvennoe_proizvodstvo_heading {
         
         font-size: 20px;
@@ -1615,134 +2842,7 @@
     .sudebnih_razbiratelstv {
         order: 2;
     }
-}
 
-@media (max-width: 480px) {
-    .proecty_homepage_gazebos_and_mafs_text {
-        width: 100%;
-    }
-}
-
-@media (max-width: 450px) {
-    .proecty_homepage_gazebos_and_mafs_text {
-        width: 38vw;
-    }
-}
-
-@media (max-width: 440px) {
-    .kachestvo_breven_section_one_img {
-        padding-right: 15px;
-    }
-}
-
-@media (max-width: 420px) {
-    .proecty_homepage_houses_text {
-        font-size: 15px;
-        
-    }
-    .proecty_homepage_baths_text {
-        font-size: 15px;
-        
-    }
-    .proecty_homepage_gazebos_and_mafs_text {
-        font-size: 15px;
-        width: 36vw;
-        
-    }
-    .block_dostijeniy_container {
-        column-gap: 40px;
-    }
-}
-
-@media (max-width: 370px) {
-    .kachestvo_breven_section_one_img {
-        padding-right: 0px;
-    }
-}
-
-@media (max-width: 360px) {
-    .dostijenie_csifra {
-        font-size: 38px;
-    }
-    .sobstvennoe_proizvodstvo_heading {
-        font-size: 18px;
-    }
-    .zayavka_na_dom_foto_homepage {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .zayavka_na_dom_block1 {
-        padding: 42px 0px 10px 0px;
-    }
-    .zayavka_na_dom_foto_homepage {
-        width: 253px;
-    }
-    .zayavka_na_dom_heading {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    
-}
-
-@media (max-width: 1420px) {
-    .gallery_container {
-        min-width: auto;
-        max-width: none;
-    }
-    .gallery_under_heading_text {
-        
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .gallery_heading {
-        
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .gallery_privare_container {
-        min-width: 100%;
-    }
-    .private_life_container {
-        gap: 3vw;
-    }
-    .gallery3_container {
-        grid-template-columns: repeat(2, 1fr);
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .gallery3_container .grid-item.center {
-        grid-column: 1 / -1;
-        justify-self: center;
-        max-width: 362px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .gallery3_container .grid-item .text {
-        font-size: 20px;
-    }
-    .gallery3_container .grid-item img {
-        height: 280px;
-    }
-}
-
-@media (max-width: 700px) {
-    .gallery3_container {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    .gallery3_container .grid-item.center {
-        max-width: none;
-    }
-    .gallery3_container .grid-item img {
-        height: 254px;
-    }
-    .gallery3_container .grid-item .text {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 500px) {
     .gallery2_common_container {
         padding-left: 20px;
         padding-right: 20px;
@@ -1752,113 +2852,7 @@
         margin-left: 16px;
         margin-bottom: 16px;
     }
-}
 
-@media (max-width: 1400px) {
-    .gallery_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
-}
-
-@media (max-width: 1110px) {
-    .gallery_under_heading_text {
-        font-size: 1.7vw;
-    }
-}
-
-@media (max-width: 1000px) {
-    .project1_heading {
-        margin-top: 19px;
-        
-        font-size: 17px;
-        margin-top: 11px;
-    }
-    .project2_heading {
-        margin-top: 38px;
-    }
-    .private_life_text {
-        font-size: 18px;
-    }
-    .private_life_container {
-        padding: 20px;
-    }
-}
-
-@media (max-width: 930px) {
-    .gallery_under_heading_text {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 810px) {
-    .gallery_heading {
-        font-size: 4vw;
-    }
-}
-
-@media (max-width: 740px) {
-    .gallery_under_heading_text {
-        font-size: 17px;
-        line-height: 133%;
-    }
-}
-
-@media (max-width: 665px) {
-    .gallery_under_heading_text {
-        font-size: 16px;
-    }
-    .project1_heading {
-        font-size: 16px;
-    }
-    .private_life_text {
-        font-size: 16px;
-    }
-    .private_life_container {
-        padding: 17px;
-        gap: 4vw;
-    }
-    .private_life_icon1,
-    .private_life_icon2 {
-        width: 38px;
-        height: 38px;
-    }
-}
-
-@media (max-width: 630px) {
-    .project1_heading {
-        margin-top: 4px;
-    }
-    .project2_heading {
-        margin-top: 36px;
-    }
-}
-
-@media (max-width: 600px) {
-    .gallery_heading {
-        margin-top: 30px;
-    }
-
-    .private_life_container {
-        margin-top: 20px;
-    }
-
-}
-
-@media (max-width: 580px) {
-    .gallery_heading {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 550px) {
-    .gallery_under_heading_text {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-@media (max-width: 500px) {
     .gallery_heading {
         padding-left: 20px;
         padding-right: 20px;
@@ -1882,153 +2876,7 @@
     .project2_heading {
         margin-top: 29px;
     }
-}
 
-@media (max-width: 450px) {
-    .private_life_text {
-        font-size: 15px;
-    }
-    .private_life_container {
-        padding: 13px;
-    }
-}
-
-@media (max-width: 420px) {
-    
-    .overlay_gallery {
-        left: auto;
-    }
-}
-
-@media (max-width: 375px) {
-    .private_life_container {
-        flex-direction: column;
-        gap: 9px;
-        padding-top: 18px;
-        padding-bottom: 18px;
-    }
-    .gallery_container {
-        min-width: 90%;
-    }
-}
-
-@media (max-width: 360px) {
-    .gallery_under_heading_text {
-        
-        padding-left: 28px;
-        padding-right: 12px;
-    }
-}
-
-@media (max-width: 1450px) {
-    .o_companii_container_text_container {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .o_companii_karta_container {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-    .o_companii_karta_container_iframe {
-        height: 527px;
-    }
-}
-
-@media (max-width: 1420px) {
-    .o_companii_container1 {
-        
-        min-width: 100%;
-        max-width: none;
-    }
-    .o_companii_container_text {
-        width: auto;
-    }
-    .o_companii_container {
-        min-width: 100%;
-        max-width: none;
-    }
-}
-
-@media (max-width: 1400px) {
-    .o_companii_container_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
-}
-
-@media (max-width: 1290px) {
-    .o_companii_karta_container {
-        flex-direction: column;
-    }
-    .o_companii_container {
-        
-        min-width: 71%;
-    }
-    .o_companii_karta_container_iframe {
-        flex: none;
-    }
-    .o_companii_karta_adress_proizvodstva_container {
-        
-        justify-content: space-between;
-    }
-    .o_companii_karta_container_iframe {
-        height: 509px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .iframe_o_kompanii_container .iframe_o_kompanii {
-        padding-top: 12px;
-    }
-    .o_companii {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-}
-
-@media (max-width: 810px) {
-    .o_companii_container_heading {
-        font-size: 4vw;
-    }
-    .iframe_o_kompanii_container .iframe_o_kompanii {
-        padding-top: 0px;
-    }
-    .o_companii {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-}
-
-@media (max-width: 740px) {
-    .o_companii_container_text {
-        font-size: 3vw;
-        line-height: 133%;
-    }
-}
-
-@media (max-width: 640px) {
-    .o_companii_container_text_container {
-        gap: 8px;
-    }
-    .o_companii_container_text {
-        padding-bottom: 3px;
-    }
-}
-
-@media (max-width: 620px) {
-    .o_companii_container_text {
-        font-size: 17px;
-    }
-}
-
-@media (max-width: 600px) {
-    .o_companii_karta_container {
-        margin-top: 35px;
-        
-    }
-}
-
-@media (max-width: 500px) {
     .o_companii_container_heading {
         font-size: 20px;
     }
@@ -2079,172 +2927,7 @@
         display: flex;
         border: 3px solid #EFE0D1;
     }
-}
 
-@media (max-width: 400px) {
-    .o_companii_container_text_container {
-        margin-top: 30px;
-    }
-    .o_companii_container2 {
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 360px) {
-    .o_companii_container_text {
-        font-size: 4.7vw;
-    
-    
-    }
-    .o_companii_container_text_container {
-        padding-left: 17px;
-        padding-right: 17px;
-    }
-    .o_companii_karta_container {
-        margin-left: 17px;
-        margin-right: 17px;
-    }
-}
-
-@media (max-width: 1450px) {
-    .stroitelniye_uslugi_page_text_one_container {
-        min-width: auto;
-        
-        min-width: 740px;
-    }
-}
-
-@media (max-width: 1420px) {
-    .proizvodstvo_under_heading_text {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .proizvodstvo_container {
-        min-width: auto;
-        max-width: none;
-    }
-    .proizvodstvo_under_heading_text {
-        width: auto;
-    }
-    .proizvodstvo_vidy_container {
-        width: 100%;
-    }
-    .proizvodstvo_vidy_container_2 {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        min-width: auto;
-        max-width: none;
-        column-gap: 20px;
-        justify-content: space-evenly;
-    }
-    .process_stroitelstva_container {
-        min-width: auto;
-        max-width: none;
-    }
-    
-}
-
-@media (max-width: 1400px) {
-    .proizvodstvo_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
-}
-
-@media (max-width: 1125px) {
-    .stroitelniye_uslugi_page_text_one {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-}
-
-@media (max-width: 1080px) {
-    .process_stroitelstva_heading {
-        font-size: 3.715vw;
-    }
-}
-
-@media (max-width: 1070px) {
-    .stroitelniye_uslugi_page_text_one_container {
-        min-width: auto;
-    }
-}
-
-@media (max-width: 1060px) {
-    .stroitelniye_uslugi_page_text_one_text {
-        max-width: max-content;
-    }
-}
-
-@media (max-width: 810px) {
-    .proizvodstvo_heading {
-        font-size: 4vw;
-    }
-    .proizvodstvo_heading {
-        margin-top: 50px;
-    }
-    .process_stroitelstva_heading {
-        font-size: 4vw;
-    }
-    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
-        
-        font-size: 4vw;
-    }
-}
-
-@media (max-width: 740px) {
-    .proizvodstvo_under_heading_text {
-        font-size: 3vw;
-        line-height: 133%;
-    }
-}
-
-@media (max-width: 700px) {
-    .stroitelniye_uslugi_page_text_one_heading {
-        font-size: 20px;
-    }
-    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
-        font-size: 4vw;
-    }
-}
-
-@media (max-width: 620px) {
-    .proizvodstvo_under_heading_text {
-        font-size: 17px;
-        margin-top: 16px;
-    }
-}
-
-@media (max-width: 600px) {
-    .proizvodstvo_heading {
-        margin-top: 30px;
-    }
-    .stroitelniye_uslugi_page_text_one {
-        margin-top: 60px;
-    }
-    .process_stroitelstva {
-        margin-top: 60px;
-    }
-    .sobstvennoe_proizvodstvo_slider {
-        margin-top: 12px;
-    }
-    .stroitelniye_uslugi_text_pravki_font {
-        margin-bottom: 30px;
-    }
-    .o_companii_text_last {
-        margin-bottom: 0;
-    }
-}
-
-@media (max-width: 550px) {
-    .stroitelniye_uslugi_page_text_one {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-@media (max-width: 500px) {
     .proizvodstvo_heading {
         font-size: 20px;
     }
@@ -2311,186 +2994,7 @@
     .stroitelniye_uslugi_page_text_one_heading__pravki {
         margin-top: 0;
     }
-}
 
-@media (max-width: 360px) {
-    .proizvodstvo_under_heading_text {
-        font-size: 4.7vw;
-        
-        
-    }
-    .proizvodstvo_vidy_container_2 {
-        padding-left: 19px;
-        padding-right: 19px;
-    }
-    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 1460px) {
-    .zayavka_na_dom_container {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 1420px) {
-    .zayavka_na_dom_container2 {
-        min-width: auto;
-        max-width: max-content;
-        margin-left: 17px;
-        margin-right: 17px;
-        gap: 15px;
-    }
-    .houses_block_foto_section {
-
-        height: 424px;
-        
-    }
-    .houses_block_list_point  {
-        flex-direction: column;
-    }
-    .catalog_container {
-        min-width: auto;
-        max-width: none;
-    }
-    .houses_block_foto_section2 {
-        position: absolute;
-        bottom: -84px;
-    }
-    .houses_block_parameters_section {
-        margin-top: 85px;
-    }
-    .houses_block_text1,
-    .bath_block_text1 {
-        margin-top: 29px;
-    }
-    .houses_block_foto_1 {
-        width: 759px;
-        height: 427px;
-    }
-    .catalog-foto-sub {
-        width: 753px;
-        height: 415px;
-    }
-}
-
-@media (max-width: 1400px) {
-    .catalog_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
-}
-
-@media (max-width: 1150px) {
-    .zayavka_na_dom_container2 {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 1050px) {
-    .houses_block_foto_section {
-        width: 500px;
-    }
-    .houses_block_foto_1 {
-        width: 506px;
-        height: auto;
-    }
-    .houses_block_foto_section {
-        height: 287px;
-    }
-    .catalog-foto-sub {
-        
-        width: 499px;
-        
-    }
-}
-
-@media (max-width: 810px) {
-    .catalog_heading {
-        font-size: 4vw;
-    }
-}
-
-@media (max-width: 675px) {
-    .catalog_heading {
-        padding-top: 30px;
-    }
-}
-
-@media (max-width: 560px) {
-    .houses_block_heading {
-        font-size: 15px;
-    }
-    .houses_block_parameters1_text,
-    .houses_block_parameters2_text {
-        font-size: 13px;
-    }
-    .houses_block_text1,
-    .bath_block_text1 {
-        font-size: 13px;
-        line-height: 120%;
-    }
-    .houses_block_text2 {
-        font-size: 11px;
-        line-height: 140%;
-    }
-    .houses_block_button {
-        font-size: 13px;
-    }
-    .houses_block_parameters {
-        margin-top: 12px;
-    }
-    .houses_block_parameters1, .houses_block_parameters2 {
-        gap: 5px;
-    }
-    .houses_block_text2 {
-        margin-top: 2px;
-    }
-    .houses_block_button {
-        margin-top: 16px;
-        margin-bottom: 18px;
-    }
-    .houses_block_foto_2,
-    .houses_block_foto_3  {
-        width: 64px;
-        height: auto;
-    }
-    .houses_block_foto_section {
-        width: 280px;
-    }
-    .catalog_container {
-        
-        width: 280px;
-    }
-    .houses_block_foto_1 {
-        width: 280px;
-    }
-    .houses_block_foto_section {
-        height: 155px;
-    }
-    .houses_block_foto_section2 {
-        bottom: -62px;
-    }
-    .houses_block_parameters_section {
-        margin-top: 71px;
-    }
-    .catalog-foto-sub {
-        
-        
-        width: 272px;
-        
-    }
-}
-
-@media (max-width: 550px) {
-    .catalog_heading {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-@media (max-width: 500px) {
     .catalog_heading {
         font-size: 20px;
     }
@@ -2522,243 +3026,7 @@
     .stroitelniye_uslugi_page_text_one_text_last {
         margin-bottom: 30px;
     }
-}
 
-@media (max-width: 1620px) {
-    .homepage_slider_one {
-        justify-content: flex-start;
-    }
-    .homepage_slider_one_component,
-    .slider_1_container,
-    .slider_1_foto_1,  
-    .slider_1_foto_2,  
-    .slider_1_foto_3,  
-    .slider_1_foto_4,  
-    .slider_1_foto_5,  
-    .slider_1_foto_6,  
-    .slider_1_foto_7  {
-        
-        
-        height: calc(42vw - 20px);
-        width: 100%;
-        min-width: auto;
-    }
-    
-}
-
-@media (max-width: 1400px) {
-    .slider_1_heading {
-        font-size: 3.715vw;
-        width: 60vw;
-    }
-}
-
-@media (max-width: 1200px) {
-    .slider_1_container .slick-prev svg {
-        width: 40px;
-        height: 40px;
-    }
-    .slider_1_container .slick-next svg {
-        width: 40px;
-        height: 40px;
-    }
-    .slider_1_heading {
-        bottom: 8vw;
-    }
-    .slider_1_container .slick-prev,
-    .slider_1_container .slick-next,
-    .slider_1_container .slick-dots {
-        bottom: 2.25vw;
-    }
-    .slider_1_container .slick-slide {
-        border: 12px solid #FFFFFF;
-    }
-}
-
-@media (max-width: 985px) {
-    .slider_1_container .slick-prev svg {
-        width: 30px;
-        height: 30px;
-    }
-    .slider_1_container .slick-next svg {
-        width: 30px;
-        height: 30px;
-    }
-}
-
-@media (max-width: 900px) {
-    .slider_1_heading {
-        width: 49vw;
-    }
-}
-
-@media (max-width: 810px) {
-    .sidebar_navigation {
-        display: none;
-    }
-    .main_section {
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 1420px) {
-    .sobstvennoe_proizvodstvo2_container {
-        min-width: auto;
-        max-width: max-content;
-    }
-}
-
-@media (max-width: 600px) {
-    .sobstvennoe_proizvodstvo_slider img {
-        height: 91px;
-    }
-    
-    .homepage_slider_2 .custom-prev img, 
-    .homepage_slider_2 .custom-next img {
-        width: 32px;
-        height: 32px;
-    }
-    .homepage_slider_2 .custom-next {
-        
-        bottom: 27px;
-        right: -17px;
-    }
-    .homepage_slider_2 .custom-prev {
-        
-        bottom: 27px;
-        left: -17px;
-    }
-    .homepage_slider_2 .slick-track {
-        
-        gap: 5px;
-    }
-}
-
-@media (max-width: 550px) {
-    .homepage_slider_2 {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 1480px) {
-    .homepage_slider_3_container {
-        min-width: auto;
-        max-width: none;
-        width: 100%;
-    }
-    .homepage_slider_3 {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-}
-
-@media (max-width: 600px) {
-    .stroitelniye_uslugi_slider img {
-        
-        height: 91px;
-        
-    }
-    .homepage_slider_3 .uslugi-custom-prev img, 
-    .homepage_slider_3 .uslugi-custom-next img {
-        width: 32px;
-        height: 32px;
-    }
-    
-    .homepage_slider_3 .uslugi-custom-next {
-        
-        bottom: 27px;
-        
-        right: -16px;
-    }
-    .homepage_slider_3 .uslugi-custom-prev {
-        
-        bottom: 27px;
-        
-        
-        left: -16px;
-    }
-    .homepage_slider_3 .slick-track {
-        gap: 5px;
-    }
-}
-
-@media (max-width: 550px) {
-    .homepage_slider_3 {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 810px) {
-    .header_adaptive {
-        display: flex;
-        justify-content: center;
-        
-        position: sticky;
-        top: 0;
-        width: 100%;
-        z-index: 13;
-        background-color: #ffffff;
-        height: 60px;
-    }
-    .slider_1_container .slick-slide {
-        border: none;
-    }
-    .menu_hamburger {
-        display: block;
-        cursor: pointer;
-        z-index: 12;
-        height: 14px;
-    }
-}
-
-@media (max-width: 690px) {
-    .slider_1_heading {
-        bottom: 9.3vw;
-    }
-}
-
-@media (max-width: 618px) {
-    .slider_1_foto_1,
-    .slider_1_foto_2,
-    .slider_1_foto_3,
-    .slider_1_foto_4,
-    .slider_1_foto_5,
-    .slider_1_foto_6
-    .slider_1_foto_7 {
-        height: 321px;
-        
-    }
-    
-    .homepage_slider_one_component,
-    .slider_1_container, 
-    .slider_1_foto_1, 
-    .slider_1_foto_2, 
-    .slider_1_foto_3, 
-    .slider_1_foto_4, 
-    .slider_1_foto_5, 
-    .slider_1_foto_6, 
-    .slider_1_foto_7 {
-        height: 321px;
-    }
-    .slider_1_container .slick-prev, .slider_1_container .slick-next, .slider_1_container .slick-dots {
-        bottom: 4.25vw;
-    }
-    .slider_1_heading {
-        bottom: 13.3vw;
-    }
-}
-
-@media (max-width: 600px) {
-    .slider_1_heading {
-        font-size: 22px;
-        
-        width: 310px;
-    }
-}
-
-@media (max-width: 500px) {
     .menu_hamburger {
         left: 20px;
     }
@@ -2788,209 +3056,7 @@
     .slider_1_heading {
         bottom: 74px;
     }
-}
 
-@media (max-width: 480px) {
-    .homepage_slider_one_component,
-    .slider_1_container, 
-    .slider_1_foto_1, 
-    .slider_1_foto_2, 
-    .slider_1_foto_3, 
-    .slider_1_foto_4, 
-    .slider_1_foto_5, 
-    .slider_1_foto_6, 
-    .slider_1_foto_7 {
-        
-        height: 240px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 380px) {
-    .slider_1_heading {
-        width: 279px;
-    }
-}
-
-@media (max-width: 450px) {
-    .menu_hamburger {
-        left: 20px;
-    }
-    .menu {
-        
-        width: 100%;
-    }
-}
-
-@media (max-width: 700px) {
-    .error_page2_flex--p1,
-    .error_page2_flex--p2 {
-        font-size: 4.4vw;
-    }
-}
-
-@media (max-width: 1430px) {
-    .gallery_container_details {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 1420px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 22vw;
-    }
-}
-
-@media (max-width: 1380px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 21.8vw;
-    }
-}
-
-@media (max-width: 1335px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 21.6vw;
-    }
-}
-
-@media (max-width: 1300px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 21.4vw;
-    }
-}
-
-@media (max-width: 1255px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 21.1vw;
-    }
-}
-
-@media (max-width: 1210px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 20.9vw;
-    }
-}
-
-@media (max-width: 1180px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 20.7vw;
-    }
-}
-
-@media (max-width: 1143px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 20.5vw;
-    }
-}
-
-@media (max-width: 1115px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 20.3vw;
-    }
-}
-
-@media (max-width: 1087px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 20.1vw;
-    }
-}
-
-@media (max-width: 1063px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 19.9vw;
-    }
-}
-
-@media (max-width: 1036px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 19.6vw;
-    }
-}
-
-@media (max-width: 1005px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 19.4vw;
-    }
-}
-
-@media (max-width: 986px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 19.2vw;
-    }
-}
-
-@media (max-width: 963px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 18.4vw;
-    }
-}
-
-@media (max-width: 886px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 17.6vw;
-    }
-}
-
-@media (max-width: 860px) {
-    .thumbnail_hram_scheglovo {
-        height: 120vw;
-    }
-}
-
-@media (max-width: 820px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 17.2vw;
-    }
-}
-
-@media (max-width: 810px) {
-    .thumbnail_hram_scheglovo {
-        height: 164vw;
-    }
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 24.8vw;
-    }
-}
-
-@media (max-width: 787px) {
-    .my_gallery1 {
-        width: 140vw;
-    }
-}
-
-@media (max-width: 615px) {
-    .thumbnail_hram_mshinskaya_1,
-    .thumbnail_hram_mshinskaya_2 {
-        height: 23.9vw;
-    }
-}
-
-@media (max-width: 518px) {
-    .my_gallery1 {
-        width: 150vw;
-    }
-}
-
-@media (max-width: 500px) {
     .my_gallery1 {
         width: 120vw;
     }
@@ -3008,287 +3074,21 @@
         width: 100%;
         height: auto;
     }
-}
 
-@media (max-width: 1200px) {
-    .politika_heading_1level {
-        font-size: 28px;
-        padding-top: 0px;
-    }
-    .cookies_policy_container {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 810px) {
-    .politika_container {
-        padding: 40px;
-    }
-}
-
-@media (max-width: 610px) {
-    .politika_container {
-        padding: 30px;
-    }
-    .politika_heading_1level {
-        font-size: 24px;
-    }
-    .politika_heading_2level {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 450px) {
-    .politika_heading_1level {
-        font-size: 20px;
-    }
-    .politika_heading_2level {
-        font-size: 18px;
-    }
-    .politika_container {
-        padding: 20px;
-    }
-}
-
-@media (max-width: 1420px) {
-    .gallery_justified {
-        display: block;
-    }
-}
-
-@media (max-width: 500px) {
     .gallery_container_justified {
         margin-left: 20px;
         margin-right: 20px;
     }
-}
 
-@media (max-width: 375px) {
-    .gallery_container_justified {
-        min-width: auto;
-    }
-}
-
-@media (max-width: 500px) {
     .stroitelniye_uslugi_page_text_pravki {
         margin-top: 0;
     }
-}
 
-@media (max-width: 1180px) {
-    .success_send_message_block_container {
-        margin-left: 10%;
-        width: 432px;
-    }
-    .success_send_message_block_text {
-        font-size: 23px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (max-width: 810px) {
-    .success_send_message_block_container {
-        margin-left: 10%;
-        max-width: 80%;
-        min-width: 80%;
-        margin-right: 10%;
-    }
-    .success_send_message_block_text {
-        font-size: 23px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (max-width: 555px) {
-    .success_send_message_block {
-        padding: 20px 30px 20px 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .success_send_message_block_text {
-        font-size: 18px;
-    }
-    .success_send_message_block_link {
-        font-size: 13px;
-        padding: 7px 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    .success_send_message_thanks {
-        text-align: center;
-    }
-}
-
-@media (max-width: 395px) {
-    .success_send_message_block_container {
-        margin-left: 17%;
-        max-width: 66%;
-        min-width: 66%;
-        margin-right: 17%;
-    }
-    .success_send_message_block_text {
-        text-align: center;
-    }
-}
-
-@media (max-width: 1480px) {
-    .common_section_container2 {
-        width: 100%;
-        
-        
-        
-        min-width: auto;
-        
-        max-width: 100%;
-    }
-    .stage_section_container {
-        width: 100%;
-        padding-left: 40px;
-        padding-right: 40px;
-        
-        min-width: auto;
-        max-width: none;
-    }
-}
-
-@media (max-width: 1220px) {
-    .form_zayavka {
-        display: flex;
-    }
-}
-
-@media (max-width: 1020px) {
-    .common_header {
-        font-size: 3.715vw;
-    }
-}
-
-@media (max-width: 985px) {
-    .common_header6 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-@media (max-width: 500px) { 
+ 
     .common_header {
         font-size: 20px;
     }
-}
 
-@media (max-width: 400px) { 
-    .common_header {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 1330px) {
-    .zayavka_photo {
-        width: 29.5%;
-    }
-    .form_zayavka_container1 {
-        gap: 3vw;
-    }
-}
-
-@media (max-width: 1190px) {
-    .zayavka_photo {
-        width: 22.5%;
-    }
-}
-
-@media (max-width: 1100px) {
-    .form_zayavka {
-        flex-direction: column;
-    }
-    .form_zayavka_container1 {
-        justify-content: space-around;
-    }
-    .zayavka_photo {
-        width: 66.5%;
-        object-fit: contain;
-        margin-top: -60px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media (max-width: 975px) {
-    .zayavka_photo {
-        margin-bottom: -20px;
-    }
-    .form_zayavka_container1 {
-        padding-right: 25px;
-    }
-}
-
-@media (max-width: 870px) {
-    .zayavka_photo {
-        margin-bottom: -50px;
-    }
-}
-
-@media (max-width: 815px) {
-    .zayavka_photo {
-        margin-bottom: -60px;
-    }
-    .popup_order_call_right {
-        max-width: 240px;
-    }
-}
-
-@media (max-width: 810px) {
-    .zayavka_photo {
-        margin-bottom: -20px;
-    }
-    .popup_order_call_right {
-        max-width: 262px;
-    }
-}
-
-@media (max-width: 730px) {
-    .zayavka_photo {
-        margin-bottom: -34px;
-    }
-}
-
-@media (max-width: 635px) {
-    .form_zayavka_container1 {
-        flex-direction: column;
-        padding-right: 0;
-        align-items: center;
-        gap: 0;
-    }
-    .mar_lef_mar_top1 {
-        margin-left: 0;
-    }
-    .order_call_form_mt {
-        margin-top: 27px;
-    }
-    .order_call_form_button_2 {
-        margin-top: 25px;
-    }
-    .zayavka_photo {
-        margin-top: -45px;
-        margin-bottom: -40px;
-    }
-    .popup_order_call_right {
-        max-width: 54vw;
-    }
-    .popup_order_call_left_h2_2 {
-        max-width: 285px;
-        font-size: 4.715vw;
-    }
-}
-
-@media (max-width: 500px) {
     .zayavka_photo {
         margin-top: -78px;
         margin-bottom: -77px;
@@ -3299,156 +3099,7 @@
     .popup_order_call_left_p_2 {
         max-width: 68vw;
     }
-}
 
-@media (max-width: 425px) {
-    .zayavka_photo {
-        margin-top: -95px;
-        margin-bottom: -97px;
-    }
-}
-
-@media (max-width: 1460px) {
-    .zayavka_na_dom_foto_homepage_spb {
-        margin-left: 0px;
-    }
-    .zayavka_na_dom_text_spb {
-        text-align: center;
-        max-width: none;
-    }
-    .zayavka_na_dom_block1_homepage {
-        padding: 42px 33px 10px 33px;
-    }
-}
-
-@media (max-width: 1100px) {
-    .common_header1,
-    .common_header2,
-    .common_header3,
-    .common_header5 {
-        margin-top: 50px;
-    }
-}
-
-@media (max-width: 790px) {
-    .zayavka_na_dom_text_spb {
-        font-size: 17px;
-    }
-}
-
-@media (max-width: 700px) {
-    .zayavka_na_dom_container {
-        margin-bottom: 56px;
-    }
-}
-
-@media (max-width: 600px) {
-    .zayavka_na_dom_text_spb {
-        margin-top: 12px;
-    }
-    .mt1_spb {
-        margin-top: 40px;
-    }
-    .common_header1,
-    .common_header2,
-    .common_header3,
-    .common_header4,
-    .common_header5 {
-        margin-top: 40px;
-    }
-    .common_header6 {
-        margin-top: 60px;
-    }
-    .common_header5 {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .zayavka_na_dom_container {
-        margin-bottom: 40px;
-    }
-}
-
-@media (max-width: 480px) {
-    .common_header1 {
-        margin-top: 14px;
-    }
-}
-
-@media (max-width: 1495px) {
-    
-    .popup_order_call_container3,
-    .popup_order_call_container4,
-    .popup_order_call_container5 {
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
-    
-}
-
-@media (max-width: 810px) {
-    .popup_order_call_container3 {
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
-}
-
-@media (max-width: 600px) {
-    .mtop2 {
-        margin-top: 15px;
-    }
-}
-
-@media (max-width: 1480px) {
-    .stage_project_list {
-        gap: 3%;
-    }
-}
-
-@media (max-width: 1330px) {
-    .stage_project_point_text {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 1185px) {
-    .stage_project_list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        column-gap: 54px;
-        margin-top: 50px;
-    }
-}
-
-@media (max-width: 1095px) {
-    
-    .stage_project_point_photo1,
-    .stage_project_point_photo2,
-    .stage_project_point_photo3,
-    .stage_project_point_photo4 {
-        margin-left: 42px;
-    }
-}
-
-@media (max-width: 600px) {
-    .stage_project_list {
-        margin-top: 30px;
-    }
-    .stage_project_point_text {
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 540px) {
-    .stage_project_point_photo1, 
-    .stage_project_point_photo2, 
-    .stage_project_point_photo3, 
-    .stage_project_point_photo4 {
-        margin-left: 15px;
-    }
-}
-
-@media (max-width: 500px) {
     .stage_project_point_text {
         font-size: 13px;
     }
@@ -3461,11 +3112,196 @@
         width: 100px;
         height: auto;
     }
+
+    .stroitelniye_uslugi_domokomplekt_list_point1,
+    .stroitelniye_uslugi_domokomplekt_list_point2 {
+        display: none;
+    }
+    .common_header5 {
+        line-height: 126%;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+
+    .dostavka_heading1,
+    .oplata_heading1 {
+        font-size: 19px;
+    }
+    .dostavka_text1,
+    .oplata_text1 {
+        padding-top: 11px;
+    }
+    .dostavka_block1 {
+        padding-bottom: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .proecty_homepage_gazebos_and_mafs_text {
+        width: 100%;
+    }
+
+    .homepage_slider_one_component,
+    .slider_1_container, 
+    .slider_1_foto_1, 
+    .slider_1_foto_2, 
+    .slider_1_foto_3, 
+    .slider_1_foto_4, 
+    .slider_1_foto_5, 
+    .slider_1_foto_6, 
+    .slider_1_foto_7 {
+        
+        height: 240px;
+        width: 100%;
+    }
+
+    .success_send_message_block_text {
+        font-size: 18px;
+    }
+    .success_send_message_block_link {
+        font-size: 13px;
+        padding: 7px 15px;
+    }
+
+    .success_send_message_thanks {
+        text-align: center;
+    }
+
+    .common_header1 {
+        margin-top: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .proecty_homepage_gazebos_and_mafs_text {
+        width: 38vw;
+    }
+
+    .private_life_text {
+        font-size: 15px;
+    }
+    .private_life_container {
+        padding: 13px;
+    }
+
+    .menu_hamburger {
+        left: 20px;
+    }
+    .menu {
+        
+        width: 100%;
+    }
+
+    .politika_heading_1level {
+        font-size: 20px;
+    }
+    .politika_heading_2level {
+        font-size: 18px;
+    }
+    .politika_container {
+        padding: 20px;
+    }
+
+    .how_dostavka_heading {
+        margin-top: 27px;
+    }
+    .car_icon_list {
+        margin-top: 36px;
+    }
 }
 
 @media (max-width: 445px) {
     .stage_project_list {
         column-gap: 25px;
+    }
+}
+
+@media (max-width: 440px) {
+    .kachestvo_breven_section_one_img {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .zayavka_photo {
+        margin-top: -95px;
+        margin-bottom: -97px;
+    }
+}
+
+@media (max-width: 420px) {
+    .footer_component_container {
+        padding: 30px 54px 40px 20px;
+    }
+    .footer_company_name {
+        font-size: 15px;
+        line-height: 140%;
+    }
+    .footer_block_one_text_one,
+    .footer_block_one_text_two,
+    .footer_block_one_text_three {
+        font-size: 11px;
+    }
+    .footer_block_one {
+        gap: 12px;
+    }
+    .footer_block_one_text_two {
+        margin-top: -4px;
+    }
+    .footer_block_two_list_point_link {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .footer_block_two_list_point {
+        margin-bottom: 0;
+    }
+    .footer_block_two_list {
+        margin-bottom: 4px;
+    }
+    .footer_block_two_mail {
+        font-size: 14px;
+        width: max-content;
+    }
+    .footer_component_container {
+        gap: 30px;
+    }
+    .footer_block_three_section_one_politics,
+    .footer_block_three_section_one_user_agreement {
+        font-size: 11px;
+    }
+    .footer_block_three {
+        gap: 30px;
+    }
+    .footer_block_three_is_made_text {
+        font-size: 11px;
+    }
+    .footer_logo_metasystems {
+        width: 35px;
+        height: 32.9px;
+    }
+
+    .proecty_homepage_houses_text {
+        font-size: 15px;
+        
+    }
+    .proecty_homepage_baths_text {
+        font-size: 15px;
+        
+    }
+    .proecty_homepage_gazebos_and_mafs_text {
+        font-size: 15px;
+        width: 36vw;
+        
+    }
+    .block_dostijeniy_container {
+        column-gap: 40px;
+    }
+
+    
+    .overlay_gallery {
+        left: auto;
     }
 }
 
@@ -3492,272 +3328,174 @@
     }
 }
 
+@media (max-width: 400px) {
+    .footer_component_container {
+        padding: 30px 20px 40px 20px;
+    }
+
+    .o_companii_container_text_container {
+        margin-top: 30px;
+    }
+    .o_companii_container2 {
+        margin-top: 30px;
+    }
+
+ 
+    .common_header {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 395px) {
+    .success_send_message_block_container {
+        margin-left: 17%;
+        max-width: 66%;
+        min-width: 66%;
+        margin-right: 17%;
+    }
+    .success_send_message_block_text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 380px) {
+    .slider_1_heading {
+        width: 279px;
+    }
+}
+
+@media (max-width: 375px) {
+    .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
+        padding-top: 16px;
+        padding-bottom: 13px;
+        gap: 20px;
+        width: 280px;
+    }
+    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
+        font-size: 15px;
+    }
+    .button_card_ocilindrovannoe_brevno_price, .button_card_okoryonnoe_brevno_price {
+        font-size: 13px;
+        padding: 10px 16px;
+        max-width: 154px;
+    }
+
+    .popup_order_call_container2,
+    .popup_order_call_container {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .private_life_container {
+        flex-direction: column;
+        gap: 9px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    .gallery_container {
+        min-width: 90%;
+    }
+
+    .gallery_container_justified {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 370px) {
+    .kachestvo_breven_section_one_img {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 365px) {
+    .before_after_pluses_list_point {
+        width: 224px;
+    }
+    .before_after_pluses_list {
+        padding: 0 6px 0 6px;
+    }
+
+    .footer_block_one {
+        width: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .before_after_block1_heading,
+    .before_after_block1_text {
+        font-size: 4.7vw;
+    }
+    .before_after_pluses_list_point {
+        width: 243px;
+        margin-left: 47px;
+    }
+
+    .dostijenie_csifra {
+        font-size: 38px;
+    }
+    .sobstvennoe_proizvodstvo_heading {
+        font-size: 18px;
+    }
+    .zayavka_na_dom_foto_homepage {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .zayavka_na_dom_block1 {
+        padding: 42px 0px 10px 0px;
+    }
+    .zayavka_na_dom_foto_homepage {
+        width: 253px;
+    }
+    .zayavka_na_dom_heading {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+
+    .gallery_under_heading_text {
+        
+        padding-left: 28px;
+        padding-right: 12px;
+    }
+
+    .o_companii_container_text {
+        font-size: 4.7vw;
+    
+    
+    }
+    .o_companii_container_text_container {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .o_companii_karta_container {
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+
+    .proizvodstvo_under_heading_text {
+        font-size: 4.7vw;
+        
+        
+    }
+    .proizvodstvo_vidy_container_2 {
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 340px) {
+    .stroitelniye_uslugi_domokomplekt_list {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .stage_project_point_text {
         max-width: 215px;
     }
     .stage_project_list {
         margin-bottom: 25px;
-    }
-}
-
-@media (max-width: 635px) {
-    .mt5_spb {
-        margin-top: 16px;
-    }
-}
-
-@media (max-width: 600px) {
-    .stroitelniye_uslugi_domokomplekt_btn {
-        margin-top: 35px;
-    }
-    .button_stroitelniye_uslugi_total {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 500px) {
-    .stroitelniye_uslugi_domokomplekt_list_point1,
-    .stroitelniye_uslugi_domokomplekt_list_point2 {
-        display: none;
-    }
-    .common_header5 {
-        line-height: 126%;
-        text-align: center;
-        font-weight: 700;
-        font-size: 20px;
-
-    }
-}
-
-/* Доставка и оплата - responsive начало */
-@media (max-width: 1357px) {
-    .dostavka_block1 {
-        flex: 1;
-        padding-bottom: 0;
-    }
-}
-@media (max-width: 1250px) {
-    .car_icon2 {
-        width: 25vw;
-    }
-    .car_icon1,
-    .car_icon3 {
-        width: 13vw;
-    }
-}
-@media (max-width: 1240px) {
-    .oplata_container {
-        flex-direction: column;
-    }
-    .oplata_text1 {
-        max-width: 100%;
-        text-align: center;
-        padding-bottom: 26px;
-    }
-    .oplata_block2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 0;
-    }
-    .oplata_block1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-right: 0;
-    }
-    .oplata_container {
-        margin-top: 43px;
-    }
-}
-@media (max-width: 960px) {
-    .dostavka_container {
-        flex-direction: column;
-    }
-    .dostavka_block1 {
-        padding-left: 17px;
-        padding-bottom: 26px;
-    }
-    .dostavka_heading1,
-    .oplata_heading1 {
-        font-size: 3.315vw;
-    }
-    .dostavka_heading2,
-    .oplata_heading2 {
-        font-size: 2.72vw;
-    }
-    .how_dostavka_heading,
-    .poryadok_oplaty_heading {
-        font-size: 2.72vw;
-    }
-    .dostavka_block2 {
-        padding: 20px 15px 26px 16px;
-    }
-}
-@media (max-width: 810px) {
-    .dostavka_container {
-        flex-direction: row;
-    }
-    .dostavka_block1 {
-        padding-left: 0;
-        padding-bottom: 0;
-    }
-    .dostavka_point {
-        font-size: 14px;
-    }
-    .dostavka_list1 {
-        padding-top: 14px;
-        gap: 10px;
-    }
-    .dostavka_text1,
-    .oplata_text1 {
-        font-size: 18px;
-        padding-top: 15px;
-    }
-    .oplata_text1 {
-        margin-top: 0;
-    }
-    .oplata_point {
-        font-size: 18px;
-    }
-    .oplata_list {
-        gap: 8px;
-    }
-    .oplata_block2 {
-        padding-bottom: 23px;
-    }
-    .poryadok_oplaty_heading {
-        margin-top: 43px;
-    }
-}
-@media (max-width: 700px) {
-    .car_icon2 {
-        width: 30vw;
-    }
-    .car_icon1,
-    .car_icon3 {
-        width: 16vw;
-    }
-}
-@media (max-width: 650px) {
-    .dostavka_container {
-        flex-direction: column;
-    }
-    .dostavka_block1 {
-        padding-left: 17px;
-        padding-bottom: 26px;
-    }
-    .dostavka_heading1,
-    .oplata_heading1 {
-        font-size: 21px;
-    }
-    .dostavka_heading2,
-    .oplata_heading2 {
-        font-size: 17px;
-    }
-    .dostavka_text1,
-    .oplata_text1 {
-        font-size: 16px;
-    }
-    .dostavka_container {
-        padding-top: 15px;
-    }
-    .how_dostavka_heading,
-    .poryadok_oplaty_heading {
-        font-size: 17px;
-    }
-    .oplata_point {
-        font-size: 16px;
-    }
-    .oplata_list {
-        gap: 5px;
-        margin-top: 11px;
-    }
-}
-@media (max-width: 600px) {
-    .how_dostavka_heading,
-    .poryadok_oplaty_heading {
-        margin-top: 40px;
-    }
-    .homepage_slider_2 .dostavka-custom-next {
-        bottom: 26px;
-        right: -16px;
-    }
-    .homepage_slider_2 .dostavka-custom-prev {
-        bottom: 26px;
-        left: -16px;
-    }
-    .homepage_slider_2 .dostavka-custom-prev img,
-    .homepage_slider_2 .dostavka-custom-next img {
-        width: 32px;
-        height: 32px;
-    }
-    .car_icon_list {
-        margin-top: 45px;
-    }
-}
-@media (max-width: 500px) {
-    .dostavka_heading1,
-    .oplata_heading1 {
-        font-size: 19px;
-    }
-    .dostavka_text1,
-    .oplata_text1 {
-        padding-top: 11px;
-    }
-    .dostavka_block1 {
-        padding-bottom: 22px;
-    }
-}
-@media (max-width: 450px) {
-    .how_dostavka_heading {
-        margin-top: 27px;
-    }
-    .car_icon_list {
-        margin-top: 36px;
-    }
-}
-/* Доставка и оплата - responsive конец */
-
-/* Cookie banner - responsive начало */
-@media (max-width: 768px) {
-    .cookie-banner {
-        padding: 12px 16px;
-    }
-    .cookie-banner__inner {
-        flex-direction: column;
-        gap: 12px;
-        text-align: center;
-    }
-    .cookie-banner__text {
-        font-size: 13px;
-    }
-    .cookie-banner__btn {
-        padding: 8px 20px;
-        font-size: 12px;
-    }
-}
-/* Cookie banner - responsive конец */
-
-/* Homepage orig mobile fixes */
-@media (max-width: 600px) {
-    /* Fix button container centering: prevent max-content shrink so flex justify-content: center works */
-    .sobstvennoe_proizvodstvo2_container {
-        max-width: 100%;
-        width: 100%;
-    }
-    /* etapy_raboty: remove inner padding and resize images to fit 2-per-row */
-    .proizvodstvo_vidy_container_2 {
-        padding-left: 0;
-        padding-right: 0;
-        column-gap: 0;
-    }
-    .proizvodstvo_vidy_foto {
-        width: 40vw;
-        height: 40vw;
-    }
-    .proizvodstvo_vidy_block_text {
-        width: 40vw;
     }
 }
