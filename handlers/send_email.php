@@ -8,8 +8,9 @@ use PHPMailer\PHPMailer\Exception;
 
 $mail = new PHPMailer(true);
 
-$namecallback = $_POST['namecallback'];
-$phonecallback = $_POST['phonecallback'];
+$name   = $_POST['name']   ?? '';
+$phone  = $_POST['phone']  ?? '';
+$source = $_POST['source'] ?? 'Форма на сайте';
 
 try {
     $mail->SMTPAutoTLS = false;
@@ -33,10 +34,10 @@ try {
         }
     }
 
-    $mail->Subject = $siteConfig['email_prefix'] . 'Запрос от ' . $namecallback;
-    $mail->Body = $siteConfig['email_prefix'] . 'Поступил запрос из формы "Заказать обратный звонок"' . "\n" .
-        'от ' . $namecallback . "\n" .
-        'номер телефона: ' . $phonecallback;
+    $mail->Subject = $siteConfig['email_prefix'] . 'Запрос от ' . $name;
+    $mail->Body = $siteConfig['email_prefix'] . 'Поступил запрос из формы "' . $source . '"' . "\n" .
+        'от ' . $name . "\n" .
+        'номер телефона: ' . $phone;
 
     if (isCaptchaSuccess($_POST['g-recaptcha-response'])) {
         $mail->send();

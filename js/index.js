@@ -1075,286 +1075,38 @@ maf5Button2 ? maf5Button2.onclick = function() {
 
 } : null;
 
-// ниже - форма "заказать обратный звонок" из футера
+// форма заявки / обратного звонка (единый попап)
 
-let buttonOrderingCall01 = document.querySelector('.ordering_call_first'); //кнопка "заказать обратный звонок" в боковой панели
-let buttonOrderingCall02 = document.querySelector('.ordering_call_2'); //кнопка "заказать обратный звонок" в меню гамбургер
-let grayBackgroundFooterButtonFirst = document.querySelector('.gray_background_footer_first'); //серый экран
-let formFooterCloseButton = document.querySelector('.window_close_footer_first'); //кнопка, закрывающая окно формы
-let formOrderCall = document.querySelector('.popup_order_call_first'); //окно формы
-let grayBackgroundHeaderFirst = document.querySelector('.gray_background_footer_first'); //серый экран
+const formOrderCall     = document.querySelector('.popup_order_call');
+const formOrderCallBg   = document.querySelector('.gray_background_footer_2');
+const formOrderCallClose = document.querySelector('.window_close_footer');
 
-buttonOrderingCall01 ? buttonOrderingCall01.onclick = function() {
-    // alert("111");
+function openOrderCallPopup(title, source) {
+    if (!formOrderCall) return;
+    document.getElementById('popup_order_call_title').textContent = title;
+    document.getElementById('popup_source').value = source;
     formOrderCall.classList.add('active_form');
-    grayBackgroundHeaderFirst.classList.remove('form_hidden');
-} : null;
+    formOrderCallBg?.classList.remove('form_hidden');
+}
 
-buttonOrderingCall02 ? buttonOrderingCall02.onclick = function() {
-    // alert("111");
-    formOrderCall.classList.add('active_form');
-    grayBackgroundHeaderFirst.classList.remove('form_hidden');
-} : null;
-
-grayBackgroundFooterButtonFirst ? grayBackgroundFooterButtonFirst.onclick = function() {
-    // alert("111");
+function closeOrderCallPopup() {
+    if (!formOrderCall) return;
     formOrderCall.classList.remove('active_form');
-    grayBackgroundHeaderFirst.classList.add('form_hidden');
-} : null;
+    formOrderCallBg?.classList.add('form_hidden');
+}
 
-formFooterCloseButton ? formFooterCloseButton.onclick = function() {
-    // alert("111");
-    formOrderCall.classList.remove('active_form');
-    grayBackgroundHeaderFirst.classList.add('form_hidden');
-} : null;
+// кнопки "Заказать обратный звонок"
+document.querySelectorAll('.ordering_call_first, .ordering_call_2').forEach(btn => {
+    btn.addEventListener('click', () => openOrderCallPopup('Заказать обратный звонок', 'Заказать обратный звонок'));
+});
 
-// ниже - форма "заявка на расчет проекта" из футера
+// кнопки "Оставьте заявку" / "Рассчитать проект" (project_calculation1..32)
+document.querySelectorAll('[class*="project_calculation"]').forEach(btn => {
+    btn.addEventListener('click', () => openOrderCallPopup('Заявка на бесплатный обмер и расчет проекта под ключ', 'Заявка на расчёт проекта'));
+});
 
-let buttonProjectCalculation1 = document.querySelector('.project_calculation1'); //кнопка "Оставьте заявку" в боковой панели
-let buttonProjectCalculation2 = document.querySelector('.project_calculation2'); //кнопка "Оставьте заявку" в меню гамбургер
-let buttonProjectCalculation3 = document.querySelector('.project_calculation3'); //кнопка "Оставьте заявку" на /homepage (chramy_chasovni_button) 
-let buttonProjectCalculation4 = document.querySelector('.project_calculation4'); //кнопка "Оставьте заявку" на /homepage (button_zayavka_na_dom)
-let buttonProjectCalculation5 = document.querySelector('.project_calculation5'); //кнопка "Оставьте заявку" на /catalog (button_zayavka_na_dom)
-let buttonProjectCalculation6 = document.querySelector('.project_calculation6'); //кнопка "Рассчитать проект"(дом #1) на /catalog-domov (houses_block_button)
-let buttonProjectCalculation7 = document.querySelector('.project_calculation7'); //кнопка "Рассчитать проект"(дом№2) на /catalog-domov (houses_block_button)
-let buttonProjectCalculation8 = document.querySelector('.project_calculation8'); //кнопка "Рассчитать проект"(баня№1) на /catalog-bani (houses_block_button)
-let buttonProjectCalculation9 = document.querySelector('.project_calculation9'); //кнопка "Рассчитать проект"(баня№2) на /catalog-bani (houses_block_button)
-let buttonProjectCalculation10 = document.querySelector('.project_calculation10'); //кнопка "Рассчитать проект"(маф№1) на /catalog-besedki (houses_block_button)
-let buttonProjectCalculation11 = document.querySelector('.project_calculation11'); //кнопка "Рассчитать проект"(маф№2) на /catalog-besedki (houses_block_button)
-let buttonProjectCalculation12 = document.querySelector('.project_calculation12'); //кнопка "Оставьте заявку" на /products (button_card_ocilindrovannoe_brevno_price)
-let buttonProjectCalculation13 = document.querySelector('.project_calculation13'); //кнопка "Оставьте заявку" на /products (button_card_okoryonnoe_brevno_price)
-let buttonProjectCalculation14 = document.querySelector('.project_calculation14'); //кнопка "Оставьте заявку" на /stroitelniye_uslugi (button_stroitelniye_uslugi_domokomplekt_domokomplekt)
-let buttonProjectCalculation15 = document.querySelector('.project_calculation15'); //кнопка "Оставьте заявку" на /stroitelniye_uslugi (button_stroitelniye_uslugi_domokomplekt_pod_krishu)
-let buttonProjectCalculation16 = document.querySelector('.project_calculation16'); //кнопка "Оставьте заявку" на /stroitelniye_uslugi (button_stroitelniye_uslugi_domokomplekt_pod_kluch)
-
-let buttonProjectCalculation17 = document.querySelector('.project_calculation17'); //кнопка "Рассчитать проект"(дом№3) на /catalog-domov (houses_block_button)
-let buttonProjectCalculation18 = document.querySelector('.project_calculation18'); //кнопка "Рассчитать проект"(дом№4) на /catalog-domov (houses_block_button)
-let buttonProjectCalculation19 = document.querySelector('.project_calculation19'); //кнопка "Рассчитать проект"(дом№5) на /catalog-domov (houses_block_button)
-let buttonProjectCalculation20 = document.querySelector('.project_calculation20'); //кнопка "Рассчитать проект"(дом№6) на /catalog-domov (houses_block_button)
-let buttonProjectCalculation21 = document.querySelector('.project_calculation21'); //кнопка "Рассчитать проект"(дом№7) на /catalog-domov (houses_block_button)
-let buttonProjectCalculation22 = document.querySelector('.project_calculation22'); //кнопка "Рассчитать проект"(дом№8) на /catalog-domov (houses_block_button)
-
-let buttonProjectCalculation23 = document.querySelector('.project_calculation23'); //кнопка "Рассчитать проект"(баня№3) на /catalog-bani (houses_block_button)
-let buttonProjectCalculation24 = document.querySelector('.project_calculation24'); //кнопка "Рассчитать проект"(баня№4) на /catalog-bani (houses_block_button)
-let buttonProjectCalculation25 = document.querySelector('.project_calculation25'); //кнопка "Рассчитать проект"(баня№5) на /catalog-bani (houses_block_button)
-let buttonProjectCalculation26 = document.querySelector('.project_calculation26'); //кнопка "Рассчитать проект"(баня№6) на /catalog-bani (houses_block_button)
-let buttonProjectCalculation27 = document.querySelector('.project_calculation27'); //кнопка "Рассчитать проект"(баня№7) на /catalog-bani (houses_block_button)
-let buttonProjectCalculation28 = document.querySelector('.project_calculation28'); //кнопка "Рассчитать проект"(баня№8) на /catalog-bani (houses_block_button)
-
-let buttonProjectCalculation29 = document.querySelector('.project_calculation29'); //кнопка "Рассчитать проект"(маф№3) на /catalog-besedki (houses_block_button)
-let buttonProjectCalculation30 = document.querySelector('.project_calculation30'); //кнопка "Рассчитать проект"(маф№4) на /catalog-besedki (houses_block_button)
-let buttonProjectCalculation31 = document.querySelector('.project_calculation31'); //кнопка "Рассчитать проект"(маф№5) на /catalog-besedki (houses_block_button)
-
-let buttonProjectCalculation32 = document.querySelector('.project_calculation32'); //кнопка "Оставьте заявку" на /stroitelniye_uslugi (button_stroitelniye_uslugi_domokomplekt_pod_krishu)
-
-let grayBackgroundFooterButtonCalculation = document.querySelector('.gray_background_footer_2'); //серый экран
-let formFooterCloseButton2 = document.querySelector('.window_close_footer_2'); //кнопка, закрывающая окно формы
-let formOrderCall2 = document.querySelector('.popup_order_call_2'); //окно формы
-let grayBackgroundHeaderCalculation = document.querySelector('.gray_background_footer_2'); //серый экран
-
-buttonProjectCalculation1 ? buttonProjectCalculation1.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation2 ? buttonProjectCalculation2.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation3 ? buttonProjectCalculation3.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation4 ? buttonProjectCalculation4.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation5 ? buttonProjectCalculation5.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation6 ? buttonProjectCalculation6.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation7 ? buttonProjectCalculation7.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation8 ? buttonProjectCalculation8.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation9 ? buttonProjectCalculation9.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation10 ? buttonProjectCalculation10.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation11 ? buttonProjectCalculation11.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation12 ? buttonProjectCalculation12.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation13 ? buttonProjectCalculation13.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation14 ? buttonProjectCalculation14.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation15 ? buttonProjectCalculation15.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation16 ? buttonProjectCalculation16.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation17 ? buttonProjectCalculation17.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation18 ? buttonProjectCalculation18.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation19 ? buttonProjectCalculation19.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation20 ? buttonProjectCalculation20.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation21 ? buttonProjectCalculation21.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation22 ? buttonProjectCalculation22.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation23 ? buttonProjectCalculation23.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation24 ? buttonProjectCalculation24.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation25 ? buttonProjectCalculation25.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation26 ? buttonProjectCalculation26.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation27 ? buttonProjectCalculation27.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation28 ? buttonProjectCalculation28.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation29 ? buttonProjectCalculation29.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation30 ? buttonProjectCalculation30.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation31 ? buttonProjectCalculation31.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-buttonProjectCalculation32 ? buttonProjectCalculation32.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.add('active_form');
-    grayBackgroundHeaderCalculation.classList.remove('form_hidden');
-} : null;
-
-grayBackgroundFooterButtonCalculation ? grayBackgroundFooterButtonCalculation.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.remove('active_form');
-    grayBackgroundHeaderCalculation.classList.add('form_hidden');
-} : null;
-
-formFooterCloseButton2 ? formFooterCloseButton2.onclick = function() {
-    // alert("111");
-    formOrderCall2.classList.remove('active_form');
-    grayBackgroundHeaderCalculation.classList.add('form_hidden');
-} : null;
+formOrderCallBg?.addEventListener('click', closeOrderCallPopup);
+formOrderCallClose?.addEventListener('click', closeOrderCallPopup);
 
 
 /* 24/06/2024 работа попапа с каталогом */

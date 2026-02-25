@@ -529,8 +529,7 @@
 }
 /* footer конец */
 /* footer popup */
-.popup_order_call_container,
-.popup_order_call_container2 {
+.popup_order_call_container {
     position: fixed;
     z-index: 20;
     top: 12%;

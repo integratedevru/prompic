@@ -1,39 +1,5 @@
 
 <div class="footer_component_container_center">
-    <div class="gray_background_footer gray_background_footer_first form_hidden"></div>
-    <div class="gray_background_footer gray_background_footer_2 form_hidden"></div>
-        <!-- <div class="gray_background_footer gray_background_footer_first"></div> -->
-
-    <?php if(!empty($_GET['success'])) { ?>
-
-        <div class="success_send_message_block_container">
-            <div class="success_send_message_block">
-                <p class="success_send_message_block_text"><span class="success_send_message_thanks">Спасибо, ваше сообщение</span> <span class="nowrap">отправлено !</span></p>
-                    <a href="/" id="close-btn" class="success_send_message_block_link">Закрыть</a>
-                <!-- <button id="close-btn">Закрыть</button> -->
-            </div>
-        </div>
-        <a href="/">
-            <div class="gray_background_header_sendMessage"></div>
-        </a>
-
-    <?php } ?>
-    <?php if(!empty($_GET['error'])) { ?>
-
-        <div class="success_send_message_block_container">
-            <div class="success_send_message_block">
-                <p class="success_send_message_block_text">Ошибка отправки</p>
-                <a href="/" id="close-btn" class="success_send_message_block_link">Закрыть</a>
-            </div>
-        </div>
-        <div class="gray_background_header_sendMessage"></div>
-
-    <?php } ?>
-
-    <?php include __DIR__ . '/popups/order_call.php'; ?>
-    <?php include __DIR__ . '/popups/catalog.php'; ?>
-
-    <div class="gray_background_footer gray_background_footer_first form_hidden"></div>
     <div class="gray_background_footer gray_background_footer_2 form_hidden"></div>
     <div class="gray_background_footer_1 gray_background_footer_3 form_hidden"></div>
     <div class="gray_background_footer gray_background_footer_4 form_hidden"></div>
@@ -63,6 +29,9 @@
         <div class="gray_background_header_sendMessage"></div>
 
     <?php } ?>
+
+    <?php include __DIR__ . '/popups/order_call.php'; ?>
+    <?php include __DIR__ . '/popups/catalog.php'; ?>
 
     <div class="footer_component_container">
         <div class="footer_block_one_two_container">
