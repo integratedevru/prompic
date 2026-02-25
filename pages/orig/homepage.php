@@ -4,7 +4,7 @@
 
 <section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font" style="font-size: calc(100% + 10px); transform: translateX(-100px); white-space: nowrap;">
-        <b>Дома, бани, беседки из качественного северного леса — с гарантией по договору</b>
+        <b>Дома, бани, беседки из качественного северного леса – с гарантией по договору</b>
     </p>
 </section>
 
@@ -33,6 +33,43 @@
 <section class="etapy_raboty">
     <div class="etapy_raboty_container">
         <h2 class="etapy_raboty_heading">Этапы работы над вашим проектом</h2>
+        <section class="proizvodstvo_vidy">
+       <div class="proizvodstvo_vidy_container">
+           <div class="proizvodstvo_vidy_container_2">
+               <div class="proizvodstvo_vidy_block">
+                   <img src="../img/proizvodstvo/proizvodstvo_vidy_foto1.webp" alt="" class="proizvodstvo_vidy_foto">
+                   <p class="proizvodstvo_vidy_block_text">Собственные делянки в экологически чистых районах Псковской области</p>
+               </div>
+               <div class="proizvodstvo_vidy_block">
+                   <img src="../img/proizvodstvo/proizvodstvo_vidy_foto2.webp" alt="" class="proizvodstvo_vidy_foto">
+                   <p class="proizvodstvo_vidy_block_text">Сортировка леса</p>
+               </div>                        
+               <div class="proizvodstvo_vidy_block">
+                   <img src="../img/proizvodstvo/proizvodstvo_vidy_foto3.webp" alt="" class="proizvodstvo_vidy_foto">
+                   <p class="proizvodstvo_vidy_block_text">Изготовление погонажной продукции</p>
+               </div>                        
+               <div class="proizvodstvo_vidy_block">
+                   <img src="../img/proizvodstvo/proizvodstvo_vidy_foto4.webp" alt="" class="proizvodstvo_vidy_foto">
+                   <p class="proizvodstvo_vidy_block_text">Естественная или искусственная сушка</p>
+               </div>                        
+               <div class="proizvodstvo_vidy_block">
+                   <img src="../img/proizvodstvo/proizvodstvo_vidy_foto5.webp" alt="" class="proizvodstvo_vidy_foto">
+                   <p class="proizvodstvo_vidy_block_text">Выборка чашек под проект и обработка антисептиком «Просепт Био»</p>
+               </div>                        
+               <div class="proizvodstvo_vidy_block">
+                   <img src="../img/proizvodstvo/proizvodstvo_vidy_foto6.webp" alt="" class="proizvodstvo_vidy_foto">
+                   <p class="proizvodstvo_vidy_block_text">Вертикальная загрузка с помощью крана-балки</p>
+               </div>                        
+               <div class="proizvodstvo_vidy_block">
+                   <img src="../img/proizvodstvo/proizvodstvo_vidy_foto7.webp" alt="" class="proizvodstvo_vidy_foto">
+                   <p class="proizvodstvo_vidy_block_text">Горизонтальная загрузка с помощью погрузчика</p>
+               </div>                        
+               <div class="proizvodstvo_vidy_block">
+                   <img src="../img/proizvodstvo/proizvodstvo_vidy_foto8.webp" alt="" class="proizvodstvo_vidy_foto">
+                   <p class="proizvodstvo_vidy_block_text">Доставка на объект заказчика</p>
+               </div>             </div>               </div>            </section>
+
+<!--
         <div class="etapy_raboty_block2">
             <div class="etapy_raboty_block2_card1">
                 <div class="block_relative">
@@ -61,10 +98,7 @@
                     <div class="csifra_etapy_raboty">4</div>
                 </div>
                 <p class="etapy_raboty_block2_card4_text">Производственный процесс. Строительство и монтаж объекта собственными бригадами</p>
-            </div>
-        </div>
-    </div>
-</section>
+            </div>          </div>               </div>   </section>                 -->
 <section class="zayavka_na_dom">
     <div class="zayavka_na_dom_container zayavka_na_dom_container_homepage">
         <div class="zayavka_na_dom_block1 zayavka_na_dom_block1_homepage">
@@ -91,7 +125,6 @@
 <li>дом, который не «ведёт», не требует постоянных доработок и служит десятилетиями.</li>
 </ul> </br>
 <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font">
-Сруб из бревна — это не каркас и не компромисс. Это теплый зимой, прохладный летом дом с естественным микроклиматом и ощущением натурального дерева. Надежность, комфорт и эстетика — каждый день и на долгие годы. </br></br> 
-📌 Если вы ищете сруб дома под ключ в Пскове или области — псковские срубы от «Пром-Пик» — обоснованный выбор.</p>
-</div>
-</section> </br></br></br>
+Сруб из бревна — это не каркас и не компромисс. Это теплый зимой, прохладный летом дом с естественным микроклиматом и ощущением натурального дерева. Надежность, комфорт и эстетика – каждый день и на долгие годы. </br></br> 
+<b>📌 Если вы ищете сруб дома под ключ в Пскове или области — псковские срубы от </br> «Пром-Пик» – это Ваш обоснованный выбор.</b></p>
+</div>   </section> </br></br></br>
