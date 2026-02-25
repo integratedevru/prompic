@@ -2630,7 +2630,7 @@
     }
     .o_companii_karta_container {
         display: flex;
-        border: 3px solid #EFE0D1;
+        border: 3px solid var(--beige-border);
     }
     .proizvodstvo_heading {
         font-size: 20px;

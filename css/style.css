@@ -4,12 +4,17 @@
     padding: 0;
 }
 :root {
-    /* шрифт */
     --Green: #618B7E;
-    --335-e-50: #335E50;
+    --dark-green: #335E50;
+    --335-e-50: #335E50; /* alias, kept for compatibility */
     --black: #000000;
     --White: #FFFFFF;
     --Grey-Medium: #A8A8A8;
+    --brown: #43382F;
+    --green-light: #CAEBE0;
+    --beige-border: #EFE0D1;
+    --bg-light: #F4F4F4;
+    --green-muted: #B2CFC8;
 }
 /* sidebar начало */
 .logo_desktop_sidebar {
@@ -52,7 +57,7 @@
 }
 .sidebar_navigation_container {
     width: 234px;
-    background: #F4F4F4;
+    background: var(--bg-light);
 }
 .aside_sidebar {
     position: fixed;
@@ -106,7 +111,7 @@
     font-size: 15px;
     font-weight: 700;
     line-height: 20px; /* 133.333% */
-    color: #335D50;
+    color: var(--dark-green);
     text-align: center;
     margin-top: 8px;
     max-width: 178px;
@@ -135,10 +140,6 @@
 }
 /* общие стили конец */
 /* page products начало */
-.products_component {
-    display: flex;
-    justify-content: center;
-}
 .products_component_container {
     width: 1146px;
 }
@@ -159,7 +160,8 @@
     width: 556px;
     display: flex;
     flex-direction: column;
-    border: 3px solid #EFE0D1;
+    gap: 44px;
+    border: 3px solid var(--beige-border);
 }
 .card_ocilindrovannoe_brevno_img {
     height: 300px;
@@ -216,12 +218,6 @@
     opacity: .6;
     transition: all 0.2s ease;
 }
-.card_ocilindrovannoe_brevno,
-.card_okoryonnoe_brevno {
-    display: flex;
-    flex-direction: column;
-    gap: 44px;
-}
 .card_ocilindrovannoe_brevno_text,
 .card_okoryonnoe_brevno_text {
     display: flex;
@@ -271,7 +267,7 @@
     margin-top: 9px;
 }
 .kachestvo_breven_section_one_text {
-    color: #B2CFC8;
+    color: var(--green-muted);
     font-size: 24px;
     font-weight: 400;
     line-height: 30px; /* 125% */
@@ -279,7 +275,7 @@
     margin-top: 24px;
 }
 .kachestvo_breven_list_point {
-    color: #B2CFC8;
+    color: var(--green-muted);
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -308,13 +304,13 @@
     padding-left: 10px;
 }
 .products_page_text_one_heading {
-    color: #43382F;
+    color: var(--brown);
     font-size: 26px;
     font-weight: 700;
     line-height: 120%; /* 31.2px */
 }
 .products_page_text_one_text {
-    color: #43382F;
+    color: var(--brown);
     font-size: 15px;
     font-weight: 400;
     line-height: 140%; /* 21px */
@@ -329,7 +325,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #CAEBE0;
+    background-color: var(--green-light);
     padding: 35px 101px 42px 52px;
 }
 .before_after_block1_heading {
@@ -386,6 +382,7 @@
     flex-direction: column;
     gap: 16px;
 }
+.products_component,
 .products_component1,
 .products_component2,
 .products_component3 {
@@ -417,6 +414,7 @@
 }
 .footer_component_container_center {
     display: flex;
+    flex-direction: column;
     width: 1366px;
 }
 .footer_company_name {
@@ -508,9 +506,6 @@
 .footer_block_one_two_container {
     display: flex;
     gap: 85px;
-}
-.footer_component_container_center {
-    flex-direction: column;
 }
 .gray_background_footer,
 .gray_background_footer_1 {
@@ -672,20 +667,16 @@
     font-weight: 700;
     line-height: 26px; /* 130% */
 }
-.stroitelniye_uslugi_domokomplekt_point_grey {
-    color: rgba(255, 255, 255, 0.3);
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 130%; /* 19.5px */
-    display: flex;
-    gap: 7px;
-}
+.stroitelniye_uslugi_domokomplekt_point_grey,
 .stroitelniye_uslugi_domokomplekt_point_black {
     font-size: 15px;
     font-weight: 400;
     line-height: 130%; /* 19.5px */
     display: flex;
     gap: 7px;
+}
+.stroitelniye_uslugi_domokomplekt_point_grey {
+    color: rgba(255, 255, 255, 0.3);
 }
 .stroitelniye_uslugi_domokomplekt_list {
     display: flex;
@@ -710,6 +701,7 @@
     font-weight: 700;
     line-height: 133%;
     cursor: pointer;
+    margin-top: 20px;
 }
 .button_stroitelniye_uslugi_domokomplekt_domokomplekt:hover,
 .button_stroitelniye_uslugi_domokomplekt_pod_krishu:hover,
@@ -727,7 +719,7 @@
     padding-top: 16px;
     padding-bottom: 23px;
     padding-left: 16px;
-    background-color: #335E50;
+    background-color: var(--dark-green);
 }
 .stroitelniye_uslugi_heading {
     color: #000;
@@ -754,13 +746,8 @@
     gap: 7.5px;
     margin-top: 11px;
 }
-.button_stroitelniye_uslugi_domokomplekt_domokomplekt,
-.button_stroitelniye_uslugi_domokomplekt_pod_krishu,
-.button_stroitelniye_uslugi_domokomplekt_pod_kluch {
-    margin-top: 20px;
-}
 .stroitelniye_uslugi_page_text_one_heading {
-    color: #43382F;
+    color: var(--brown);
     font-size: 26px;
     font-weight: 700;
     line-height: 120%;
@@ -797,6 +784,8 @@
     font-size: 38px;
     font-weight: 700;
     line-height: 126.316%;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 .process_stroitelstva {
     margin-top: 67px;
@@ -810,7 +799,7 @@
 .stroitelniye_uslugi_page_text_one_text {
     margin-top: 23px;
     max-width: 978px;
-    color: #43382F;
+    color: var(--brown);
     font-size: 15px;
     font-weight: 400;
     line-height: 140%; /* 21px */
@@ -831,15 +820,18 @@
 .block_dostijeniy_two {
     display: flex;
 }
-.dostijenie_csifra_one {
+.dostijenie_csifra_one,
+.dostijenie_csifra_two,
+.dostijenie_csifra_three {
     color: var(--Green, #618B7E);
     text-align: center;
     font-size: 71px;
     font-weight: 700;
     line-height: 100%; /* 71px */
-    padding-left: 9.4px;
-    padding-right: 9px;
 }
+.dostijenie_csifra_one  { padding-left: 9.4px;  padding-right: 9px; }
+.dostijenie_csifra_two  { padding-left: 17.1px; padding-right: 19px; }
+.dostijenie_csifra_three { padding-left: 8.1px; padding-right: 11px; }
 .let_na_rynke,
 .dovolnih_klientov,
 .sudebnih_razbiratelstv {
@@ -858,24 +850,6 @@
     display: flex;
     justify-content: space-around;
 }
-.dostijenie_csifra_two {
-    color: var(--Green, #618B7E);
-    text-align: center;
-    font-size: 71px;
-    font-weight: 700;
-    line-height: 100%; /* 71px */
-    padding-left: 17.1px;
-    padding-right: 19px;
-}
-.dostijenie_csifra_three {
-    color: var(--Green, #618B7E);
-    text-align: center;
-    font-size: 71px;
-    font-weight: 700;
-    line-height: 100%; /* 71px */
-    padding-left: 8.1px;
-    padding-right: 11px;
-}
 .proecty_homepage_houses {
     width: 756px;
     height: 470px;
@@ -883,7 +857,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #CAEBE0;
+    background-color: var(--green-light);
     display: block;
     text-decoration: none;
     position: relative;
@@ -917,7 +891,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #CAEBE0;
+    background-color: var(--green-light);
     display: block;
     text-decoration: none;
     position: relative;
@@ -949,44 +923,21 @@
 .proecty_homepage_gazebos_and_mafs_text {
     width: 255px;
 }
-.overlay_proecty_homepage_baths {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 98px;
-    opacity: 0.4;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
-    z-index: 2;
-}
-.overlay_proecty_homepage_gazebos_and_mafs {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 120px;
-    opacity: 0.4;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
-    z-index: 2;
-}
-.overlay_proecty_homepage_houses {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 207px;
-    opacity: 0.4;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
-    z-index: 2;
-}
+.overlay_proecty_homepage_baths,
+.overlay_proecty_homepage_gazebos_and_mafs,
+.overlay_proecty_homepage_houses,
 .overlay_gallery {
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 100%;
     opacity: 0.4;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
     z-index: 2;
 }
+.overlay_proecty_homepage_baths        { height: 98px; }
+.overlay_proecty_homepage_gazebos_and_mafs { height: 120px; }
+.overlay_proecty_homepage_houses       { height: 207px; }
 .proecty_homepage_baths_container,
 .proecty_homepage_gazebos_and_mafs_container {
     position: relative;
@@ -1000,25 +951,23 @@
     height: 100%;
     object-fit: cover;
 }
-.sobstvennoe_proizvodstvo_heading {
-    margin-top: 70px;
+.sobstvennoe_proizvodstvo_heading,
+.sobstvennoe_proizvodstvo_heading2 {
     color: var(--black, #000);
     text-align: center;
     font-size: 38px;
     font-weight: 700;
     line-height: 48px; /* 126.316% */
+}
+.sobstvennoe_proizvodstvo_heading {
+    margin-top: 70px;
     width: 774px;
 }
 .sobstvennoe_proizvodstvo_heading_seopravki {
     width: max-content;
 }
 .sobstvennoe_proizvodstvo_heading2 {
-    margin-top: 0px;
-    color: var(--black, #000);
-    text-align: center;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 48px; /* 126.316% */
+    margin-top: 0;
 }
 .sobstvennoe_proizvodstvo {
     display: flex;
@@ -1145,6 +1094,8 @@
     font-weight: 700;
     line-height: 48px; /* 126.316% */
     margin-top: 72px;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 .etapy_raboty {
     display: flex;
@@ -1187,7 +1138,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 500px;
-    background: #335E50;
+    background: var(--dark-green);
     display: flex;
     color: var(--White, #FFF);
     font-size: 20px;
@@ -1200,11 +1151,13 @@
 }
 .zayavka_na_dom_container,
 .zayavka_na_dom_container2 {
-    margin-top: 94px;
-    border: 3px solid #EFE0D1;
+    border: 3px solid var(--beige-border);
     display: flex;
     justify-content: space-between;
     width: 1146px;
+}
+.zayavka_na_dom_container {
+    margin-top: 94px;
     margin-bottom: 70px;
 }
 .zayavka_na_dom {
@@ -1227,7 +1180,6 @@
     font-size: 15px;
     line-height: 133%;
     cursor: pointer;
-    margin-top: 21px;
     font-weight: 700;
     margin-top: 22px;
 }
@@ -1268,10 +1220,6 @@
 .years_on_market {
     font-size: 15px;
     line-height: 133%;
-}
-.etapy_raboty_heading {
-    padding-left: 17px;
-    padding-right: 17px;
 }
 .zayavka_na_dom_text_spb {
     font-size: 20px;
@@ -1361,8 +1309,6 @@
     background-color: #FFF6E9;
     justify-content: space-between;
     padding: 30px;
-}
-.private_life_container {
     margin-top: 31px;
 }
 .my_gallery_bottom {
@@ -1467,16 +1413,14 @@
     width: 885px;
     opacity: 0.7;
 }
-.o_companii_container_text_container {
-    margin-top: 40px;
-}
 .o_companii_karta_container {
     margin-top: 70px;
     display: flex;
-    border: 3px solid #EFE0D1;
+    border: 3px solid var(--beige-border);
 }
 .o_companii_karta_block1 {
     flex: 0.9;
+    padding: 41px 40px 36px 40px;
 }
 .o_companii_karta_block2 {
     flex: 1.4;
@@ -1549,9 +1493,6 @@
 .o_companii_karta_social_seti {
     margin-top: 39px;
 }
-.o_companii_karta_block1 {
-    padding: 41px 40px 36px 40px;
-}
 .o_companii_karta_container_iframe {
     flex: 1.4;
 }
@@ -1568,6 +1509,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-top: 40px;
 }
 .o_companii_container_heading {
     color: var(--black, #000);
@@ -1637,10 +1579,6 @@
     flex-direction: column;
     gap: 16px;
 }
-.process_stroitelstva_heading {
-    padding-left: 17px;
-    padding-right: 17px;
-}
 /* proizvodstvo конец */
 /* catalog-domov, catalog-bani, catalog-besedki начало */
 .catalog_heading {
@@ -1669,7 +1607,7 @@
 .buttons_bath,
 .buttons_maf {
     padding: 11px 22px;
-    color: #335D50;
+    color: var(--dark-green);
     font-size: 15px;
     font-weight: 400;
     line-height: 20px; /* 133.333% */
@@ -1823,8 +1761,6 @@
     display: flex;
     align-items: flex-end;
     margin-bottom: 8px;
-}
-.houses_block_foto_section2 {
     gap: 8px;
 }
 .active_houses_block_foto {
@@ -1835,10 +1771,6 @@
 }
 .zayavka_na_dom_container2 {
     margin-top: 40px;
-    border: 3px solid #EFE0D1;
-    display: flex;
-    justify-content: space-between;
-    width: 1146px;
     margin-bottom: 19px;
 }
 .houses_block,
@@ -2044,7 +1976,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F4F4F4;
+    background-color: var(--bg-light);
 }
 .menu_hamburger {
     display: none;
@@ -2081,7 +2013,7 @@
     width: 100%;
     height: 100vh;
     padding: 11px 0;
-    background-color: #F4F4F4;
+    background-color: var(--bg-light);
     opacity: 0.96;
     transition: 0.6s all;
     z-index: 11;
@@ -2117,7 +2049,7 @@
     font-size: 13px;
     font-weight: 700;
     line-height: 20px;
-    color: #335D50;
+    color: var(--dark-green);
     text-align: center;
     margin-top: 7px;
     max-width: 178px;
@@ -2310,7 +2242,7 @@ margin-right: 400px;
 .form_zayavka {
     display: flex;
     justify-content: space-between;
-    background-color: #CAEBE0;
+    background-color: var(--green-light);
 }
 .zayavka_photo {
     width: 38.5%; /* ширина изображения 100% от родительского элемента */
@@ -2353,7 +2285,7 @@ margin-right: 400px;
     top: 12%;
     width: 703px;
     max-width: min-content;
-    min-width: min-content
+    min-width: min-content;
     padding-bottom: 40px;
     margin-bottom: 20px;
 }
@@ -2477,18 +2409,12 @@ margin-right: 400px;
     flex-direction: column;
     gap: 12px;
 }
-.how_dostavka_heading {
-    text-align: center;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 120%;
-    margin-top: 60px;
-}
+.how_dostavka_heading,
 .poryadok_oplaty_heading {
+    text-align: center;
     font-weight: 700;
     font-size: 26px;
     line-height: 120%;
-    text-align: center;
     margin-top: 60px;
 }
 .oplata_container {
@@ -2501,7 +2427,7 @@ margin-right: 400px;
 }
 .oplata_block2 {
     flex: 1;
-    background-color: #CAEBE0;
+    background-color: var(--green-light);
     padding: 21px 0 30px 30px;
 }
 .oplata_text1 {
@@ -2587,7 +2513,7 @@ margin-right: 400px;
     opacity: 0.85;
 }
 .cookie-banner__btn--accept {
-    background-color: #335E50;
+    background-color: var(--dark-green);
     color: #ffffff;
 }
 .cookie-banner__btn--more {
