@@ -17,7 +17,8 @@
       "mcp__ssh-mcp__sudo-exec",
       "mcp__plugin_playwright_playwright__browser_close",
       "mcp__context7__resolve-library-id",
-      "mcp__context7__query-docs"
+      "mcp__context7__query-docs",
+      "mcp__antonSSH__exec"
     ],
     "defaultModel": "bypassedPermissions"
   },
