@@ -148,6 +148,39 @@ Two contact forms submit to handlers via POST:
 
 Both use Google reCAPTCHA Enterprise for validation and PHPMailer for SMTP delivery.
 
+## Hosting & Deployment
+
+**Server**: reg.ru shared hosting (AlmaLinux 8, PHP 8.2, Apache behind nginx)
+
+**Architecture**: nginx → Apache → PHP. Nginx serves static files directly. For unknown paths, nginx passes to Apache, which uses `.htaccess` mod_rewrite to route all requests to `index.php`.
+
+**Antibot/CDN**: Solar Space sits in front of both sites. It caches responses including 301 redirects — be careful with `.htaccess` changes that produce redirects, as Solar Space will cache them aggressively.
+
+**Deploy workflow**:
+
+Both site directories on the server are git clones of this repo. Each has its own `.env` with the correct `SITE_VARIANT`.
+
+```bash
+# Update orig site
+ssh u2527108@31.31.196.248
+cd ~/www/pp-dom.ru && git pull && php ~/composer.phar install --no-dev
+
+# Update spb site
+cd ~/www/spb.pp-dom.ru && git pull && php ~/composer.phar install --no-dev
+```
+
+**Directory layout on server**:
+
+```
+~/www/
+├── pp-dom.ru/              # Git clone, SITE_VARIANT=orig
+├── spb.pp-dom.ru/          # Git clone, SITE_VARIANT=spb
+├── www.pp-dom.ru           # Symlink → pp-dom.ru
+├── www.spb.pp-dom.ru       # Symlink → spb.pp-dom.ru
+├── pp-dom.ru.bak/          # Old legacy site backup
+└── spb.pp-dom.ru.bak/      # Old legacy site backup
+```
+
 ## Frontend Libraries
 
 - jQuery 3.6.4 (npm, served from `node_modules/`)

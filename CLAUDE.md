@@ -43,6 +43,19 @@ Key env vars:
 - `RECAPTCHA_SITE_KEY_ALT` - Alternative key (used in homepage inline form)
 - `RECAPTCHA_SECRET_KEY` - Server-side verification key
 
+## Hosting & Deployment
+
+- **Hosting**: reg.ru shared hosting (AlmaLinux 8, PHP 8.2, Apache behind nginx)
+- **Server**: `31.31.196.248`, user `u2527108`
+- **Antibot/CDN**: Solar Space — sits in front of the sites; caches responses and may cache 301 redirects. Be careful with `.htaccess` changes that produce redirects, as Solar Space will cache them and they persist even after the `.htaccess` is fixed
+- **Document roots**: `~/www/pp-dom.ru` (orig), `~/www/spb.pp-dom.ru` (spb)
+- **Symlinks**: `www.pp-dom.ru` → `pp-dom.ru`, `www.spb.pp-dom.ru` → `spb.pp-dom.ru`
+- **Deploy**: Both site directories are git clones of this repo. To update: `cd ~/www/pp-dom.ru && git pull` (same for spb)
+- **Backups**: Old legacy sites stored in `~/www/pp-dom.ru.bak` and `~/www/spb.pp-dom.ru.bak`
+- Each directory has its own `.env` with `SITE_VARIANT=orig` or `SITE_VARIANT=spb`
+- Nginx serves static files directly; for unknown paths, falls through to Apache which uses `.htaccess` to rewrite to `index.php`
+- Node.js on server is v10.24 (old but sufficient for static npm packages)
+
 ## Agent Behavior
 
 - Always paste relevant command output directly in response text — the VS Code extension collapses Bash tool output, so the user cannot see it otherwise.
@@ -50,8 +63,9 @@ Key env vars:
 ## Important Notes
 
 - `.htaccess` rewrites unknown paths to `index.php` but skips existing files (handlers work because they are real files)
+- Solar Space antibot/CDN caches 301 redirects aggressively — never deploy a broken `.htaccess` with `[R=301]` rules, as the cached redirect will persist
 - Forms in `components/footer.php` and homepage pages POST to `/handlers/send_email*.php`
-- jQuery, Slick, and lightGallery are installed via npm - HTML references `/node_modules/` paths directly
+- jQuery, Slick, and lightGallery are installed via npm — HTML references `/node_modules/` paths directly
 - Two different reCAPTCHA site keys are used: one for footer forms, another for the homepage inline form
 - Navigation components dispatch to `components/nav/sidebar_links_{variant}.php` and `components/nav/header_links_{variant}.php`
 - The `orig/` and `spb/` root folders contain legacy reference code (not served by the router)

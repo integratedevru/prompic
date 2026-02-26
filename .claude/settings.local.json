@@ -13,7 +13,9 @@
       "WebSearch",
       "mcp__ssh-mcp-31-58-76-63__exec",
       "mcp__ssh-mcp__exec",
-      "mcp__plugin_playwright_playwright__browser_navigate"
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__ssh-mcp__sudo-exec",
+      "mcp__plugin_playwright_playwright__browser_close"
     ],
     "defaultModel": "bypassedPermissions"
   },
