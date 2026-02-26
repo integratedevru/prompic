@@ -39,9 +39,8 @@ Key env vars:
 - `SITE_VARIANT` - `orig` or `spb` (determines which site variant to serve)
 - `SMTP_*` - Gmail SMTP configuration
 - `MAIL_TO`, `MAIL_BCC` - Email recipients (BCC is comma-separated)
-- `RECAPTCHA_SITE_KEY` - Main reCAPTCHA key (used in footer forms + script tag)
-- `RECAPTCHA_SITE_KEY_ALT` - Alternative key (used in homepage inline form)
-- `RECAPTCHA_SECRET_KEY` - Server-side verification key
+- `CAPTCHA_SITE_KEY` - Yandex SmartCaptcha client key (used in form widgets + script tag)
+- `CAPTCHA_SECRET_KEY` - Yandex SmartCaptcha server-side verification key
 
 ## Hosting & Deployment
 
@@ -66,6 +65,6 @@ Key env vars:
 - Solar Space antibot/CDN caches 301 redirects aggressively — never deploy a broken `.htaccess` with `[R=301]` rules, as the cached redirect will persist
 - Forms in `components/footer.php` and homepage pages POST to `/handlers/send_email*.php`
 - jQuery, Slick, and lightGallery are installed via npm — HTML references `/node_modules/` paths directly
-- Two different reCAPTCHA site keys are used: one for footer forms, another for the homepage inline form
+- Yandex SmartCaptcha is used for form spam protection (widget via `smartcaptcha.cloud.yandex.ru/captcha.js`, server validation via `smartcaptcha.cloud.yandex.ru/validate`)
 - Navigation components dispatch to `components/nav/sidebar_links_{variant}.php` and `components/nav/header_links_{variant}.php`
 - The `orig/` and `spb/` root folders contain legacy reference code (not served by the router)
