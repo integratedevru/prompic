@@ -776,6 +776,11 @@
     min-width: 978px;
     max-width: 740px;
 }
+.catalog_domov_subtitle {
+    font-size: clamp(70%, 1vw + 60%, calc(100% + 10px));
+    transform: translateX(-100px);
+    white-space: nowrap;
+}
 .process_stroitelstva_heading {
     color: #000;
     text-align: center;
