@@ -50,7 +50,7 @@ $schemaData = [
                         <p class="zayavka_na_dom_text">Рассчитаем смету и подготовим документацию по проекту бесплатно</p>
                         <button class="button_zayavka_na_dom project_calculation4">Оставьте заявку</button>
                     </div>
-                    <img src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage">
+                    <img loading="lazy" src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage">
                 </div>             </section>
             <section class="buttons_bath_houses_maf">
                 <a  class="buttons_houses" href="/catalog-domov">дома</a>
@@ -65,12 +65,12 @@ $schemaData = [
                             <li class="houses_block_list_point houses_block_list_point1">
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
-                                        <img src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_1_2">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_1_1 houses_block_foto_active">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_1_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
-                                        <img src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_2 maf1_button1 active_houses_block_foto">
-                                        <img src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_3 maf1_button2 non_active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka01_1_1.webp" alt="" class="houses_block_foto_2 maf1_button1 active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka01_2.webp" alt="" class="houses_block_foto_3 maf1_button2 non_active_houses_block_foto">
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
@@ -94,12 +94,12 @@ $schemaData = [
                             <li class="houses_block_list_point houses_block_list_point2">
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
-                                        <img src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_2_2">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_2_1 houses_block_foto_active">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_2_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
-                                        <img src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_2 maf2_button1 active_houses_block_foto">
-                                        <img src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_3 maf2_button2 non_active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka02_1_1.webp" alt="" class="houses_block_foto_2 maf2_button1 active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka02_2.webp" alt="" class="houses_block_foto_3 maf2_button2 non_active_houses_block_foto">
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
@@ -124,12 +124,12 @@ $schemaData = [
                             <li class="houses_block_list_point houses_block_list_point2">
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
-                                        <img src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_3_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_3_2">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_3_1 houses_block_foto_active">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_3_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
-                                        <img src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_2 maf3_button1 active_houses_block_foto">
-                                        <img src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_3 maf3_button2 non_active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka03_1_1.webp" alt="" class="houses_block_foto_2 maf3_button1 active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka03_2.webp" alt="" class="houses_block_foto_3 maf3_button2 non_active_houses_block_foto">
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
@@ -154,12 +154,12 @@ $schemaData = [
                             <li class="houses_block_list_point houses_block_list_point2">
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
-                                        <img src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_4_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_4_2">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_4_1 houses_block_foto_active">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_4_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
-                                        <img src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_2 maf4_button1 active_houses_block_foto">
-                                        <img src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_3 maf4_button2 non_active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka04_1_1.webp" alt="" class="houses_block_foto_2 maf4_button1 active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka04_2.webp" alt="" class="houses_block_foto_3 maf4_button2 non_active_houses_block_foto">
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
@@ -184,12 +184,12 @@ $schemaData = [
                             <li class="houses_block_list_point houses_block_list_point2">
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
-                                        <img src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_5_1 houses_block_foto_active">
-                                        <img src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_5_2">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_1 maf_block_foto_5_1 houses_block_foto_active">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub maf_block_foto_5_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
-                                        <img src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_2 maf5_button1 active_houses_block_foto">
-                                        <img src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_3 maf5_button2 non_active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka05_1_1.webp" alt="" class="houses_block_foto_2 maf5_button1 active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/maf/Besedka05_2.webp" alt="" class="houses_block_foto_3 maf5_button2 non_active_houses_block_foto">
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">

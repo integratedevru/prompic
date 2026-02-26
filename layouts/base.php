@@ -14,11 +14,8 @@ $_bufferedContent = ob_get_clean();
         <link rel="stylesheet" href="../css/responsive.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <script src="/node_modules/jquery/dist/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="/node_modules/slick-carousel/slick/slick.css"/>
-        <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
-        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
         <link rel="canonical" href="<?= htmlspecialchars('https://' . $siteConfig['domain'] . (rtrim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/') ?: '/')) ?>">
         <?php if (!empty($schemaData)): ?>
         <script type="application/ld+json"><?= json_encode($schemaData, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) ?></script>
@@ -57,6 +54,9 @@ $_bufferedContent = ob_get_clean();
             <?php include __DIR__ . '/../components/footer.php'; ?>
         </footer>
         <?php include __DIR__ . '/../components/cookie_banner.php'; ?>
+        <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="/node_modules/slick-carousel/slick/slick.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
         <script src="/js/sliders.js"></script>
         <script src="/js/index.js"></script>
         <script src="/js/lightbox-init.js"></script>

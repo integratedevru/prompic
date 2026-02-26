@@ -1836,6 +1836,10 @@
 }
 .slider_1_container {
     height: 674px;
+    overflow: hidden;
+}
+.slider_1_container:not(.slick-initialized) > div:not(:first-child) {
+    display: none;
 }
 .slider_1_foto_1,  
 .slider_1_foto_2,  

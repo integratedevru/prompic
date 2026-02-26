@@ -27,13 +27,13 @@
                 <div class="stage_section_container">
                     <ul class="car_icon_list">
                         <li class="car_icon_item">
-                            <img src="/img/dostavka_i_oplata/car_icon1.png" alt="" class="car_icon1">
+                            <img loading="lazy" src="/img/dostavka_i_oplata/car_icon1.png" alt="" class="car_icon1">
                         </li>
                         <li class="car_icon_item">
-                            <img src="/img/dostavka_i_oplata/car_icon2.png" alt="" class="car_icon2">
+                            <img loading="lazy" src="/img/dostavka_i_oplata/car_icon2.png" alt="" class="car_icon2">
                         </li>
                         <li class="car_icon_item">
-                            <img src="/img/dostavka_i_oplata/car_icon3.png" alt="" class="car_icon3">
+                            <img loading="lazy" src="/img/dostavka_i_oplata/car_icon3.png" alt="" class="car_icon3">
                         </li>
                     </ul>
                 </div>
@@ -47,20 +47,20 @@
             <section class="homepage_slider_2">
                 <div class="homepage_slider_2_container">
                     <div class="dostavka_slider">
-                        <div><img src="/img/proizvodstvo/proizvodstvo_vidy_foto1.webp" alt="Доставка"></div>
-                        <div><img src="/img/proizvodstvo/proizvodstvo_vidy_foto2.webp" alt="Доставка"></div>
-                        <div><img src="/img/proizvodstvo/proizvodstvo_vidy_foto3.webp" alt="Доставка"></div>
-                        <div><img src="/img/proizvodstvo/proizvodstvo_vidy_foto4.webp" alt="Доставка"></div>
-                        <div><img src="/img/proizvodstvo/proizvodstvo_vidy_foto5.webp" alt="Доставка"></div>
-                        <div><img src="/img/proizvodstvo/proizvodstvo_vidy_foto6.webp" alt="Доставка"></div>
-                        <div><img src="/img/proizvodstvo/proizvodstvo_vidy_foto7.webp" alt="Доставка"></div>
-                        <div><img src="/img/proizvodstvo/proizvodstvo_vidy_foto8.webp" alt="Доставка"></div>
+                        <div><img loading="lazy" src="/img/proizvodstvo/proizvodstvo_vidy_foto1.webp" alt="Доставка"></div>
+                        <div><img loading="lazy" src="/img/proizvodstvo/proizvodstvo_vidy_foto2.webp" alt="Доставка"></div>
+                        <div><img loading="lazy" src="/img/proizvodstvo/proizvodstvo_vidy_foto3.webp" alt="Доставка"></div>
+                        <div><img loading="lazy" src="/img/proizvodstvo/proizvodstvo_vidy_foto4.webp" alt="Доставка"></div>
+                        <div><img loading="lazy" src="/img/proizvodstvo/proizvodstvo_vidy_foto5.webp" alt="Доставка"></div>
+                        <div><img loading="lazy" src="/img/proizvodstvo/proizvodstvo_vidy_foto6.webp" alt="Доставка"></div>
+                        <div><img loading="lazy" src="/img/proizvodstvo/proizvodstvo_vidy_foto7.webp" alt="Доставка"></div>
+                        <div><img loading="lazy" src="/img/proizvodstvo/proizvodstvo_vidy_foto8.webp" alt="Доставка"></div>
                     </div>
                     <button type="button" class="dostavka-custom-prev">
-                        <img src="/img/homepage/slider2/button_custom_prev.svg" alt="Previous">
+                        <img loading="lazy" src="/img/homepage/slider2/button_custom_prev.svg" alt="Previous">
                     </button>
                     <button type="button" class="dostavka-custom-next">
-                        <img src="/img/homepage/slider2/button_custom_next.svg" alt="Next">
+                        <img loading="lazy" src="/img/homepage/slider2/button_custom_next.svg" alt="Next">
                     </button>
                 </div>
             </section>
@@ -93,19 +93,19 @@
                 <div class="stage_section_container">
                     <ul class="stage_project_list">
 <li class="stage_project_point stage_project_point1">
-<img src="/img/stages/stage2_icon_3.png" alt="" class="stage_project_point_photo stage_project_point_photo2">
+<img loading="lazy" src="/img/stages/stage2_icon_3.png" alt="" class="stage_project_point_photo stage_project_point_photo2">
                             <p class="stage_project_point_text stage_project_point_text1">
 После подписания договора вы оплачиваете 50% стоимости работ.
                             </p>
                         </li>
                         <li class="stage_project_point stage_project_point2">
-<img src="/img/stages/stage3_icon_3.png" alt="" class="stage_project_point_photo stage_project_point_photo3">
+<img loading="lazy" src="/img/stages/stage3_icon_3.png" alt="" class="stage_project_point_photo stage_project_point_photo3">
                             <p class="stage_project_point_text stage_project_point_text2">
 Доставляем строительные материалы и свою бригаду к вам на участок, и приступаем к строительству
                             </p>
 </li>
                         <li class="stage_project_point stage_project_point3">
-<img src="/img/stages/stage4_icon_4.png" alt="" class="stage_project_point_photo stage_project_point_photo4">
+<img loading="lazy" src="/img/stages/stage4_icon_4.png" alt="" class="stage_project_point_photo stage_project_point_photo4">
                             <p class="stage_project_point_text stage_project_point_text3">
 После окончания работ вы подписываете акт приёмки и оплачиваете остальные 50%
                             </p>

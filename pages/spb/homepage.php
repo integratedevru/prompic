@@ -13,7 +13,7 @@
             <p class="zayavka_na_dom_text_spb">Расчёт и эскиз проекта <span class="zayavka_na_dom_text_spb_bold">— бесплатно!</span></p>
             <button class="button_zayavka_na_dom project_calculation4">Узнать стоимость</button>
         </div>
-        <img src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage zayavka_na_dom_foto_homepage_spb">
+        <img loading="lazy" src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage zayavka_na_dom_foto_homepage_spb">
     </div>
 </section>
 
@@ -26,8 +26,8 @@
     <section class="before_after">
         <div class="before_after_block1">
             <div class="before_after_block1_foto">
-                <img src="../img/page_products/brevno_do.webp" alt="" class="before_after_brevno_do">
-                <img src="../img/page_products/brevno_posle.webp" alt="" class="before_after_brevno_posle">
+                <img loading="lazy" src="../img/page_products/brevno_do.webp" alt="" class="before_after_brevno_do">
+                <img loading="lazy" src="../img/page_products/brevno_posle.webp" alt="" class="before_after_brevno_posle">
             </div>
             <div class="before_after_block1_text_container">
                 <h2 class="before_after_block1_heading">Производим бревна высокого качества по собственной ноу хау технологии</h2>
@@ -81,7 +81,7 @@
     <div class="stage_section_container">
         <ul class="stage_project_list">
             <li class="stage_project_point">
-                <img src="../img/stages/stage1_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo1">
+                <img loading="lazy" src="../img/stages/stage1_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo1">
                 <p class="stage_project_point_text">
                     <span class="stage_project_interval">
                         Оставьте заявку на расчет проекта под ключ.
@@ -90,7 +90,7 @@
                 </p>
             </li>
             <li class="stage_project_point">
-                <img src="../img/stages/stage2_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo2">
+                <img loading="lazy" src="../img/stages/stage2_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo2">
                 <p class="stage_project_point_text">
                     <span class="stage_project_interval">
                         Проектирование, 3D-визуализация и сметный расчет производятся бесплатно
@@ -98,7 +98,7 @@
                 </p>
             </li>
             <li class="stage_project_point">
-                <img src="../img/stages/stage3_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo3">
+                <img loading="lazy" src="../img/stages/stage3_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo3">
                 <p class="stage_project_point_text">
                     <span class="stage_project_interval">
                         Работаем по договору. Поэтапная 50% предоплата.
@@ -107,7 +107,7 @@
                 </p>
             </li>
             <li class="stage_project_point">
-                <img src="../img/stages/stage4_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo4">
+                <img loading="lazy" src="../img/stages/stage4_icon_2.webp" alt="" class="stage_project_point_photo stage_project_point_photo4">
                 <p class="stage_project_point_text">
                     <span class="stage_project_interval">
                         Производственный процесс.
@@ -141,7 +141,7 @@
                         <p class="o_companii_karta_adress_proizvodstva_text1">Адрес производства</p>
                         <p class="o_companii_karta_adress_proizvodstva_text2">180502, г. Псков, пос.<br> Неелово-1, ул. Юбилейная 3А</p>
                     </div>
-                    <img src="../img/o_companii/gerb.webp" alt="" class="o_companii_karta_block1_gerb">
+                    <img loading="lazy" src="../img/o_companii/gerb.webp" alt="" class="o_companii_karta_block1_gerb">
                 </div>
                 <div class="o_companii_karta_tel">
                     <p class="o_companii_karta_tel_text1">Телефоны</p>

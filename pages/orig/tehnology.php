@@ -10,19 +10,19 @@
                 <div class="proizvodstvo_vidy_container">
                     <div class="proizvodstvo_vidy_container_2">
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto3.webp" alt="" class="proizvodstvo_vidy_foto">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto3.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Изготовление оцилиндрованного бревна</p>
                         </div>
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto4.webp" alt="" class="proizvodstvo_vidy_foto">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto4.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Естественная или искусственная сушка</p>
                         </div>
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto5.webp" alt="" class="proizvodstvo_vidy_foto">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto5.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Выборка чашек под проект и обработка антисептиком «Просепт Био»</p>
                         </div>
                         <div class="proizvodstvo_vidy_block">
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto6.webp" alt="" class="proizvodstvo_vidy_foto">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto6.webp" alt="" class="proizvodstvo_vidy_foto">
                             <p class="proizvodstvo_vidy_block_text">Вертикальная загрузка с помощью крана-балки</p>
                         </div>
                     </div>
@@ -59,36 +59,36 @@
                 <div class="homepage_slider_2_container">
                     <div class="sobstvennoe_proizvodstvo_slider">
                         <div>
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto1.webp" alt="proizvodstvo" class="/proizvodstvo/_foto_1">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto1.webp" alt="proizvodstvo" class="/proizvodstvo/_foto_1">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto2.webp" alt="proizvodstvo" class="proizvodstvo_foto_2">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto2.webp" alt="proizvodstvo" class="proizvodstvo_foto_2">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto3.webp" alt="proizvodstvo" class=proizvodstvo_foto_3">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto3.webp" alt="proizvodstvo" class=proizvodstvo_foto_3">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto4.webp" alt="proizvodstvo" class="proizvodstvo_foto_4">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto4.webp" alt="proizvodstvo" class="proizvodstvo_foto_4">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto5.webp" alt="proizvodstvo" class="proizvodstvo_foto_5">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto5.webp" alt="proizvodstvo" class="proizvodstvo_foto_5">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto6.webp" alt="proizvodstvo" class="proizvodstvo_foto_6">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto6.webp" alt="proizvodstvo" class="proizvodstvo_foto_6">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto7.webp" alt="proizvodstvo" class="proizvodstvo_foto_7">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto7.webp" alt="proizvodstvo" class="proizvodstvo_foto_7">
                         </div>
                         <div>
-                            <img src="../img/proizvodstvo/proizvodstvo_vidy_foto8.webp" alt="proizvodstvo" class="proizvodstvo_foto_8">
+                            <img loading="lazy" src="../img/proizvodstvo/proizvodstvo_vidy_foto8.webp" alt="proizvodstvo" class="proizvodstvo_foto_8">
                         </div>
                     </div>
                     <button type="button" class="custom-prev">
-                        <img src="../img/homepage/slider2/button_custom_prev.svg" alt="Previous">
+                        <img loading="lazy" src="../img/homepage/slider2/button_custom_prev.svg" alt="Previous">
                     </button>
 
                     <button type="button" class="custom-next">
-                        <img src="../img/homepage/slider2/button_custom_next.svg" alt="Next">
+                        <img loading="lazy" src="../img/homepage/slider2/button_custom_next.svg" alt="Next">
                     </button>
                 </div>
             </section>

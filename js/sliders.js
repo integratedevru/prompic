@@ -20,8 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 '<circle cx="28.7461" cy="28.7461" r="27.2461" transform="matrix(-1 0 0 1 57.4922 0)" stroke="white" stroke-width="3"/>' +
                 '<path d="M20.377 29.8822C19.5485 29.8822 18.877 29.2106 18.877 28.3822C18.877 27.5538 19.5485 26.8822 20.377 26.8822V29.8822ZM39.6313 27.3215C40.2171 27.9073 40.2171 28.8571 39.6313 29.4429L30.0854 38.9888C29.4996 39.5746 28.5499 39.5746 27.9641 38.9888C27.3783 38.403 27.3783 37.4533 27.9641 36.8675L36.4494 28.3822L27.9641 19.8969C27.3783 19.3111 27.3783 18.3614 27.9641 17.7756C28.5499 17.1898 29.4996 17.1898 30.0854 17.7756L39.6313 27.3215ZM20.377 26.8822L38.5707 26.8822V29.8822L20.377 29.8822V26.8822Z" fill="white"/>' +
             '</svg></button>',
-        autoplay: true,
-        autoplaySpeed: 5000,
         customPaging: function(slider, i) {
             return '<button type="button" data-role="none"></button>';
         },
@@ -29,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 breakpoint: 1170,
                 settings: {
-                    slidesToShow: 2,
                     slidesToScroll: 1,
                     variableWidth: true,
                     centerMode: false,
