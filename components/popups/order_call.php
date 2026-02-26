@@ -26,8 +26,16 @@
                     id="order-call-captcha"
                     class="smart-captcha"
                     data-sitekey="<?= htmlspecialchars($_ENV['CAPTCHA_SITE_KEY']) ?>"
+                    data-hl="ru"
+                    data-callback="onSmartCaptchaResolved"
                     style="height: 100px"
                 ></div>
+                <input type="hidden" name="smart-token" id="smart-token-hidden">
+                <script>
+                    window.onSmartCaptchaResolved = function(token) {
+                        document.getElementById('smart-token-hidden').value = token;
+                    };
+                </script>
                 <button
                     type="submit"
                     class="order_call_form_button mt5_spb"
