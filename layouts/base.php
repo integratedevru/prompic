@@ -25,7 +25,7 @@ $_bufferedContent = ob_get_clean();
         <?php endif; ?>
         <title><?= htmlspecialchars($siteConfig['meta'][$pageSlug]['title'] ?? 'ПромПик') ?></title>
         <meta name="description" content="<?= htmlspecialchars($siteConfig['meta'][$pageSlug]['description'] ?? '') ?>">
-        <script src="https://www.google.com/recaptcha/enterprise.js?render=<?= htmlspecialchars($_ENV['RECAPTCHA_SITE_KEY']) ?>"></script>
+        <script src="https://smartcaptcha.cloud.yandex.ru/captcha.js" defer></script>
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript">
             (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};

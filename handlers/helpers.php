@@ -1,12 +1,12 @@
 <?php
 
-function isCaptchaSuccess($recaptcha_response)
+function isCaptchaSuccess($token)
 {
-    $recaptcha_secret_key = $_ENV['RECAPTCHA_SECRET_KEY'];
-    $url = "https://www.google.com/recaptcha/api/siteverify";
+    $secret = $_ENV['CAPTCHA_SECRET_KEY'];
+    $url = "https://smartcaptcha.cloud.yandex.ru/validate";
     $data = array(
-        'secret' => $recaptcha_secret_key,
-        'response' => $recaptcha_response,
+        'secret' => $secret,
+        'token' => $token,
     );
     $options = array(
         'http' => array(
@@ -18,5 +18,5 @@ function isCaptchaSuccess($recaptcha_response)
     $context = stream_context_create($options);
     $result = file_get_contents($url, false, $context);
     $result_json = json_decode($result, true);
-    return $result_json['success'];
+    return $result_json['status'] === 'ok';
 }

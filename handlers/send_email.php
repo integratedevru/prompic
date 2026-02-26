@@ -39,7 +39,7 @@ try {
         'от ' . $name . "\n" .
         'номер телефона: ' . $phone;
 
-    if (isCaptchaSuccess($_POST['g-recaptcha-response'])) {
+    if (isCaptchaSuccess($_POST['smart-token'] ?? '')) {
         $mail->send();
         header("Location: /?success=1");
     } else {

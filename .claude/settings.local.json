@@ -15,7 +15,9 @@
       "mcp__ssh-mcp__exec",
       "mcp__plugin_playwright_playwright__browser_navigate",
       "mcp__ssh-mcp__sudo-exec",
-      "mcp__plugin_playwright_playwright__browser_close"
+      "mcp__plugin_playwright_playwright__browser_close",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs"
     ],
     "defaultModel": "bypassedPermissions"
   },
