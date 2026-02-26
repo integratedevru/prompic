@@ -63,7 +63,7 @@
             </div>
             <div class="footer_block_three_section_two">
                 <a href="#">
-                    <img class="footer_logo_metasystems" src="../icons/footer/logo_metasystems.webp" alt="">
+                    <img class="footer_logo_metasystems" src="../icons/footer/logo_metasystems.png" alt="">
                 </a>
                 <div class="footer_block_three_is_made">
                     <p class="footer_block_three_is_made_text">
