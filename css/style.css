@@ -144,7 +144,7 @@
 }
 .products_component_heading {
     text-align: center;
-    font-size: 52px;
+    font-size: clamp(25px, 3.5vw + 2px, 52px);
     font-weight: 700;
     line-height: 123%;
     margin-top: 70px;
@@ -180,7 +180,7 @@
 .card_ocilindrovannoe_brevno_heading,
 .card_okoryonnoe_brevno_heading {
     color: var(--black, #000);
-    font-size: 26px;
+    font-size: clamp(15px, 1vw + 12px, 26px);
     font-weight: 700;
     line-height: 120%; /* 31.2px */
 }
@@ -259,9 +259,9 @@
 }
 .kachestvo_breven_heading {
     color: var(--White);
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     font-weight: 700;
-    line-height: 48px; /* 126.316% */
+    line-height: 126%;
     width: 405px;
     margin-top: 9px;
 }
@@ -304,7 +304,7 @@
 }
 .products_page_text_one_heading {
     color: var(--brown);
-    font-size: 26px;
+    font-size: clamp(15px, 1vw + 12px, 26px);
     font-weight: 700;
     line-height: 120%; /* 31.2px */
 }
@@ -329,7 +329,7 @@
 }
 .before_after_block1_heading {
     color: var(--black, #000);
-    font-size: 26px;
+    font-size: clamp(15px, 1vw + 12px, 26px);
     font-weight: 700;
     line-height: 120%; /* 31.2px */
     width: 444px;
@@ -661,9 +661,9 @@
 .stroitelniye_uslugi_domokomplekt_pod_krishu_heading,
 .stroitelniye_uslugi_domokomplekt_pod_kluch_heading {
     color: var(--White, #000);
-    font-size: 20px;
+    font-size: clamp(14px, 0.5vw + 14px, 20px);
     font-weight: 700;
-    line-height: 26px; /* 130% */
+    line-height: 130%;
 }
 .stroitelniye_uslugi_domokomplekt_point_grey,
 .stroitelniye_uslugi_domokomplekt_point_black {
@@ -722,9 +722,9 @@
 .stroitelniye_uslugi_heading {
     color: #000;
     text-align: center;
-    font-size: 52px;
+    font-size: clamp(25px, 3.5vw + 2px, 52px);
     font-weight: 700;
-    line-height: 64px; /* 123.077% */
+    line-height: 123%;
     padding-top: 70px;
     padding-left: 17px;
     padding-right: 17px;
@@ -746,13 +746,13 @@
 }
 .stroitelniye_uslugi_page_text_one_heading {
     color: var(--brown);
-    font-size: 26px;
+    font-size: clamp(15px, 1vw + 12px, 26px);
     font-weight: 700;
     line-height: 120%;
     margin: 45px 0 15px 0;
 }
 .stroitelniye_uslugi_page_text_one_heading_pravki_font {
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     margin-top: 70px;
 }
 .stroitelniye_uslugi_page_text_one_heading_h3 {
@@ -779,7 +779,7 @@
 .process_stroitelstva_heading {
     color: #000;
     text-align: center;
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     font-weight: 700;
     line-height: 126.316%;
     padding-left: 17px;
@@ -953,9 +953,9 @@
 .sobstvennoe_proizvodstvo_heading2 {
     color: var(--black, #000);
     text-align: center;
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     font-weight: 700;
-    line-height: 48px; /* 126.316% */
+    line-height: 126%;
 }
 .sobstvennoe_proizvodstvo_heading {
     margin-top: 70px;
@@ -1048,9 +1048,9 @@
 }
 .chramy_chasovni_heading {
     color: var(--black, #000);
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     font-weight: 700;
-    line-height: 48px; /* 126.316% */
+    line-height: 126%;
     max-width: 556px;
 }
 .chramy_chasovni_point {
@@ -1088,9 +1088,9 @@
 .etapy_raboty_heading {
     color: var(--black, #000);
     text-align: center;
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     font-weight: 700;
-    line-height: 48px; /* 126.316% */
+    line-height: 126%;
     margin-top: 72px;
     padding-left: 17px;
     padding-right: 17px;
@@ -1164,7 +1164,7 @@
 }
 .zayavka_na_dom_heading {
     color: var(--black, #000);
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     font-weight: 700;
     line-height: 126%;
     max-width: 463px;
@@ -1246,9 +1246,9 @@
 .gallery_heading {
     color: var(--black, #000);
     text-align: center;
-    font-size: 52px;
+    font-size: clamp(25px, 3.5vw + 2px, 52px);
     font-weight: 700;
-    line-height: 64px; /* 123.077% */
+    line-height: 123%;
     margin-top: 50px;
 }
 .gallery {
@@ -1263,7 +1263,7 @@
 .gallery_under_heading_text {
     color: var(--black, #000);
     text-align: center;
-    font-size: 20px;
+    font-size: clamp(14px, 0.5vw + 14px, 20px);
     font-weight: 400;
     line-height: 140%; /* 28px */
     max-width: 931px;
@@ -1281,7 +1281,7 @@
 .project1_heading {
     text-align: center;
     margin-top: 30px;
-    font-size: 20px;
+    font-size: clamp(14px, 0.5vw + 14px, 20px);
     font-weight: 500;
     line-height: 140%;
     padding-left: 15px;
@@ -1425,7 +1425,7 @@
 }
 .o_companii_karta_block1_heading {
     color: var(--black, #000);
-    font-size: 26px;
+    font-size: clamp(15px, 1vw + 12px, 26px);
     font-weight: 700;
     line-height: 120%; /* 31.2px */
 }
@@ -1509,7 +1509,7 @@
 }
 .o_companii_container_heading {
     color: var(--black, #000);
-    font-size: 52px;
+    font-size: clamp(25px, 3.5vw + 2px, 52px);
     font-weight: 700;
     line-height: 123%;
 }
@@ -1521,9 +1521,9 @@
 .proizvodstvo_heading {
     color: var(--black, #000);
     text-align: center;
-    font-size: 52px;
+    font-size: clamp(25px, 3.5vw + 2px, 52px);
     font-weight: 700;
-    line-height: 64px; /* 123.077% */
+    line-height: 123%;
     margin-top: 70px;
 }
 .proizvodstvo_under_heading_text {
@@ -1579,9 +1579,9 @@
 .catalog_heading {
     color: #000;
     text-align: center;
-    font-size: 52px;
+    font-size: clamp(25px, 3.5vw + 2px, 52px);
     font-weight: 700;
-    line-height: 64px; /* 123.077% */
+    line-height: 123%;
     padding-top: 70px;
     padding-left: 40px;
     padding-right: 40px;
@@ -1681,7 +1681,7 @@
 }
 .houses_block_heading {
     color: var(--black, #000);
-    font-size: 26px;
+    font-size: clamp(15px, 1vw + 12px, 26px);
     font-weight: 700;
     line-height: 120%; /* 31.2px */
 }
@@ -1883,7 +1883,7 @@
     z-index: 1;
     bottom: 131px;
     color: #FFFFFF;
-    font-size: 52px;
+    font-size: clamp(25px, 3.5vw + 2px, 52px);
     font-weight: 700;
     line-height: 110%; /* 57.2px */
     width: 805px;
@@ -2113,7 +2113,7 @@ figure {
     touch-action: pan-y;
 }
 .politika_heading_1level {
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     font-weight: 700;
     line-height: 122%;
     max-width: 90%;
@@ -2207,9 +2207,9 @@ margin-right: 400px;
 }
 .common_header {
     text-align: center;
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     font-weight: 700;
-    line-height: 48px;
+    line-height: 126%;
 }
 .common_header1 {
     margin-bottom: -18px;
@@ -2382,14 +2382,14 @@ margin-right: 400px;
 }
 .dostavka_heading1,
 .oplata_heading1 {
-    font-size: 38px;
+    font-size: clamp(25px, 2.5vw + 6px, 38px);
     line-height: 126%;
     font-weight: 700;
 }
 .dostavka_heading2,
 .oplata_heading2 {
     font-weight: 700;
-    font-size: 26px;
+    font-size: clamp(15px, 1vw + 12px, 26px);
     line-height: 120%;
 }
 .dostavka_heading2 {
@@ -2407,7 +2407,7 @@ margin-right: 400px;
 .poryadok_oplaty_heading {
     text-align: center;
     font-weight: 700;
-    font-size: 26px;
+    font-size: clamp(15px, 1vw + 12px, 26px);
     line-height: 120%;
     margin-top: 60px;
 }

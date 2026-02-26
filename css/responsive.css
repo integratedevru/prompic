@@ -257,11 +257,6 @@
         padding-top: 20px;
         padding-bottom: 26px;
     }
-    .card_ocilindrovannoe_brevno_heading,
-    .card_okoryonnoe_brevno_heading {
-        font-size: 21px;
-        line-height: 120%;
-    }
     .card_ocilindrovannoe_brevno_list_point,
     .card_okoryonnoe_brevno_list_point {
         font-size: 15px;
@@ -529,31 +524,7 @@
     }
 }
 @media (max-width: 1400px) {
-    .products_component_heading {
-        font-size: 3.715vw;
-    }
-    .stroitelniye_uslugi_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
-    .gallery_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
-    .o_companii_container_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
-    .proizvodstvo_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
-    .catalog_heading {
-        font-size: 3.715vw;
-        line-height: 123.077%;
-    }
     .slider_1_heading {
-        font-size: 3.715vw;
         width: 60vw;
     }
 }
@@ -756,7 +727,6 @@
         border: 12px solid #FFFFFF;
     }
     .politika_heading_1level {
-        font-size: 28px;
         padding-top: 0px;
     }
     .cookies_policy_container {
@@ -856,11 +826,6 @@
         height: 20.3vw;
     }
 }
-@media (max-width: 1110px) {
-    .gallery_under_heading_text {
-        font-size: 1.7vw;
-    }
-}
 @media (max-width: 1107px) {
     .card_okoryonnoe_brevno_text_container, .card_ocilindrovannoe_brevno_text_container {
         width: 281px;
@@ -878,9 +843,6 @@
     }
     .card_ocilindrovannoe_brevno, .card_okoryonnoe_brevno {
         width: 319px;
-    }
-    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
-        font-size: 19px;
     }
 }
 @media (max-width: 1100px) {
@@ -957,14 +919,6 @@
     .thumbnail_hram_mshinskaya_1,
     .thumbnail_hram_mshinskaya_2 {
         height: 20.1vw;
-    }
-}
-@media (max-width: 1080px) {
-    .zayavka_na_dom_heading {
-        font-size: 3.715vw;
-    }
-    .process_stroitelstva_heading {
-        font-size: 3.715vw;
     }
 }
 @media (max-width: 1070px) {
@@ -1058,7 +1012,6 @@
     }
     .project1_heading {
         margin-top: 19px;
-        font-size: 17px;
         margin-top: 11px;
     }
     .project2_heading {
@@ -1089,9 +1042,6 @@
     }
     .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
         font-size: 15px;
-    }
-    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
-        font-size: 21px;
     }
     .sobstvennoe_proizvodstvo_heading2 {
         width: auto;
@@ -1141,18 +1091,6 @@
         padding-left: 17px;
         padding-bottom: 26px;
     }
-    .dostavka_heading1,
-    .oplata_heading1 {
-        font-size: 3.315vw;
-    }
-    .dostavka_heading2,
-    .oplata_heading2 {
-        font-size: 2.72vw;
-    }
-    .how_dostavka_heading,
-    .poryadok_oplaty_heading {
-        font-size: 2.72vw;
-    }
     .dostavka_block2 {
         padding: 20px 15px 26px 16px;
     }
@@ -1160,11 +1098,6 @@
 @media (max-width: 950px) {
     .before_after_pluses_list_point {
         width: 201px;
-    }
-}
-@media (max-width: 930px) {
-    .gallery_under_heading_text {
-        font-size: 16px;
     }
 }
 @media (max-width: 900px) {
@@ -1262,7 +1195,6 @@
 }
 @media (max-width: 810px) {
     .products_component_heading {
-        font-size: 4vw;
         margin-top: 30px;
     }
     .before_after_pluses_list_point {
@@ -1278,7 +1210,6 @@
         padding: 52px 30px 55px 30px;
     }
     .stroitelniye_uslugi_heading {
-        font-size: 4vw;
         padding-top: 50px;
     }
     .years_on_market {
@@ -1301,12 +1232,6 @@
     }
     .sobstvennoe_proizvodstvo_heading {
         margin-top: 60px;
-        font-size: 4vw;
-        line-height: 120%;
-    }
-    .sobstvennoe_proizvodstvo_heading2 {
-        font-size: 4vw;
-        line-height: 120%;
     }
     .sobstvennoe_proizvodstvo_text {
         font-size: 18px;
@@ -1319,10 +1244,6 @@
     }
     .kachestvo_breven_section_one {
         padding: 0px 0px 50px 34px;
-    }
-    .kachestvo_breven_heading {
-        font-size: 4vw;
-        line-height: 120%;
     }
     .kachestvo_breven_section_one_text {
         font-size: 18px;
@@ -1340,10 +1261,6 @@
     .chramy_chasovni_block1 {
         margin-right: 40px;
     }
-    .chramy_chasovni_heading {
-        font-size: 4vw;
-        line-height: 120%;
-    }
     .chramy_chasovni_point {
         font-size: 16px;
         line-height: 130%;
@@ -1351,13 +1268,7 @@
     .chramy_chasovni_list {
         margin-top: 30px;
     }
-    .etapy_raboty_heading {
-        font-size: 4vw;
-        line-height: 120%;
-    }
     .zayavka_na_dom_heading {
-        font-size: 4vw;
-        line-height: 120%;
         text-align: center;
     }
     .zayavka_na_dom_text {
@@ -1374,12 +1285,6 @@
         padding-left: 0;
         padding-right: 0;
     }
-    .gallery_heading {
-        font-size: 4vw;
-    }
-    .o_companii_container_heading {
-        font-size: 4vw;
-    }
     .iframe_o_kompanii_container .iframe_o_kompanii {
         padding-top: 0px;
     }
@@ -1388,19 +1293,7 @@
         padding-right: 0px;
     }
     .proizvodstvo_heading {
-        font-size: 4vw;
-    }
-    .proizvodstvo_heading {
         margin-top: 50px;
-    }
-    .process_stroitelstva_heading {
-        font-size: 4vw;
-    }
-    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
-        font-size: 4vw;
-    }
-    .catalog_heading {
-        font-size: 4vw;
     }
     .sidebar_navigation {
         display: none;
@@ -1532,14 +1425,6 @@
     }
 }
 @media (max-width: 740px) {
-    .before_after_block1_heading,
-    .before_after_block1_text {
-        font-size: 3vw;
-    }
-    .gallery_under_heading_text {
-        font-size: 17px;
-        line-height: 133%;
-    }
     .o_companii_container_text {
         font-size: 3vw;
         line-height: 133%;
@@ -1555,9 +1440,6 @@
     }
 }
 @media (max-width: 700px) {
-    .products_page_text_one_heading {
-        font-size: 20px;
-    }
     .gallery3_container {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -1570,12 +1452,6 @@
     }
     .gallery3_container .grid-item .text {
         font-size: 18px;
-    }
-    .stroitelniye_uslugi_page_text_one_heading {
-        font-size: 20px;
-    }
-    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
-        font-size: 4vw;
     }
     .error_page2_flex--p1,
     .error_page2_flex--p2 {
@@ -1613,12 +1489,6 @@
     }
 }
 @media (max-width: 665px) {
-    .gallery_under_heading_text {
-        font-size: 16px;
-    }
-    .project1_heading {
-        font-size: 16px;
-    }
     .private_life_text {
         font-size: 16px;
     }
@@ -1648,24 +1518,12 @@
         padding-left: 17px;
         padding-bottom: 26px;
     }
-    .dostavka_heading1,
-    .oplata_heading1 {
-        font-size: 21px;
-    }
-    .dostavka_heading2,
-    .oplata_heading2 {
-        font-size: 17px;
-    }
     .dostavka_text1,
     .oplata_text1 {
         font-size: 16px;
     }
     .dostavka_container {
         padding-top: 15px;
-    }
-    .how_dostavka_heading,
-    .poryadok_oplaty_heading {
-        font-size: 17px;
     }
     .oplata_point {
         font-size: 16px;
@@ -1783,14 +1641,6 @@
     .before_after_block1_foto {
         gap: 11px;
     }
-    .products_component_heading {
-        font-size: 24px;
-    }
-    .before_after_block1_heading,
-    .before_after_block1_text {
-        font-size: 17px;
-        line-height: 133%;
-    }
     .o_companii_container_text {
         font-size: 17px;
     }
@@ -1837,12 +1687,6 @@
     .politika_container {
         padding: 30px;
     }
-    .politika_heading_1level {
-        font-size: 24px;
-    }
-    .politika_heading_2level {
-        font-size: 20px;
-    }
     .stroitelniye_uslugi_text_pravki_font {
         white-space: normal !important;
         transform: none !important;
@@ -1850,7 +1694,7 @@
 }
 @media (max-width: 600px) {
     .nav_logo_and_links_list{
-        margin-top: 15px;
+        margin-top: 35px;
     }
     .before_after {
         padding-top: 40px;
@@ -2088,7 +1932,6 @@
         gap: 5px;
     }
     .slider_1_heading {
-        font-size: 22px;
         width: 310px;
     }
     .zayavka_na_dom_text_spb {
@@ -2174,15 +2017,7 @@
         gap: 20px;
     }
 }
-@media (max-width: 580px) {
-    .gallery_heading {
-        font-size: 25px;
-    }
-}
 @media (max-width: 560px) {
-    .houses_block_heading {
-        font-size: 15px;
-    }
     .houses_block_parameters1_text,
     .houses_block_parameters2_text {
         font-size: 13px;
@@ -2335,9 +2170,6 @@
     .card_ocilindrovannoe_brevno_list_point, .card_okoryonnoe_brevno_list_point {
         font-size: 13px;
     }
-    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
-        font-size: 19px;
-    }
     .card_ocilindrovannoe_brevno_price, .card_okoryonnoe_brevno_price {
         flex-direction: column;
     }
@@ -2358,7 +2190,6 @@
 @media (max-width: 500px) {
     .products_component_heading {
         margin-top: 30px;
-        font-size: 20px;
     }
     .before_after {
         padding-top: 16px;
@@ -2385,10 +2216,6 @@
         left: -37px; /* Позиционируем маркер слева от текста */
         top: 0;
     }
-    .products_page_text_one_heading {
-        font-size: 15px;
-        line-height: 120%;
-    }
     .products_page_text_one {
         margin-top: 40px;
         margin-bottom: 40px;
@@ -2398,9 +2225,6 @@
         font-size: 13px;
         line-height: 130%;
     }
-    .stroitelniye_uslugi_heading {
-        font-size: 20px;
-    }
     .stroitelniye_uslugi_domokomplekt_list_img {
         width: 280px;
         height: 198px;
@@ -2408,12 +2232,6 @@
     .stroitelniye_uslugi_domokomplekt_list_img_link {
         display: flex;
         justify-content: center;
-    }
-    .stroitelniye_uslugi_domokomplekt_domokomplekt_heading,
-    .stroitelniye_uslugi_domokomplekt_pod_krishu_heading,
-    .stroitelniye_uslugi_domokomplekt_pod_kluch_heading  {
-        font-size: 15px;
-        line-height: 120%;
     }
     .stroitelniye_uslugi_domokomplekt_point_grey,
     .stroitelniye_uslugi_domokomplekt_point_black {
@@ -2445,12 +2263,6 @@
     .stroitelniye_uslugi_page_text_one_bottom {
         margin-bottom: 30px;
     }
-    .sobstvennoe_proizvodstvo_heading {
-        font-size: 20px;
-    }
-    .sobstvennoe_proizvodstvo_heading2 {
-        font-size: 20px;
-    }
     .kachestvo_breven_section_one {
         padding: 0px 20px 43px 20px;
     }
@@ -2465,9 +2277,6 @@
     }
     .chramy_chasovni {
         margin-top: 35px;
-    }
-    .etapy_raboty_heading {
-        font-size: 20px;
     }
     .etapy_raboty_block2_card1_text,
     .etapy_raboty_block2_card2_text,
@@ -2488,12 +2297,6 @@
     .proecty_homepage {
         margin-top: 40px;
     }
-    .kachestvo_breven_heading {
-        font-size: 20px;
-    }
-    .chramy_chasovni_heading {
-        font-size: 20px;
-    }
     .chramy_chasovni_list {
         margin-top: 16px;
     }
@@ -2507,9 +2310,6 @@
     .zayavka_na_dom_text {
         width: 206px;
         align-self: center;
-    }
-    .zayavka_na_dom_heading {
-        font-size: 20px;
     }
     .proecty_homepage_block_two {
         gap: 10px;
@@ -2565,30 +2365,15 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    .gallery_heading {
-        font-size: 20px;
-    }
     .gallery_under_heading_text {
         margin-top: 16px;
         text-align: left;
-    }
-    .gallery_under_heading_text {
-        font-size: 15px;
-    }
-    .project1_heading {
-        font-size: 15px;
     }
     .my_gallery_bottom {
         margin-bottom: 25px;
     }
     .project2_heading {
         margin-top: 29px;
-    }
-    .o_companii_container_heading {
-        font-size: 20px;
-    }
-    .o_companii_karta_block1_heading {
-        font-size: 15px;
     }
     .o_companii_karta_adress_proizvodstva_text1 {
         font-size: 13px;
@@ -2632,9 +2417,6 @@
         display: flex;
         border: 3px solid var(--beige-border);
     }
-    .proizvodstvo_heading {
-        font-size: 20px;
-    }
     .proizvodstvo_under_heading_text {
         padding-left: 20px;
         padding-right: 20px;
@@ -2660,13 +2442,6 @@
     .stroitelniye_uslugi_page_text_one {
         margin-top: 60px;
     }
-    .stroitelniye_uslugi_page_text_one_heading {
-        font-size: 15px;
-        line-height: 120%;
-    }
-    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
-        font-size: 20px;
-    }
     .stroitelniye_uslugi_page_text_one {
         margin-top: 20px;
     }
@@ -2689,14 +2464,8 @@
     .stroitelniye_uslugi_page_text_one_heading_pravki_font {
         margin-top: 60px;
     }
-    .process_stroitelstva_heading {
-        font-size: 20px;
-    }
     .stroitelniye_uslugi_page_text_one_heading__pravki {
         margin-top: 0;
-    }
-    .catalog_heading {
-        font-size: 20px;
     }
     .zayavka_na_dom_container2 {
         margin-top: 25px;
@@ -2779,9 +2548,6 @@
     .stroitelniye_uslugi_page_text_pravki {
         margin-top: 0;
     }
-    .common_header {
-        font-size: 20px;
-    }
     .zayavka_photo {
         margin-top: -78px;
         margin-bottom: -77px;
@@ -2813,10 +2579,6 @@
         text-align: center;
         font-weight: 700;
         font-size: 20px;
-    }
-    .dostavka_heading1,
-    .oplata_heading1 {
-        font-size: 19px;
     }
     .dostavka_text1,
     .oplata_text1 {
@@ -2871,12 +2633,6 @@
     }
     .menu {
         width: 100%;
-    }
-    .politika_heading_1level {
-        font-size: 20px;
-    }
-    .politika_heading_2level {
-        font-size: 18px;
     }
     .politika_container {
         padding: 20px;
@@ -3030,9 +2786,6 @@
         gap: 20px;
         width: 280px;
     }
-    .card_ocilindrovannoe_brevno_heading, .card_okoryonnoe_brevno_heading {
-        font-size: 15px;
-    }
     .button_card_ocilindrovannoe_brevno_price, .button_card_okoryonnoe_brevno_price {
         font-size: 13px;
         padding: 10px 16px;
@@ -3068,19 +2821,12 @@
     }
 }
 @media (max-width: 360px) {
-    .before_after_block1_heading,
-    .before_after_block1_text {
-        font-size: 4.7vw;
-    }
     .before_after_pluses_list_point {
         width: 243px;
         margin-left: 47px;
     }
     .dostijenie_csifra {
         font-size: 38px;
-    }
-    .sobstvennoe_proizvodstvo_heading {
-        font-size: 18px;
     }
     .zayavka_na_dom_foto_homepage {
         padding-left: 0px;
@@ -3117,9 +2863,6 @@
     .proizvodstvo_vidy_container_2 {
         padding-left: 19px;
         padding-right: 19px;
-    }
-    .stroitelniye_uslugi_page_text_one_heading_pravki_font {
-        font-size: 18px;
     }
 }
 @media (max-width: 340px) {

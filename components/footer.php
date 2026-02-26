@@ -39,7 +39,7 @@
                 <p class="footer_company_name">ООО «ПРОМ-ПИК»</p>
                 <p class="footer_block_one_text_one">Производство срубов и строительство деревянных домов, бань и беседок с 1997 года</p>
                 <p class="footer_block_one_text_two">180502, г. Псков, пос. Неелово 1, ул. Юбилейная 3А</p>
-                <p class="footer_block_one_text_three">© 1997-2026</p>
+                <p class="footer_block_one_text_three">© 1997-<?= date('Y') ?></p>
             </div>
             <div class="footer_block_two">
                 <ul class="footer_block_two_list">
