@@ -40,23 +40,22 @@ $schemaData = [
         <b> В каталоге представлены типовые проекты домов из сруба — от компактных одноэтажных решений до просторных двухэтажных домов для постоянного проживания. 
         Все проекты можно адаптировать под ваш участок, изменить планировку, размеры и комплектацию.</b></p> </div>  </section>
 
- <section class="zayavka_na_dom">
-                <div class="zayavka_na_dom_container zayavka_na_dom_container_catalog2">
-                    <div class="zayavka_na_dom_block1 zayavka_na_dom_block1_homepage">
-                        <h2 class="zayavka_na_dom_heading">Хотите дом по индивидуальному проекту?</h2></br>
-                        <p class="zayavka_na_dom_text"><b>Рассчитаем смету и подготовим документацию по проекту бесплатно</b></p>
-                        <button class="button_zayavka_na_dom project_calculation4">Оставьте заявку</button>
-                    </div>
-                    <img loading="lazy" src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage">
+        <section class="zayavka_na_dom">
+            <div class="zayavka_na_dom_container zayavka_na_dom_container_catalog2">
+                <div class="zayavka_na_dom_block1 zayavka_na_dom_block1_homepage">
+                    <h2 class="zayavka_na_dom_heading">Хотите дом по индивидуальному проекту?</h2></br>
+                    <p class="zayavka_na_dom_text"><b>Рассчитаем смету и подготовим документацию по проекту бесплатно</b></p>
+                    <button class="button_zayavka_na_dom project_calculation4">Оставьте заявку</button>
                 </div>
-            </section>
-
+                <img loading="lazy" src="../img/homepage/zayavka_na_dom_foto2_1.webp" alt="" class="zayavka_na_dom_foto zayavka_na_dom_foto_homepage">
+            </div>
+        </section>
             
-            <section class="buttons_bath_houses_maf">
-                <a  class="buttons_houses buttons_bath_houses_maf_active" href="/catalog-domov">дома</a>
-<a href="/catalog-bani" class="buttons_bath">бани</a>
-                <a href="/catalog-besedki" class="buttons_maf">маф</a>
-</section>
+        <section class="buttons_bath_houses_maf">
+            <a  class="buttons_houses buttons_bath_houses_maf_active" href="/catalog-domov">дома</a>
+            <a href="/catalog-bani" class="buttons_bath">бани</a>
+            <a href="/catalog-besedki" class="buttons_maf">маф</a>
+        </section>
 
             <section class="catalog">
                 <div class="catalog_container">
@@ -66,16 +65,16 @@ $schemaData = [
                                 <div class="houses_block_foto_section">
                                     <div class="houses_block_foto_section1">
                                         <img loading="lazy" src="../img/page_catalog/doma/Dom01_1_1.webp" alt="" class="houses_block_foto_1 houses_block_foto_1_1 houses_block_foto_active">
-<img loading="lazy" src="../img/page_catalog/doma/Dom01_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_1_2">
+                                        <img loading="lazy" src="../img/page_catalog/doma/Dom01_2.webp" alt="" class="houses_block_foto_1 catalog-foto-sub houses_block_foto_1_2">
                                     </div>
                                     <div class="houses_block_foto_section2">
                                         <img loading="lazy" src="../img/page_catalog/doma/Dom01_1_1.webp" alt="" class="houses_block_foto_2 houses1_button1 active_houses_block_foto">
-<img loading="lazy" src="../img/page_catalog/doma/Dom01_2.webp" alt="" class="houses_block_foto_3 houses1_button2 non_active_houses_block_foto">
+                                        <img loading="lazy" src="../img/page_catalog/doma/Dom01_2.webp" alt="" class="houses_block_foto_3 houses1_button2 non_active_houses_block_foto">
                                     </div>
                                 </div>
                                 <div class="houses_block_parameters_section">
                                     <h2 class="houses_block_heading">Одноэтажный дом 1</h2>
-<div class="houses_block_parameters">
+                                    <div class="houses_block_parameters">
                                         <div class="houses_block_parameters1">
                                             <p class="houses_block_parameters1_text">Этажность</p>
                                             <p class="houses_block_parameters1_text no_wrap">Размер по осям, м</p>
@@ -89,7 +88,7 @@ $schemaData = [
                                             <p class="houses_block_parameters2_text">1,0</p>
                                         </div>
                                     </div>
-                    <p class="houses_block_text1">370 000 ₽</p>
+                                    <p class="houses_block_text1">370 000 ₽</p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation6">Рассчитать проект</button>
                                 </div>
@@ -333,7 +332,12 @@ $schemaData = [
                                     <p class="houses_block_text1">1 330 000 ₽ </p>
                                     <p class="houses_block_text2">Стоимость фундамента, доставка и строительные работы рассчитываются отдельно</p>
                                     <button class="houses_block_button project_calculation22">Рассчитать проект</button>
-                                </div>  </li>  </ul>    </section> </div>          </section>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
             <section class="stroitelniye_uslugi_page_text_one" style="margin-top: 50px">
                 <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">
                 <h2 class="stroitelniye_uslugi_page_text_one_heading stroitelniye_uslugi_page_text_one_heading_pravki_font" style="margin-top: 0;">Купить сруб дома из бревна в Пскове</h2>
@@ -360,4 +364,7 @@ $schemaData = [
                         <li class="catalog_domov_list1_point">реальные сроки изготовления и сборки.</li>
                     </ul>
                     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font stroitelniye_uslugi_page_text_one_text_last"><b>👉Мы строим дома, которые не требуют постоянных доработок и 
-                        служат десятилетиями.</b></p>                  </div>                  </section>
+                        служат десятилетиями.</b>
+                    </p>          
+                </div>
+            </section>
