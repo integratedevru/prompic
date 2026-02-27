@@ -3,7 +3,7 @@
 function isCaptchaSuccess($token)
 {
     $secret = $_ENV['CAPTCHA_SECRET_KEY'];
-    $url = "https://smartcaptcha.yandexcloud.net/validate";
+    $url = "https://smartcaptcha.cloud.yandex.ru/validate";
     $data = array(
         'secret' => $secret,
         'token' => $token,
