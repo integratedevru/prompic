@@ -30,9 +30,9 @@ $schemaData = [
 ];
 ?>
 <h1 class="catalog_heading">Купить сруб дома из бревна в Псковской области</h1>
-<section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
-     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font catalog_domov_subtitle">
-         <b>👉Типовые и индивидуальные проекты псковских срубов от производителя</b> </p>
+<section class="page_tagline_section">
+     <p class="page_tagline_text">
+         👉Типовые и индивидуальные проекты псковских срубов от производителя </p>
  </section>
  <section class="stroitelniye_uslugi_page_text_one">
     <div class="stroitelniye_uslugi_page_text_one_container catalog_domov_container">

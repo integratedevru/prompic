@@ -1692,12 +1692,6 @@
         transform: none !important;
     }
 }
-@media (max-width: 1024px) {
-    .homepage_tagline_text {
-        margin-left: 0;
-        white-space: normal;
-    }
-}
 @media (max-width: 600px) {
     .nav_logo_and_links_list{
         margin-top: 35px;

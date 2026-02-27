@@ -30,9 +30,9 @@ $schemaData = [
 ];
 ?>
 <h1 class="catalog_heading">Беседки из сруба (оцилиндрованного бревна) в Пскове</h1>
-<section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
-     <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font" style="font-size: calc(100% + 10px); transform: translateX(-100px); white-space: nowrap;">
-         <b>👉купить бревно высокого качества для дома, бани, беседки</b>
+<section class="page_tagline_section">
+     <p class="page_tagline_text">
+         👉Купить бревно высокого качества для дома, бани, беседки
      </p>
 </section>
 <section class="stroitelniye_uslugi_page_text_one">

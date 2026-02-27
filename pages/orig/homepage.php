@@ -2,9 +2,9 @@
 
 <?php include __DIR__ . '/../shared/partials/homepage/hero_slider.php'; ?>
 
-<section class="stroitelniye_uslugi_page_text_one homepage_tagline_section">
-    <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font homepage_tagline_text">
-        <b>Дома, бани, беседки из качественного северного леса – с гарантией по договору</b>
+<section class="page_tagline_section">
+    <p class="page_tagline_text">
+        Дома, бани, беседки из качественного северного леса – с гарантией по договору
     </p>
 </section>
 

@@ -1,9 +1,11 @@
 <section class="products_component">
                 <div class="products_component_container">
                     <h1 class="products_component_heading"><small>Оцилиндрованное и строганное бревно из Пскова  </small>   </h1>
-                    <section class="stroitelniye_uslugi_page_text_one stroitelniye_uslugi_margintop_none" style="margin-top: 20px;">
-      <p class="stroitelniye_uslugi_page_text_one_text stroitelniye_uslugi_text_pravki_font" style="font-size: calc(100% + 10px); transform: translateX(-100px); white-space: nowrap;">
-        <b>👉 купить бревно высокого качества для дома, бани, беседки      </b> </p>    </section>
+                    <section class="page_tagline_section">
+                        <p class="page_tagline_text">
+                            👉 Купить бревно высокого качества для дома, бани, беседки
+                        </p>
+                    </section>
                     <section class="before_after">
                         <div class="before_after_block1">
                             <div class="before_after_block1_foto">

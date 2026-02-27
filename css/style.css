@@ -776,10 +776,13 @@
     min-width: 978px;
     max-width: 740px;
 }
-.catalog_domov_subtitle {
-    font-size: clamp(70%, 1vw + 60%, calc(100% + 10px));
-    transform: translateX(-100px);
-    white-space: nowrap;
+.page_tagline_section {
+    margin-top: 20px;
+}
+.page_tagline_text {
+    font-size: clamp(16px, 1.4vw + 8px, 26px);
+    font-weight: bold;
+    text-align: center;
 }
 .process_stroitelstva_heading {
     color: #000;
@@ -998,14 +1001,6 @@
     opacity: 0.7;
     margin-top: 24px;
     color: #000000;
-}
-.homepage_tagline_section {
-    margin-top: 20px;
-}
-.homepage_tagline_text {
-    font-size: clamp(16px, 1.4vw + 8px, 26px);
-    white-space: nowrap;
-    margin-left: -100px;
 }
 .sobstvennoe_proizvodstvo_text_seopravki {
     width: auto;
