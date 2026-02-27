@@ -1015,20 +1015,6 @@
 .sobstvennoe_proizvodstvo_slider {
     margin-top: 30px;
 }
-.sobstvennoe_proizvodstvo_button {
-    margin-top: 30px;
-    background-color: #FFFFFF;
-    color: var(--Green, #618B7E);
-    border: 2px solid var(--Green, #618B7E);
-    padding: 10px 24px;
-    border-radius: 102px;
-    font-size: 15px;
-    line-height: 133%;
-    font-weight: 700;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-}
 .kachestvo_breven_section {
     display: flex;
     justify-content: center;
@@ -1908,14 +1894,28 @@
     position: relative;
     margin-bottom: 10px;
 }
-.sobstvennoe_proizvodstvo2 {
+.cta-banner {
     display: flex;
     justify-content: center;
 }
-.sobstvennoe_proizvodstvo2_container {
+.cta-banner__container {
     display: flex;
     justify-content: center;
     width: 1146px;
+}
+.cta-banner__button {
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    color: var(--Green, #618B7E);
+    border: 2px solid var(--Green, #618B7E);
+    padding: 10px 24px;
+    border-radius: 102px;
+    font-size: 15px;
+    line-height: 133%;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
 }
 .homepage_slider_2 .slick-track {
     display: flex;

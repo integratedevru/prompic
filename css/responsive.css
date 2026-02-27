@@ -502,7 +502,7 @@
         width: 753px;
         height: 415px;
     }
-    .sobstvennoe_proizvodstvo2_container {
+    .cta-banner__container {
         min-width: auto;
         max-width: max-content;
     }
@@ -1756,7 +1756,7 @@
         line-height: 133%;
         margin-top: 16px;
     }
-    .sobstvennoe_proizvodstvo_button {
+    .cta-banner__button {
         font-size: 13px;
     }
     .kachestvo_breven_section_one_text {
@@ -1993,7 +1993,7 @@
         margin-top: 45px;
     }
     /* Fix button container centering: prevent max-content shrink so flex justify-content: center works */
-    .sobstvennoe_proizvodstvo2_container {
+    .cta-banner__container {
         max-width: 100%;
         width: 100%;
     }

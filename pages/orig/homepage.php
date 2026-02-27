@@ -12,17 +12,19 @@
 
 <?php include __DIR__ . '/../shared/partials/homepage/best_projects.php'; ?>   
 
-<div class="sobstvennoe_proizvodstvo2_container" style="display: flex; justify-content: center; width: 100%;">
-    <a class="sobstvennoe_proizvodstvo_button" href="/gallery">👉Посмотреть готовые проекты и цены</a>
-</div>
+<section class="cta-banner">
+    <div class="cta-banner__container">
+        <a class="cta-banner__button" href="/gallery">👉Посмотреть готовые проекты и цены</a>
+    </div>
+</section>
 
 <?php include __DIR__ . '/../shared/partials/homepage/production_text.php'; ?>
 
 <?php include __DIR__ . '/../shared/partials/homepage/projects_slider.php'; ?>
 
-<section class="sobstvennoe_proizvodstvo2">
-    <div class="sobstvennoe_proizvodstvo2_container">
-        <a class="sobstvennoe_proizvodstvo_button" href="/tehnology">👉Подробнее о производстве</a>
+<section class="cta-banner">
+    <div class="cta-banner__container">
+        <a class="cta-banner__button" href="/tehnology">👉Подробнее о производстве</a>
     </div>
 </section>
 
