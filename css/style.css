@@ -999,6 +999,14 @@
     margin-top: 24px;
     color: #000000;
 }
+.homepage_tagline_section {
+    margin-top: 20px;
+}
+.homepage_tagline_text {
+    font-size: clamp(16px, 1.4vw + 8px, 26px);
+    white-space: nowrap;
+    margin-left: -100px;
+}
 .sobstvennoe_proizvodstvo_text_seopravki {
     width: auto;
 }
