@@ -12,6 +12,12 @@ RewriteRule ^(.*)$ http://spb.pp-dom.ru/$1 [R=301,L]
 RewriteCond %{REQUEST_URI} ^/(.+)/$
 RewriteRule ^(.+)/$ /$1 [R=301,L]
 
+# Serve variant-specific sitemap
+RewriteCond %{HTTP_HOST} ^(www\.)?spb\.pp-dom\.ru$ [NC]
+RewriteRule ^sitemap\.xml$ /sitemap_spb.xml [L]
+RewriteCond %{HTTP_HOST} ^(www\.)?pp-dom\.ru$ [NC]
+RewriteRule ^sitemap\.xml$ /sitemap_orig.xml [L]
+
 # REWRITE TO INDEX.PHP
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
